@@ -110,11 +110,13 @@ def main():
     recover()
     comparisons = compare_outputs(output, reference)
     from recompute_channel_comparison import recover_receipts
-    channel_report = recover_receipts(
-        channel_data/"receipts", output/"two_loop/channel_comparison")
-    from recover_channel_convergence import recover as recover_convergence
+    baseline_channel_report = recover_receipts(
+        channel_data/"receipts", output/"two_loop/channel_comparison_baseline_N12_n12")
+    from recover_channel_convergence import recover as recover_convergence, export_current_table
     convergence_report = recover_convergence(
         convergence_data/"receipts", output/"two_loop/channel_convergence")
+    channel_report = export_current_table(
+        convergence_report, output/"two_loop/channel_comparison")
     report_path = output/"verification.json"
     report = json.loads(report_path.read_text())
     report["standalone_reference_comparison"] = {
@@ -122,6 +124,7 @@ def main():
         "scope": "All retained CSV/DAT tables and all fields of every retained covariance NPZ",
     }
     report["channel_comparison"] = channel_report
+    report["channel_comparison_baseline_N12_n12"] = baseline_channel_report
     report["channel_convergence"] = convergence_report
     import importlib.metadata
     report["environment"] = {

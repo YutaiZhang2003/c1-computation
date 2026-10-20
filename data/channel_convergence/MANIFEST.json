@@ -6,6 +6,11 @@
   "planned_evaluations": 21,
   "files": [
     {
+      "path": "current_channel_comparison.csv",
+      "bytes": 509,
+      "sha256": "a1c579e0263481b784c6580ddfca0aa1553795378d04324cf5c65bf9129136c4"
+    },
+    {
       "path": "driver.py",
       "bytes": 7327,
       "sha256": "b01b0d72f7e1cfb1702bb0899804ac4d46a438e72816785bbd79d8fc95e5c2c2"
@@ -105,5 +110,14 @@
       "bytes": 55222,
       "sha256": "4671b9eceb6e7eb191a4b862376d359b033dabe8e6f7654022769e875a3b154f"
     }
-  ]
+  ],
+  "current_draft_comparison": {
+    "block_order": 12,
+    "momentum_nodes_per_edge": 16,
+    "draft_snapshot_sha256": "e0aeb70ab6327c6973d82af587a645c499c91badb2420cdea46b2e62e5084406",
+    "maximum_relative_difference": 6.958719225201529e-08,
+    "derived_full_precision_table": "current_channel_comparison.csv",
+    "role": "Derived full-precision reference table; integrals are recovered independently from the receipts.",
+    "output_precision": "Full stored binary64 values; no display rounding"
+  }
 }

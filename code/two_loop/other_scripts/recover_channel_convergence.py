@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+from dataclasses import asdict
 import json
 import math
 from pathlib import Path
@@ -13,6 +14,64 @@ from check_channel_convergence import ROOT, digest, load_baseline
 def maximum_available(values):
     available = [abs(value) for value in values if value is not None]
     return max(available) if available else None
+
+
+def export_current_table(convergence_report, output):
+    """Recover the current N12/n16 draft table from verified integral results."""
+    from liouville_momentum_quadrature import primary_gaussian_momentum_rule
+
+    output = Path(output)
+    current = {(item["row"], item["channel"]): item
+               for item in convergence_report["evaluations"]
+               if (item["block_order"], item["nodes_per_edge"], item["dps"])
+               == (12, 16, 50)}
+    rows, momentum_rules = [], []
+    for row in range(1, 6):
+        glasses, theta = current[(row, "glasses")], current[(row, "theta")]
+        log_ratio = theta["log_Q_L"] - glasses["log_Q_L"]
+        rows.append(dict(row=row, Q_L_glasses=glasses["Q_L"],
+                         Q_L_theta=theta["Q_L"],
+                         theta_over_glasses=math.exp(log_ratio),
+                         relative_difference=math.expm1(log_ratio)))
+        for channel in ("glasses", "theta"):
+            _, baseline, _ = load_baseline(row, channel)
+            chart = baseline["chart"]
+            momentum_rules.append(dict(
+                row=row, channel=channel,
+                rules=[asdict(primary_gaussian_momentum_rule(
+                    complex(q), 16, log_q_abs=complex(log_q).real))
+                    for q, log_q in zip(chart["q"], chart["log_q"])]))
+    data = ROOT / "data/channel_convergence"
+    with (data / "current_channel_comparison.csv").open(newline="") as stream:
+        reference = list(csv.DictReader(stream))
+    if len(reference) != 5:
+        raise ValueError("Expected five saved channel-comparison rows")
+    for actual, expected in zip(rows, reference):
+        for key, value in actual.items():
+            if not math.isclose(float(value), float(expected[key]), rel_tol=2e-12, abs_tol=0):
+                raise ValueError(f"Current channel comparison differs at row {actual['row']}: {key}")
+    output.mkdir(parents=True, exist_ok=True)
+    with (output / "channel_comparison.csv").open("w", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+    maximum = max(abs(row["relative_difference"]) for row in rows)
+    report = dict(
+        rows=5, block_order=12, momentum_nodes_per_edge=16, dps=50,
+        quadrature_scheme="primary-gaussian",
+        maximum_relative_channel_difference=maximum,
+        agrees_within_1e_minus_7=maximum < 1e-7,
+        output_precision="Full stored binary64 values; no display rounding",
+        ratios_use_unrounded_integrals=True,
+        coordinates_are_rounded_manuscript_values=True,
+        scope="Current draft table: empirical cross-channel agreement, not an absolute error bound")
+    (output / "channel_comparison_verification.json").write_text(
+        json.dumps(report, indent=2, allow_nan=False) + "\n")
+    (output / "channel_momentum_quadrature.json").write_text(json.dumps(dict(
+        quadrature_scheme="primary-gaussian", laguerre_alpha=-.5,
+        node_placement="P_j = sqrt(u_j / (-2 log |q_edge|))",
+        rows=momentum_rules), indent=2, allow_nan=False) + "\n")
+    return report
 
 
 def recover(receipts, output):
@@ -136,8 +195,12 @@ def main():
     parser.add_argument("--receipts", type=Path,
                         default=ROOT / "data/channel_convergence/receipts")
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--table-output", type=Path,
+                        help="Also recover the current draft's N12/n16 comparison")
     args = parser.parse_args()
     report = recover(args.receipts, args.output)
+    if args.table_output is not None:
+        report["current_draft_table"] = export_current_table(report, args.table_output)
     print(json.dumps({key: value for key, value in report.items()
                       if key not in {"comparisons", "evaluations"}}, indent=2))
 

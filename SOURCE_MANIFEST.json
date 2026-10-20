@@ -13,8 +13,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15989,
-      "sha256": "86e05a5c63212b890cc53ab0f4125023d3cc5b11709aeb82be386e2570fdb9ce"
+      "bytes": 14486,
+      "sha256": "b3aa2f936d7882e31fc6129681c3c5cfb8644ad652f9dc6079135883d6925d7f"
     },
     {
       "path": "code/AMPLITUDE_CONSOLIDATION.json",
@@ -1098,13 +1098,13 @@
     },
     {
       "path": "code/two_loop/CODE_INDEX.json",
-      "bytes": 13162,
-      "sha256": "fa31b49996de964f3ec10e62423c5266ead5dd16ebac3e1944d31cac32119658"
+      "bytes": 13255,
+      "sha256": "b2a517789dd34fdbd45eff49584785c340c2c06571fa6151b9c20fab8681c6cc"
     },
     {
       "path": "code/two_loop/CODE_INDEX.tsv",
       "bytes": 8951,
-      "sha256": "3cb6bba7926eefafcad33a00693dff5de4719d62881567952947b5539b47924f"
+      "sha256": "3dccec541aaeceddc4a109959403f78883a9b71c8330cfc93b05e88626b20307"
     },
     {
       "path": "code/two_loop/README.md",
@@ -1358,13 +1358,13 @@
     },
     {
       "path": "code/two_loop/other_scripts/recompute_channel_comparison.py",
-      "bytes": 18133,
-      "sha256": "73c5d604344929dcfb62c05aac46290a79233f355ca4e8392cf258ee27e0dd83"
+      "bytes": 17256,
+      "sha256": "5765d12a53d654e95941f2f67d4f43d74d193b614bd9c589c554abf52363f6d7"
     },
     {
       "path": "code/two_loop/other_scripts/recover_channel_convergence.py",
-      "bytes": 7492,
-      "sha256": "93a70390caf3ef1a4153b926658c2d46a44be41e43ec48defee96a40e6b2db07"
+      "bytes": 10945,
+      "sha256": "03d792e6cefed3f3815b58677fc06acd0cbdb153e41725b6bbd2b67ac0087491"
     },
     {
       "path": "code/two_loop/other_scripts/study_genus2_separating_tail_correction.py",
@@ -1373,8 +1373,8 @@
     },
     {
       "path": "reproduce.py",
-      "bytes": 6697,
-      "sha256": "04a9c53c7232643c2fbd06c8d8c48bee3d621131a4ce99a0f63fc6b90a1a6dce"
+      "bytes": 6930,
+      "sha256": "f604988e1f055088f9dc1c1c5a82bf3986a6f5783adda8ceefc184e629fd6979"
     },
     {
       "path": "requirements.txt",

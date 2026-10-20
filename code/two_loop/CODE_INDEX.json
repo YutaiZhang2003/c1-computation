@@ -258,14 +258,15 @@
       "path": "code/two_loop/other_scripts/recompute_channel_comparison.py",
       "group": "other_scripts",
       "purpose": "Recompute theta/glasses Q_L at the five printed manuscript period matrices.",
-      "sha256": "73c5d604344929dcfb62c05aac46290a79233f355ca4e8392cf258ee27e0dd83",
+      "sha256": "5765d12a53d654e95941f2f67d4f43d74d193b614bd9c589c554abf52363f6d7",
       "original_sha256": "fd26b1bb755f9025e5ab096b1ad7900b52112a6700319b735803a1c09a071bcb"
     },
     {
       "path": "code/two_loop/other_scripts/recover_channel_convergence.py",
       "group": "other_scripts",
       "purpose": "Verify fixed-geometry convergence receipts and recover observed relative changes.",
-      "sha256": "93a70390caf3ef1a4153b926658c2d46a44be41e43ec48defee96a40e6b2db07"
+      "sha256": "03d792e6cefed3f3815b58677fc06acd0cbdb153e41725b6bbd2b67ac0087491",
+      "original_sha256": "93a70390caf3ef1a4153b926658c2d46a44be41e43ec48defee96a40e6b2db07"
     },
     {
       "path": "code/two_loop/other_scripts/study_genus2_separating_tail_correction.py",

@@ -36,11 +36,6 @@
   "scope": "Fresh computations at the exact decimal matrices printed in the draft. Printed old Q_L values are comparison data only.",
   "files": [
     {
-      "path": "draft_printed_values.json",
-      "bytes": 750,
-      "sha256": "1af6411e4b5676775707646dc2d53dac57bd0ab8c1f306b4822414f3123f75d5"
-    },
-    {
       "path": "receipts/row1_glasses_N12_n12.json",
       "bytes": 5086,
       "sha256": "a41f38e7e4a52306e9ca3cb548973836b569c443256c582ffa39022052fd8009"

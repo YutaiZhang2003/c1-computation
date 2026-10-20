@@ -5,7 +5,7 @@ Organized numerical code and lightweight data for the current
 recover its **eight numerical figure panels**, the associated numerical tables,
 cross-energy/radius covariance matrices, native-q checks, and the retained
 genus-two fit. It also reconstructs a fresh five-row theta/glasses comparison
-from the order-12 computation at the period matrices printed in the draft.
+from the order-12, 16-node computation at the period matrices printed in the draft.
 
 Recovery uses saved momentum-integrated values, moduli weights, boundary
 contributions, and integral replicates. It recomputes the reductions and checks
@@ -79,7 +79,7 @@ Paths below are relative to the generated output directory.
 | One-loop 1→2 amplitude | 20 energies, moduli weights and sample values, two later refinements; 22 plotted evaluations; grid RMS and 16-scramble compact covariance | `one_loop/three_point/` |
 | One-loop 1→2 thermal curve | 15 radii, 552,960 weighted sampled contributions, compact contributions and collision addbacks | `one_loop/three_point_thermal/` |
 | Genus-two free energy | 71 radii, 6,832 bulk samples, separating kernels, nine independent groups and their covariance | `two_loop/` |
-| Fresh theta/glasses comparison | Ten order-12 Liouville/scalar evaluations, exact decimal targets, plumbing coordinates and convergence records | `two_loop/channel_comparison/` |
+| Fresh theta/glasses comparison | Ten order-12, 16-node Liouville evaluations, scalar normalization, exact decimal targets and convergence records | `two_loop/channel_comparison/` |
 
 The eight generated figure stems are:
 
@@ -125,104 +125,80 @@ and thermal boundary remainders are not certified by successful data recovery.
 
 ### Theta/glasses comparison
 
-The original unrounded targets and computation records for the draft's
-five-row table were not found in the retained local data or checked Cannon
-archives. The new computation uses the **printed three-decimal period matrices
-as exact targets**, with the current kernels, finite-c recursion order **12**,
-and **12 generalized Gauss–Laguerre nodes per momentum integral**. The draft
-specifies these block and momentum orders in its genus-two numerical stability
-discussion.
+The current draft table uses finite-c recursion order **12** and **16
+primary-Gaussian momentum nodes per edge**, at the five period matrices printed
+in the draft. The exact decimal targets are in
+[`targets.json`](data/channel_comparison/targets.json). The original unrounded
+coordinates were unavailable, so these printed decimals define the targets.
+Both channels use the same targets, with their saved symplectic markings and
+certified inverse-period maps.
 
-Momentum nodes follow the current `primary-gaussian` implementation:
-`u_j` are the roots for generalized Laguerre weight `u^-1/2 exp(-u)`, and
-each tube uses `P_j = sqrt(u_j / (-2 log |q_edge|))`. Thus the momentum
-locations adapt to that tube's plumbing coordinate. The recovered
-`channel_momentum_quadrature.json` lists all nodes and integration weights.
+The full-precision table is
+[`current_channel_comparison.csv`](data/channel_convergence/current_channel_comparison.csv).
+It contains both Q_L values, the theta/glasses ratio, and the signed relative
+difference for every row. The maximum absolute relative difference is
+`6.958719225201529e-8`, supporting cross-channel agreement within `1e-7` at these
+five matrices. This is empirical channel agreement, not an absolute error bound.
+The CSV and JSON receipts retain the full stored floating-point precision;
+rounded manuscript transcriptions are not included.
 
-This is a fresh comparison. Its absolute Q_L values differ from the old table;
-the package does not claim to recover those old entries or attribute their
-discrepancy to rounding. The current channel ratios and period-map diagnostics
-are calculated in `two_loop/channel_comparison/channel_comparison.csv` and
-`channel_comparison_verification.json`. `comparison_with_printed_table.csv`
-records the changes in absolute values using a separate transcription of the
-printed entries; those entries never enter the partition-function calculation.
-The 2026-10-20 rerun gives
-`max |Q_L_theta / Q_L_glasses - 1| = 1.2416270324555612e-5`,
-within the draft's `2e-5` agreement criterion. The maximum inverse-period
-residual is `1.9964218564878783e-10`. The new absolute Q_L values are
-54.5–77.0% higher than the entries in the original draft snapshot; the origin
-of that discrepancy remains unresolved. The manuscript table was subsequently
-updated to the fresh order-12, 12-node values. `draft_printed_values.json`
-preserves the superseded entries solely as a historical comparison.
+The ten `row*_N12_n16_dps50.json` receipts under
+[`data/channel_convergence/receipts/`](data/channel_convergence/receipts/)
+contain the Liouville integrals, scalar normalization, plumbing coordinates,
+period-map diagnostics, numerical settings and source hashes. Recovery computes
+`log Q_L = log Z_L - 25 log Z_X`, exponentiates it, and forms ratios from the
+unrounded values. The scalar follows the dimensionless handle-momentum
+convention in `free_boson_plumbing.py`. The `dps=50` setting applies to DOZZ
+arithmetic; stored partition values use binary64 precision.
 
-[`data/channel_comparison/`](data/channel_comparison/) contains the exact
-targets, ten partition-integral receipts, and source manifests and drivers
-for the Cannon runs. The recovery recomputes
-`log Q_L = log Z_L - 25 log Z_X`, exponentiates it, and forms the channel
-ratios. It verifies that both channels use the same target, checks the integer
-symplectic marking, and checks the saved period residuals against `2e-10`.
-The scalar follows the dimensionless handle-momentum convention implemented
-in `free_boson_plumbing.py`.
+The default `python -B reproduce.py` exports the current 16-node table to
+`two_loop/channel_comparison/channel_comparison.csv`, together with verification
+metadata and all 30 momentum-node and weight lists. The earlier full-precision
+12-node receipts remain under [`data/channel_comparison/`](data/channel_comparison/)
+as the baseline for convergence comparisons; their recovered table is written
+to `two_loop/channel_comparison_baseline_N12_n12/`.
 
-The full comparison can be rerun without coefficient banks or external data.
-Each command computes one row in one channel and may take substantial CPU
-time. Run all ten combinations of rows 1–5 and channels `theta`, `glasses`:
+To recover only the current comparison and its retained convergence evidence,
+without running new Liouville integrations:
 
 ```sh
-python -B run.py recompute_channel_comparison evaluate \
-  --row 1 --channel theta --block-order 12 --nodes 12 \
-  --output output/channel-rerun
-# Repeat for the other nine row/channel pairs, then:
-python -B run.py recompute_channel_comparison assemble \
-  --receipts output/channel-rerun --output output/channel-rerun-table
+python -B run.py recover_channel_convergence \
+  --output output/channel-convergence \
+  --table-output output/channel-comparison
 ```
 
-The evaluator resums the global block, uses 50-digit DOZZ arithmetic,
-and saves the scalar and vacuum-product settings. The glasses scalar is
-checked at successive word caps 8, 10, …, 16, requiring two successive changes
-in `Z_X^-25` below `1e-8`; this is an empirical convergence check. The scalar
-mode cap is 120, and the vacuum seed has word cap 12 and oscillator cap 40.
-The Slurm template
-[`channel_comparison.sbatch`](code/two_loop/other_scripts/channel_comparison.sbatch)
-launches the ten evaluations with an explicitly supplied run directory and
-Python executable.
-
-The fixed-geometry convergence check changes momentum resolution and finite-c
-recursion order separately, while reusing the saved plumbing coordinates,
-homology marking and scalar normalization. It verifies that the numerical
-kernels match those used for the baseline receipts. For example:
+Momentum nodes follow the current `primary-gaussian` implementation: `u_j` are
+the generalized Laguerre roots for weight `u^-1/2 exp(-u)`, and each edge uses
+`P_j = sqrt(u_j / (-2 log |q_edge|))`. This covers the infinite momentum domain
+without a finite cutoff. To recompute one Liouville integral at its saved
+geometry and scalar normalization:
 
 ```sh
 python -B run.py check_channel_convergence \
   --row 1 --channel theta --block-order 12 --nodes 16 \
-  --output output/channel-convergence-rerun
-python -B run.py check_channel_convergence \
-  --row 1 --channel theta --block-order 18 --nodes 12 \
-  --output output/channel-convergence-rerun
+  --output output/channel-rerun
 ```
 
-Repeat for all five rows and both channels. The
-[`channel_convergence.sbatch`](code/two_loop/other_scripts/channel_convergence.sbatch)
-template launches these twenty checks plus a baseline control. These
-comparisons measure changes in the fully integrated Liouville partition.
-They preserve the `primary-gaussian` node-placement rule, which covers the
-infinite momentum domain. Observed changes provide empirical convergence
-evidence; they do not by themselves give a rigorous truncation-error bound.
-The saved receipts and source provenance are in
-[`data/channel_convergence/`](data/channel_convergence/). The main reproduction
-command verifies them and regenerates `convergence.csv` and `convergence.json`.
-These comparisons hold the scalar partition fixed; its independent checks
-remain in the baseline channel-comparison receipts.
-The 2026-10-20 check was stopped at the author's request after all ten 16-node
-evaluations, all five order-18 glasses evaluations, two order-18 theta
-evaluations (rows 1 and 3), and the baseline control finished. The remaining
-three theta order-18 jobs were cancelled; missing checks are explicit in the
-recovered report. At block order 12 with 16 nodes per edge, the maximum channel
-relative difference is `6.958719225201529e-8`. Relative to 12 nodes, the largest
-change is `1.2625239402283483e-5` in theta and `2.868510137674608e-7` in glasses.
-The completed block-order comparisons change glasses by at most
-`3.828885224405717e-8`; the two completed theta comparisons show no change at
-the stored floating-point precision. The manuscript retains its 12-node table.
+Repeat for rows 1–5 and both channels if fresh integrations are required. These
+commands may take substantial CPU time. Numerical kernels are verified against
+the baseline source snapshots. The evaluator resums the global block, retains
+the vacuum seed at word cap 12 and oscillator cap 40, and uses 50-digit DOZZ
+arithmetic. The saved scalar evaluations use mode cap 120. The glasses scalar
+was checked at word caps 8, 10, …, 16, requiring two successive changes in
+`Z_X^-25` below `1e-8`; the period residuals are below `2e-10` in each channel's
+homology basis. The source and baseline scalar/geometry evaluations can also be
+rerun with `recompute_channel_comparison evaluate`; see its `--help` output.
+
+The 2026-10-20 convergence campaign was stopped at the author's request after
+all ten 16-node evaluations, all five order-18 glasses evaluations, two
+order-18 theta evaluations (rows 1 and 3), and the baseline control finished.
+The other three theta order-18 jobs were cancelled; missing checks remain
+explicit in the recovered report. Increasing momentum nodes from 12 to 16
+changes theta by at most `1.2625239402283483e-5` and glasses by at most
+`2.868510137674608e-7`. The completed order-12 to order-18 comparisons change
+glasses by at most `3.828885224405717e-8`; the two completed theta comparisons
+show no change at the stored precision. These checks hold geometry and scalar
+normalization fixed and do not give a rigorous truncation-error bound.
 
 Other numerical-appendix receipts are retained under
 [`data/inputs/convergence/`](data/inputs/convergence/). The one-loop 1→1 order

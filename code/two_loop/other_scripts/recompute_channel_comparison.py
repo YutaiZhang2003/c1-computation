@@ -283,21 +283,6 @@ def recover_receipts(receipts, output, block_order=12, nodes=12, targets_path=No
         quadrature_scheme="primary-gaussian", laguerre_alpha=-.5,
         node_placement="P_j = sqrt(u_j / (-2 log |q_edge|))",
         rows=momentum_rules))
-    printed = json.loads((ROOT/"data/channel_comparison/draft_printed_values.json").read_text())
-    comparisons = []
-    for new, old in zip(rows, printed["rows"]):
-        if new["row"] != old["row"]:
-            raise ValueError("Printed comparison row order changed")
-        comparisons.append(dict(
-            row=new["row"],
-            printed_Q_L_glasses=old["Q_L_glasses"], new_Q_L_glasses=new["Q_L_glasses"],
-            glasses_relative_change=new["Q_L_glasses"]/old["Q_L_glasses"]-1,
-            printed_Q_L_theta=old["Q_L_theta"], new_Q_L_theta=new["Q_L_theta"],
-            theta_relative_change=new["Q_L_theta"]/old["Q_L_theta"]-1))
-    with (output/"comparison_with_printed_table.csv").open("w", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(comparisons[0]))
-        writer.writeheader()
-        writer.writerows(comparisons)
     return report
 
 
