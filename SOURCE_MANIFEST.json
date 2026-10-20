@@ -7,14 +7,19 @@
       "sha256": "1f7a871c50bb5a5f8746fed789d7fec863253e2543abae34f779b68c81eadb4b"
     },
     {
+      "path": "CODE_REFERENCE.md",
+      "bytes": 67888,
+      "sha256": "c4885561ddbc3500ee23d7a0ce17ae4f2b9bfb89b558f6b675a6cfaf9e203509"
+    },
+    {
       "path": "PACKAGE_MAP.json",
       "bytes": 38930,
       "sha256": "641440d3be6b08abd82427d210e4b859f9af27b194909ab1cac1cfd75abe0d68"
     },
     {
       "path": "README.md",
-      "bytes": 80834,
-      "sha256": "887c6de4ddd6b2f72d517bfb46e280fa9c1336eb16a9f8806a812be5b96db455"
+      "bytes": 28669,
+      "sha256": "99f9b1f1788bc6ae69c1cc5bb77ab00c5dd6d1829dd4b4206456d26bddb52ec9"
     },
     {
       "path": "code/AMPLITUDE_CONSOLIDATION.json",
