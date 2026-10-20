@@ -1,0 +1,152 @@
+[
+  {
+    "t": 0.95,
+    "R": 2.1052631578947367,
+    "mean": [
+      0.0015416664289862822,
+      0.001541672147092794,
+      5.718106511857222e-09
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve10_primary_384_20260923/energies/t095/compact/points"
+  },
+  {
+    "t": 0.9,
+    "R": 2.2222222222222223,
+    "mean": [
+      0.002757228867475941,
+      0.002757231574266009,
+      2.70679006844564e-09
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve20_final_384_20260924/energies/t0900/compact/points"
+  },
+  {
+    "t": 0.85,
+    "R": 2.3529411764705883,
+    "mean": [
+      0.0036454282202587,
+      0.0036454289815541865,
+      7.612954862825095e-10
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve10_primary_384_20260923/energies/t085/compact/points"
+  },
+  {
+    "t": 0.8,
+    "R": 2.5,
+    "mean": [
+      0.004221131122912441,
+      0.004221131265836378,
+      1.4292393485332267e-10
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve20_final_384_20260924/energies/t0800/compact/points"
+  },
+  {
+    "t": 0.75,
+    "R": 2.6666666666666665,
+    "mean": [
+      0.004509237404535535,
+      0.004509237422103131,
+      1.7567594811225382e-11
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve10_primary_384_20260923/energies/t075/compact/points"
+  },
+  {
+    "t": 0.7,
+    "R": 2.857142857142857,
+    "mean": [
+      0.004542069508110173,
+      0.004542069509419694,
+      1.3095213731076772e-12
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve20_final_384_20260924/energies/t0700/compact/points"
+  },
+  {
+    "t": 0.65,
+    "R": 3.0769230769230766,
+    "mean": [
+      0.004358557459171857,
+      0.004358557459223898,
+      5.204091695028414e-14
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve10_primary_384_20260923/energies/t065/compact/points"
+  },
+  {
+    "t": 0.6,
+    "R": 3.3333333333333335,
+    "mean": [
+      0.004003401297251898,
+      0.004003401297252803,
+      9.058852763626396e-16
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve20_final_384_20260924/energies/t0600/compact/points"
+  },
+  {
+    "t": 0.55,
+    "R": 3.6363636363636362,
+    "mean": [
+      0.0035251980392276483,
+      0.0035251980392276535,
+      5.121466954696176e-18
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve10_primary_384_20260923/energies/t055/compact/points"
+  },
+  {
+    "t": 0.5,
+    "R": 4.0,
+    "mean": [
+      0.0029735525904954346,
+      0.0029735525904954346,
+      3.4602067638841234e-21
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve20_final_384_20260924/energies/t0500/compact/points"
+  },
+  {
+    "t": 0.45,
+    "R": 4.444444444444445,
+    "mean": [
+      0.002395796795831217,
+      0.002395796795831217,
+      0.0
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve10_primary_384_20260923/energies/t045/compact/points"
+  },
+  {
+    "t": 0.4,
+    "R": 5.0,
+    "mean": [
+      0.001833961977496703,
+      0.001833961977496703,
+      0.0
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve20_final_384_20260924/energies/t0400/compact/points"
+  },
+  {
+    "t": 0.35,
+    "R": 5.714285714285714,
+    "mean": [
+      0.0013223799765785965,
+      0.0013223799765785965,
+      0.0
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve10_primary_384_20260923/energies/t035/compact/points"
+  },
+  {
+    "t": 0.3,
+    "R": 6.666666666666667,
+    "mean": [
+      0.0008860467344223178,
+      0.0008860467344223178,
+      0.0
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_curve20_final_384_20260924/energies/t0300/compact/points"
+  },
+  {
+    "t": 0.25,
+    "R": 8.0,
+    "mean": [
+      0.0005397595990311641,
+      0.0005397595990311641,
+      0.0
+    ],
+    "source": "/n/netscratch/yin_lab/Lab/yutaizhang/genus1_t025_tailored_384_20260923/compact/points"
+  }
+]

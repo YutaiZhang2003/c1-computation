@@ -1,0 +1,27 @@
+{
+  "ansatz": "a*(R+R^-3)+b/R",
+  "method": "inverse-marginal-variance least squares; full covariance propagated",
+  "coefficient": [
+    0.0012141627766238026,
+    0.001735749742116137
+  ],
+  "coefficient_covariance": [
+    [
+      1.398921676183037e-11,
+      1.6347437658533582e-11
+    ],
+    [
+      1.6347437658533576e-11,
+      4.93699534179591e-10
+    ]
+  ],
+  "bracket_coefficients_with_prefactor_1_over_5760": [
+    6.993577593353103,
+    9.99791851458895
+  ],
+  "bracket_coefficient_empirical_SE": [
+    0.021543644957093572,
+    0.12798345856084994
+  ],
+  "R_and_inverse_R_cubed_coefficients_constrained_equal": true
+}

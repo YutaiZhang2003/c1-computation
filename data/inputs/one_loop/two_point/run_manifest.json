@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-04",
+  "thermal_radii": [
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5
+  ],
+  "noncompact_omega_imag": [
+    0.05,
+    0.15,
+    0.25,
+    0.35,
+    0.45,
+    0.55,
+    0.65,
+    0.75,
+    0.85,
+    0.95
+  ],
+  "unique_radii": [
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    20.0,
+    6.666666666666667,
+    2.857142857142857,
+    2.2222222222222223,
+    1.8181818181818181,
+    1.5384615384615383,
+    1.3333333333333333,
+    1.1764705882352942,
+    1.0526315789473684
+  ],
+  "settings": {
+    "radii": [
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5,
+      6.0,
+      6.5
+    ],
+    "momentum_order": 32,
+    "p_max": 6.0,
+    "momentum_power": 2.0,
+    "necklace_orders": [
+      6,
+      3
+    ],
+    "ope_orders": [
+      3,
+      8
+    ],
+    "necklace_backend": "c-recursion",
+    "ope_backend": "c-recursion",
+    "coefficient_variables": {
+      "necklace": [
+        "q1",
+        "q2"
+      ],
+      "ope": [
+        "q",
+        "delta"
+      ]
+    },
+    "status": "native_q_convergence_not_yet_established",
+    "special_dps": 28,
+    "power": 16,
+    "replicates": 8,
+    "collision_radius": 0.5,
+    "collision_remainder_included": true,
+    "seed": 20260927,
+    "height_scale": 1.0,
+    "short_scale": "4 R^2",
+    "historical_transformed_scan": "output/thermal_one_loop_20260927/scan_complete_collision"
+  },
+  "main_text_sha256": "471cf86573e7bb1c6959d70ef13d3529081351bdbf17a2996369c0c4c43cc114",
+  "manuscript_scope": "Appendix only; main text and its figure assets are frozen.",
+  "estimator": "Paired noncompact/thermal full-cusp integral; no fitted cusp tail.",
+  "existing_native_R2_receipt_reused": "output/thermal_one_loop_native_q_20261004/order_audit_R2_full/low.json",
+  "main_figure_sha256": {
+    "draft/figure/sphere_1to4_re_amplitude.pdf": "f16135d83a8602302e8ab214c0d80b74091b2a9e1231da7d006558b773cbf826",
+    "draft/figure/sphere_1to5_im_amplitude.pdf": "d2d4e6e15785317d97be76d55c2faa8f3eb7f4bafd58a9a7caac8034a8a454fe",
+    "draft/figure/torus_1to2_re_amplitude.pdf": "58062e10e6b4e50e6f1bf248a7843dea85851ca8dd140c9347a9d68874d1d7dc",
+    "draft/figure/sphere_1to4_thermal_R.pdf": "740e30e96d727f6aa67500ec864e015784fcd08d6fd531246d5c221eeaca5dda",
+    "draft/figure/sphere_1to5_thermal_R.pdf": "ea0c28b9d3c74e4a8866c4e2dd7db132e3550955ab591741acc11bfae2635be8",
+    "draft/figure/torus_1to1_thermal_R.pdf": "5a50d78c01e7db2c3ee53e132d86d331bce4963fd8ad194829e821b23740ca0a",
+    "draft/figure/torus_1to2_thermal_R.pdf": "9752c78a3ac4a1e6a6a724c3debe96a17c130db8575d143ef8ae1668a402772b",
+    "draft/figure/genus2_free_energy_F2.pdf": "c34819fca2ffc48fbb3873632e6f4f029f39b5c067e0bdeb4de7dbf543519a74"
+  },
+  "audits": {
+    "momentum_nodes": [
+      32,
+      48
+    ],
+    "momentum_check_radii": [
+      4.0,
+      1.0526315789473684
+    ],
+    "collision_check_radius_R": 4.0,
+    "collision_disc_radii": [
+      0.5,
+      0.1
+    ]
+  }
+}

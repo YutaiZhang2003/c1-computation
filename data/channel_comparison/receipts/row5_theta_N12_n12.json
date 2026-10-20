@@ -1,0 +1,131 @@
+{
+  "format": "c1-channel-comparison-receipt-v1",
+  "completed": true,
+  "completed_utc": "2026-10-20T18:03:09.332881+00:00",
+  "row": 5,
+  "channel": "theta",
+  "target": {
+    "row": 5,
+    "omega": [
+      [
+        "-0.499+3.095j",
+        "-0.168+0.266j"
+      ],
+      [
+        "-0.168+0.266j",
+        "-0.455+3.532j"
+      ]
+    ]
+  },
+  "coordinates_are_rounded_manuscript_values": true,
+  "target_sha256": "bd990cf00f3a1b20dd761ab3086bbe5db6322a44636220993dd47bca614beca2",
+  "source_manifest_sha256": "81730c03522f66ea2a644b05cdd279c4c3cf6a915e36224e39d50e4c148bf052",
+  "driver_sha256": "fd26b1bb755f9025e5ab096b1ad7900b52112a6700319b735803a1c09a071bcb",
+  "settings": {
+    "block_order": 12,
+    "momentum_nodes_per_edge": 12,
+    "quadrature_scheme": "primary-gaussian",
+    "dps": 50,
+    "b": 1,
+    "c": 25,
+    "vacuum_word_length": 12,
+    "vacuum_oscillator_level": 40,
+    "scalar_word_length": 12,
+    "scalar_max_mode": 120,
+    "period_tolerance": 2e-10
+  },
+  "chart": {
+    "topology": "theta",
+    "word": "I",
+    "matrix": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "omega_chart": [
+      [
+        "(-0.499+3.095j)",
+        "(-0.168+0.266j)"
+      ],
+      [
+        "(-0.168+0.266j)",
+        "(-0.455+3.532j)"
+      ]
+    ],
+    "integer_branch": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "q": [
+      "(-9.292028817820556e-09-1.6653417847729434e-08j)",
+      "(1.2900943425229042e-10-1.032740307006571e-09j)",
+      "(0.09263144568044414-0.1635922596452797j)"
+    ],
+    "log_q": [
+      "(-17.775131233943554-2.0797343343456958j)",
+      "(-20.68330788289418-1.4465205645664936j)",
+      "(-1.6713272912131276-1.0555751315541562j)"
+    ],
+    "q_abs": [
+      1.907034676041002e-08,
+      1.040767013236931e-09,
+      0.18799737270690164
+    ],
+    "q_max": 0.18799737270690164,
+    "inverse_success": true,
+    "inverse_message": "analytic leading-period log-q refinement converged",
+    "inverse_nfev": 2,
+    "period_max_residual": 1.4025611933431968e-10,
+    "period_map_stability": 1.7797198002264076e-13,
+    "period_algorithm": "rescaled-holomorphic-forms",
+    "low_order": 32,
+    "high_order": 40,
+    "seam_residual": 2.3359070412190793e-08,
+    "symmetry_error": 4.480991338643121e-14,
+    "status": "certified-rescaled-inverse"
+  },
+  "scalar": {
+    "partition": 0.3034376095925114,
+    "oscillator_mode_chiral_log_tail_estimate": 0.0,
+    "primitive_word_chiral_log_tail_estimate": 3.102400552446915e-50,
+    "primitive_count": 41,
+    "effective_word_length": 5
+  },
+  "liouville": {
+    "scaled_partition": 3.411670128217554e-07,
+    "log_threshold_factor": -80.25953281610172,
+    "log_partition": -95.15042652199377
+  },
+  "log_Z_X": -1.1925792593265927,
+  "log_Q_L": -65.33594503882895,
+  "Q_L": 4.2165727688407677e-29,
+  "elapsed_seconds": 485.5835927510634,
+  "python": "3.12.11"
+}

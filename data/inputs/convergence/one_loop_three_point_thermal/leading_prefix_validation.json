@@ -1,0 +1,19 @@
+{
+  "rows": [
+    {
+      "tag": "t0950",
+      "all_prefix_seconds": 1.5118444156832993,
+      "leading_seconds": 0.28637149976566434,
+      "exactly_equal": true,
+      "physical_pair_points": 64
+    },
+    {
+      "tag": "t0250",
+      "all_prefix_seconds": 1.5193377500399947,
+      "leading_seconds": 0.280950500164181,
+      "exactly_equal": true,
+      "physical_pair_points": 64
+    }
+  ],
+  "retained_prefix_unchanged": true
+}

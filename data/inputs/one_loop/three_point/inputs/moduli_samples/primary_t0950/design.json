@@ -1,0 +1,261 @@
+{
+  "format": "ordered-moduli-weights-v1",
+  "sample_count": 353568,
+  "terms": {
+    "2c82be311d9199c294ffc2288b71286d6111d4205fdb7773428e30c17249d1d5": "primary:012",
+    "cf774985ed8d972c456a373d031999d366336e1d89e1a59e2c76e83a422bc115": "primary:012",
+    "a4750d262f66dc5e61cf7bb1bc7f937efbe9c60ca57332b9850fec9526171a26": "primary:021",
+    "7078e6a34d6d1957c7ca8dc81d42d9bea51ae157932fbdd847a74fc01e9ff8b7": "primary:021",
+    "fcb9df9fc79558af010eda285f3e6a27a107b44fe6336eaf9c2332d66be641e0": "primary:102",
+    "ae2a08769f96c3acb7db1cec0811b28d4760943936176385b8f9d40e48cdfd4c": "primary:102",
+    "1f8018ae76a72188aa6f7beb5b124874863d85eb623325e12756401e512f128b": "primary:120",
+    "0c215b13093346c2e3f33f0d3c8d16ab33e2294102fb29df8ef8ce0c0994f25f": "primary:120",
+    "610c7b6791410b0379596fbf08a9033697771ee175ce47a120427db068aae20b": "primary:201",
+    "389311e5c53a2f29666046132062a25d667e73393ddc6cb28a17a634773f9f7b": "primary:201",
+    "c63c1b54151c21dfa633884456a6a7c845729cbbab8339ac6636172f82e8953d": "primary:210",
+    "ffa93bdf4b3131ebf412cb82fc89d1c6756a811a332f667f1991532ddfb4647e": "primary:210"
+  },
+  "rules": [
+    {
+      "cell_id": "2c82be311d9199c294ffc2288b71286d6111d4205fdb7773428e30c17249d1d5",
+      "rule": "candidate",
+      "array": "0"
+    },
+    {
+      "cell_id": "2c82be311d9199c294ffc2288b71286d6111d4205fdb7773428e30c17249d1d5",
+      "rule": "angles",
+      "array": "1"
+    },
+    {
+      "cell_id": "2c82be311d9199c294ffc2288b71286d6111d4205fdb7773428e30c17249d1d5",
+      "rule": "maximum",
+      "array": "2"
+    },
+    {
+      "cell_id": "2c82be311d9199c294ffc2288b71286d6111d4205fdb7773428e30c17249d1d5",
+      "rule": "ratio",
+      "array": "3"
+    },
+    {
+      "cell_id": "cf774985ed8d972c456a373d031999d366336e1d89e1a59e2c76e83a422bc115",
+      "rule": "candidate",
+      "array": "4"
+    },
+    {
+      "cell_id": "cf774985ed8d972c456a373d031999d366336e1d89e1a59e2c76e83a422bc115",
+      "rule": "angles",
+      "array": "5"
+    },
+    {
+      "cell_id": "cf774985ed8d972c456a373d031999d366336e1d89e1a59e2c76e83a422bc115",
+      "rule": "maximum",
+      "array": "6"
+    },
+    {
+      "cell_id": "cf774985ed8d972c456a373d031999d366336e1d89e1a59e2c76e83a422bc115",
+      "rule": "ratio",
+      "array": "7"
+    },
+    {
+      "cell_id": "a4750d262f66dc5e61cf7bb1bc7f937efbe9c60ca57332b9850fec9526171a26",
+      "rule": "candidate",
+      "array": "8"
+    },
+    {
+      "cell_id": "a4750d262f66dc5e61cf7bb1bc7f937efbe9c60ca57332b9850fec9526171a26",
+      "rule": "angles",
+      "array": "9"
+    },
+    {
+      "cell_id": "a4750d262f66dc5e61cf7bb1bc7f937efbe9c60ca57332b9850fec9526171a26",
+      "rule": "maximum",
+      "array": "10"
+    },
+    {
+      "cell_id": "a4750d262f66dc5e61cf7bb1bc7f937efbe9c60ca57332b9850fec9526171a26",
+      "rule": "ratio",
+      "array": "11"
+    },
+    {
+      "cell_id": "7078e6a34d6d1957c7ca8dc81d42d9bea51ae157932fbdd847a74fc01e9ff8b7",
+      "rule": "candidate",
+      "array": "12"
+    },
+    {
+      "cell_id": "7078e6a34d6d1957c7ca8dc81d42d9bea51ae157932fbdd847a74fc01e9ff8b7",
+      "rule": "angles",
+      "array": "13"
+    },
+    {
+      "cell_id": "7078e6a34d6d1957c7ca8dc81d42d9bea51ae157932fbdd847a74fc01e9ff8b7",
+      "rule": "maximum",
+      "array": "14"
+    },
+    {
+      "cell_id": "7078e6a34d6d1957c7ca8dc81d42d9bea51ae157932fbdd847a74fc01e9ff8b7",
+      "rule": "ratio",
+      "array": "15"
+    },
+    {
+      "cell_id": "fcb9df9fc79558af010eda285f3e6a27a107b44fe6336eaf9c2332d66be641e0",
+      "rule": "candidate",
+      "array": "16"
+    },
+    {
+      "cell_id": "fcb9df9fc79558af010eda285f3e6a27a107b44fe6336eaf9c2332d66be641e0",
+      "rule": "angles",
+      "array": "17"
+    },
+    {
+      "cell_id": "fcb9df9fc79558af010eda285f3e6a27a107b44fe6336eaf9c2332d66be641e0",
+      "rule": "maximum",
+      "array": "18"
+    },
+    {
+      "cell_id": "fcb9df9fc79558af010eda285f3e6a27a107b44fe6336eaf9c2332d66be641e0",
+      "rule": "ratio",
+      "array": "19"
+    },
+    {
+      "cell_id": "ae2a08769f96c3acb7db1cec0811b28d4760943936176385b8f9d40e48cdfd4c",
+      "rule": "candidate",
+      "array": "20"
+    },
+    {
+      "cell_id": "ae2a08769f96c3acb7db1cec0811b28d4760943936176385b8f9d40e48cdfd4c",
+      "rule": "angles",
+      "array": "21"
+    },
+    {
+      "cell_id": "ae2a08769f96c3acb7db1cec0811b28d4760943936176385b8f9d40e48cdfd4c",
+      "rule": "maximum",
+      "array": "22"
+    },
+    {
+      "cell_id": "ae2a08769f96c3acb7db1cec0811b28d4760943936176385b8f9d40e48cdfd4c",
+      "rule": "ratio",
+      "array": "23"
+    },
+    {
+      "cell_id": "1f8018ae76a72188aa6f7beb5b124874863d85eb623325e12756401e512f128b",
+      "rule": "candidate",
+      "array": "24"
+    },
+    {
+      "cell_id": "1f8018ae76a72188aa6f7beb5b124874863d85eb623325e12756401e512f128b",
+      "rule": "angles",
+      "array": "25"
+    },
+    {
+      "cell_id": "1f8018ae76a72188aa6f7beb5b124874863d85eb623325e12756401e512f128b",
+      "rule": "maximum",
+      "array": "26"
+    },
+    {
+      "cell_id": "1f8018ae76a72188aa6f7beb5b124874863d85eb623325e12756401e512f128b",
+      "rule": "ratio",
+      "array": "27"
+    },
+    {
+      "cell_id": "0c215b13093346c2e3f33f0d3c8d16ab33e2294102fb29df8ef8ce0c0994f25f",
+      "rule": "candidate",
+      "array": "28"
+    },
+    {
+      "cell_id": "0c215b13093346c2e3f33f0d3c8d16ab33e2294102fb29df8ef8ce0c0994f25f",
+      "rule": "angles",
+      "array": "29"
+    },
+    {
+      "cell_id": "0c215b13093346c2e3f33f0d3c8d16ab33e2294102fb29df8ef8ce0c0994f25f",
+      "rule": "maximum",
+      "array": "30"
+    },
+    {
+      "cell_id": "0c215b13093346c2e3f33f0d3c8d16ab33e2294102fb29df8ef8ce0c0994f25f",
+      "rule": "ratio",
+      "array": "31"
+    },
+    {
+      "cell_id": "610c7b6791410b0379596fbf08a9033697771ee175ce47a120427db068aae20b",
+      "rule": "candidate",
+      "array": "32"
+    },
+    {
+      "cell_id": "610c7b6791410b0379596fbf08a9033697771ee175ce47a120427db068aae20b",
+      "rule": "angles",
+      "array": "33"
+    },
+    {
+      "cell_id": "610c7b6791410b0379596fbf08a9033697771ee175ce47a120427db068aae20b",
+      "rule": "maximum",
+      "array": "34"
+    },
+    {
+      "cell_id": "610c7b6791410b0379596fbf08a9033697771ee175ce47a120427db068aae20b",
+      "rule": "ratio",
+      "array": "35"
+    },
+    {
+      "cell_id": "389311e5c53a2f29666046132062a25d667e73393ddc6cb28a17a634773f9f7b",
+      "rule": "candidate",
+      "array": "36"
+    },
+    {
+      "cell_id": "389311e5c53a2f29666046132062a25d667e73393ddc6cb28a17a634773f9f7b",
+      "rule": "angles",
+      "array": "37"
+    },
+    {
+      "cell_id": "389311e5c53a2f29666046132062a25d667e73393ddc6cb28a17a634773f9f7b",
+      "rule": "maximum",
+      "array": "38"
+    },
+    {
+      "cell_id": "389311e5c53a2f29666046132062a25d667e73393ddc6cb28a17a634773f9f7b",
+      "rule": "ratio",
+      "array": "39"
+    },
+    {
+      "cell_id": "c63c1b54151c21dfa633884456a6a7c845729cbbab8339ac6636172f82e8953d",
+      "rule": "candidate",
+      "array": "40"
+    },
+    {
+      "cell_id": "c63c1b54151c21dfa633884456a6a7c845729cbbab8339ac6636172f82e8953d",
+      "rule": "angles",
+      "array": "41"
+    },
+    {
+      "cell_id": "c63c1b54151c21dfa633884456a6a7c845729cbbab8339ac6636172f82e8953d",
+      "rule": "maximum",
+      "array": "42"
+    },
+    {
+      "cell_id": "c63c1b54151c21dfa633884456a6a7c845729cbbab8339ac6636172f82e8953d",
+      "rule": "ratio",
+      "array": "43"
+    },
+    {
+      "cell_id": "ffa93bdf4b3131ebf412cb82fc89d1c6756a811a332f667f1991532ddfb4647e",
+      "rule": "candidate",
+      "array": "44"
+    },
+    {
+      "cell_id": "ffa93bdf4b3131ebf412cb82fc89d1c6756a811a332f667f1991532ddfb4647e",
+      "rule": "angles",
+      "array": "45"
+    },
+    {
+      "cell_id": "ffa93bdf4b3131ebf412cb82fc89d1c6756a811a332f667f1991532ddfb4647e",
+      "rule": "maximum",
+      "array": "46"
+    },
+    {
+      "cell_id": "ffa93bdf4b3131ebf412cb82fc89d1c6756a811a332f667f1991532ddfb4647e",
+      "rule": "ratio",
+      "array": "47"
+    }
+  ],
+  "original_sample_ids_sha256": "418339ba57a217c3a99c74c50e37d2e3c65edc9e75fba573b8887a0efb9988e6"
+}

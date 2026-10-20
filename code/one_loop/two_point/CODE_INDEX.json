@@ -1,0 +1,95 @@
+{
+  "format": "c1-retained-source-index-v1",
+  "scope": "Genus-one 1\u21921",
+  "sources": [
+    {
+      "path": "code/one_loop/two_point/conformal_block/torus_two_point_blocks.py",
+      "group": "conformal_block",
+      "purpose": "Necklace and OPE conformal blocks, coefficient transformations, and direct descendant checks",
+      "sha256": "e8c5687e378de60000c1774c4888ab750e6fe702f6406b7a4f99f2d38be1fa98",
+      "upstream_sha256": "a6285252f01f8327770b086f440832794685d38be46263387e57e2e401fa5a89"
+    },
+    {
+      "path": "code/one_loop/two_point/liouville_integration/genus1_two_point_coefficient_bank.py",
+      "group": "liouville_integration",
+      "purpose": "Preparation and reuse of the two-point Liouville coefficient banks",
+      "sha256": "36d4db9d74272c01385ac80c3564f2b57b6a47219e6744093a5823303ad3fa2d",
+      "upstream_sha256": "7e10e459eae0958a84e2eba8349505e01738b27caa232e1d9a66be72ca7bdb39"
+    },
+    {
+      "path": "code/one_loop/two_point/liouville_integration/genus1_two_point_worldsheet.py",
+      "group": "liouville_integration",
+      "purpose": "DOZZ factors, Liouville momentum quadrature, channel evaluation, and leading collision term",
+      "sha256": "1be37509100424eec4a0e46987c6d35fe95fa69546e3ea43ab13276782bb88a2",
+      "upstream_sha256": "bc03a6e64549d82fb90475c16096c87fb517d2f05418765471bbaa4ffbc7c20a"
+    },
+    {
+      "path": "code/one_loop/two_point/moduli_integration/genus1_two_point_thermal_integration.py",
+      "group": "moduli_integration",
+      "purpose": "Thermal moduli integration over the full cusp and collision disc, with paired noncompact estimates",
+      "sha256": "0f3120381cdf7e2e992a772d96a6d971a536f8c9cc37ee69d6c796978d6d5acd"
+    },
+    {
+      "path": "code/one_loop/two_point/moduli_integration/integrate_genus1_two_point_worldsheet.py",
+      "group": "moduli_integration",
+      "purpose": "Noncompact moduli integration and cusp checks",
+      "sha256": "5c81b6b4ef5da3a28ea053bc0629ff224e439f85421799a062cc98ef17db01df",
+      "upstream_sha256": "4d37aa4e1fa10618504cf314a4a353dd985090f6947fcecf2e992fb4ed7f17eb"
+    },
+    {
+      "path": "code/one_loop/two_point/other_scripts/checks/genus1_two_point_worldsheet_checks.py",
+      "group": "other_scripts",
+      "purpose": "Checks of the integrand, channel overlap, and modular covariance",
+      "sha256": "d9e1f4d962b58cfd3f3de4684affdb8f9fe09f6d618d169822e8a0bbdf128af8",
+      "upstream_sha256": "88ad235ca4295969eedbc35171e427936cdc386621925ecab967ddb3a2dbae93"
+    },
+    {
+      "path": "code/one_loop/two_point/other_scripts/checks/torus_necklace_blocks_checks.py",
+      "group": "other_scripts",
+      "purpose": "Independent checks of the necklace h-recursion",
+      "sha256": "aec19430ea7f0d705a8e9f3cfb6920ece2c5bba693b0c1d94b0a05f052658788"
+    },
+    {
+      "path": "code/one_loop/two_point/other_scripts/checks/torus_two_point_blocks_checks.py",
+      "group": "other_scripts",
+      "purpose": "Independent block checks against direct descendants",
+      "sha256": "1eaa739af0945f66b58f9da076894cc3387476fe4bd3aee5c0a244c3c9f9b777",
+      "upstream_sha256": "3194fe7acc6d709bc96bdf7b071506d8b11b075a1965257532f89e041cb98d99"
+    },
+    {
+      "path": "code/one_loop/two_point/other_scripts/fit_genus1_two_point_bry_scan.py",
+      "group": "other_scripts",
+      "purpose": "Fits and convention checks for saved noncompact amplitudes",
+      "sha256": "9d23e8ba86074431f67c3f216fd743b80bd8c59299c9c4bd9f14b2ee83d1f530"
+    },
+    {
+      "path": "code/one_loop/two_point/other_scripts/genus1_two_point_thermal_production.py",
+      "group": "other_scripts",
+      "purpose": "Thermal radius scan using the saved production settings",
+      "sha256": "5ac2b79436e49af4ad5e3bdb042edf0474911e37184eb63e67292009c2a02200",
+      "upstream_sha256": "9538ba6b4b1601823d828100771da5bf4d34d35a2c8105dfc846d5ebdf1d3a01"
+    },
+    {
+      "path": "code/one_loop/two_point/other_scripts/genus1_two_point_thermal_report.py",
+      "group": "other_scripts",
+      "purpose": "Assembly of the thermal amplitude, sampling errors, and radius figure",
+      "sha256": "5d2de425140f98f4aec0c6b4a57c05f8bce78baacbd41990150e11ae00e41c34",
+      "upstream_sha256": "fa9473358d0e66cc3ab3bf00953768cf3cdf13cb60c22e520d9db41cf5e79ff9"
+    },
+    {
+      "path": "code/one_loop/two_point/other_scripts/plot_genus1_two_point_hybrid_recursion.py",
+      "group": "other_scripts",
+      "purpose": "Noncompact amplitude figure and saved recursion comparisons",
+      "sha256": "32b3eb3d715206392e60c4ed657bf30166249e86ccf056a084d10a8ff9696f21"
+    },
+    {
+      "path": "code/one_loop/two_point/other_scripts/run_genus1_two_point_imaginary_scan.py",
+      "group": "other_scripts",
+      "purpose": "Noncompact amplitude scan used for comparison",
+      "sha256": "28ff500022454b99f7ef289e432a02b8497c8e153de9d51c730c1f01996f608d",
+      "upstream_sha256": "9f0a1b0f767ba2165576d54d1630674e12466cb2262da83df0cd71dfc4adb039"
+    }
+  ],
+  "shared_dependencies": "Shared imports are resolved by PACKAGE_MAP.json and LAYOUT.json.",
+  "upstream_source_index_sha256": "777ff9556c8fdb28100595042b524822cded3b34c0f78dcb1248c93daabe56d4"
+}

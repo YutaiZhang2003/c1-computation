@@ -1,0 +1,76 @@
+{
+  "case": "genus-two",
+  "channel": "theta",
+  "central_charge": 25,
+  "b": 1,
+  "internal_momenta": [
+    0.37,
+    0.61,
+    0.83
+  ],
+  "internal_weights": [
+    [
+      1.1369,
+      0.0
+    ],
+    [
+      1.3721,
+      0.0
+    ],
+    [
+      1.6888999999999998,
+      0.0
+    ]
+  ],
+  "variables": [
+    "q_infinity",
+    "q_one",
+    "q_zero"
+  ],
+  "arithmetic": "complex128",
+  "reference_scope": "Small independent fixed-momentum reference examples; not a quadrature bank or a replacement for resummed production blocks.",
+  "generator": "virasoro_plumbing_graph.direct_plumbing_graph_block",
+  "truncation": {
+    "kind": "total_degree",
+    "maximum": 4
+  },
+  "max_gram_condition_number": 111.62720401412476,
+  "vacuum_descendants": "Included through the stated degree; do not multiply by a second vacuum seed.",
+  "expansion": "F(q) = sum_n C[n] product_j q[j]^n[j]",
+  "constant_coefficient": [
+    1.0,
+    0.0
+  ],
+  "q_example": [
+    [
+      0.02,
+      0.004
+    ],
+    [
+      0.025,
+      -0.005
+    ],
+    [
+      0.018,
+      0.003
+    ]
+  ],
+  "value_at_q": [
+    1.063146965012513,
+    -0.002424017056149849
+  ],
+  "value_at_conjugate_q": [
+    1.063146965012513,
+    0.002424017056149849
+  ],
+  "excluded_factors": [
+    "Liouville structure constants",
+    "primary propagation",
+    "momentum integration measure",
+    "worldsheet matter/ghost factors",
+    "moduli sampling weights"
+  ],
+  "table_file": "genus2_theta_q_series_N4.csv",
+  "table_sha256": "e0491e6f527a6a4dac359a7084f0a5824150630578db62a43f1720dba395c49c",
+  "rows": 35
+}

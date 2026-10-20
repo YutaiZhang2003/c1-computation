@@ -1,0 +1,29 @@
+{
+  "status": "order_sensitivity_not_error_bound",
+  "power": 9,
+  "replicates": 8,
+  "seed": 20260901,
+  "kernel_convention": "BRY-v7, Aut=1/2 included",
+  "settings": [
+    [
+      2,
+      24,
+      32
+    ],
+    [
+      4,
+      24,
+      32
+    ],
+    [
+      4,
+      32,
+      48
+    ],
+    [
+      4,
+      40,
+      64
+    ]
+  ]
+}

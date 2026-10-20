@@ -1,0 +1,13 @@
+{
+  "format": "c1-channel-comparison-targets-v1",
+  "target_source": "Five period matrices printed in draft/c1_higher_genus_new_edit.tex, table tab:genus-two-liouville-channel-agreement",
+  "coordinates_are_rounded_manuscript_values": true,
+  "original_unrounded_coordinates_available": false,
+  "rows": [
+    {"row": 1, "omega": [["-0.083+3.013j", "0.014+0.299j"], ["0.014+0.299j", "-0.353+3.095j"]]},
+    {"row": 2, "omega": [["-0.365+3.296j", "0.046+0.293j"], ["0.046+0.293j", "-0.268+3.694j"]]},
+    {"row": 3, "omega": [["0.167+2.150j", "-0.012+0.284j"], ["-0.012+0.284j", "-0.180+3.719j"]]},
+    {"row": 4, "omega": [["0.188+3.039j", "-0.197+0.290j"], ["-0.197+0.290j", "-0.429+3.479j"]]},
+    {"row": 5, "omega": [["-0.499+3.095j", "-0.168+0.266j"], ["-0.168+0.266j", "-0.455+3.532j"]]}
+  ]
+}

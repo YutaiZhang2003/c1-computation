@@ -1,0 +1,4528 @@
+{
+  "payload": {
+    "amplitude": {
+      "amplitude": 0.00025973695720748195,
+      "amplitude_change": -2.0500310958895037e-07,
+      "baseline_sha256": "f0e298495bff4af1f5cfe1275c1383e503a79300bd9001c4a7a9fc19d38812e6",
+      "boundary": {
+        "comparisons": {
+          "block_prefix": null,
+          "collision:H4": null,
+          "collision:H6": null,
+          "collision:long0": null,
+          "collision:long1": null,
+          "collision:long2": null,
+          "native:axis1_2": null,
+          "native:axis1_3": null,
+          "native:axis2_0": null,
+          "native:axis2_1": null
+        },
+        "errors": {
+          "angle": 1.0320344464147657e-20,
+          "arithmetic": null,
+          "block": 7.448153551654693e-07,
+          "chart": null,
+          "endpoint": null,
+          "momentum": null,
+          "regulator": null
+        },
+        "value": [
+          0.0002575609477957565,
+          0.0
+        ]
+      },
+      "boundary_indicator_budget": 4e-07,
+      "boundary_indicator_met": false,
+      "compact": {
+        "density_identity": {
+          "fresh_plan_sha256": "4fe44ca0aeb6854200489322cce6d58068a9c7d7a53cd11b374989736a8bc675"
+        },
+        "errors": {
+          "arithmetic": 1.4867473965442434e-17,
+          "block": 3.6737139535115084e-08,
+          "endpoint": null,
+          "momentum": null
+        },
+        "independent_validation": false,
+        "mean": 2.1760094117254426e-06,
+        "plan": {
+          "angle_order": 16,
+          "collision_height_split": 8.0,
+          "compact_points": 64,
+          "cutoff_at_infinity": false,
+          "format": "genus1-analytic-boundary-integration-v1",
+          "mode": "analytic",
+          "normalization": "-Im(reduced)/(4*pi)",
+          "original_endpoint_addback_enabled": false,
+          "policy": {
+            "approximation_certified": false,
+            "format": "genus1-analytic-boundary-layer-v1",
+            "geometry_only": true,
+            "height_cap": 1.4303567985481191,
+            "pair_radius": 0.125,
+            "q_max": 0.05,
+            "triple_radius": 0.5
+          },
+          "t": 0.25
+        },
+        "points": 64,
+        "sampling_halfwidth95": 3.141577211195644e-07,
+        "sampling_se": 1.4739158230326532e-07,
+        "scrambles": 16
+      },
+      "compact_replicate_means": [
+        3.29386203605489e-06,
+        2.7708909535202753e-06,
+        1.374755491415415e-06,
+        1.6752409430982324e-06,
+        1.6555889935016939e-06,
+        2.479173397837146e-06,
+        1.7375730363967597e-06,
+        3.2481702514135946e-06,
+        2.4819393586650866e-06,
+        2.0670922466366e-06,
+        2.5953055893817503e-06,
+        1.899047033095625e-06,
+        2.220712183974644e-06,
+        1.5523097242585274e-06,
+        1.668350231755379e-06,
+        2.0961391166014626e-06
+      ],
+      "complete_domain": true,
+      "components": {
+        "bulk:pair_face_analytic": {
+          "candidate_moduli_points": 3528,
+          "cell_count": 2,
+          "imported": false,
+          "quadrature_indicator": 1.2960022479111349e-06,
+          "quadrature_indicator_method": "retained cell indicators plus sum of three directional pair checks",
+          "replaced_cell_id": "d7c2c68ebd0ebaab2cf97c8edcf93375d440358592dc32f6f000b97b91bc98eb",
+          "retained_original_moduli_points": 97,
+          "status": "targeted_cell_comparison_limit",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "collision:H4": [
+                5.414940918097434e-05,
+                0.0
+              ],
+              "collision:H6": [
+                5.414940971792516e-05,
+                0.0
+              ],
+              "collision:long1": [
+                5.4149456764026205e-05,
+                0.0
+              ],
+              "collision:long2": [
+                5.4149409377321484e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 1.1592367926000666e-16,
+              "block": 1.2094885743904863e-09,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              5.4149409715370164e-05,
+              0.0
+            ]
+          }
+        },
+        "bulk:triple_corner": {
+          "cell_count": 6,
+          "moduli_points": 78,
+          "quadrature_indicator": 2.817815132033605e-08,
+          "status": "quadrature_indicator_met",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "native:axis2_0": [
+                4.288881604693488e-05,
+                0.0
+              ],
+              "native:axis2_1": [
+                4.2879799659798496e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 3.8485238266512616e-17,
+              "block": 2.233971527402472e-08,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              4.287982547599244e-05,
+              0.0
+            ]
+          }
+        },
+        "bulk:triple_pair_face": {
+          "cell_count": 3,
+          "moduli_points": 825,
+          "quadrature_indicator": 1.389574994764635e-08,
+          "status": "quadrature_indicator_met",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "native:axis1_2": [
+                1.1982282029539023e-10,
+                0.0
+              ],
+              "native:axis1_3": [
+                2.0400268545145544e-08,
+                0.0
+              ],
+              "native:axis2_0": [
+                5.682247064623381e-09,
+                0.0
+              ],
+              "native:axis2_1": [
+                5.683008520797203e-09,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 9.489652289767374e-17,
+              "block": 2.1046687430715661e-07,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              5.6830084165420924e-09,
+              0.0
+            ]
+          }
+        },
+        "bulk:triple_scale_face": {
+          "cell_count": 4,
+          "moduli_points": 140,
+          "quadrature_indicator": 1.3170621801841645e-07,
+          "status": "single_refinement_limit",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "collision:H4": [
+                -1.0544457544733385e-06,
+                0.0
+              ],
+              "collision:H6": [
+                -1.0544457422776455e-06,
+                0.0
+              ],
+              "collision:long0": [
+                -1.0546625374133235e-06,
+                0.0
+              ],
+              "collision:long1": [
+                -1.054444842379122e-06,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 5.5426386777403484e-17,
+              "block": 3.2605894478625116e-09,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              -1.0544457423210589e-06,
+              0.0
+            ]
+          }
+        },
+        "primary:012": {
+          "cell_count": 8,
+          "imported": false,
+          "low": {
+            "comparisons": {
+              "block_prefix": [
+                2.4633337802705465e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.825102128785939e-21,
+              "arithmetic": null,
+              "block": 6.402981449239474e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.4625892990660206e-05,
+              0.0
+            ]
+          },
+          "quadrature_indicator": 9.709534951325798e-07,
+          "status": "planned_comparison_limit",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "block_prefix": [
+                2.5165190308564748e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.5323045811181665e-21,
+              "arithmetic": null,
+              "block": 8.035696145332516e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.514636813723066e-05,
+              0.0
+            ]
+          }
+        },
+        "primary:021": {
+          "cell_count": 8,
+          "imported": false,
+          "low": {
+            "comparisons": {
+              "block_prefix": [
+                2.537462950435971e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.5318136676813692e-21,
+              "arithmetic": null,
+              "block": 6.30852323757922e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.5367142102997764e-05,
+              0.0
+            ]
+          },
+          "quadrature_indicator": 1.0295701308251106e-06,
+          "status": "planned_comparison_limit",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "block_prefix": [
+                2.5941261163791176e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.814794239188451e-21,
+              "arithmetic": null,
+              "block": 8.097825242518343e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.592413358752766e-05,
+              0.0
+            ]
+          }
+        },
+        "primary:102": {
+          "cell_count": 8,
+          "imported": false,
+          "low": {
+            "comparisons": {
+              "block_prefix": [
+                2.4633337802705465e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.825102128785939e-21,
+              "arithmetic": null,
+              "block": 6.402981449239474e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.4625892990660206e-05,
+              0.0
+            ]
+          },
+          "quadrature_indicator": 9.709534951325798e-07,
+          "status": "planned_comparison_limit",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "block_prefix": [
+                2.5165190308564748e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.5323045811181665e-21,
+              "arithmetic": null,
+              "block": 8.035696145332516e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.514636813723066e-05,
+              0.0
+            ]
+          }
+        },
+        "primary:120": {
+          "cell_count": 8,
+          "imported": false,
+          "low": {
+            "comparisons": {
+              "block_prefix": [
+                2.537462950435971e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.5318136676813692e-21,
+              "arithmetic": null,
+              "block": 6.30852323757922e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.5367142102997764e-05,
+              0.0
+            ]
+          },
+          "quadrature_indicator": 1.0295701308251106e-06,
+          "status": "planned_comparison_limit",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "block_prefix": [
+                2.5941261163791176e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.814794239188451e-21,
+              "arithmetic": null,
+              "block": 8.097825242518343e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.592413358752766e-05,
+              0.0
+            ]
+          }
+        },
+        "primary:201": {
+          "cell_count": 8,
+          "imported": false,
+          "low": {
+            "comparisons": {
+              "block_prefix": [
+                2.4678692380267232e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.8889459343605792e-21,
+              "arithmetic": null,
+              "block": 6.154721057712177e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.4668537608091696e-05,
+              0.0
+            ]
+          },
+          "quadrature_indicator": 9.545189306099156e-07,
+          "status": "planned_comparison_limit",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "block_prefix": [
+                2.5154456001035238e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.813073411767211e-21,
+              "arithmetic": null,
+              "block": 8.05840794351099e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.5135185830094364e-05,
+              0.0
+            ]
+          }
+        },
+        "primary:210": {
+          "cell_count": 8,
+          "imported": false,
+          "low": {
+            "comparisons": {
+              "block_prefix": [
+                2.4678692380267232e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.8889459343605792e-21,
+              "arithmetic": null,
+              "block": 6.154721057712177e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.4668537608091696e-05,
+              0.0
+            ]
+          },
+          "quadrature_indicator": 9.545189306099156e-07,
+          "status": "planned_comparison_limit",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "block_prefix": [
+                2.5154456001035238e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "angle": 1.813073411767211e-21,
+              "arithmetic": null,
+              "block": 8.05840794351099e-08,
+              "chart": null,
+              "endpoint": null,
+              "momentum": null,
+              "regulator": null
+            },
+            "value": [
+              2.5135185830094364e-05,
+              0.0
+            ]
+          }
+        },
+        "tail:pair_face_analytic": {
+          "cell_count": 2,
+          "moduli_points": 194,
+          "quadrature_indicator": 1.105350936909246e-06,
+          "status": "single_refinement_limit",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "collision:H4": [
+                4.1800690949182395e-06,
+                0.0
+              ],
+              "collision:H6": [
+                4.180069094918243e-06,
+                0.0
+              ],
+              "collision:long1": [
+                4.180069094918243e-06,
+                0.0
+              ],
+              "collision:long2": [
+                4.180069094918243e-06,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 2.2305657561316573e-17,
+              "block": 2.737060951171639e-21,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              4.180069094918243e-06,
+              0.0
+            ]
+          }
+        },
+        "tail:triple_corner": {
+          "cell_count": 3,
+          "moduli_points": 39,
+          "quadrature_indicator": 1.5351837565990997e-09,
+          "status": "quadrature_indicator_met",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "native:axis2_0": [
+                5.110527435575413e-06,
+                0.0
+              ],
+              "native:axis2_1": [
+                5.110527435575413e-06,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 4.892478888981375e-18,
+              "block": 2.5489417394226632e-23,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              5.110527435575413e-06,
+              0.0
+            ]
+          }
+        },
+        "tail:triple_pair_face": {
+          "cell_count": 3,
+          "moduli_points": 825,
+          "quadrature_indicator": 3.1572657629733362e-09,
+          "status": "quadrature_indicator_met",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "native:axis1_2": [
+                5.520277871440796e-10,
+                0.0
+              ],
+              "native:axis1_3": [
+                2.8050431345075716e-09,
+                0.0
+              ],
+              "native:axis2_0": [
+                1.1719733562320179e-09,
+                0.0
+              ],
+              "native:axis2_1": [
+                1.171973356232073e-09,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 8.97563715756193e-17,
+              "block": 2.370009901719765e-08,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              1.1719733562320187e-09,
+              0.0
+            ]
+          }
+        },
+        "tail:triple_scale_face": {
+          "cell_count": 3,
+          "moduli_points": 105,
+          "quadrature_indicator": 1.4337656209982408e-08,
+          "status": "quadrature_indicator_met",
+          "tolerance": 2.857142857142857e-08,
+          "value": {
+            "comparisons": {
+              "collision:H4": [
+                -1.2266827648629402e-07,
+                0.0
+              ],
+              "collision:H6": [
+                -1.226682752523064e-07,
+                0.0
+              ],
+              "collision:long0": [
+                -1.2266827525688862e-07,
+                0.0
+              ],
+              "collision:long1": [
+                -1.2266827525688862e-07,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 6.232158455738074e-18,
+              "block": 1.9175975436890373e-15,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              -1.2266827525688862e-07,
+              0.0
+            ]
+          }
+        }
+      },
+      "created_utc": "2026-09-24T13:15:41.132507+00:00",
+      "design_sha256": "bc06bc9c31c367c0418573d3bbef59f8f4fcff97a738e2b04436edb032d41430",
+      "format": "genus1-targeted-pair-cell-amplitude-v1",
+      "full_amplitude_certified": false,
+      "indicator_is_error_bound": false,
+      "moduli_indicator": 8.504248522971547e-06,
+      "momentum_design_changed": false,
+      "pair_diagnostics": {
+        "cell_id": "d7c2c68ebd0ebaab2cf97c8edcf93375d440358592dc32f6f000b97b91bc98eb",
+        "directional_deltas": {
+          "height": 1.2429648933136447e-08,
+          "puncture": -2.376296031502594e-08,
+          "torus_real": 1.5670383133615238e-07
+        },
+        "local_stability_flag": false,
+        "relative_indicator": 0.0038719627579555885
+      },
+      "physical_cutoffs_changed": false,
+      "previous_amplitude": 0.0002599419603170709,
+      "relative_moduli_indicator": 0.03274177311693931,
+      "replacement": {
+        "assessment": {
+          "accepted": true,
+          "candidate": "pair_h3_p3",
+          "deltas": {
+            "height": 1.2429648933136447e-08,
+            "puncture": -2.376296031502594e-08,
+            "torus_real": 1.5670383133615238e-07
+          },
+          "indicator": 1.9289644058431476e-07,
+          "indicator_is_error_bound": false,
+          "matrix_model_used": false,
+          "relative_indicator": 0.0038719627579555885,
+          "rule": "sum of absolute changes in torus real part, height and puncture"
+        },
+        "candidate": {
+          "physical_measure": 375.0867966243844,
+          "points": 3528,
+          "value": {
+            "comparisons": {
+              "collision:H4": [
+                4.981877424280912e-05,
+                0.0
+              ],
+              "collision:H6": [
+                4.981877477975994e-05,
+                0.0
+              ],
+              "collision:long1": [
+                4.981882182586098e-05,
+                0.0
+              ],
+              "collision:long2": [
+                4.981877443915626e-05,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 1.0368470791533344e-16,
+              "block": 1.2094885743791278e-09,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              4.981877477720494e-05,
+              0.0
+            ]
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "d7c2c68ebd0ebaab2cf97c8edcf93375d440358592dc32f6f000b97b91bc98eb",
+          "key": "bulk:pair_face_analytic",
+          "term": "bulk:pair_face_analytic"
+        }
+      },
+      "source_plan_sha256": "4fe44ca0aeb6854200489322cce6d58068a9c7d7a53cd11b374989736a8bc675",
+      "unknown_errors": [
+        "integrated omitted analytic remainders, including full triple OPE",
+        "global cutoff stability",
+        "integrated momentum quadrature error"
+      ],
+      "verified_imports_sha256": "e5d68b465a8906f35309d3c36cee84a55381f0f03cb3c9246f5a7339bbe53160"
+    },
+    "baseline_curve_sha256": "f94dfa8c5d444652e29450fe1e083f82c29b84dcac914aece30cd43fb879b082",
+    "primary_cells": [
+      {
+        "by_panel": {
+          "high": {
+            "all": 5.45260479821394e-06
+          },
+          "low": {
+            "all": 5.346066835263885e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "d3d8645e59f4919c706374092ac8038585a1150d82f557b559c44098dc5ac5df",
+          "key": "primary:012:order0:band0",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              5.465709954170663e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.091377456857374e-22,
+            "arithmetic": null,
+            "block": 3.310662574956917e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.45260479821394e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.0653796295005504e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              5.360108911238311e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.993041758190188e-22,
+            "arithmetic": null,
+            "block": 2.8125460400759573e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.346066835263885e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.0653796295005504e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 2.885488355182967e-06
+          },
+          "low": {
+            "all": 2.767201455975456e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "5c757a62bc8f886be37004e4ab570543da6f838ee2078cf835c2bacd039af1e9",
+          "key": "primary:012:order0:band0",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.885969131266764e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.4661332385759424e-22,
+            "arithmetic": null,
+            "block": 4.34038110900317e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.885488355182967e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1828689920751101e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.767399852845447e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.5406148581991586e-22,
+            "arithmetic": null,
+            "block": 2.258915959430103e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.767201455975456e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.1828689920751101e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.7591511272132103e-06
+          },
+          "low": {
+            "all": 3.391743160687117e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "2c82be311d9199c294ffc2288b71286d6111d4205fdb7773428e30c17249d1d5",
+          "key": "primary:012:order0:band1",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.7595050337198583e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.003330928853425e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.7591511272132103e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.674079665260934e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.3920249310419533e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.837245187006349e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.391743160687117e-06,
+            0.0
+          ]
+        },
+        "signed_change": 3.674079665260934e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 7.900932288005435e-07
+          },
+          "low": {
+            "all": 7.864787130368297e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "57c3341b55d2cc185e1bc8627ad5fb4d79adda4f1bce1435fb2bf57818d3aaf3",
+          "key": "primary:012:order0:band1",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              7.900934507950655e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.7918720715889894e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.900932288005435e-07,
+            0.0
+          ]
+        },
+        "indicator": 3.6145157637137942e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              7.86479242484893e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.547088900976176e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.864787130368297e-07,
+            0.0
+          ]
+        },
+        "signed_change": 3.6145157637137942e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.076494688967997e-06
+          },
+          "low": {
+            "all": 4.189114276108529e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "0a22bf2c533c493b6656bbde4cb78f229576a5c8c9f93349fb828ff89b84f6c6",
+          "key": "primary:012:order1:band0",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.078679998761171e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.830405226149695e-22,
+            "arithmetic": null,
+            "block": 1.652151786930751e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.076494688967997e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1261958714053166e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.1853017290015325e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.6697207138018605e-22,
+            "arithmetic": null,
+            "block": 1.477453734807688e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.189114276108529e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.1261958714053166e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.076494688967997e-06
+          },
+          "low": {
+            "all": 4.189114276108528e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "fcc95100e6c3151e46cf30f32552f27600eeb315ad9cb5025fe8216ca49a2352",
+          "key": "primary:012:order1:band0",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.078679998761171e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.935129889598654e-22,
+            "arithmetic": null,
+            "block": 1.652151786930755e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.076494688967997e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1261958714053081e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.1853017290015325e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.0476439576681806e-22,
+            "arithmetic": null,
+            "block": 1.4774537348076945e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.189114276108528e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.1261958714053081e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.3334843100351654e-06
+          },
+          "low": {
+            "all": 3.1874675976475055e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "cf774985ed8d972c456a373d031999d366336e1d89e1a59e2c76e83a422bc115",
+          "key": "primary:012:order1:band1",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.3339954709083086e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 4.8596631889654325e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.3334843100351654e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.460167123876599e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.188014922374675e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.256755098341402e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.1874675976475055e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.460167123876599e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 7.725569398488405e-07
+          },
+          "low": {
+            "all": 7.687066758323564e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "e090d6b303942c6771381b5200dcf012edb9c4e47ef66807d5f58919c5ac929e",
+          "key": "primary:012:order1:band1",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              7.725572701817474e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.1328662473220565e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.725569398488405e-07,
+            0.0
+          ]
+        },
+        "indicator": 3.8502640164840845e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              7.687064847171204e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 8.160618025216498e-13,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.687066758323564e-07,
+            0.0
+          ]
+        },
+        "signed_change": 3.8502640164840845e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 5.4730439408939735e-06
+          },
+          "low": {
+            "all": 5.363876130038654e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4d32853808652f85178267b9e0db68e366223aa4d20122131fd288fcde81658e",
+          "key": "primary:021:order0:band0",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              5.485115261451088e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.644035462554541e-22,
+            "arithmetic": null,
+            "block": 3.286165929110014e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.4730439408939735e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.0916781085531911e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              5.378047376475413e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.941776096488698e-22,
+            "arithmetic": null,
+            "block": 2.6960347264385842e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.363876130038654e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.0916781085531911e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 2.918006898464178e-06
+          },
+          "low": {
+            "all": 2.7969344830633035e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "ac3e87b2c6c56912cb3adf12d4a819abf3f10067845f2af7f017f887e0046c9f",
+          "key": "primary:021:order0:band0",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.918259065365845e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.02916944617294e-22,
+            "arithmetic": null,
+            "block": 4.271219045789394e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.918006898464178e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.2107241540087442e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.797114971681884e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.1520521188125674e-22,
+            "arithmetic": null,
+            "block": 1.998415063191674e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.7969344830633035e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.2107241540087442e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.795177574458956e-06
+          },
+          "low": {
+            "all": 3.4286956993984185e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "a4750d262f66dc5e61cf7bb1bc7f937efbe9c60ca57332b9850fec9526171a26",
+          "key": "primary:021:order0:band1",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.7948456072385313e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.168663697313274e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.795177574458956e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.6648187506053767e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.4291246905141066e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.6639221453398067e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.4286956993984185e-06,
+            0.0
+          ]
+        },
+        "signed_change": 3.6648187506053767e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 8.17718185437357e-07
+          },
+          "low": {
+            "all": 8.153548854113465e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "63954f202d2d102965e60db48d9a12b30516f0144bbea3a0bb94243c2e691eb5",
+          "key": "primary:021:order0:band1",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              8.177183767798573e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.535574034627778e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            8.17718185437357e-07,
+            0.0
+          ]
+        },
+        "indicator": 2.3633000260105114e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              8.153553548737262e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.3893243040256635e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            8.153548854113465e-07,
+            0.0
+          ]
+        },
+        "signed_change": 2.3633000260105114e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.188948349671949e-06
+          },
+          "low": {
+            "all": 4.307093011245754e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "980b115a4e52ef51b9ad08dbbaa1016aa74521a6faea5cf812c31af9443780d2",
+          "key": "primary:021:order1:band0",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.1912167457975136e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.307921327640163e-22,
+            "arithmetic": null,
+            "block": 1.676155920616028e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.188948349671949e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1814466157380457e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.303146528491272e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.749607543536467e-22,
+            "arithmetic": null,
+            "block": 1.5048751693425238e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.307093011245754e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.1814466157380457e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.188948349671949e-06
+          },
+          "low": {
+            "all": 4.307093011245752e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4364955b6d99f0e7a197b8d94f2957afe2e3fbcde9313546f40255046066bff3",
+          "key": "primary:021:order1:band0",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.1912167457975136e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.166816155516865e-22,
+            "arithmetic": null,
+            "block": 1.6761559206160212e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.188948349671949e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1814466157380287e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.303146528491271e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.474700917975959e-22,
+            "arithmetic": null,
+            "block": 1.5048751693425347e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.307093011245752e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.1814466157380287e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.7246313121020755e-06
+          },
+          "low": {
+            "all": 3.5321151710068255e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "7078e6a34d6d1957c7ca8dc81d42d9bea51ae157932fbdd847a74fc01e9ff8b7",
+          "key": "primary:021:order1:band1",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.7252300488939587e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.149927291171469e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.7246313121020755e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.9251614109524998e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.532714537217187e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.362832161693286e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.5321151710068255e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.9251614109524998e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 8.176589768272218e-07
+          },
+          "low": {
+            "all": 8.159797115877103e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "0276d5a5ada96f4c745fcfd86e9ad7e2c5fc7e7301141c00fc1de5bb9b42569d",
+          "key": "primary:021:order1:band1",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              8.176593124668691e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.1291134540445236e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            8.176589768272218e-07,
+            0.0
+          ]
+        },
+        "indicator": 1.679265239511463e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              8.159795166148487e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 8.23030026970125e-13,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            8.159797115877103e-07,
+            0.0
+          ]
+        },
+        "signed_change": 1.679265239511463e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 5.45260479821394e-06
+          },
+          "low": {
+            "all": 5.346066835263885e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "883f9f68f0d71f6d5816d83068d61da632539ec35b7a846d5944a9fc6876aabf",
+          "key": "primary:102:order0:band0",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              5.465709954170663e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.091377456857374e-22,
+            "arithmetic": null,
+            "block": 3.310662574956917e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.45260479821394e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.0653796295005504e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              5.360108911238311e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.993041758190188e-22,
+            "arithmetic": null,
+            "block": 2.8125460400759573e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.346066835263885e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.0653796295005504e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 2.885488355182967e-06
+          },
+          "low": {
+            "all": 2.767201455975456e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "83774820889a7099920b4c63d48a823643db9be9460e419988729577df60df51",
+          "key": "primary:102:order0:band0",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.885969131266764e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.4661332385759424e-22,
+            "arithmetic": null,
+            "block": 4.34038110900317e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.885488355182967e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1828689920751101e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.767399852845447e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.5406148581991586e-22,
+            "arithmetic": null,
+            "block": 2.258915959430103e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.767201455975456e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.1828689920751101e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.7591511272132103e-06
+          },
+          "low": {
+            "all": 3.391743160687117e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "fcb9df9fc79558af010eda285f3e6a27a107b44fe6336eaf9c2332d66be641e0",
+          "key": "primary:102:order0:band1",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.7595050337198583e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.003330928853425e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.7591511272132103e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.674079665260934e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.3920249310419533e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.837245187006349e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.391743160687117e-06,
+            0.0
+          ]
+        },
+        "signed_change": 3.674079665260934e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 7.900932288005435e-07
+          },
+          "low": {
+            "all": 7.864787130368297e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4455e3a9ddb482787a7b0b7d54c2bef35288b72bab566eb80d2f6e0e810000dd",
+          "key": "primary:102:order0:band1",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              7.900934507950655e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.7918720715889894e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.900932288005435e-07,
+            0.0
+          ]
+        },
+        "indicator": 3.6145157637137942e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              7.86479242484893e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.547088900976176e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.864787130368297e-07,
+            0.0
+          ]
+        },
+        "signed_change": 3.6145157637137942e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.076494688967997e-06
+          },
+          "low": {
+            "all": 4.189114276108529e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "004344dde83b48399f24638616045690601fc1d81e1ea4e1371bdd9b4ee67a4d",
+          "key": "primary:102:order1:band0",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.078679998761171e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.830405226149695e-22,
+            "arithmetic": null,
+            "block": 1.652151786930751e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.076494688967997e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1261958714053166e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.1853017290015325e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.6697207138018605e-22,
+            "arithmetic": null,
+            "block": 1.477453734807688e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.189114276108529e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.1261958714053166e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.076494688967997e-06
+          },
+          "low": {
+            "all": 4.189114276108528e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "256c913725954bfc98fa3561d8ba8fcf9e51ed0907c0b45a96083188bc96faf0",
+          "key": "primary:102:order1:band0",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.078679998761171e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.935129889598654e-22,
+            "arithmetic": null,
+            "block": 1.652151786930755e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.076494688967997e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1261958714053081e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.1853017290015325e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.0476439576681806e-22,
+            "arithmetic": null,
+            "block": 1.4774537348076945e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.189114276108528e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.1261958714053081e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.3334843100351654e-06
+          },
+          "low": {
+            "all": 3.1874675976475055e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "ae2a08769f96c3acb7db1cec0811b28d4760943936176385b8f9d40e48cdfd4c",
+          "key": "primary:102:order1:band1",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.3339954709083086e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 4.8596631889654325e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.3334843100351654e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.460167123876599e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.188014922374675e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.256755098341402e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.1874675976475055e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.460167123876599e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 7.725569398488405e-07
+          },
+          "low": {
+            "all": 7.687066758323564e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "c1b1803cea837fe3505de67f44f0de2264d818967f1f7014e16a15e3f8387748",
+          "key": "primary:102:order1:band1",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              7.725572701817474e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.1328662473220565e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.725569398488405e-07,
+            0.0
+          ]
+        },
+        "indicator": 3.8502640164840845e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              7.687064847171204e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 8.160618025216498e-13,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.687066758323564e-07,
+            0.0
+          ]
+        },
+        "signed_change": 3.8502640164840845e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 5.4730439408939735e-06
+          },
+          "low": {
+            "all": 5.363876130038654e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "3e73fa2325385fc601f5b3ffa811ad05e64aa9dd14fe0a4ba692227bcc2f886e",
+          "key": "primary:120:order0:band0",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              5.485115261451088e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.644035462554541e-22,
+            "arithmetic": null,
+            "block": 3.286165929110014e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.4730439408939735e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.0916781085531911e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              5.378047376475413e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.941776096488698e-22,
+            "arithmetic": null,
+            "block": 2.6960347264385842e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.363876130038654e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.0916781085531911e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 2.918006898464178e-06
+          },
+          "low": {
+            "all": 2.7969344830633035e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "da229d4d70b2034a5fa8966ac98eecda2b66908ccbf7955a8fc9d5874cc0215e",
+          "key": "primary:120:order0:band0",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.918259065365845e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.02916944617294e-22,
+            "arithmetic": null,
+            "block": 4.271219045789394e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.918006898464178e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.2107241540087442e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.797114971681884e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.1520521188125674e-22,
+            "arithmetic": null,
+            "block": 1.998415063191674e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.7969344830633035e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.2107241540087442e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.795177574458956e-06
+          },
+          "low": {
+            "all": 3.4286956993984185e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "1f8018ae76a72188aa6f7beb5b124874863d85eb623325e12756401e512f128b",
+          "key": "primary:120:order0:band1",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.7948456072385313e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.168663697313274e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.795177574458956e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.6648187506053767e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.4291246905141066e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.6639221453398067e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.4286956993984185e-06,
+            0.0
+          ]
+        },
+        "signed_change": 3.6648187506053767e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 8.17718185437357e-07
+          },
+          "low": {
+            "all": 8.153548854113465e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "3b3383457da3fdf56464f0c132011a1001663f9a381a545b7ee15f42a749354b",
+          "key": "primary:120:order0:band1",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              8.177183767798573e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.535574034627778e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            8.17718185437357e-07,
+            0.0
+          ]
+        },
+        "indicator": 2.3633000260105114e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              8.153553548737262e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.3893243040256635e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            8.153548854113465e-07,
+            0.0
+          ]
+        },
+        "signed_change": 2.3633000260105114e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.188948349671949e-06
+          },
+          "low": {
+            "all": 4.307093011245754e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "9244568e986543ebd45230ef601771e1468cba6f9c213e9dc39ac2dc79043553",
+          "key": "primary:120:order1:band0",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.1912167457975136e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.307921327640163e-22,
+            "arithmetic": null,
+            "block": 1.676155920616028e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.188948349671949e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1814466157380457e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.303146528491272e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.749607543536467e-22,
+            "arithmetic": null,
+            "block": 1.5048751693425238e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.307093011245754e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.1814466157380457e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.188948349671949e-06
+          },
+          "low": {
+            "all": 4.307093011245752e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4b4be10413a0eb41defec759181181392612cc03e4a740733afcdc4c71bdd003",
+          "key": "primary:120:order1:band0",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.1912167457975136e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.166816155516865e-22,
+            "arithmetic": null,
+            "block": 1.6761559206160212e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.188948349671949e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1814466157380287e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.303146528491271e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.474700917975959e-22,
+            "arithmetic": null,
+            "block": 1.5048751693425347e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.307093011245752e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.1814466157380287e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.7246313121020755e-06
+          },
+          "low": {
+            "all": 3.5321151710068255e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "0c215b13093346c2e3f33f0d3c8d16ab33e2294102fb29df8ef8ce0c0994f25f",
+          "key": "primary:120:order1:band1",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.7252300488939587e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.149927291171469e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.7246313121020755e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.9251614109524998e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.532714537217187e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.362832161693286e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.5321151710068255e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.9251614109524998e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 8.176589768272218e-07
+          },
+          "low": {
+            "all": 8.159797115877103e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "e19eafa2a4b0c7c5717d8625a574d3be4cee66e09e620391ee52318b14d0f04c",
+          "key": "primary:120:order1:band1",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              8.176593124668691e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.1291134540445236e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            8.176589768272218e-07,
+            0.0
+          ]
+        },
+        "indicator": 1.679265239511463e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              8.159795166148487e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 8.23030026970125e-13,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            8.159797115877103e-07,
+            0.0
+          ]
+        },
+        "signed_change": 1.679265239511463e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 5.297321025450311e-06
+          },
+          "low": {
+            "all": 5.206445580402593e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "90d1c77b2858af85bbb14a59c0f90698052f818bfa96cada7508a69d29f6c146",
+          "key": "primary:201:order0:band0",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              5.309012375373875e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.847042614005583e-22,
+            "arithmetic": null,
+            "block": 3.213492013827679e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.297321025450311e-06,
+            0.0
+          ]
+        },
+        "indicator": 9.087544504771847e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              5.220071875331068e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.419355516435567e-22,
+            "arithmetic": null,
+            "block": 2.6434980050322216e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.206445580402593e-06,
+            0.0
+          ]
+        },
+        "signed_change": 9.087544504771847e-08
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 2.8656641617962633e-06
+          },
+          "low": {
+            "all": 2.7493405518821873e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "8f6dddf96e3251ff18ae1d1d862d33522b6c35c200c49fddc24c99ad66a1bf57",
+          "key": "primary:201:order0:band0",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.866025065325896e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.1374636074676823e-22,
+            "arithmetic": null,
+            "block": 4.364961296407997e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.8656641617962633e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1632360991407607e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.7495552230389527e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.4224817422746166e-22,
+            "arithmetic": null,
+            "block": 2.0681262915213053e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.7493405518821873e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.1632360991407607e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.396585612133853e-06
+          },
+          "low": {
+            "all": 3.0944445768138656e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "610c7b6791410b0379596fbf08a9033697771ee175ce47a120427db068aae20b",
+          "key": "primary:201:order0:band1",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.3962770868789687e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 4.892697790956848e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.396585612133853e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.0214103531998737e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.0948418887001607e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.6081115420416199e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.0944445768138656e-06,
+            0.0
+          ]
+        },
+        "signed_change": 3.0214103531998737e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 7.726116565917669e-07
+          },
+          "low": {
+            "all": 7.68130551845934e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "b39d525ea4aa6b5de6c1aa6e904a38929ccd9d2b751efb8cd57fa0b307004812",
+          "key": "primary:201:order0:band1",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              7.72611844931168e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.5176331067045434e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.726116565917669e-07,
+            0.0
+          ]
+        },
+        "indicator": 4.481104745832924e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              7.681310160336616e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.3769087032135513e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.68130551845934e-07,
+            0.0
+          ]
+        },
+        "signed_change": 4.481104745832924e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.162150672314735e-06
+          },
+          "low": {
+            "all": 4.284118349466548e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "a23d1c2ff5a855591b77c27c5d0bdc8542ce7fe6ce6410418f201340deffbb6b",
+          "key": "primary:201:order1:band0",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.165319133025342e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.073932654125386e-22,
+            "arithmetic": null,
+            "block": 1.69170368128726e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.162150672314735e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.219676771518131e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.281685908502703e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.2056989368609607e-22,
+            "arithmetic": null,
+            "block": 1.4321866262168396e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.284118349466548e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.219676771518131e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.162150672314736e-06
+          },
+          "low": {
+            "all": 4.284118349466547e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4ef517c649db94a6d9c40db803115ccb2f362e2c08dd6960dbbeadb625006643",
+          "key": "primary:201:order1:band0",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.165319133025343e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.072295242073461e-22,
+            "arithmetic": null,
+            "block": 1.6917036812872598e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.162150672314736e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.219676771518114e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.281685908502702e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.8419231480346463e-22,
+            "arithmetic": null,
+            "block": 1.4321866262168062e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.284118349466547e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.219676771518114e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.688667379431718e-06
+          },
+          "low": {
+            "all": 3.494843073302164e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "389311e5c53a2f29666046132062a25d667e73393ddc6cb28a17a634773f9f7b",
+          "key": "primary:201:order1:band1",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.6898563269635324e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.353658068633509e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.688667379431718e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.9382430612955414e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.4956242190947113e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.789965513988675e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.494843073302164e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.9382430612955414e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 7.90034650060979e-07
+          },
+          "low": {
+            "all": 7.870965749118568e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "2a2cefb7c482b35fe5547aeff668098dc45c37c861739488925de6d59a563a1c",
+          "key": "primary:201:order1:band1",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              7.900350355111136e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.2508819828616285e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.90034650060979e-07,
+            0.0
+          ]
+        },
+        "indicator": 2.9380751491222186e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              7.870963410632712e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 9.17746208274714e-13,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.870965749118568e-07,
+            0.0
+          ]
+        },
+        "signed_change": 2.9380751491222186e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 5.297321025450311e-06
+          },
+          "low": {
+            "all": 5.206445580402593e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "43be9efb612af4bd963fcf6ee4a761c9d13d27c82e2bc6b538d290a223bc7cfb",
+          "key": "primary:210:order0:band0",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              5.309012375373875e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.847042614005583e-22,
+            "arithmetic": null,
+            "block": 3.213492013827679e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.297321025450311e-06,
+            0.0
+          ]
+        },
+        "indicator": 9.087544504771847e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              5.220071875331068e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.419355516435567e-22,
+            "arithmetic": null,
+            "block": 2.6434980050322216e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            5.206445580402593e-06,
+            0.0
+          ]
+        },
+        "signed_change": 9.087544504771847e-08
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 2.8656641617962633e-06
+          },
+          "low": {
+            "all": 2.7493405518821873e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4030fe722cba43a006bea9519749b8be7bbb5e8eff4fe33562458c9641d4fd4f",
+          "key": "primary:210:order0:band0",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.866025065325896e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.1374636074676823e-22,
+            "arithmetic": null,
+            "block": 4.364961296407997e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.8656641617962633e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.1632360991407607e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.7495552230389527e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.4224817422746166e-22,
+            "arithmetic": null,
+            "block": 2.0681262915213053e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.7493405518821873e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.1632360991407607e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.396585612133853e-06
+          },
+          "low": {
+            "all": 3.0944445768138656e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "c63c1b54151c21dfa633884456a6a7c845729cbbab8339ac6636172f82e8953d",
+          "key": "primary:210:order0:band1",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.3962770868789687e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 4.892697790956848e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.396585612133853e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.0214103531998737e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.0948418887001607e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.6081115420416199e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.0944445768138656e-06,
+            0.0
+          ]
+        },
+        "signed_change": 3.0214103531998737e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 7.726116565917669e-07
+          },
+          "low": {
+            "all": 7.68130551845934e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "30b941ba76ad14002023e3fe8bf80ef1453a6df1880017be90f965bcb75721d0",
+          "key": "primary:210:order0:band1",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              7.72611844931168e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.5176331067045434e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.726116565917669e-07,
+            0.0
+          ]
+        },
+        "indicator": 4.481104745832924e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              7.681310160336616e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.3769087032135513e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.68130551845934e-07,
+            0.0
+          ]
+        },
+        "signed_change": 4.481104745832924e-09
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.162150672314735e-06
+          },
+          "low": {
+            "all": 4.284118349466548e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "6aa33674ab3b1e58ab9d251bb1c367bd0952f009a57f1d7634116f582e05d6d6",
+          "key": "primary:210:order1:band0",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.165319133025342e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.073932654125386e-22,
+            "arithmetic": null,
+            "block": 1.69170368128726e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.162150672314735e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.219676771518131e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.281685908502703e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 4.2056989368609607e-22,
+            "arithmetic": null,
+            "block": 1.4321866262168396e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.284118349466548e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.219676771518131e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 4.162150672314736e-06
+          },
+          "low": {
+            "all": 4.284118349466547e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "01b668aa0755d49a496be4651ee46d668d8b113b0d262a03421bf7370283d5b5",
+          "key": "primary:210:order1:band0",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              4.165319133025343e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 5.072295242073461e-22,
+            "arithmetic": null,
+            "block": 1.6917036812872598e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.162150672314736e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.219676771518114e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              4.281685908502702e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 3.8419231480346463e-22,
+            "arithmetic": null,
+            "block": 1.4321866262168062e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            4.284118349466547e-06,
+            0.0
+          ]
+        },
+        "signed_change": -1.219676771518114e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 3.688667379431718e-06
+          },
+          "low": {
+            "all": 3.494843073302164e-06
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "ffa93bdf4b3131ebf412cb82fc89d1c6756a811a332f667f1991532ddfb4647e",
+          "key": "primary:210:order1:band1",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.6898563269635324e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.353658068633509e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.688667379431718e-06,
+            0.0
+          ]
+        },
+        "indicator": 1.9382430612955414e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.4956242190947113e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.789965513988675e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.494843073302164e-06,
+            0.0
+          ]
+        },
+        "signed_change": 1.9382430612955414e-07
+      },
+      {
+        "by_panel": {
+          "high": {
+            "all": 7.90034650060979e-07
+          },
+          "low": {
+            "all": 7.870965749118568e-07
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "c8a9a0079182a33b5e44d78bc30f95d04a4852a66a8dc314278b3a7a6b1c6950",
+          "key": "primary:210:order1:band1",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              7.900350355111136e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.2508819828616285e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.90034650060979e-07,
+            0.0
+          ]
+        },
+        "indicator": 2.9380751491222186e-09,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              7.870963410632712e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 9.17746208274714e-13,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            7.870965749118568e-07,
+            0.0
+          ]
+        },
+        "signed_change": 2.9380751491222186e-09
+      }
+    ],
+    "source_files": {
+      "/Users/yutaizhang/Desktop/c=1 string/output/diagnostics/genus1_t025_primary_first_384_20260923/amplitude.json": "f0e298495bff4af1f5cfe1275c1383e503a79300bd9001c4a7a9fc19d38812e6",
+      "output/diagnostics/genus1_curve20_final_384_20260924/anchor.json": "d4f93591cdf29a2b61f001a411315cef4756d89040a1eb8caaa18347c05f670f"
+    },
+    "t": 0.25
+  },
+  "sha256": "0ec75d1708fb68d1fe123b39d0b3c8dd249f624e4cd1a8d9677afb237cd2b83b"
+}

@@ -1,0 +1,186 @@
+{
+  "radii": [
+    2.1052631578947367,
+    2.2222222222222223,
+    2.3529411764705883,
+    2.5,
+    2.6666666666666665,
+    2.857142857142857,
+    3.0769230769230766,
+    3.3333333333333335,
+    3.6363636363636362,
+    4.0,
+    4.444444444444445,
+    5.0,
+    5.714285714285714,
+    6.666666666666667,
+    8.0
+  ],
+  "maximum_R": 8.0,
+  "collisions": [
+    {
+      "R": 2.1052631578947367,
+      "correction": 0.007960506013842445,
+      "moduli_indicator": 3.70434652876813e-05,
+      "arithmetic_bound": 4.423038896760377e-13,
+      "source_sha256": "1306ed86d365dc3b78650c2e1fc3f2f572cf1bc24a42119721591e73ea923038"
+    },
+    {
+      "R": 2.2222222222222223,
+      "correction": 0.012260550217028288,
+      "moduli_indicator": 5.6728437571237094e-05,
+      "arithmetic_bound": 7.462133770212949e-13,
+      "source_sha256": "e642f5a7cd495bef058c55ce83350df3446e3db80df7386e7d3923f7a188e600"
+    },
+    {
+      "R": 2.3529411764705883,
+      "correction": 0.01393117694484698,
+      "moduli_indicator": 6.395524059675531e-05,
+      "arithmetic_bound": 9.338433583680082e-13,
+      "source_sha256": "9dfdd97a1027b12720ed2ae86e6bffa5cd2522b6688228ddb928d65d1d88e11b"
+    },
+    {
+      "R": 2.5,
+      "correction": 0.013816881050274262,
+      "moduli_indicator": 6.279154165413714e-05,
+      "arithmetic_bound": 1.0260736647703373e-12,
+      "source_sha256": "5348bf64c635fac2c7c22951c1b7b5c670644775578c51a4092fe17496366719"
+    },
+    {
+      "R": 2.6666666666666665,
+      "correction": 0.012588398945439708,
+      "moduli_indicator": 5.648768875298538e-05,
+      "arithmetic_bound": 1.0428115272652349e-12,
+      "source_sha256": "7f94c60532aabcba2146b6b05d8abc6e392a033d0ee98c6c7aa75d663284bfe0"
+    },
+    {
+      "R": 2.857142857142857,
+      "correction": 0.01076012505752609,
+      "moduli_indicator": 4.757066805178183e-05,
+      "arithmetic_bound": 1.0086227731411692e-12,
+      "source_sha256": "10b99af732e3093e28a3cc60ea3cc490a2052f288082af07eab7533403eb2ed5"
+    },
+    {
+      "R": 3.0769230769230766,
+      "correction": 0.008709979622464314,
+      "moduli_indicator": 3.797777804171809e-05,
+      "arithmetic_bound": 9.692431599603734e-13,
+      "source_sha256": "773e20d994a003b801abf0f929b031791c654a9ba887f22ae439ca0adb590f1c"
+    },
+    {
+      "R": 3.3333333333333335,
+      "correction": 0.006699831425259673,
+      "moduli_indicator": 2.8752767197554284e-05,
+      "arithmetic_bound": 8.962936667965135e-13,
+      "source_sha256": "bcf5e943f7acea4e6e91160bd4daf029c1802bc3bc067bccb83c8dd525e00b3c"
+    },
+    {
+      "R": 3.6363636363636362,
+      "correction": 0.004895786807193243,
+      "moduli_indicator": 2.0625830595199854e-05,
+      "arithmetic_bound": 7.977974054243841e-13,
+      "source_sha256": "428cccc2597ba9f5c7815cb546c58cb5dfbb4c43e9d1bd8858765ac208aab5c8"
+    },
+    {
+      "R": 4.0,
+      "correction": 0.003387253773120364,
+      "moduli_indicator": 1.3991100091590203e-05,
+      "arithmetic_bound": 6.824095977566923e-13,
+      "source_sha256": "98dcde47d0ce1cd2ea48835e9bb46686187727eb60af7a6cee1d71f2148a2e09"
+    },
+    {
+      "R": 4.444444444444445,
+      "correction": 0.0022048097067218298,
+      "moduli_indicator": 8.915295055930665e-06,
+      "arithmetic_bound": 5.615535569109998e-13,
+      "source_sha256": "d6319a6db08052204eb5d591a734c91f5bee8e38f378d4fe82d7f6cd91ef4dae"
+    },
+    {
+      "R": 5.0,
+      "correction": 0.0013366231228942262,
+      "moduli_indicator": 5.282959087548268e-06,
+      "arithmetic_bound": 4.4169354615148574e-13,
+      "source_sha256": "bf8381470f44b811583416da190975bf7a69163a32425555f7c232f0b6958a45"
+    },
+    {
+      "R": 5.714285714285714,
+      "correction": 0.0007432297514291703,
+      "moduli_indicator": 2.8669167373574874e-06,
+      "arithmetic_bound": 3.2953582332125764e-13,
+      "source_sha256": "e0b68e8b3adc68dab982b38d269e36f0f8f9808c7d3b629c68b9c209ef9b5a1f"
+    },
+    {
+      "R": 6.666666666666667,
+      "correction": 0.0003703308841093107,
+      "moduli_indicator": 1.391791146278523e-06,
+      "arithmetic_bound": 2.299339171364721e-13,
+      "source_sha256": "f8c98ef368d585f7db124c35290ca83dc01981c7f3395bd01b964e805865e188"
+    },
+    {
+      "R": 8.0,
+      "correction": 0.00015935122999308793,
+      "moduli_indicator": 5.824845920445071e-07,
+      "arithmetic_bound": 1.4682806979910446e-13,
+      "source_sha256": "2ae2b71a5239e497140e77264f0b01992bf43f129999626df8db73ce944b0d9c"
+    }
+  ],
+  "bounded_tail_pilots": [
+    {
+      "path": "sampling/t0650/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 4.032884792489988e-289,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0400/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 2.811858979490634e-288,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0250/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 1.8427235698921e-287,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0700/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 2.998377237435346e-289,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0550/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 7.866873124214394e-289,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0300/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 8.886667911345514e-288,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0600/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 5.554637621097394e-289,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0450/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 1.755453108612307e-288,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0500/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 1.1517699365994891e-288,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0350/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 4.7968508826154884e-288,
+      "flagged": 1
+    },
+    {
+      "path": "sampling/t0950/pair-tail/pilot.npz",
+      "maximum_weighted_bound": 2.8802746587093614e-289,
+      "flagged": 1
+    }
+  ],
+  "sampling_complete": false,
+  "full_amplitude_certified": false
+}

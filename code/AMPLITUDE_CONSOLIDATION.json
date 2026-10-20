@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-02",
+  "scope": [
+    "five_point",
+    "six_point",
+    "genus2"
+  ],
+  "comparisons": {
+    "numerical_kernels": {
+      "cases": 44,
+      "exactly_equal": 44,
+      "case_names": [
+        "five/coeff/(1.21, 1.49)",
+        "five/coeff/(2.0, 2.0)",
+        "five/coords/((0.12+0.03j), (0.25-0.07j))",
+        "five/coords/((0.6-0.1j), (0.15+0.2j))",
+        "five/divisors",
+        "five/integral/0.31",
+        "five/integral/0.35",
+        "five/integral/0.44",
+        "five/point/0.31",
+        "five/point/0.35",
+        "five/point/0.44",
+        "five/production_settings",
+        "g2/covariance",
+        "g2/estimate/2",
+        "g2/estimate/4",
+        "g2/liouville/glasses",
+        "g2/liouville/theta",
+        "g2/proposals",
+        "g2/weighted_residual",
+        "refinement_2pct_state_and_statistics/classify/15/False",
+        "refinement_2pct_state_and_statistics/classify/15/True",
+        "refinement_2pct_state_and_statistics/classify/16/False",
+        "refinement_2pct_state_and_statistics/classify/16/True",
+        "refinement_2pct_state_and_statistics/classify/18/False",
+        "refinement_2pct_state_and_statistics/classify/18/True",
+        "refinement_2pct_state_and_statistics/gaps",
+        "refinement_2pct_state_and_statistics/keys",
+        "refinement_2pct_state_and_statistics/paired",
+        "refinement_2pct_state_and_statistics/saved_arrays",
+        "refinement_state_and_statistics/classify/12/False",
+        "refinement_state_and_statistics/classify/12/True",
+        "refinement_state_and_statistics/classify/13/False",
+        "refinement_state_and_statistics/classify/13/True",
+        "refinement_state_and_statistics/classify/16/False",
+        "refinement_state_and_statistics/classify/16/True",
+        "refinement_state_and_statistics/gaps",
+        "refinement_state_and_statistics/keys",
+        "refinement_state_and_statistics/paired",
+        "refinement_state_and_statistics/saved_arrays",
+        "six/coeff/comb",
+        "six/coeff/star",
+        "six/covariance",
+        "six/integrand_record",
+        "six/ward"
+      ]
+    },
+    "refinement_and_routing": {
+      "cases": 12,
+      "exactly_equal": 12,
+      "case_names": [
+        "refine_flagged_samples/shell",
+        "refine_flagged_samples/fresh_contraction",
+        "refine_flagged_samples/cached_contraction",
+        "refine_flagged_samples/stale_rejected",
+        "refine_flagged_samples/nonchiral_policy",
+        "continue_flagged_samples_to_c18/shell",
+        "continue_flagged_samples_to_c18/fresh_contraction",
+        "continue_flagged_samples_to_c18/cached_contraction",
+        "continue_flagged_samples_to_c18/stale_rejected",
+        "continue_flagged_samples_to_c18/nonchiral_policy",
+        "six/direct_routing",
+        "genus2/scalar"
+      ]
+    },
+    "configuration_and_sampling": {
+      "cases": 11,
+      "exactly_equal": 11,
+      "case_names": [
+        "five_point_extend_amplitude_scan_to_30_points/BASE_SEED",
+        "five_point_extend_amplitude_scan_to_30_points/DESIGN",
+        "five_point_extend_amplitude_scan_to_30_points/SEED_STRIDE",
+        "five_point_extend_amplitude_scan_to_30_points/STATUS",
+        "genus2_moduli_physical_mixture_rqmc/DEFAULT_COMPONENTS",
+        "genus2_moduli_physical_mixture_rqmc/DEFAULT_OUTPUT",
+        "genus2_moduli_physical_mixture_rqmc/samples",
+        "genus2_moduli_rqmc/DEFAULT_OUTPUT",
+        "genus2_moduli_rqmc/samples",
+        "genus2_separating_residual_pilot/POLICY",
+        "genus2_separating_tail_cluster/POLICY"
+      ]
+    },
+    "saved_genus2_assembly": {
+      "cases": 23,
+      "exactly_equal": 23,
+      "case_names": [
+        "deep_finite_band_node_values",
+        "deep_finite_band_replicates",
+        "finite_band_2_node_values",
+        "finite_band_2_node_values_before_refinement",
+        "finite_band_2_replicates",
+        "finite_bands_resolved_covariance",
+        "finite_bands_resolved_mean",
+        "group_integrated_control",
+        "group_negative_domain_correction",
+        "group_old_bulk_plus_outer_residual",
+        "group_residual_band_0",
+        "group_residual_band_1",
+        "group_residual_band_1e5_1e3",
+        "group_residual_band_2",
+        "group_residual_band_3",
+        "group_residual_band_4",
+        "matrix_model",
+        "node16_control_scaled_Xi",
+        "node16_full_scaled_Xi",
+        "node16_order_sensitivity_BRY",
+        "radii",
+        "resolved_covariance",
+        "resolved_mean"
+      ]
+    }
+  },
+  "independent_checks": [
+    "check_global_level_one",
+    "check_h_and_c_recursions_against_direct",
+    "check_mobius_special_cases",
+    "check_known_linear_frame",
+    "check_random_atlas_coverage",
+    "check_forward_map_roundtrip_and_jacobian",
+    "check_arbitrary_gauge_jacobian",
+    "check_order_zero_and_one",
+    "check_handle_residue_matches_torus_one_point",
+    "check_separating_limit_matches_two_tori",
+    "check_against_direct_descendant_sum"
+  ],
+  "entrypoint_checks": 16,
+  "archived_source_and_documentation_files": 150,
+  "local_table_entries": {
+    "five_point": 14,
+    "six_point": 43,
+    "genus2": 42
+  },
+  "full_production_integrations_rerun": false,
+  "validation_scope": "Exact representative numerical comparisons, small five-point moduli integrals, both six-point and genus-two channels, policy and sampling checks, the full saved genus-two assembly, independent recursion/coordinate checks, fresh imports, and isolated source-package checks.",
+  "original_data_modified": false,
+  "retired_six_point_nome_reexpansion_in_active_code": false,
+  "latex": "Full project compilation succeeds; built-in standalone compilation cannot resolve included project files.",
+  "preexisting_latex_references": [
+    "App:Factorialization",
+    "eq:g1_numerical_energies"
+  ],
+  "workspace_cold_imports": {
+    "passed": 98,
+    "total": 98
+  },
+  "isolated_package_cold_imports": {
+    "passed": 98,
+    "total": 98
+  },
+  "source_package": {
+    "path": "source_packages/consolidated_amplitudes_20261002.zip",
+    "files": 239,
+    "python_sources": 182,
+    "numerical_data_included": false,
+    "hash_and_dependency_validation": "passed"
+  },
+  "added_genus1_two_point_package": "code/one_loop/two_point/VERIFICATION.json"
+}

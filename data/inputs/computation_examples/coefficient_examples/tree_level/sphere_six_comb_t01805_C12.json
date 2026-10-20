@@ -1,0 +1,152 @@
+{
+  "case": "sphere six-point",
+  "topology": "comb",
+  "t": 0.1805,
+  "incoming_slot": 0,
+  "central_charge": 25,
+  "b": 1,
+  "internal_momenta": [
+    0.37,
+    0.61,
+    0.83
+  ],
+  "internal_weights": [
+    [
+      1.1369,
+      0.0
+    ],
+    [
+      1.3721,
+      0.0
+    ],
+    [
+      1.6888999999999998,
+      0.0
+    ]
+  ],
+  "external_momenta": [
+    [
+      0.0,
+      0.45125
+    ],
+    [
+      0.0,
+      0.09025
+    ],
+    [
+      0.0,
+      0.09025
+    ],
+    [
+      0.0,
+      0.09025
+    ],
+    [
+      0.0,
+      0.09025
+    ],
+    [
+      0.0,
+      0.09025
+    ]
+  ],
+  "external_weights": [
+    [
+      0.7963734375,
+      0.0
+    ],
+    [
+      0.9918549375,
+      0.0
+    ],
+    [
+      0.9918549375,
+      0.0
+    ],
+    [
+      0.9918549375,
+      0.0
+    ],
+    [
+      0.9918549375,
+      0.0
+    ],
+    [
+      0.9918549375,
+      0.0
+    ]
+  ],
+  "variables": [
+    "q1",
+    "q2",
+    "q3"
+  ],
+  "edge_order": [
+    "left cherry",
+    "middle comb edge",
+    "right cherry"
+  ],
+  "truncation": {
+    "kind": "total_degree",
+    "maximum": 12
+  },
+  "generator": "sphere_six_point_coefficient_provider.VerifiedSphereCProvider.coefficients",
+  "provider": {
+    "backend": "verified-fixed-weight-c",
+    "version": "sphere-ccy-verified-v1",
+    "representation": "native-plumbing-descendant",
+    "truncation": "total-degree",
+    "base_dps": 40,
+    "check_dps": 60,
+    "maximum_dps": 130,
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "minimum_total_order": 0,
+    "topology_orders": null,
+    "h_or_pbw_fallback": false
+  },
+  "coefficient_precision_check": {
+    "verified_tables": 1,
+    "weight_limit_count": 0,
+    "maximum_dps_used": 60,
+    "maximum_scaled_disagreement": 0.0
+  },
+  "reference_scope": "Illustrative fixed momenta at a production energy; same C12 provider as production, not a full momentum bank.",
+  "expansion": "F(q) = sum_n C[n] product_j q[j]^n[j]",
+  "constant_coefficient": [
+    1.0,
+    0.0
+  ],
+  "q_example": [
+    [
+      0.04,
+      0.006
+    ],
+    [
+      0.05,
+      -0.007
+    ],
+    [
+      0.03,
+      0.005
+    ]
+  ],
+  "value_at_q": [
+    1.056360241126419,
+    0.004153406198205729
+  ],
+  "value_at_conjugate_q": [
+    1.056360241126419,
+    -0.004153406198205729
+  ],
+  "excluded_factors": [
+    "Liouville structure constants",
+    "primary propagation",
+    "momentum integration measure",
+    "worldsheet matter/ghost factors",
+    "moduli sampling weights"
+  ],
+  "table_file": "sphere_six_comb_t01805_C12.csv",
+  "table_sha256": "661595d94e72d76910f670850916f48b13383b9a69669315265547182b326c6f",
+  "rows": 455
+}

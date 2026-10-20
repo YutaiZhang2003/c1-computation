@@ -1,0 +1,213 @@
+{
+  "status": "worldsheet_pilot_requires_momentum_block_and_collision_convergence",
+  "R": 2.0,
+  "T": 0.07957747154594767,
+  "omega_imag": 0.5,
+  "external_KK": [
+    1,
+    -1
+  ],
+  "external_winding": [
+    0,
+    0
+  ],
+  "normalization": "A_(1->1)^(1),T = 2*pi^2*i*I_T; full genus-one term is g_s^2*A",
+  "power": 16,
+  "replicates": 8,
+  "seed": 20260927,
+  "collision_radius": 0.5,
+  "collision_remainder_included": true,
+  "tau_support": "entire fundamental domain; no fitted or truncated cusp tail",
+  "height_scale": 1.0,
+  "short_scale": 16.0,
+  "zero_temperature_imag": -0.25733314913278793,
+  "thermal_imag": -0.3087884514241028,
+  "thermal_correction_imag": -0.05145530229131482,
+  "sampling_SE_zero": 3.289798045992738e-05,
+  "sampling_SE_thermal": 3.873471278112564e-05,
+  "sampling_SE_correction": 1.7738077424924662e-05,
+  "replicate_integrals": [
+    [
+      [
+        -0.013033380956710802,
+        -3.267987388350101e-31
+      ],
+      [
+        -0.015641488731046094,
+        -3.9219438208594153e-31
+      ]
+    ],
+    [
+      [
+        -0.01303985383909164,
+        -3.2696103976104455e-31
+      ],
+      [
+        -0.015644341961962908,
+        -3.9226592394206333e-31
+      ]
+    ],
+    [
+      [
+        -0.013035606234888003,
+        -3.268545354164376e-31
+      ],
+      [
+        -0.01564597264984696,
+        -3.923068117781234e-31
+      ]
+    ],
+    [
+      [
+        -0.013042825997937494,
+        -3.2703556361373364e-31
+      ],
+      [
+        -0.015648363932869745,
+        -3.9236677076180104e-31
+      ]
+    ],
+    [
+      [
+        -0.01303013828890782,
+        -3.2671743224603007e-31
+      ],
+      [
+        -0.015637285291424306,
+        -3.9208898512319606e-31
+      ]
+    ],
+    [
+      [
+        -0.013038431727824241,
+        -3.269253817709736e-31
+      ],
+      [
+        -0.0156459661020918,
+        -3.923066475998457e-31
+      ]
+    ],
+    [
+      [
+        -0.013031493488245144,
+        -3.267514124876657e-31
+      ],
+      [
+        -0.01563380646061924,
+        -3.9200175698771877e-31
+      ]
+    ],
+    [
+      [
+        -0.013041466508572073,
+        -3.270014758040115e-31
+      ],
+      [
+        -0.015650020443637405,
+        -3.924083060803561e-31
+      ]
+    ]
+  ],
+  "tau_bin_upper_edges": [
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0,
+    32.0,
+    64.0,
+    128.0,
+    256.0,
+    512.0,
+    2048.0,
+    null
+  ],
+  "tau_bin_integrals_mean": [
+    [
+      -0.0006143367922406682,
+      -0.000614338903352216
+    ],
+    [
+      -0.006474692374903802,
+      -0.006476979905231044
+    ],
+    [
+      -0.003140574713185297,
+      -0.0031975008446281585
+    ],
+    [
+      -0.0014783189335627282,
+      -0.0017292607415376957
+    ],
+    [
+      -0.0006867753134926751,
+      -0.0011003452174413715
+    ],
+    [
+      -0.00032626217923145445,
+      -0.0007523817565007437
+    ],
+    [
+      -0.00015884569667412625,
+      -0.0005230033840935118
+    ],
+    [
+      -7.851655133030611e-05,
+      -0.0003667053456476853
+    ],
+    [
+      -3.939597346683153e-05,
+      -0.00026052230826660117
+    ],
+    [
+      -1.9453963024795594e-05,
+      -0.00018255051171537268
+    ],
+    [
+      -1.4467390903155506e-05,
+      -0.00021677280128509118
+    ],
+    [
+      -5.009748256290033e-06,
+      -0.00022304397698777527
+    ]
+  ],
+  "kernel": {
+    "format": "torus-two-point-native-q-c-recursion-v1",
+    "central_charge": 25.0,
+    "necklace_backend": "c-recursion",
+    "ope_backend": "c-recursion",
+    "coefficient_variables": {
+      "necklace": [
+        "q1",
+        "q2"
+      ],
+      "ope": [
+        "q",
+        "delta"
+      ]
+    },
+    "x": 0.5,
+    "momentum_order": 32,
+    "p_max": 6.0,
+    "power": 2.0,
+    "necklace_orders": [
+      7,
+      4
+    ],
+    "ope_orders": [
+      4,
+      10
+    ],
+    "worldsheet_only": true,
+    "seconds": 214.605126542,
+    "source": "code/one_loop/two_point/liouville_integration/genus1_two_point_worldsheet.py",
+    "coefficients_truncated_from": "/Users/yutaizhang/Desktop/c=1 string/output/thermal_one_loop_native_q_20261004/liouville/native_q_v1_x0.5_n32_neck8-4_ope4-10.npz"
+  },
+  "elapsed": 135.41989741700002,
+  "limitations": [
+    "Finite internal momentum rule and Virasoro orders.",
+    "The finite-block collision parent minus leading projection is integrated inside the full disc.",
+    "Sampling errors exclude momentum, block and collision truncation errors."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "stage": "after Liouville momentum integration, before moduli integration",
+  "bulk_rows": 6832,
+  "omitted_superseded_inner_bulk_rows": 14,
+  "primary_control_locations": 67,
+  "primary_controls": "Reconstructed from the saved production kernel formula and verified against the frozen old_base groups.",
+  "weights": "Complete physical fundamental-domain weights; already include nominal sample normalization.",
+  "source_sha256": {
+    "/Users/yutaizhang/Desktop/c=1 string/data set/two_loop/production/parent/inputs/old_combined_samples.csv": "732493a988a67f7b6f3f9a4fd827e05ce8d95ed710099bb9fd804c5399a8799d",
+    "/Users/yutaizhang/Desktop/c=1 string/data set/two_loop/production/parent/inputs/old_radius_cache.npz": "c356be6d4a81a0d5b54735df48f4c13d6ea6b3ff67803bb8cbb3de33f0ce21e8",
+    "/Users/yutaizhang/Desktop/c=1 string/data set/two_loop/production/parent/inputs/reuse_arrays.npz": "7e00ad128afe0ea7d31ccb508d00276fb1f31b0f4bcd8ad2973f3d88a4e72c44"
+  },
+  "primary_control_code_sha256": {
+    "/Users/yutaizhang/Desktop/c=1 string/code/two_loop/integrand/genus2_separating_tail.py": "a7675c58ed2a3d41082bbefdf709d1df322025aa64d5214a4cc8bb378ccc0ee4",
+    "/Users/yutaizhang/Desktop/c=1 string/code/general/conventions/genus2_integrand_normalization.py": "95b846ef7ac9abe6c33489d7f765dd7e3d0c76dd45aa53e5f48a0067fbda4cf1"
+  }
+}

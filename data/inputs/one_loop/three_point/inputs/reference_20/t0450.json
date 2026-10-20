@@ -1,0 +1,6363 @@
+{
+  "payload": {
+    "amplitude": 0.0010903956941852924,
+    "boundary": {
+      "comparisons": {
+        "block_prefix": null,
+        "collision:H4": null,
+        "collision:H6": null,
+        "collision:long0": null,
+        "collision:long1": null,
+        "collision:long2": null,
+        "native:axis1_2": null,
+        "native:axis1_3": null,
+        "native:axis2_0": null,
+        "native:axis2_1": null
+      },
+      "errors": {
+        "angle": 4.428491168577829e-20,
+        "arithmetic": null,
+        "block": 3.3172048865363124e-06,
+        "chart": null,
+        "endpoint": null,
+        "momentum": null,
+        "regulator": null
+      },
+      "value": [
+        0.00108073717882833,
+        0.0
+      ]
+    },
+    "cells": [
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "d3d8645e59f4919c706374092ac8038585a1150d82f557b559c44098dc5ac5df",
+          "key": "primary:012:order0:band0",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.5019492628297976e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.7544191052382516e-21,
+            "arithmetic": null,
+            "block": 1.7544359726421423e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.4946289926972287e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.285321918944919e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.4478573533221317e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.740753029414937e-21,
+            "arithmetic": null,
+            "block": 1.4360424382591824e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.4417757735077795e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "5c757a62bc8f886be37004e4ab570543da6f838ee2078cf835c2bacd039af1e9",
+          "key": "primary:012:order0:band0",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.2943255258476768e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.2022222422927172e-21,
+            "arithmetic": null,
+            "block": 2.3035524845189396e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.293746559510956e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.666331691984134e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.2372167248325503e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 8.60318321940316e-22,
+            "arithmetic": null,
+            "block": 1.3473779046303719e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2370832425911147e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "2c82be311d9199c294ffc2288b71286d6111d4205fdb7773428e30c17249d1d5",
+          "key": "primary:012:order0:band1",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.6054763484419152e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 3.790230380922673e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.6043747515364202e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.6328383538865364e-06,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.4410155318744132e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.0083697947867752e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.4410909161477666e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "57c3341b55d2cc185e1bc8627ad5fb4d79adda4f1bce1435fb2bf57818d3aaf3",
+          "key": "primary:012:order0:band1",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.1577950282315295e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.4933633654725133e-11,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.1577937031650107e-06,
+            0.0
+          ]
+        },
+        "indicator": 6.076702272667923e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.097029639453e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 8.424936393839031e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.0970266804383315e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "0a22bf2c533c493b6656bbde4cb78f229576a5c8c9f93349fb828ff89b84f6c6",
+          "key": "primary:012:order1:band0",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.7697995642514103e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.3273118039168007e-21,
+            "arithmetic": null,
+            "block": 7.227696828846206e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.7685679931013735e-05,
+            0.0
+          ]
+        },
+        "indicator": 4.560954776882119e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.8130800628802785e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.5638685443032283e-21,
+            "arithmetic": null,
+            "block": 6.089491790855537e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.8141775408701947e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "fcc95100e6c3151e46cf30f32552f27600eeb315ad9cb5025fe8216ca49a2352",
+          "key": "primary:012:order1:band0",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.7697995642514103e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.3483511495836892e-21,
+            "arithmetic": null,
+            "block": 7.227696828846147e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.7685679931013735e-05,
+            0.0
+          ]
+        },
+        "indicator": 4.560954776882085e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.813080062880278e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.3740186511031308e-21,
+            "arithmetic": null,
+            "block": 6.089491790855639e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.8141775408701943e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "cf774985ed8d972c456a373d031999d366336e1d89e1a59e2c76e83a422bc115",
+          "key": "primary:012:order1:band1",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.2007859312601684e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.880841625890039e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2004903511135555e-05,
+            0.0
+          ]
+        },
+        "indicator": 6.202571396107864e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.1387069647494523e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 9.902522531486788e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.1384646371524768e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "e090d6b303942c6771381b5200dcf012edb9c4e47ef66807d5f58919c5ac929e",
+          "key": "primary:012:order1:band1",
+          "term": "primary:012"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.9715520664888355e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.155378613926017e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.9715505783716604e-06,
+            0.0
+          ]
+        },
+        "indicator": 6.438811045745797e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.907161594130055e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 3.631362633638263e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.9071624679142024e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4d32853808652f85178267b9e0db68e366223aa4d20122131fd288fcde81658e",
+          "key": "primary:021:order0:band0",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.5300804857833245e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.55246794978921e-21,
+            "arithmetic": null,
+            "block": 1.4409004774101693e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.5243352247312175e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.420485551789807e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.4764018750289006e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.8828206574303517e-21,
+            "arithmetic": null,
+            "block": 1.2123865492085968e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.4701303692133195e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "ac3e87b2c6c56912cb3adf12d4a819abf3f10067845f2af7f017f887e0046c9f",
+          "key": "primary:021:order0:band0",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.341441321295955e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.6282993629583415e-21,
+            "arithmetic": null,
+            "block": 1.896660517209575e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.341208271330524e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.933837748865046e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.2819751056929274e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.0597626921048497e-21,
+            "arithmetic": null,
+            "block": 9.543394491896121e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2818698938418735e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "a4750d262f66dc5e61cf7bb1bc7f937efbe9c60ca57332b9850fec9526171a26",
+          "key": "primary:021:order0:band1",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.647675932469706e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.058241582351854e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.6475976353810104e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.564298763102366e-06,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.4913091599148466e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 7.644559023549253e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.4911677590707739e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "63954f202d2d102965e60db48d9a12b30516f0144bbea3a0bb94243c2e691eb5",
+          "key": "primary:021:order0:band1",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.4695086039004777e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.1419206620492282e-11,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.469507703391784e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.364226915159042e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.435867584597917e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 6.303563830445721e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.4358654342401937e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "980b115a4e52ef51b9ad08dbbaa1016aa74521a6faea5cf812c31af9443780d2",
+          "key": "primary:021:order1:band0",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.9310408742621746e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.8560544307666112e-21,
+            "arithmetic": null,
+            "block": 7.352248979044765e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.9296520859038723e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.533179600549388e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.9837817954678873e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.368360209269971e-21,
+            "arithmetic": null,
+            "block": 6.30171397774726e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.9849838819093662e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4364955b6d99f0e7a197b8d94f2957afe2e3fbcde9313546f40255046066bff3",
+          "key": "primary:021:order1:band0",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.9310408742621746e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.8456737014099725e-21,
+            "arithmetic": null,
+            "block": 7.352248979044685e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.929652085903872e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.533179600549388e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.983781795467887e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.6238567340481974e-21,
+            "arithmetic": null,
+            "block": 6.301713977747201e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.984983881909366e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "7078e6a34d6d1957c7ca8dc81d42d9bea51ae157932fbdd847a74fc01e9ff8b7",
+          "key": "primary:021:order1:band1",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.6153648432678204e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.2448537869659413e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.6149059456677985e-05,
+            0.0
+          ]
+        },
+        "indicator": 7.571746134132465e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.5395097248385195e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.152507486678454e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.539188484326474e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "0276d5a5ada96f4c745fcfd86e9ad7e2c5fc7e7301141c00fc1de5bb9b42569d",
+          "key": "primary:021:order1:band1",
+          "term": "primary:021"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.469236253971153e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.105777415651899e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.469234687520318e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.049449315834031e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.4387392624890537e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 3.734470982787453e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.4387401943619775e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "883f9f68f0d71f6d5816d83068d61da632539ec35b7a846d5944a9fc6876aabf",
+          "key": "primary:102:order0:band0",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.5019492628297976e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.7544191052382516e-21,
+            "arithmetic": null,
+            "block": 1.7544359726421423e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.4946289926972287e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.285321918944919e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.4478573533221317e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.740753029414937e-21,
+            "arithmetic": null,
+            "block": 1.4360424382591824e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.4417757735077795e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "83774820889a7099920b4c63d48a823643db9be9460e419988729577df60df51",
+          "key": "primary:102:order0:band0",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.2943255258476768e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.2022222422927172e-21,
+            "arithmetic": null,
+            "block": 2.3035524845189396e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.293746559510956e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.666331691984134e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.2372167248325503e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 8.60318321940316e-22,
+            "arithmetic": null,
+            "block": 1.3473779046303719e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2370832425911147e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "fcb9df9fc79558af010eda285f3e6a27a107b44fe6336eaf9c2332d66be641e0",
+          "key": "primary:102:order0:band1",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.6054763484419152e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 3.790230380922673e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.6043747515364202e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.6328383538865364e-06,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.4410155318744132e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.0083697947867752e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.4410909161477666e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4455e3a9ddb482787a7b0b7d54c2bef35288b72bab566eb80d2f6e0e810000dd",
+          "key": "primary:102:order0:band1",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.1577950282315295e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.4933633654725133e-11,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.1577937031650107e-06,
+            0.0
+          ]
+        },
+        "indicator": 6.076702272667923e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.097029639453e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 8.424936393839031e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.0970266804383315e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "004344dde83b48399f24638616045690601fc1d81e1ea4e1371bdd9b4ee67a4d",
+          "key": "primary:102:order1:band0",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.7697995642514103e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.3273118039168007e-21,
+            "arithmetic": null,
+            "block": 7.227696828846206e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.7685679931013735e-05,
+            0.0
+          ]
+        },
+        "indicator": 4.560954776882119e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.8130800628802785e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.5638685443032283e-21,
+            "arithmetic": null,
+            "block": 6.089491790855537e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.8141775408701947e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "256c913725954bfc98fa3561d8ba8fcf9e51ed0907c0b45a96083188bc96faf0",
+          "key": "primary:102:order1:band0",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.7697995642514103e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.3483511495836892e-21,
+            "arithmetic": null,
+            "block": 7.227696828846147e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.7685679931013735e-05,
+            0.0
+          ]
+        },
+        "indicator": 4.560954776882085e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.813080062880278e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.3740186511031308e-21,
+            "arithmetic": null,
+            "block": 6.089491790855639e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.8141775408701943e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "ae2a08769f96c3acb7db1cec0811b28d4760943936176385b8f9d40e48cdfd4c",
+          "key": "primary:102:order1:band1",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.2007859312601684e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.880841625890039e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2004903511135555e-05,
+            0.0
+          ]
+        },
+        "indicator": 6.202571396107864e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.1387069647494523e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 9.902522531486788e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.1384646371524768e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "c1b1803cea837fe3505de67f44f0de2264d818967f1f7014e16a15e3f8387748",
+          "key": "primary:102:order1:band1",
+          "term": "primary:102"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.9715520664888355e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.155378613926017e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.9715505783716604e-06,
+            0.0
+          ]
+        },
+        "indicator": 6.438811045745797e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.907161594130055e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 3.631362633638263e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.9071624679142024e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "3e73fa2325385fc601f5b3ffa811ad05e64aa9dd14fe0a4ba692227bcc2f886e",
+          "key": "primary:120:order0:band0",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.5300804857833245e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.55246794978921e-21,
+            "arithmetic": null,
+            "block": 1.4409004774101693e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.5243352247312175e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.420485551789807e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.4764018750289006e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.8828206574303517e-21,
+            "arithmetic": null,
+            "block": 1.2123865492085968e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.4701303692133195e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "da229d4d70b2034a5fa8966ac98eecda2b66908ccbf7955a8fc9d5874cc0215e",
+          "key": "primary:120:order0:band0",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.341441321295955e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.6282993629583415e-21,
+            "arithmetic": null,
+            "block": 1.896660517209575e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.341208271330524e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.933837748865046e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.2819751056929274e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.0597626921048497e-21,
+            "arithmetic": null,
+            "block": 9.543394491896121e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2818698938418735e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "1f8018ae76a72188aa6f7beb5b124874863d85eb623325e12756401e512f128b",
+          "key": "primary:120:order0:band1",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.647675932469706e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.058241582351854e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.6475976353810104e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.564298763102366e-06,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.4913091599148466e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 7.644559023549253e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.4911677590707739e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "3b3383457da3fdf56464f0c132011a1001663f9a381a545b7ee15f42a749354b",
+          "key": "primary:120:order0:band1",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.4695086039004777e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.1419206620492282e-11,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.469507703391784e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.364226915159042e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.435867584597917e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 6.303563830445721e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.4358654342401937e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "9244568e986543ebd45230ef601771e1468cba6f9c213e9dc39ac2dc79043553",
+          "key": "primary:120:order1:band0",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.9310408742621746e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.8560544307666112e-21,
+            "arithmetic": null,
+            "block": 7.352248979044765e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.9296520859038723e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.533179600549388e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.9837817954678873e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.368360209269971e-21,
+            "arithmetic": null,
+            "block": 6.30171397774726e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.9849838819093662e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4b4be10413a0eb41defec759181181392612cc03e4a740733afcdc4c71bdd003",
+          "key": "primary:120:order1:band0",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.9310408742621746e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.8456737014099725e-21,
+            "arithmetic": null,
+            "block": 7.352248979044685e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.929652085903872e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.533179600549388e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.983781795467887e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.6238567340481974e-21,
+            "arithmetic": null,
+            "block": 6.301713977747201e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.984983881909366e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "0c215b13093346c2e3f33f0d3c8d16ab33e2294102fb29df8ef8ce0c0994f25f",
+          "key": "primary:120:order1:band1",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.6153648432678204e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 2.2448537869659413e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.6149059456677985e-05,
+            0.0
+          ]
+        },
+        "indicator": 7.571746134132465e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.5395097248385195e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.152507486678454e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.539188484326474e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "e19eafa2a4b0c7c5717d8625a574d3be4cee66e09e620391ee52318b14d0f04c",
+          "key": "primary:120:order1:band1",
+          "term": "primary:120"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.469236253971153e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.105777415651899e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.469234687520318e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.049449315834031e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.4387392624890537e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 3.734470982787453e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.4387401943619775e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "90d1c77b2858af85bbb14a59c0f90698052f818bfa96cada7508a69d29f6c146",
+          "key": "primary:201:order0:band0",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.2794133341812983e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.6749081948217767e-21,
+            "arithmetic": null,
+            "block": 1.3589620368612907e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.2742633093794582e-05,
+            0.0
+          ]
+        },
+        "indicator": 2.872686690996555e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.251058421699202e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.4480048626910883e-21,
+            "arithmetic": null,
+            "block": 1.1434630129455706e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.2455364424694927e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "8f6dddf96e3251ff18ae1d1d862d33522b6c35c200c49fddc24c99ad66a1bf57",
+          "key": "primary:201:order0:band0",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.2650449709494504e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.41154845680039e-21,
+            "arithmetic": null,
+            "block": 2.1498650018876967e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2646583892631869e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.226414082594362e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.2125482030635493e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.624136783834949e-22,
+            "arithmetic": null,
+            "block": 1.0558789606030383e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2123942484372432e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "610c7b6791410b0379596fbf08a9033697771ee175ce47a120427db068aae20b",
+          "key": "primary:201:order0:band1",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.2233556898951973e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.757387650102493e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.223308360257822e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.1895826616262124e-06,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.1044564392735943e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 6.839911116391668e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.1043500940952008e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "b39d525ea4aa6b5de6c1aa6e904a38929ccd9d2b751efb8cd57fa0b307004812",
+          "key": "primary:201:order0:band1",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.9717625216414445e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.1165699630976732e-11,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.97176166646908e-06,
+            0.0
+          ]
+        },
+        "indicator": 6.680398452467761e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.9049597542798784e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 6.1244664613630896e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.904957681944402e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "a23d1c2ff5a855591b77c27c5d0bdc8542ce7fe6ce6410418f201340deffbb6b",
+          "key": "primary:201:order1:band0",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.893340165823379e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.7440262391261283e-21,
+            "arithmetic": null,
+            "block": 8.712708554948297e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.8905910612239286e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.89724086099467e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.9506479839912324e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.88992408212777e-21,
+            "arithmetic": null,
+            "block": 6.630277585561759e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.9495634698338753e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4ef517c649db94a6d9c40db803115ccb2f362e2c08dd6960dbbeadb625006643",
+          "key": "primary:201:order1:band0",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.893340165823379e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.7971732061852577e-21,
+            "arithmetic": null,
+            "block": 8.712708554948249e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.890591061223929e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.897240860994603e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.9506479839912317e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.8266403668440364e-21,
+            "arithmetic": null,
+            "block": 6.630277585561937e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.949563469833875e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "389311e5c53a2f29666046132062a25d667e73393ddc6cb28a17a634773f9f7b",
+          "key": "primary:201:order1:band1",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.5731085857594498e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 3.4456734424882675e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.5717739514313988e-05,
+            0.0
+          ]
+        },
+        "indicator": 8.324450600759495e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.4891171157718129e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.768534015804276e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.4885294454238038e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "2a2cefb7c482b35fe5547aeff668098dc45c37c861739488925de6d59a563a1c",
+          "key": "primary:201:order1:band1",
+          "term": "primary:201"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.157532207845312e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 6.78363509614257e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.1575299527935857e-06,
+            0.0
+          ]
+        },
+        "indicator": 5.773495502229449e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.0997935389526626e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.007339765755512e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.099794997771291e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "43be9efb612af4bd963fcf6ee4a761c9d13d27c82e2bc6b538d290a223bc7cfb",
+          "key": "primary:210:order0:band0",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.2794133341812983e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.6749081948217767e-21,
+            "arithmetic": null,
+            "block": 1.3589620368612907e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.2742633093794582e-05,
+            0.0
+          ]
+        },
+        "indicator": 2.872686690996555e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.251058421699202e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 2.4480048626910883e-21,
+            "arithmetic": null,
+            "block": 1.1434630129455706e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.2455364424694927e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4030fe722cba43a006bea9519749b8be7bbb5e8eff4fe33562458c9641d4fd4f",
+          "key": "primary:210:order0:band0",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.2650449709494504e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.41154845680039e-21,
+            "arithmetic": null,
+            "block": 2.1498650018876967e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2646583892631869e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.226414082594362e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.2125482030635493e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.624136783834949e-22,
+            "arithmetic": null,
+            "block": 1.0558789606030383e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.2123942484372432e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "c63c1b54151c21dfa633884456a6a7c845729cbbab8339ac6636172f82e8953d",
+          "key": "primary:210:order0:band1",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.2233556898951973e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.757387650102493e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.223308360257822e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.1895826616262124e-06,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.1044564392735943e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 6.839911116391668e-09,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.1043500940952008e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "30b941ba76ad14002023e3fe8bf80ef1453a6df1880017be90f965bcb75721d0",
+          "key": "primary:210:order0:band1",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              2.9717625216414445e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.1165699630976732e-11,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.97176166646908e-06,
+            0.0
+          ]
+        },
+        "indicator": 6.680398452467761e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              2.9049597542798784e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 6.1244664613630896e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            2.904957681944402e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "6aa33674ab3b1e58ab9d251bb1c367bd0952f009a57f1d7634116f582e05d6d6",
+          "key": "primary:210:order1:band0",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.893340165823379e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.7440262391261283e-21,
+            "arithmetic": null,
+            "block": 8.712708554948297e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.8905910612239286e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.89724086099467e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.9506479839912324e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.88992408212777e-21,
+            "arithmetic": null,
+            "block": 6.630277585561759e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.9495634698338753e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "01b668aa0755d49a496be4651ee46d668d8b113b0d262a03421bf7370283d5b5",
+          "key": "primary:210:order1:band0",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.893340165823379e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.7971732061852577e-21,
+            "arithmetic": null,
+            "block": 8.712708554948249e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.890591061223929e-05,
+            0.0
+          ]
+        },
+        "indicator": 5.897240860994603e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.9506479839912317e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 1.8266403668440364e-21,
+            "arithmetic": null,
+            "block": 6.630277585561937e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.949563469833875e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "ffa93bdf4b3131ebf412cb82fc89d1c6756a811a332f667f1991532ddfb4647e",
+          "key": "primary:210:order1:band1",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              1.5731085857594498e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 3.4456734424882675e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.5717739514313988e-05,
+            0.0
+          ]
+        },
+        "indicator": 8.324450600759495e-07,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              1.4891171157718129e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 1.768534015804276e-08,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            1.4885294454238038e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "c8a9a0079182a33b5e44d78bc30f95d04a4852a66a8dc314278b3a7a6b1c6950",
+          "key": "primary:210:order1:band1",
+          "term": "primary:210"
+        },
+        "high": {
+          "comparisons": {
+            "block_prefix": [
+              3.157532207845312e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 6.78363509614257e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.1575299527935857e-06,
+            0.0
+          ]
+        },
+        "indicator": 5.773495502229449e-08,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              3.0997935389526626e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 0.0,
+            "arithmetic": null,
+            "block": 5.007339765755512e-12,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            3.099794997771291e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              0.16666666666666666
+            ]
+          ],
+          "depth": 1,
+          "id": "464290763d73a7784a03bd992ca77ffe2a1e75e5ae16386dd3b17f3e3aaad94a",
+          "key": "bulk:triple_corner",
+          "term": "bulk:triple_corner"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.3720137821760248e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.3717248921644449e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.1700811307107197e-17,
+            "block": 7.156699001298916e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.3717257194431325e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.9865882659904016e-08,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.3700307928281351e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.3697382321241873e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.1683490893323584e-17,
+            "block": 9.58046344717634e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.369739131177142e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              0.16666666666666666
+            ]
+          ],
+          "depth": 1,
+          "id": "3728d6dba37d12e7adef430e4a6f174bfe363d106f48b13341b748708b196d97",
+          "key": "bulk:triple_corner",
+          "term": "bulk:triple_corner"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.3720137821760248e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.3717248921644449e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.1700811307107197e-17,
+            "block": 7.156699001298916e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.3717257194431325e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.9865882659904016e-08,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.3700307928281351e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.3697382321241873e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.1683490893323584e-17,
+            "block": 9.58046344717634e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.369739131177142e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.16666666666666666,
+              0.8333333333333334
+            ]
+          ],
+          "depth": 1,
+          "id": "8ee87cebd0382fcf926550c9d8fcdbda670dde67d388a47103070acf042efc61",
+          "key": "bulk:triple_corner",
+          "term": "bulk:triple_corner"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis2_0": [
+              6.414847880396003e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              6.413504070378005e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 5.4787392874258324e-17,
+            "block": 3.3306683458367224e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            6.41350791688494e-05,
+            0.0
+          ]
+        },
+        "indicator": 2.354109719727754e-08,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              6.412511974135714e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              6.411149620448616e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 5.4767725734212113e-17,
+            "block": 4.4636013131472984e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            6.411153807165212e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.16666666666666666,
+              0.8333333333333334
+            ]
+          ],
+          "depth": 1,
+          "id": "88b9a00d96b2b2d1877090658dcb5953afc773d02bae5e709dbb87f8ac12b163",
+          "key": "bulk:triple_corner",
+          "term": "bulk:triple_corner"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis2_0": [
+              6.414847880396003e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              6.413504070378005e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 5.4787392874258324e-17,
+            "block": 3.3306683458367224e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            6.41350791688494e-05,
+            0.0
+          ]
+        },
+        "indicator": 2.354109719727754e-08,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              6.412511974135714e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              6.411149620448616e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 5.4767725734212113e-17,
+            "block": 4.4636013131472984e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            6.411153807165212e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.8333333333333334,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "8a2a531ec6bd273f22d1663d9f7bec335dc53e1e3ad505f24aab0f62fff8d6d0",
+          "key": "bulk:triple_corner",
+          "term": "bulk:triple_corner"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.3720137821760246e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.3717248921644445e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.1700811307107197e-17,
+            "block": 7.1566990012987885e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.3717257194431321e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.986588265990571e-08,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.3700307928281346e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.3697382321241866e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.1683490893323582e-17,
+            "block": 9.580463447176479e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.3697391311771416e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.8333333333333334,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "acd83382d362b5b864e4789e5e632ac6c41d4cc80b5b3668e2028357e6101767",
+          "key": "bulk:triple_corner",
+          "term": "bulk:triple_corner"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.3720137821760246e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.3717248921644445e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.1700811307107197e-17,
+            "block": 7.1566990012987885e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.3717257194431321e-05,
+            0.0
+          ]
+        },
+        "indicator": 1.986588265990571e-08,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.3700307928281346e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.3697382321241866e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.1683490893323582e-17,
+            "block": 9.580463447176479e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.3697391311771416e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.16666666666666666
+            ]
+          ],
+          "depth": 0,
+          "id": "2d15a2b103f436061a4793190b9cc48892eca7f9fda708a80e9578c9f17e53fd",
+          "key": "tail:triple_corner",
+          "term": "tail:triple_corner"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis2_0": [
+              3.2659715212568908e-06,
+              0.0
+            ],
+            "native:axis2_1": [
+              3.2659715212568908e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.9804438939581386e-18,
+            "block": 6.352747104407254e-22,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            3.2659715212568916e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.6708889178812423e-09,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              3.2623006323390104e-06,
+              0.0
+            ],
+            "native:axis2_1": [
+              3.2623006323390104e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.9769884262888785e-18,
+            "block": 0.0,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            3.2623006323390104e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.16666666666666666,
+              0.8333333333333334
+            ]
+          ],
+          "depth": 0,
+          "id": "0943901143e470b59b244948fa8eba20fa3d180fb0d380947ce343722fe70e59",
+          "key": "tail:triple_corner",
+          "term": "tail:triple_corner"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.5312943227254086e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.5312943227254086e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.3991110448051924e-17,
+            "block": 2.507721281754214e-37,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.5312943227254086e-05,
+            0.0
+          ]
+        },
+        "indicator": 0.0,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              1.5312943227254086e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              1.5312943227254086e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.3991110448051924e-17,
+            "block": 2.5077212817542136e-37,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.5312943227254086e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.8333333333333334,
+              1.0
+            ]
+          ],
+          "depth": 0,
+          "id": "05cc09c99feaa72a6ea71a87ad5caa471cde5cc27042ccf4c7850d249a02db06",
+          "key": "tail:triple_corner",
+          "term": "tail:triple_corner"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis2_0": [
+              3.2659715212568903e-06,
+              0.0
+            ],
+            "native:axis2_1": [
+              3.2659715212568903e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.9804438939581382e-18,
+            "block": 6.274318127809635e-23,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            3.2659715212568903e-06,
+            0.0
+          ]
+        },
+        "indicator": 3.6708889178808188e-09,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              3.2623006323390095e-06,
+              0.0
+            ],
+            "native:axis2_1": [
+              3.2623006323390095e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.9769884262888777e-18,
+            "block": 0.0,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            3.2623006323390095e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.16666666666666666
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 0,
+          "id": "35565877f4fd9c5aaaf5ba6d14a0c39ddc1d4b5189de05f320d003d9297b34bb",
+          "key": "bulk:triple_scale_face",
+          "term": "bulk:triple_scale_face"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              4.096238436091049e-06,
+              0.0
+            ],
+            "collision:H6": [
+              4.096238424959388e-06,
+              0.0
+            ],
+            "collision:long0": [
+              4.097087861368387e-06,
+              0.0
+            ],
+            "collision:long1": [
+              4.0962349004446455e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 4.2580271295922164e-17,
+            "block": 2.93920767493293e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.096238424978879e-06,
+            0.0
+          ]
+        },
+        "indicator": 2.532086357339935e-08,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              4.070917565346993e-06,
+              0.0
+            ],
+            "collision:H6": [
+              4.070917561460876e-06,
+              0.0
+            ],
+            "collision:long0": [
+              4.071725671588545e-06,
+              0.0
+            ],
+            "collision:long1": [
+              4.0709257377632656e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.794911259259296e-17,
+            "block": 8.081101830647685e-10,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.07091756140548e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.16666666666666666,
+              0.8333333333333334
+            ],
+            [
+              0.0,
+              0.5
+            ]
+          ],
+          "depth": 1,
+          "id": "960312e369707bb67e1ab075981080cc5c96d4a6c77f75b0230232765347e3a3",
+          "key": "bulk:triple_scale_face",
+          "term": "bulk:triple_scale_face"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              -7.954287046671589e-06,
+              0.0
+            ],
+            "collision:H6": [
+              -7.954287025217035e-06,
+              0.0
+            ],
+            "collision:long0": [
+              -7.955945637454774e-06,
+              0.0
+            ],
+            "collision:long1": [
+              -7.954280145113491e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.4194788224171837e-16,
+            "block": 5.735672668845523e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -7.954287025236385e-06,
+            0.0
+          ]
+        },
+        "indicator": 2.774366109877062e-07,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              -8.231723651349892e-06,
+              0.0
+            ],
+            "collision:H6": [
+              -8.231723636238436e-06,
+              0.0
+            ],
+            "collision:long0": [
+              -8.23335988383713e-06,
+              0.0
+            ],
+            "collision:long1": [
+              -8.231740193903872e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.1900460816966732e-16,
+            "block": 1.6362476130398715e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -8.231723636224091e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.16666666666666666,
+              0.8333333333333334
+            ],
+            [
+              0.5,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "47c362885f1756c7738f8d3871604b25329b17fae8f22092496b7517bcf781b6",
+          "key": "bulk:triple_scale_face",
+          "term": "bulk:triple_scale_face"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              -5.272264777376052e-06,
+              0.0
+            ],
+            "collision:H6": [
+              -5.272264682170664e-06,
+              0.0
+            ],
+            "collision:long0": [
+              -5.273335996092304e-06,
+              0.0
+            ],
+            "collision:long1": [
+              -5.27226023255425e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.32458990817626e-17,
+            "block": 3.7150490318012817e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -5.272264682371466e-06,
+            0.0
+          ]
+        },
+        "indicator": 2.9268544900997023e-07,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              -5.5649501511751565e-06,
+              0.0
+            ],
+            "collision:H6": [
+              -5.564950131527092e-06,
+              0.0
+            ],
+            "collision:long0": [
+              -5.566033386188596e-06,
+              0.0
+            ],
+            "collision:long1": [
+              -5.5649610722717005e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.263570936209794e-17,
+            "block": 1.0832548071594341e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -5.5649501313814364e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.8333333333333334,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 0,
+          "id": "34c212b58467c7e8995b43fbcef7a1d25e6d3f00820128b1698458af17ad067e",
+          "key": "bulk:triple_scale_face",
+          "term": "bulk:triple_scale_face"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              4.096238436091049e-06,
+              0.0
+            ],
+            "collision:H6": [
+              4.096238424959388e-06,
+              0.0
+            ],
+            "collision:long0": [
+              4.097087861368388e-06,
+              0.0
+            ],
+            "collision:long1": [
+              4.096234900444647e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 4.258027129592217e-17,
+            "block": 2.9392076749334e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.096238424978879e-06,
+            0.0
+          ]
+        },
+        "indicator": 2.532086357339935e-08,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              4.070917565346993e-06,
+              0.0
+            ],
+            "collision:H6": [
+              4.0709175614608765e-06,
+              0.0
+            ],
+            "collision:long0": [
+              4.071725671588545e-06,
+              0.0
+            ],
+            "collision:long1": [
+              4.0709257377632656e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.794911259259295e-17,
+            "block": 8.08110183064921e-10,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.07091756140548e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.16666666666666666
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 0,
+          "id": "a60aab70e6f9488d7514405305e55e3034e5564101edae3ff17f4c712217fa77",
+          "key": "tail:triple_scale_face",
+          "term": "tail:triple_scale_face"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              4.961515782526936e-07,
+              0.0
+            ],
+            "collision:H6": [
+              4.96151577163892e-07,
+              0.0
+            ],
+            "collision:long0": [
+              4.961515771655863e-07,
+              0.0
+            ],
+            "collision:long1": [
+              4.961515771655863e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 5.246557912873665e-18,
+            "block": 2.667277466119418e-15,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.961515771655863e-07,
+            0.0
+          ]
+        },
+        "indicator": 1.902251517754868e-09,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              4.942493258873796e-07,
+              0.0
+            ],
+            "collision:H6": [
+              4.94249325653853e-07,
+              0.0
+            ],
+            "collision:long0": [
+              4.942493256478314e-07,
+              0.0
+            ],
+            "collision:long1": [
+              4.942493256478314e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 4.6954378765744164e-18,
+            "block": 1.4419494231046593e-15,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.942493256478314e-07,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.16666666666666666,
+              0.8333333333333334
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 0,
+          "id": "7d2075604d28e503d553987ec4428a2a6d55d320f26d1baff1dbbd4954293c82",
+          "key": "tail:triple_scale_face",
+          "term": "tail:triple_scale_face"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              -1.5792629865404113e-06,
+              0.0
+            ],
+            "collision:H6": [
+              -1.5792629751849455e-06,
+              0.0
+            ],
+            "collision:long0": [
+              -1.5792629752070283e-06,
+              0.0
+            ],
+            "collision:long1": [
+              -1.5792629752070283e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.88993882436971e-17,
+            "block": 1.1406017042830065e-14,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -1.5792629752070283e-06,
+            0.0
+          ]
+        },
+        "indicator": 6.36986594417095e-08,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              -1.642961638252506e-06,
+              0.0
+            ],
+            "collision:H6": [
+              -1.6429616346642601e-06,
+              0.0
+            ],
+            "collision:long0": [
+              -1.6429616346487378e-06,
+              0.0
+            ],
+            "collision:long1": [
+              -1.6429616346487378e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.5891325385985527e-17,
+            "block": 3.6037682294591255e-15,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -1.6429616346487378e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.8333333333333334,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 0,
+          "id": "ca0bae957e6cd33d9f44c7e487fb19e6638a8ac7876e2c2765310182f517b5e3",
+          "key": "tail:triple_scale_face",
+          "term": "tail:triple_scale_face"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              4.961515782526936e-07,
+              0.0
+            ],
+            "collision:H6": [
+              4.96151577163892e-07,
+              0.0
+            ],
+            "collision:long0": [
+              4.961515771655864e-07,
+              0.0
+            ],
+            "collision:long1": [
+              4.961515771655864e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 5.2465579128736626e-18,
+            "block": 2.6672774950435162e-15,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.961515771655864e-07,
+            0.0
+          ]
+        },
+        "indicator": 1.902251517754868e-09,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              4.942493258873795e-07,
+              0.0
+            ],
+            "collision:H6": [
+              4.94249325653853e-07,
+              0.0
+            ],
+            "collision:long0": [
+              4.942493256478315e-07,
+              0.0
+            ],
+            "collision:long1": [
+              4.942493256478315e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 4.695437876574414e-18,
+            "block": 1.4419494949924275e-15,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.942493256478315e-07,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "e966df0f9792868fef6ac3107d79732324778459aaeae46a315566957119aaf5",
+          "key": "bulk:pair_face_analytic",
+          "term": "bulk:pair_face_analytic"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              1.5286595940009118e-05,
+              0.0
+            ],
+            "collision:H6": [
+              1.528659594000912e-05,
+              0.0
+            ],
+            "collision:long1": [
+              1.5286595940009125e-05,
+              0.0
+            ],
+            "collision:long2": [
+              1.528659594000912e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 4.263553185733221e-17,
+            "block": 3.864308688764425e-20,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.528659594000912e-05,
+            0.0
+          ]
+        },
+        "indicator": 4.284813263951347e-06,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              1.1001782676057774e-05,
+              0.0
+            ],
+            "collision:H6": [
+              1.1001782676057774e-05,
+              0.0
+            ],
+            "collision:long1": [
+              1.1001782676057774e-05,
+              0.0
+            ],
+            "collision:long2": [
+              1.1001782676057774e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.0666742018758383e-17,
+            "block": 0.0,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.1001782676057774e-05,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ]
+          ],
+          "depth": 1,
+          "id": "bcd331b378585f3fb2418b04b3f4784aa9eea07ea6028258cd32425d0689882c",
+          "key": "tail:pair_face_analytic",
+          "term": "tail:pair_face_analytic"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              6.738657949358947e-06,
+              0.0
+            ],
+            "collision:H6": [
+              6.738657949358956e-06,
+              0.0
+            ],
+            "collision:long1": [
+              6.738657949358956e-06,
+              0.0
+            ],
+            "collision:long2": [
+              6.738657949358956e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.303016736115744e-17,
+            "block": 8.65944079526333e-21,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            6.738657949358956e-06,
+            0.0
+          ]
+        },
+        "indicator": 2.1016713785873655e-06,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              4.63698657077159e-06,
+              0.0
+            ],
+            "collision:H6": [
+              4.63698657077159e-06,
+              0.0
+            ],
+            "collision:long1": [
+              4.63698657077159e-06,
+              0.0
+            ],
+            "collision:long2": [
+              4.63698657077159e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.20209232231415e-17,
+            "block": 0.0,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.63698657077159e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "1256d2325b8a73e7cf64e2a493c517f232982f5bfdffd28efd574e8902dacdb8",
+          "key": "tail:pair_face_analytic",
+          "term": "tail:pair_face_analytic"
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              6.738657949358947e-06,
+              0.0
+            ],
+            "collision:H6": [
+              6.738657949358956e-06,
+              0.0
+            ],
+            "collision:long1": [
+              6.738657949358956e-06,
+              0.0
+            ],
+            "collision:long2": [
+              6.738657949358956e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.3030167361157416e-17,
+            "block": 8.652410187525309e-21,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            6.738657949358956e-06,
+            0.0
+          ]
+        },
+        "indicator": 2.1016713785873655e-06,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              4.63698657077159e-06,
+              0.0
+            ],
+            "collision:H6": [
+              4.63698657077159e-06,
+              0.0
+            ],
+            "collision:long1": [
+              4.63698657077159e-06,
+              0.0
+            ],
+            "collision:long2": [
+              4.63698657077159e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.20209232231415e-17,
+            "block": 0.0,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.63698657077159e-06,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.16666666666666666
+            ]
+          ],
+          "depth": 0,
+          "id": "8d5db6c03ee6bf94c2ca32175e4557f51865c73c07eb85add7e307e4fef6d642",
+          "key": "bulk:triple_pair_face",
+          "term": "bulk:triple_pair_face"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis1_2": [
+              1.2150700483736298e-09,
+              0.0
+            ],
+            "native:axis1_3": [
+              1.4629285897273014e-08,
+              0.0
+            ],
+            "native:axis2_0": [
+              4.943002489125195e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              4.943507749019859e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 6.208212527298591e-17,
+            "block": 1.3853729705723707e-07,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.943507679246965e-09,
+            0.0
+          ]
+        },
+        "indicator": 1.0816904585858698e-08,
+        "low": {
+          "comparisons": {
+            "native:axis1_2": [
+              3.3361623313540767e-08,
+              0.0
+            ],
+            "native:axis1_3": [
+              -3.551730885385253e-08,
+              0.0
+            ],
+            "native:axis2_0": [
+              -5.873386050656248e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              -5.8733969065751005e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 4.477036718439412e-17,
+            "block": 1.0930305934679082e-07,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -5.873396906611734e-09,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.16666666666666666,
+              0.8333333333333334
+            ]
+          ],
+          "depth": 0,
+          "id": "4cacbc3f8baa6137ee8e4254a5aed607b953f07b30dfe04743840510b985e7e4",
+          "key": "bulk:triple_pair_face",
+          "term": "bulk:triple_pair_face"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis1_2": [
+              5.34254469315103e-09,
+              0.0
+            ],
+            "native:axis1_3": [
+              5.918914117291173e-08,
+              0.0
+            ],
+            "native:axis2_0": [
+              2.0341048811435642e-08,
+              0.0
+            ],
+            "native:axis2_1": [
+              2.0343117175850746e-08,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.651993896647164e-16,
+            "block": 5.577850997042065e-07,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            2.0343116890238403e-08,
+            0.0
+          ]
+        },
+        "indicator": 4.399923646589436e-08,
+        "low": {
+          "comparisons": {
+            "native:axis1_2": [
+              1.3354319683170506e-07,
+              0.0
+            ],
+            "native:axis1_3": [
+              -1.4245384351091826e-07,
+              0.0
+            ],
+            "native:axis2_0": [
+              -2.365607589265885e-08,
+              0.0
+            ],
+            "native:axis2_1": [
+              -2.3656119575505533e-08,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.8076560444443562e-16,
+            "block": 4.3855454229746106e-07,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -2.3656119575655957e-08,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.8333333333333334,
+              1.0
+            ]
+          ],
+          "depth": 0,
+          "id": "ae738969cc9405002815ef86d6bc278aa3f942533b98ee224b1c8d6c2bc0f42e",
+          "key": "bulk:triple_pair_face",
+          "term": "bulk:triple_pair_face"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis1_2": [
+              1.215070048373402e-09,
+              0.0
+            ],
+            "native:axis1_3": [
+              1.4629285897272797e-08,
+              0.0
+            ],
+            "native:axis2_0": [
+              4.943002489124977e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              4.943507749019634e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 6.20821252729859e-17,
+            "block": 1.385372970572371e-07,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            4.943507679246712e-09,
+            0.0
+          ]
+        },
+        "indicator": 1.0816904585858447e-08,
+        "low": {
+          "comparisons": {
+            "native:axis1_2": [
+              3.336162331354077e-08,
+              0.0
+            ],
+            "native:axis1_3": [
+              -3.551730885385253e-08,
+              0.0
+            ],
+            "native:axis2_0": [
+              -5.873386050656248e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              -5.8733969065751005e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 4.477036718439411e-17,
+            "block": 1.0930305934679082e-07,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -5.873396906611734e-09,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.16666666666666666
+            ]
+          ],
+          "depth": 0,
+          "id": "8c8f6c8b14a89d49b8184435bd6aa4728ec5b60e1ae94b76d19a63abda1d5a3d",
+          "key": "tail:triple_pair_face",
+          "term": "tail:triple_pair_face"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis1_2": [
+              4.693636240852003e-10,
+              0.0
+            ],
+            "native:axis1_3": [
+              1.9641247052799707e-09,
+              0.0
+            ],
+            "native:axis2_0": [
+              8.890288934766179e-10,
+              0.0
+            ],
+            "native:axis2_1": [
+              8.890288934766237e-10,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 5.92809894456971e-17,
+            "block": 1.5598745349336608e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            8.890288934765839e-10,
+            0.0
+          ]
+        },
+        "indicator": 2.390942703769664e-09,
+        "low": {
+          "comparisons": {
+            "native:axis1_2": [
+              4.298176860275745e-09,
+              0.0
+            ],
+            "native:axis1_3": [
+              -5.912431627247056e-09,
+              0.0
+            ],
+            "native:axis2_0": [
+              -1.5019138102930763e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              -1.5019138102930805e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.853015205378719e-17,
+            "block": 1.6374536886340557e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -1.50191381029308e-09,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.16666666666666666,
+              0.8333333333333334
+            ]
+          ],
+          "depth": 0,
+          "id": "5419e773da826c01cdd99c819dd5cef962be0b233c020068500d3d8fab4cb2c5",
+          "key": "tail:triple_pair_face",
+          "term": "tail:triple_pair_face"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis1_2": [
+              1.9649310269666563e-09,
+              0.0
+            ],
+            "native:axis1_3": [
+              7.965699205708648e-09,
+              0.0
+            ],
+            "native:axis2_0": [
+              3.6535031009364065e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              3.6535031009363238e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.5456380212456536e-16,
+            "block": 6.281562622105363e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            3.6535031009361302e-09,
+            0.0
+          ]
+        },
+        "indicator": 9.700884775809326e-09,
+        "low": {
+          "comparisons": {
+            "native:axis1_2": [
+              1.7191805896658685e-08,
+              0.0
+            ],
+            "native:axis1_3": [
+              -2.3722695059042602e-08,
+              0.0
+            ],
+            "native:axis2_0": [
+              -6.0473816748729856e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              -6.047381674873145e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.5563887558544524e-16,
+            "block": 6.570021743767445e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -6.047381674873196e-09,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.8333333333333334,
+              1.0
+            ]
+          ],
+          "depth": 0,
+          "id": "8e3fc8abebd0d3e4ba1d49726f7925f6447de886d9e9f67bdb4eb45abc6ac830",
+          "key": "tail:triple_pair_face",
+          "term": "tail:triple_pair_face"
+        },
+        "high": {
+          "comparisons": {
+            "native:axis1_2": [
+              4.693636240851648e-10,
+              0.0
+            ],
+            "native:axis1_3": [
+              1.9641247052799334e-09,
+              0.0
+            ],
+            "native:axis2_0": [
+              8.89028893476582e-10,
+              0.0
+            ],
+            "native:axis2_1": [
+              8.890288934765885e-10,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 5.928098944569709e-17,
+            "block": 1.55987453493366e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            8.890288934765512e-10,
+            0.0
+          ]
+        },
+        "indicator": 2.3909427037696313e-09,
+        "low": {
+          "comparisons": {
+            "native:axis1_2": [
+              4.298176860275744e-09,
+              0.0
+            ],
+            "native:axis1_3": [
+              -5.912431627247055e-09,
+              0.0
+            ],
+            "native:axis2_0": [
+              -1.5019138102930761e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              -1.5019138102930803e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.853015205378718e-17,
+            "block": 1.6374536886340554e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -1.5019138102930799e-09,
+            0.0
+          ]
+        }
+      },
+      {
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "d7c2c68ebd0ebaab2cf97c8edcf93375d440358592dc32f6f000b97b91bc98eb",
+          "key": "bulk:pair_face_analytic",
+          "term": "bulk:pair_face_analytic"
+        },
+        "directional_deltas": {
+          "height": 5.2902089147960785e-08,
+          "puncture": -2.1684109442006352e-08,
+          "torus_real": 6.185662068509089e-07
+        },
+        "high": {
+          "comparisons": {
+            "collision:H4": [
+              0.00018952152763914478,
+              0.0
+            ],
+            "collision:H6": [
+              0.000189521529561496,
+              0.0
+            ],
+            "collision:long1": [
+              0.00018952171577539076,
+              0.0
+            ],
+            "collision:long2": [
+              0.0001895215282032299,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.877479831301971e-16,
+            "block": 4.541631079732501e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            0.00018952152955119893,
+            0.0
+          ]
+        },
+        "indicator": 6.93152405440876e-07,
+        "rule_points": {
+          "height": 4752,
+          "high": 3528,
+          "puncture": 8448,
+          "real": 5292
+        },
+        "rules": {
+          "height": {
+            "comparisons": {
+              "collision:H4": [
+                0.0001895744297016686,
+                0.0
+              ],
+              "collision:H6": [
+                0.00018957443165059152,
+                0.0
+              ],
+              "collision:long1": [
+                0.00018957468352737172,
+                0.0
+              ],
+              "collision:long2": [
+                0.00018957442978013344,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 3.8797242759150296e-16,
+              "block": 4.86610626364536e-09,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              0.0001895744316403469,
+              0.0
+            ]
+          },
+          "high": {
+            "comparisons": {
+              "collision:H4": [
+                0.00018952152763914478,
+                0.0
+              ],
+              "collision:H6": [
+                0.000189521529561496,
+                0.0
+              ],
+              "collision:long1": [
+                0.00018952171577539076,
+                0.0
+              ],
+              "collision:long2": [
+                0.0001895215282032299,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 3.877479831301971e-16,
+              "block": 4.541631079732501e-09,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              0.00018952152955119893,
+              0.0
+            ]
+          },
+          "puncture": {
+            "comparisons": {
+              "collision:H4": [
+                0.0001895527455613862,
+                0.0
+              ],
+              "collision:H6": [
+                0.00018955274753975552,
+                0.0
+              ],
+              "collision:long1": [
+                0.00018955311840400304,
+                0.0
+              ],
+              "collision:long2": [
+                0.00018955274724194045,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 3.8789533997273697e-16,
+              "block": 3.7047054629734055e-09,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              0.00018955274753090488,
+              0.0
+            ]
+          },
+          "real": {
+            "comparisons": {
+              "collision:H4": [
+                0.00019014009379739554,
+                0.0
+              ],
+              "collision:H6": [
+                0.0001901400957683607,
+                0.0
+              ],
+              "collision:long1": [
+                0.00019014001913148342,
+                0.0
+              ],
+              "collision:long2": [
+                0.00019014009435929609,
+                0.0
+              ]
+            },
+            "errors": {
+              "arithmetic": 3.889635651028968e-16,
+              "block": 3.471689348882621e-09,
+              "endpoint": null,
+              "momentum": null
+            },
+            "value": [
+              0.00019014009575804984,
+              0.0
+            ]
+          }
+        }
+      }
+    ],
+    "compact": {
+      "density_identity": {
+        "fresh_plan_sha256": "0f745453336ae8924f3bcc17f09151c749f5ac2f5382c4a1fa59efee5923a08f"
+      },
+      "errors": {
+        "arithmetic": 6.455214284697849e-17,
+        "block": 1.5456282393040132e-07,
+        "endpoint": null,
+        "momentum": null
+      },
+      "independent_validation": false,
+      "mean": 9.658515356962439e-06,
+      "plan": {
+        "angle_order": 16,
+        "collision_height_split": 8.0,
+        "compact_points": 64,
+        "cutoff_at_infinity": false,
+        "format": "genus1-analytic-boundary-integration-v1",
+        "mode": "analytic",
+        "normalization": "-Im(reduced)/(4*pi)",
+        "original_endpoint_addback_enabled": false,
+        "policy": {
+          "approximation_certified": false,
+          "format": "genus1-analytic-boundary-layer-v1",
+          "geometry_only": true,
+          "height_cap": 1.4303567985481191,
+          "pair_radius": 0.125,
+          "q_max": 0.05,
+          "triple_radius": 0.5
+        },
+        "t": 0.45
+      },
+      "points": 64,
+      "sampling_halfwidth95": 1.4019310464706975e-06,
+      "sampling_se": 6.577359756844775e-07,
+      "scrambles": 16
+    },
+    "compact_replicate_means": [
+      1.467124864052445e-05,
+      1.2278825209566061e-05,
+      6.064823831457897e-06,
+      7.4559895866419785e-06,
+      7.4036145781388625e-06,
+      1.0757994021163062e-05,
+      7.699071420216175e-06,
+      1.4632732010301598e-05,
+      1.1002023302863127e-05,
+      9.257056177934644e-06,
+      1.1425902000285452e-05,
+      8.426726865335936e-06,
+      9.74637541437489e-06,
+      6.877542767422265e-06,
+      7.478102820783265e-06,
+      9.358217064389352e-06
+    ],
+    "complete_domain": true,
+    "components": {
+      "bulk:pair_face_analytic": {
+        "candidate_moduli_points": 3528,
+        "cell_count": 2,
+        "imported": false,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              0.00015549453473034957,
+              0.0
+            ],
+            "collision:H6": [
+              0.00015549453473034176,
+              0.0
+            ],
+            "collision:long1": [
+              0.00015549453171227192,
+              0.0
+            ],
+            "collision:long2": [
+              0.0001554945347301449,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.2634606269989064e-16,
+            "block": 3.0180698566671624e-12,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            0.00015549453473034176,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 4.977965669392223e-06,
+        "quadrature_indicator_method": "retained cell indicators plus sum of three directional pair checks",
+        "replaced_cell_id": "d7c2c68ebd0ebaab2cf97c8edcf93375d440358592dc32f6f000b97b91bc98eb",
+        "retained_original_moduli_points": 97,
+        "status": "targeted_cell_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "collision:H4": [
+              0.0002048081235791539,
+              0.0
+            ],
+            "collision:H6": [
+              0.00020480812550150514,
+              0.0
+            ],
+            "collision:long1": [
+              0.0002048083117153999,
+              0.0
+            ],
+            "collision:long2": [
+              0.00020480812414323905,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 4.3038351498752935e-16,
+            "block": 4.541631079771144e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            0.00020480812549120804,
+            0.0
+          ]
+        }
+      },
+      "bulk:triple_corner": {
+        "cell_count": 6,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              0.0001830514711958397,
+              0.0
+            ],
+            "native:axis2_1": [
+              0.0001830125216939398,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.5626941504171857e-16,
+            "block": 1.275938800516516e-07,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            0.0001830126413903899,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 1.2654572503417453e-07,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "native:axis2_0": [
+              0.00018317750889496105,
+              0.0
+            ],
+            "native:axis2_1": [
+              0.0001831390770941379,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.5637803097694543e-16,
+            "block": 9.524016292192985e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            0.0001831391871154241,
+            0.0
+          ]
+        }
+      },
+      "bulk:triple_pair_face": {
+        "cell_count": 3,
+        "low": {
+          "comparisons": {
+            "native:axis1_2": [
+              2.002664434587866e-07,
+              0.0
+            ],
+            "native:axis1_3": [
+              -2.134884612186233e-07,
+              0.0
+            ],
+            "native:axis2_0": [
+              -3.540284799397135e-08,
+              0.0
+            ],
+            "native:axis2_1": [
+              -3.540291338865573e-08,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.7030633881322387e-16,
+            "block": 6.571606609910427e-07,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -3.540291338887942e-08,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 6.563304563761151e-08,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "native:axis1_2": [
+              7.772684789898062e-09,
+              0.0
+            ],
+            "native:axis1_3": [
+              8.844771296745754e-08,
+              0.0
+            ],
+            "native:axis2_0": [
+              3.0227053789685816e-08,
+              0.0
+            ],
+            "native:axis2_1": [
+              3.0230132673890243e-08,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.893636402106882e-16,
+            "block": 8.348596938186807e-07,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            3.023013224873208e-08,
+            0.0
+          ]
+        }
+      },
+      "bulk:triple_scale_face": {
+        "cell_count": 4,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              -5.654838671831062e-06,
+              0.0
+            ],
+            "collision:H6": [
+              -5.654838644843777e-06,
+              0.0
+            ],
+            "collision:long0": [
+              -5.655941926848636e-06,
+              0.0
+            ],
+            "collision:long1": [
+              -5.6548497906490416e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.2753854271695116e-16,
+            "block": 4.335722786328995e-09,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -5.654838644794568e-06,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 6.207637871444751e-07,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "collision:H4": [
+              -5.034074951865542e-06,
+              0.0
+            ],
+            "collision:H6": [
+              -5.034074857468924e-06,
+              0.0
+            ],
+            "collision:long0": [
+              -5.035105910810303e-06,
+              0.0
+            ],
+            "collision:long1": [
+              -5.0340705767784485e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.603543239153253e-16,
+            "block": 1.5329137050513133e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -5.034074857650093e-06,
+            0.0
+          ]
+        }
+      },
+      "primary:012": {
+        "cell_count": 8,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              0.0001049137582389741,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 8.538958546761612e-21,
+            "arithmetic": null,
+            "block": 2.9886613546771575e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.0001048718856597478,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 4.385606943150786e-06,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "block_prefix": [
+              0.00010755070906354415,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 6.6323043010314585e-21,
+            "arithmetic": null,
+            "block": 3.997638677667229e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.00010743311069214574,
+            0.0
+          ]
+        }
+      },
+      "primary:021": {
+        "cell_count": 8,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              0.00011444220141119665,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 8.93480029285337e-21,
+            "arithmetic": null,
+            "block": 2.7599600089284746e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.0001143978483313139,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 4.6276783890009055e-06,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "block_prefix": [
+              0.00011690518817128318,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.882495444924134e-21,
+            "arithmetic": null,
+            "block": 3.5314911117122127e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.00011681225488009505,
+            0.0
+          ]
+        }
+      },
+      "primary:102": {
+        "cell_count": 8,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              0.0001049137582389741,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 8.538958546761612e-21,
+            "arithmetic": null,
+            "block": 2.9886613546771575e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.0001048718856597478,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 4.385606943150786e-06,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "block_prefix": [
+              0.00010755070906354415,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 6.6323043010314585e-21,
+            "arithmetic": null,
+            "block": 3.997638677667229e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.00010743311069214574,
+            0.0
+          ]
+        }
+      },
+      "primary:120": {
+        "cell_count": 8,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              0.00011444220141119665,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 8.93480029285337e-21,
+            "arithmetic": null,
+            "block": 2.7599600089284746e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.0001143978483313139,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 4.6276783890009055e-06,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "block_prefix": [
+              0.00011690518817128318,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.882495444924134e-21,
+            "arithmetic": null,
+            "block": 3.5314911117122127e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.00011681225488009505,
+            0.0
+          ]
+        }
+      },
+      "primary:201": {
+        "cell_count": 8,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              0.00010558951477113877,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 6.92698299004639e-21,
+            "arithmetic": null,
+            "block": 2.8204702569248593e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.00010550412438065061,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 4.135924910807153e-06,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "block_prefix": [
+              0.00010740532385380829,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.627656096933553e-21,
+            "arithmetic": null,
+            "block": 3.836975850646062e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.0001072811529470599,
+            0.0
+          ]
+        }
+      },
+      "primary:210": {
+        "cell_count": 8,
+        "low": {
+          "comparisons": {
+            "block_prefix": [
+              0.00010558951477113877,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 6.92698299004639e-21,
+            "arithmetic": null,
+            "block": 2.8204702569248593e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.00010550412438065061,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 4.135924910807153e-06,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "block_prefix": [
+              0.00010740532385380829,
+              0.0
+            ]
+          },
+          "errors": {
+            "angle": 7.627656096933553e-21,
+            "arithmetic": null,
+            "block": 3.836975850646062e-07,
+            "chart": null,
+            "endpoint": null,
+            "momentum": null,
+            "regulator": null
+          },
+          "value": [
+            0.0001072811529470599,
+            0.0
+          ]
+        }
+      },
+      "tail:pair_face_analytic": {
+        "cell_count": 2,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              9.27397314154318e-06,
+              0.0
+            ],
+            "collision:H6": [
+              9.27397314154318e-06,
+              0.0
+            ],
+            "collision:long1": [
+              9.27397314154318e-06,
+              0.0
+            ],
+            "collision:long2": [
+              9.27397314154318e-06,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 4.4041846446283e-17,
+            "block": 0.0,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            9.27397314154318e-06,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 4.203342757174731e-06,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "collision:H4": [
+              1.3477315898717895e-05,
+              0.0
+            ],
+            "collision:H6": [
+              1.3477315898717912e-05,
+              0.0
+            ],
+            "collision:long1": [
+              1.3477315898717912e-05,
+              0.0
+            ],
+            "collision:long2": [
+              1.3477315898717912e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 6.606033472231486e-17,
+            "block": 1.7311850982788638e-20,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            1.3477315898717912e-05,
+            0.0
+          ]
+        }
+      },
+      "tail:triple_corner": {
+        "cell_count": 3,
+        "low": {
+          "comparisons": {
+            "native:axis2_0": [
+              2.1837544491932107e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              2.1837544491932107e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.994508730062968e-17,
+            "block": 2.5077212817542136e-37,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            2.1837544491932107e-05,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 7.341777835762061e-09,
+        "status": "quadrature_indicator_met",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "native:axis2_0": [
+              2.1844886269767867e-05,
+              0.0
+            ],
+            "native:axis2_1": [
+              2.1844886269767867e-05,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 1.99519982359682e-17,
+            "block": 6.98017891718822e-22,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            2.1844886269767867e-05,
+            0.0
+          ]
+        }
+      },
+      "tail:triple_pair_face": {
+        "cell_count": 3,
+        "low": {
+          "comparisons": {
+            "native:axis1_2": [
+              2.5788159617210175e-08,
+              0.0
+            ],
+            "native:axis1_3": [
+              -3.5547558313536716e-08,
+              0.0
+            ],
+            "native:axis2_0": [
+              -9.051209295459137e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              -9.051209295459306e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.326991796930196e-16,
+            "block": 9.844929121035556e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -9.051209295459356e-09,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 1.4482770183348622e-08,
+        "status": "quadrature_indicator_met",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "native:axis1_2": [
+              2.9036582751370214e-09,
+              0.0
+            ],
+            "native:axis1_3": [
+              1.1893948616268552e-08,
+              0.0
+            ],
+            "native:axis2_0": [
+              5.431560887889606e-09,
+              0.0
+            ],
+            "native:axis2_1": [
+              5.431560887889536e-09,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 3.7312578101595954e-16,
+            "block": 9.401311691972684e-08,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            5.431560887889265e-09,
+            0.0
+          ]
+        }
+      },
+      "tail:triple_scale_face": {
+        "cell_count": 3,
+        "low": {
+          "comparisons": {
+            "collision:H4": [
+              -6.544629864777468e-07,
+              0.0
+            ],
+            "collision:H6": [
+              -6.544629833565542e-07,
+              0.0
+            ],
+            "collision:long0": [
+              -6.544629833530749e-07,
+              0.0
+            ],
+            "collision:long1": [
+              -6.544629833530749e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.5282201139134357e-17,
+            "block": 6.487667147556213e-15,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -6.544629833530749e-07,
+            0.0
+          ]
+        },
+        "quadrature_indicator": 6.750316247721923e-08,
+        "status": "planned_comparison_limit",
+        "tolerance": 2.857142857142857e-08,
+        "value": {
+          "comparisons": {
+            "collision:H4": [
+              -5.869598300350242e-07,
+              0.0
+            ],
+            "collision:H6": [
+              -5.869598208571615e-07,
+              0.0
+            ],
+            "collision:long0": [
+              -5.869598208758557e-07,
+              0.0
+            ],
+            "collision:long1": [
+              -5.869598208758557e-07,
+              0.0
+            ]
+          },
+          "errors": {
+            "arithmetic": 2.939250406944443e-17,
+            "block": 1.6740572003993e-14,
+            "endpoint": null,
+            "momentum": null
+          },
+          "value": [
+            -5.869598208758557e-07,
+            0.0
+          ]
+        }
+      }
+    },
+    "curve_sha256": "f94dfa8c5d444652e29450fe1e083f82c29b84dcac914aece30cd43fb879b082",
+    "energy_design_sha256": "8ad75aec5bccb54fd11c6253cc040447de22bf9ff0e405a8576164da0190e003",
+    "full_amplitude_certified": false,
+    "indicator_is_error_bound": false,
+    "moduli_indicator": 3.638199918079723e-05,
+    "pair_diagnostics": {
+      "cell_id": "d7c2c68ebd0ebaab2cf97c8edcf93375d440358592dc32f6f000b97b91bc98eb",
+      "directional_deltas": {
+        "height": 5.2902089147960785e-08,
+        "puncture": -2.1684109442006352e-08,
+        "torus_real": 6.185662068509089e-07
+      },
+      "local_stability_flag": false,
+      "relative_indicator": 0.003657380810941704
+    },
+    "plan_sha256": "0f745453336ae8924f3bcc17f09151c749f5ac2f5382c4a1fa59efee5923a08f",
+    "relative_moduli_indicator": 0.033365868349269905,
+    "retained_contributions_imported": true,
+    "t": 0.45,
+    "unknown_errors": [
+      "integrated omitted analytic remainders, including full triple OPE",
+      "global cutoff stability",
+      "integrated momentum quadrature error"
+    ]
+  },
+  "sha256": "d2dfe33107335a89233d40264c48a4e3b237dfccb5f3f4a69fe402608c349ae9"
+}

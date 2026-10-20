@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "checked_radii": 15,
+  "checks": [
+    {
+      "t": 0.25,
+      "actual_native": 2.1760094117254426e-06,
+      "expected_native": 2.1760094117254426e-06,
+      "baseline_source": "output/diagnostics/genus1_t025_tailored_384_20260923/amplitude_wave_000.json",
+      "baseline_source_sha256": "de1d0d6363674d844d40d90e120c75499c76e0808ad7b98e5002353364b0616c"
+    },
+    {
+      "t": 0.3,
+      "actual_native": 3.5720458455806682e-06,
+      "expected_native": 3.5720458455806682e-06,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0300/amplitude.json",
+      "baseline_source_sha256": "bef891ce081263f7b462117b66dc453a713a16fb7ad04165440d55504c08691b"
+    },
+    {
+      "t": 0.35,
+      "actual_native": 5.331097918549769e-06,
+      "expected_native": 5.331097918549769e-06,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0350/amplitude.json",
+      "baseline_source_sha256": "8f5d894e40d094b1143ddc6f6fe90f10f337ed99b728a1ee0db7ca39289503b9"
+    },
+    {
+      "t": 0.4,
+      "actual_native": 7.393510983301694e-06,
+      "expected_native": 7.393510983301695e-06,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0400/amplitude.json",
+      "baseline_source_sha256": "74493a6cd97ad86adfb9ead52478ac6587edf3769d162e070fb825205de83763"
+    },
+    {
+      "t": 0.45,
+      "actual_native": 9.658515356962437e-06,
+      "expected_native": 9.658515356962439e-06,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0450/amplitude.json",
+      "baseline_source_sha256": "a228b2023cf00261ae3c485df30bacdcfa8988337d74af2ecfb267539903dcf3"
+    },
+    {
+      "t": 0.5,
+      "actual_native": 1.1987704220161635e-05,
+      "expected_native": 1.1987704220161635e-05,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0500/amplitude.json",
+      "baseline_source_sha256": "674a225789d2f700e0b7543205cc3310cb05ccb32ced5ee8991771087cd603fd"
+    },
+    {
+      "t": 0.55,
+      "actual_native": 1.421163074324973e-05,
+      "expected_native": 1.421163074324973e-05,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0550/amplitude.json",
+      "baseline_source_sha256": "c792fd26b93f5bff0f07c25958b0944f2a32d1a47647d34845162c849ebdd79e"
+    },
+    {
+      "t": 0.6,
+      "actual_native": 1.6139479348529385e-05,
+      "expected_native": 1.6139479348529388e-05,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0600/amplitude.json",
+      "baseline_source_sha256": "2c613d26dc805a09e59323ff7d253fff088e79a8c8ff1642b11a9de4284daabb"
+    },
+    {
+      "t": 0.65,
+      "actual_native": 1.7571270746694946e-05,
+      "expected_native": 1.7571270746694953e-05,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0650/amplitude.json",
+      "baseline_source_sha256": "487e39d3755aee842ef2293fe88149de62811ce05eb9156376bdca3cb9f9a51f"
+    },
+    {
+      "t": 0.7,
+      "actual_native": 1.8311088892350103e-05,
+      "expected_native": 1.8311088892350093e-05,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0700/amplitude.json",
+      "baseline_source_sha256": "ebbdcc848c662b2964f4ef18cd08853963232f1faa923ae205e2e4a4dd83272c"
+    },
+    {
+      "t": 0.75,
+      "actual_native": 1.8178728177481117e-05,
+      "expected_native": 1.8178728177481117e-05,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0750/amplitude.json",
+      "baseline_source_sha256": "6bf02db394bc04f201a6306d76eefbe7d2ea5928276f6366b549a0773d6a4f32"
+    },
+    {
+      "t": 0.8,
+      "actual_native": 1.7017244469707583e-05,
+      "expected_native": 1.7017244469707583e-05,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0800/amplitude.json",
+      "baseline_source_sha256": "a985236ef0d26769a070592bd92ca33e72811db1ef687a0a56f10238a26f5262"
+    },
+    {
+      "t": 0.85,
+      "actual_native": 1.4696331721178827e-05,
+      "expected_native": 1.4696331721178829e-05,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0850/amplitude.json",
+      "baseline_source_sha256": "1ac886b291aeeb0666668920132e83f968f7e9bd858a3784cb388c8d629acf6c"
+    },
+    {
+      "t": 0.9,
+      "actual_native": 1.111560771995149e-05,
+      "expected_native": 1.1115607719951495e-05,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0900/amplitude.json",
+      "baseline_source_sha256": "9b13859e1db882b5c9d07cd6deb11607eb179e9d44bb574b402327ceda9127f0"
+    },
+    {
+      "t": 0.95,
+      "actual_native": 6.215138489869848e-06,
+      "expected_native": 6.215138489869848e-06,
+      "baseline_source": "output/diagnostics/genus1_curve20_final_384_20260924/energies/t0950/amplitude.json",
+      "baseline_source_sha256": "5f95e6c18044cc7e48007a13af13f531d47a7852d6c312135dbcd2c9e98f9df8"
+    }
+  ]
+}

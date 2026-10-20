@@ -1,0 +1,117 @@
+{
+  "case": "torus three-point",
+  "channel": "pair",
+  "t": 0.25,
+  "t_definition": "incoming energy=i*t; each outgoing energy=i*t/2",
+  "central_charge": 25,
+  "b": 1,
+  "internal_momenta": [
+    0.37,
+    0.61,
+    0.83
+  ],
+  "internal_weights": [
+    [
+      1.1369,
+      0.0
+    ],
+    [
+      1.3721,
+      0.0
+    ],
+    [
+      1.6888999999999998,
+      0.0
+    ]
+  ],
+  "external_momenta": [
+    [
+      0.0,
+      0.0625
+    ],
+    [
+      0.0,
+      0.0625
+    ],
+    [
+      0.0,
+      0.125
+    ]
+  ],
+  "external_weights": [
+    [
+      0.99609375,
+      0.0
+    ],
+    [
+      0.99609375,
+      0.0
+    ],
+    [
+      0.984375,
+      0.0
+    ]
+  ],
+  "variables": [
+    "v",
+    "q_first",
+    "q_second"
+  ],
+  "truncation": {
+    "kind": "rectangular_per_axis",
+    "orders": [
+      4,
+      4,
+      4
+    ]
+  },
+  "generator": "torus_c_recursion_numerics.stable_c_recursion_coefficients",
+  "precision_policy": {
+    "base_dps": 40,
+    "check_dps": 60,
+    "maximum_regular_dps": 130,
+    "rtol": 2e-11,
+    "atol": 2e-13
+  },
+  "weight_limit_used": false,
+  "coefficient_precision_max_scaled_disagreement": 0.0,
+  "independent_PBW_222_max_error": 8.881784197001252e-16,
+  "reference_scope": "Illustrative fixed momenta and native series; projected boundary kernels select their own prefixes and analytic factors.",
+  "expansion": "F(q) = sum_n C[n] product_j q[j]^n[j]",
+  "constant_coefficient": [
+    1.0,
+    0.0
+  ],
+  "q_example": [
+    [
+      0.04,
+      0.006
+    ],
+    [
+      0.05,
+      -0.007
+    ],
+    [
+      0.03,
+      0.005
+    ]
+  ],
+  "value_at_q": [
+    1.0003380219698077,
+    -0.0028603057660981338
+  ],
+  "value_at_conjugate_q": [
+    1.0003380219698077,
+    0.0028603057660981338
+  ],
+  "excluded_factors": [
+    "Liouville structure constants",
+    "primary propagation",
+    "momentum integration measure",
+    "worldsheet matter/ghost factors",
+    "moduli sampling weights"
+  ],
+  "table_file": "torus_pair_t025_C444.csv",
+  "table_sha256": "090a6d3f288ddf6bf8879760f16fe2060bfa222b74b67dd2f5cd649909af901c",
+  "rows": 125
+}

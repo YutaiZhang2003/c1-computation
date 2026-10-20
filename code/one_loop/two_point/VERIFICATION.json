@@ -1,0 +1,121 @@
+{
+  "scope": "genus-one thermal 1->1 source packaging",
+  "numerical_data_included": false,
+  "comparisons": [
+    {
+      "R": 2.0,
+      "moduli_points": 128,
+      "exactly_equal": true,
+      "kernel_reference_max_relative_difference": 1.811779734166454e-14
+    },
+    {
+      "R": 4.0,
+      "moduli_points": 128,
+      "exactly_equal": true,
+      "kernel_reference_max_relative_difference": 1.842622986791824e-14
+    },
+    {
+      "R": 6.5,
+      "moduli_points": 128,
+      "exactly_equal": true,
+      "kernel_reference_max_relative_difference": 1.8205502751149985e-14
+    }
+  ],
+  "unchanged_numerical_definitions": [
+    "Kernel",
+    "integrate"
+  ],
+  "saved_curve": {
+    "radii": 10,
+    "exact_numeric_columns": [
+      "R",
+      "T",
+      "omega_imag",
+      "power_of_gs",
+      "amplitude_real",
+      "amplitude_imag",
+      "sampling_SE",
+      "zero_temperature_imag",
+      "thermal_correction_imag",
+      "thermal_correction_sampling_SE",
+      "matrix_model_imag",
+      "matrix_model_thermal_correction_imag",
+      "fractional_difference"
+    ]
+  },
+  "production_settings_match_all_ten_receipts": true,
+  "compact_boson_checks": {
+    "direct_poisson_cases": 45,
+    "maximum_absolute_direct_poisson_difference": 4.595743071067725e-15,
+    "modular_S": true,
+    "modular_T": true,
+    "integer_periodicity": true,
+    "neutral_translation": true,
+    "vacuum_T_duality": true,
+    "fixed_modulus_decompactification": true
+  },
+  "independent_block_checks": [
+    "torus_two_point_blocks_checks",
+    "torus_necklace_blocks_checks"
+  ],
+  "full_production_integrations_rerun": false,
+  "isolated_numerical_and_support_imports": {
+    "passed": 44,
+    "total": 44
+  },
+  "small_end_to_end_run": {
+    "momentum_order": 3,
+    "necklace_orders": [
+      1,
+      1
+    ],
+    "ope_orders": [
+      1,
+      2
+    ],
+    "points_per_replicate": 8,
+    "replicates": 2,
+    "stages": [
+      "bank generation",
+      "thermal integration",
+      "result assembly"
+    ],
+    "workspace_and_isolated_outputs_exactly_equal": true
+  },
+  "relocated_modules_bytewise_unchanged": 9,
+  "shared_three_point_lattice_compatibility": "passed",
+  "worldsheet_check": {
+    "momentum_order": 4,
+    "necklace_order": 3,
+    "ope_orders": [
+      2,
+      4
+    ],
+    "checks_passed": [
+      "recursion versus descendants",
+      "prime-form collision normalization"
+    ],
+    "modular_covariance": "T agrees; S discrepancy is 0.108 at this deliberately low truncation, reported as a diagnostic, not a convergence check."
+  },
+  "isolated_all_module_imports": {
+    "passed": 46,
+    "total": 46
+  },
+  "figure_export": {
+    "ten_saved_radii_reassembled": true,
+    "PDF_and_PNG_generated": true,
+    "shared_draft_plot_functions_used": true,
+    "original_figures_modified": false,
+    "visual_inspection": "passed"
+  },
+  "source_package": {
+    "numerical_data_included": false,
+    "source_and_documentation_files": 60,
+    "python_sources": 47
+  },
+  "entrypoint_help_checks": {
+    "passed": 8,
+    "total": 8
+  },
+  "package_hash_and_dependency_validation": "passed"
+}

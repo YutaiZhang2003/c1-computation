@@ -1,0 +1,3532 @@
+{
+  "version": "sphere-six-point-radial-fifteen-energy-results-v1",
+  "complete_execution": true,
+  "results": [
+    {
+      "version": "sphere-six-point-yin-radial-mixture-audit-v1",
+      "t": 0.1805,
+      "radial_power": 0.0651605,
+      "sample_count": 2048,
+      "mean_real": 0.22087073168830385,
+      "mean_imag": -8.115752569663937e-17,
+      "replicate_means": [
+        [
+          0.23398200867744032,
+          -8.598852610177619e-17
+        ],
+        [
+          0.20973084666022834,
+          -7.706874421626509e-17
+        ],
+        [
+          0.22588546737412105,
+          -8.300555119362867e-17
+        ],
+        [
+          0.21760700138784972,
+          -7.996657146120619e-17
+        ],
+        [
+          0.21099507479277357,
+          -7.751235515723678e-17
+        ],
+        [
+          0.2268793513104152,
+          -8.33499395325798e-17
+        ],
+        [
+          0.21325853352967789,
+          -7.835673706821408e-17
+        ],
+        [
+          0.2286275697739248,
+          -8.401178084220809e-17
+        ]
+      ],
+      "scramble_se_real": 0.003228080862224863,
+      "scramble_se_imag": 1.1875500380703973e-18,
+      "empirical_relative_scramble_se": 0.014615249551399957,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -1.8320664661955097e-07,
+          "signed_mean_imag": -3.2020659859783615e-21,
+          "mean_absolute_difference": 1.7420535135967123e-06,
+          "relative_mean_absolute_difference": 7.887208505539453e-06
+        },
+        "core1": {
+          "signed_mean_real": -3.2559202732738136e-09,
+          "signed_mean_imag": -3.552275974744477e-21,
+          "mean_absolute_difference": 1.8448158260624145e-08,
+          "relative_mean_absolute_difference": 8.352468486706726e-08
+        },
+        "core2": {
+          "signed_mean_real": 1.1662769985871673e-09,
+          "signed_mean_imag": -1.08261863518206e-21,
+          "mean_absolute_difference": 1.6627170833893945e-09,
+          "relative_mean_absolute_difference": 7.528010029576243e-09
+        },
+        "tail0": {
+          "signed_mean_real": -2.3832408558282858e-07,
+          "signed_mean_imag": -5.116556043260686e-21,
+          "mean_absolute_difference": 7.034265277471587e-06,
+          "relative_mean_absolute_difference": 3.1847883255978206e-05
+        },
+        "tail1": {
+          "signed_mean_real": -8.446273660970698e-08,
+          "signed_mean_imag": -2.5323447495871394e-21,
+          "mean_absolute_difference": 3.166166672135207e-06,
+          "relative_mean_absolute_difference": 1.4334930879856683e-05
+        },
+        "tail2": {
+          "signed_mean_real": 1.3592452012824473e-07,
+          "signed_mean_imag": -7.674552272934465e-22,
+          "mean_absolute_difference": 5.248819688978023e-07,
+          "relative_mean_absolute_difference": 2.3764215606372137e-06
+        },
+        "width_half": {
+          "signed_mean_real": -1.5804166109412957e-05,
+          "signed_mean_imag": -4.660196851049248e-21,
+          "mean_absolute_difference": 7.431628224463882e-05,
+          "relative_mean_absolute_difference": 0.0003364695796340961
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.0003364695796340961,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 239,
+      "available_prefix_unresolved_count": 239,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "cad9680afad48cb097ee064a6f81cbb5f2ff8995739440e4a214cbe237f37f50",
+      "summary_sha256": "f06fda63e56ad01265f41ac172f7e50c3485e440492406e3bbf695e04b71576b",
+      "pointwise_sha256": "70cebe3b91e9f993e5996d41eb13587b270d23763390395ccd4c14a02348ed03",
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.0651605,
+              0.0651605,
+              0.0651605
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.0651605,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.0651605,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.0651605
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.0651605,
+              0.0651605,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.0651605,
+              0.75,
+              0.0651605
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.0651605,
+              0.0651605
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.0651605,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "base_seed": 2026091000,
+      "comparison": {
+        "old_mean": 0.2238480300782701,
+        "old_se": 0.025236503564674495,
+        "new_mean": 0.22087073168830385,
+        "new_se": 0.003228080862224863,
+        "mean_shift": -0.002977298389966243,
+        "independent_difference_se": 0.025442122911087647,
+        "shift_in_empirical_sigma": -0.11702240415907825,
+        "empirical_variance_ratio_new_over_old": 0.01636177593265432,
+        "interpretation": "Eight independent scrambles per design; variance ratio is an empirical diagnostic, not a precision certificate."
+      },
+      "reference_audit_sha256": "5092de9d594db35e8859f467a60c12574571c25c96895daa26ce2cbf96466d96",
+      "original_CFT_banks_verified": true,
+      "additional_bank_families": [
+        "radial_fallback_000"
+      ],
+      "independent_old_and_new_scrambles": true,
+      "additional_bank_region": {
+        "point_count": 9,
+        "full_denominator_Q5_mean": 0.0016242835800505744
+      },
+      "operation": "reuse",
+      "matrix_model_Q5": 0.224445609375,
+      "matrix_sampling_only_pull": -1.1074312693122146,
+      "final_audit_sha256": "4cbd9f8bd18a6a46a44837c977e70ab57b2adadc17a22399b49afa8065f88c4c",
+      "completed_reference": "/n/holylabs/yin_lab/Everyone/yutaizhang/StringMC/sphere_six_point_radial_comparison_20260910/yin_radial_three_energy_20260910_v2/t0p1805",
+      "retained_from_previous_audit": true
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.1905,
+      "radial_power": 0.0725805,
+      "sample_count": 2048,
+      "mean_real": 0.10035309276951981,
+      "mean_imag": -3.686729222773604e-17,
+      "replicate_means": [
+        [
+          0.10686435727969273,
+          -3.925502338101144e-17
+        ],
+        [
+          0.09542995734223318,
+          -3.5047513423197824e-17
+        ],
+        [
+          0.10222709907378814,
+          -3.756397449190254e-17
+        ],
+        [
+          0.09878630338861141,
+          -3.629985685937956e-17
+        ],
+        [
+          0.09515829224786583,
+          -3.496154841926105e-17
+        ],
+        [
+          0.10308374697958315,
+          -3.7864702823983656e-17
+        ],
+        [
+          0.09664263911931872,
+          -3.550498208299533e-17
+        ],
+        [
+          0.1046323467250653,
+          -3.8440736340156915e-17
+        ]
+      ],
+      "scramble_se_real": 0.0015761756503959554,
+      "scramble_se_imag": 5.790772632056469e-19,
+      "empirical_relative_scramble_se": 0.01570629869889457,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": 8.450543975737902e-08,
+          "signed_mean_imag": -1.5978574687755288e-21,
+          "mean_absolute_difference": 5.508452978039024e-07,
+          "relative_mean_absolute_difference": 5.489071463587322e-06
+        },
+        "core1": {
+          "signed_mean_real": 5.465742076279108e-10,
+          "signed_mean_imag": 2.9414595152146128e-21,
+          "mean_absolute_difference": 8.286272955353356e-09,
+          "relative_mean_absolute_difference": 8.257117669890231e-08
+        },
+        "core2": {
+          "signed_mean_real": 6.4784551313002005e-09,
+          "signed_mean_imag": -1.752579927995319e-21,
+          "mean_absolute_difference": 6.671476896526269e-09,
+          "relative_mean_absolute_difference": 6.648003277635498e-08
+        },
+        "tail0": {
+          "signed_mean_real": -1.5937177490409555e-07,
+          "signed_mean_imag": 2.196135426483822e-21,
+          "mean_absolute_difference": 2.9967515794539907e-06,
+          "relative_mean_absolute_difference": 2.9862074967002834e-05
+        },
+        "tail1": {
+          "signed_mean_real": -4.229063735522626e-08,
+          "signed_mean_imag": -4.7440271317680424e-21,
+          "mean_absolute_difference": 1.4435659478679325e-06,
+          "relative_mean_absolute_difference": 1.4384867551450153e-05
+        },
+        "tail2": {
+          "signed_mean_real": 7.884952861775262e-08,
+          "signed_mean_imag": -5.298802608251255e-23,
+          "mean_absolute_difference": 2.358455594819895e-07,
+          "relative_mean_absolute_difference": 2.350157359112531e-06
+        },
+        "width_half": {
+          "signed_mean_real": -3.6888484417547945e-06,
+          "signed_mean_imag": -6.376522242897545e-21,
+          "mean_absolute_difference": 3.315654053216827e-05,
+          "relative_mean_absolute_difference": 0.0003303987910797991
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.0003303987910797991,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 237,
+      "available_prefix_unresolved_count": 237,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "2f1070c399fb7da3689de961e8e74b617ec9713f7d424a4b2dbb546040e96adc",
+      "summary_sha256": "016cfaf33fe164695dfd545bc7047bd56ac3fb5c8b0d83e38d494983b0500cd0",
+      "pointwise_sha256": "bcee863a2f36c42d1cd822acd5f26fcdeb74fd765dbf06d933d892be67df9899",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.0725805,
+              0.0725805,
+              0.0725805
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.0725805,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.0725805,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.0725805
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.0725805,
+              0.0725805,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.0725805,
+              0.75,
+              0.0725805
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.0725805,
+              0.0725805
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.0725805,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [
+        "radial_fallback_000"
+      ],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.0024924423665962096,
+        0.0012398802858559447
+      ],
+      "operation": "reuse",
+      "matrix_model_Q5": 0.101875921875,
+      "matrix_sampling_only_pull": -0.9661544416687502,
+      "final_audit_sha256": "b6f551520e72ef6ba7878a15878941df2a8a480cf2cf1511e6de7307331ec7ea",
+      "completed_reference": "/n/holylabs/yin_lab/Everyone/yutaizhang/StringMC/sphere_six_point_radial_curve_15_20260910/yin_radial_curve_15_20260910_v1/t0p1905",
+      "retained_from_previous_audit": true
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.2005,
+      "radial_power": 0.08040050000000001,
+      "sample_count": 2048,
+      "mean_real": -0.004909839370343809,
+      "mean_imag": 2.4050332753414192e-18,
+      "replicate_means": [
+        [
+          -0.005254663010925494,
+          2.5742294463617e-18
+        ],
+        [
+          -0.004678301096067805,
+          2.2912818015622074e-18
+        ],
+        [
+          -0.004988141995685237,
+          2.4428631158684917e-18
+        ],
+        [
+          -0.0047976015330843304,
+          2.3504923734785604e-18
+        ],
+        [
+          -0.004657957494763731,
+          2.281289329803672e-18
+        ],
+        [
+          -0.00504163457097445,
+          2.469806807104204e-18
+        ],
+        [
+          -0.004717225018081174,
+          2.3107601676051492e-18
+        ],
+        [
+          -0.0051431902431682466,
+          2.519543160947368e-18
+        ]
+      ],
+      "scramble_se_real": 8.057930006114344e-05,
+      "scramble_se_imag": 3.9524101169684126e-20,
+      "empirical_relative_scramble_se": 0.016411799650280803,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -6.075161481131029e-09,
+          "signed_mean_imag": 4.743567385674419e-23,
+          "mean_absolute_difference": 1.9158809941178444e-08,
+          "relative_mean_absolute_difference": 3.902125608609648e-06
+        },
+        "core1": {
+          "signed_mean_real": 3.586930411480525e-11,
+          "signed_mean_imag": -4.231219089205269e-23,
+          "mean_absolute_difference": 2.2945700588762053e-10,
+          "relative_mean_absolute_difference": 4.6734116654319986e-08
+        },
+        "core2": {
+          "signed_mean_real": -3.7553718041948824e-10,
+          "signed_mean_imag": 6.407038412607767e-23,
+          "mean_absolute_difference": 3.8107364863832437e-10,
+          "relative_mean_absolute_difference": 7.761428020233581e-08
+        },
+        "tail0": {
+          "signed_mean_real": 9.155031595465123e-09,
+          "signed_mean_imag": -4.0332370941743623e-23,
+          "mean_absolute_difference": 1.420556571871971e-07,
+          "relative_mean_absolute_difference": 2.8932852273179304e-05
+        },
+        "tail1": {
+          "signed_mean_real": 2.0811209999049436e-09,
+          "signed_mean_imag": -9.392277069452227e-23,
+          "mean_absolute_difference": 6.811090218757857e-08,
+          "relative_mean_absolute_difference": 1.3872328003025716e-05
+        },
+        "tail2": {
+          "signed_mean_real": -5.159208141417516e-09,
+          "signed_mean_imag": -1.175889858988488e-22,
+          "mean_absolute_difference": 1.2447675027171425e-08,
+          "relative_mean_absolute_difference": 2.5352509701961562e-06
+        },
+        "width_half": {
+          "signed_mean_real": 2.0641244632526612e-07,
+          "signed_mean_imag": -1.0593592962727069e-22,
+          "mean_absolute_difference": 1.4855138094272074e-06,
+          "relative_mean_absolute_difference": 0.00030255853549913286
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.00030255853549913286,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 236,
+      "available_prefix_unresolved_count": 236,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "6f6c2d23bbdbfef59b288542fcb0e727051de9ad6fb46c8a0e892af5ece62d70",
+      "summary_sha256": "5cfc193fdcdd8cbc27f8025cf3713138d77475fe20a54d53e83664a4a0916c73",
+      "pointwise_sha256": "e8034316983855737c14e8ca54e562ddeb618a67624707054d55a5ab73206dfc",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.08040050000000001,
+              0.08040050000000001,
+              0.08040050000000001
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.08040050000000001,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.08040050000000001,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.08040050000000001
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.08040050000000001,
+              0.08040050000000001,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.08040050000000001,
+              0.75,
+              0.08040050000000001
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.08040050000000001,
+              0.08040050000000001
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.08040050000000001,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.002539607197236564,
+        0.0012393120367254348
+      ],
+      "operation": "reuse",
+      "matrix_model_Q5": -0.004981265625,
+      "matrix_sampling_only_pull": 0.8864094699506359,
+      "final_audit_sha256": "160a9f80275238884f883fd153f4bebeeffa54d35dfa9ffc350294fdfb6e9c50",
+      "completed_reference": "/n/holylabs/yin_lab/Everyone/yutaizhang/StringMC/sphere_six_point_radial_curve_15_20260910/yin_radial_curve_15_20260910_v1/t0p2005",
+      "retained_from_previous_audit": true
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.2105,
+      "radial_power": 0.08862049999999999,
+      "sample_count": 2048,
+      "mean_real": -0.0956453934142614,
+      "mean_imag": 4.6852397969259135e-17,
+      "replicate_means": [
+        [
+          -0.10269147135267431,
+          5.029453419218902e-17
+        ],
+        [
+          -0.09137586023725838,
+          4.47572888826177e-17
+        ],
+        [
+          -0.0968619128908917,
+          4.745911545992379e-17
+        ],
+        [
+          -0.09335206205257686,
+          4.572156720941364e-17
+        ],
+        [
+          -0.090852474783202,
+          4.4506186326850094e-17
+        ],
+        [
+          -0.09762076412788884,
+          4.782525781294289e-17
+        ],
+        [
+          -0.09181195766476674,
+          4.4977097394625314e-17
+        ],
+        [
+          -0.10059664420483244,
+          4.927813647551065e-17
+        ]
+      ],
+      "scramble_se_real": 0.0015850849950851704,
+      "scramble_se_imag": 7.761718453339034e-19,
+      "empirical_relative_scramble_se": 0.01657251790705503,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -1.5060628357173926e-07,
+          "signed_mean_imag": -1.0703570240960924e-21,
+          "mean_absolute_difference": 3.7118298265244463e-07,
+          "relative_mean_absolute_difference": 3.880824464224522e-06
+        },
+        "core1": {
+          "signed_mean_real": 2.2128805847533194e-09,
+          "signed_mean_imag": 1.4358436653991664e-21,
+          "mean_absolute_difference": 5.4605019780321345e-09,
+          "relative_mean_absolute_difference": 5.709111315357855e-08
+        },
+        "core2": {
+          "signed_mean_real": -7.287897131228141e-09,
+          "signed_mean_imag": 3.8489396554216127e-22,
+          "mean_absolute_difference": 7.3396694319679105e-09,
+          "relative_mean_absolute_difference": 7.673834745159315e-08
+        },
+        "tail0": {
+          "signed_mean_real": 2.219633425606914e-07,
+          "signed_mean_imag": 4.5652879504353405e-21,
+          "mean_absolute_difference": 2.7015117755310167e-06,
+          "relative_mean_absolute_difference": 2.82450798631793e-05
+        },
+        "tail1": {
+          "signed_mean_real": 6.056287139739791e-08,
+          "signed_mean_imag": 2.9002012584547514e-21,
+          "mean_absolute_difference": 1.3233963412397998e-06,
+          "relative_mean_absolute_difference": 1.3836488031450473e-05
+        },
+        "tail2": {
+          "signed_mean_real": -1.3940869969054482e-07,
+          "signed_mean_imag": -1.1096096678927303e-22,
+          "mean_absolute_difference": 2.74903726653261e-07,
+          "relative_mean_absolute_difference": 2.874197249234911e-06
+        },
+        "width_half": {
+          "signed_mean_real": 2.6195594821702694e-06,
+          "signed_mean_imag": 3.921882700427962e-21,
+          "mean_absolute_difference": 2.9724155263863634e-05,
+          "relative_mean_absolute_difference": 0.000310774562190588
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.000310774562190588,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 239,
+      "available_prefix_unresolved_count": 239,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "4ca69d1978bfa170b5a4c47037b2f561dac75c1a1b02af0a4e0a458dece56a56",
+      "summary_sha256": "8a2db651d1fd3efdb3da1c0759df512f83fee9f3c596d18f469b072df2402a81",
+      "pointwise_sha256": "347ccf2729a726ce4fda085d1eb2b966c7101a947f3b177ea505b6424e1d7bbe",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.08862049999999999,
+              0.08862049999999999,
+              0.08862049999999999
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.08862049999999999,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.08862049999999999,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.08862049999999999
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.08862049999999999,
+              0.08862049999999999,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.08862049999999999,
+              0.75,
+              0.08862049999999999
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.08862049999999999,
+              0.08862049999999999
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.08862049999999999,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.002630037880228259,
+        0.0012563293907056929
+      ],
+      "operation": "reuse",
+      "matrix_model_Q5": -0.096875953125,
+      "matrix_sampling_only_pull": 0.7763367356035555,
+      "final_audit_sha256": "5e27533a5ea7c472cb9425568a4169892ae815110b8004587fc374a72462ef69",
+      "completed_reference": "/n/holylabs/yin_lab/Everyone/yutaizhang/StringMC/sphere_six_point_radial_curve_15_20260910/yin_radial_curve_15_20260910_v1/t0p2105",
+      "retained_from_previous_audit": true
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.2205,
+      "radial_power": 0.09724050000000001,
+      "sample_count": 2048,
+      "mean_real": -0.17241969127879725,
+      "mean_imag": 8.445921434068294e-17,
+      "replicate_means": [
+        [
+          -0.18542610813008611,
+          9.084612568609495e-17
+        ],
+        [
+          -0.1650009702979135,
+          8.083112401299974e-17
+        ],
+        [
+          -0.1752660703154627,
+          8.586440583113493e-17
+        ],
+        [
+          -0.16871565425046978,
+          8.265063914787396e-17
+        ],
+        [
+          -0.1638131080131107,
+          8.024499696567755e-17
+        ],
+        [
+          -0.17549799112186687,
+          8.596151545419635e-17
+        ],
+        [
+          -0.16590496187813042,
+          8.12482100873921e-17
+        ],
+        [
+          -0.17973266622333786,
+          8.802669754009397e-17
+        ]
+      ],
+      "scramble_se_real": 0.0027564747523062963,
+      "scramble_se_imag": 1.351290419806832e-18,
+      "empirical_relative_scramble_se": 0.015987006657198818,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -2.855419469331838e-07,
+          "signed_mean_imag": 3.290850004126296e-21,
+          "mean_absolute_difference": 6.126892469729986e-07,
+          "relative_mean_absolute_difference": 3.5534760700986253e-06
+        },
+        "core1": {
+          "signed_mean_real": 1.8060755017573235e-10,
+          "signed_mean_imag": 3.527603330807946e-21,
+          "mean_absolute_difference": 5.099505378701618e-09,
+          "relative_mean_absolute_difference": 2.9576119414666373e-08
+        },
+        "core2": {
+          "signed_mean_real": -1.3338461513301827e-08,
+          "signed_mean_imag": 1.3932596655264587e-21,
+          "mean_absolute_difference": 1.3373925927795203e-08,
+          "relative_mean_absolute_difference": 7.756611688957256e-08
+        },
+        "tail0": {
+          "signed_mean_real": 4.72584406180221e-07,
+          "signed_mean_imag": 6.929443650860799e-22,
+          "mean_absolute_difference": 4.658484570755242e-06,
+          "relative_mean_absolute_difference": 2.7018286230559465e-05
+        },
+        "tail1": {
+          "signed_mean_real": 1.4086036926003935e-07,
+          "signed_mean_imag": 5.45805068992762e-21,
+          "mean_absolute_difference": 2.4531616781171605e-06,
+          "relative_mean_absolute_difference": 1.4227851006591091e-05
+        },
+        "tail2": {
+          "signed_mean_real": -3.036978729989689e-07,
+          "signed_mean_imag": 3.597943556831878e-21,
+          "mean_absolute_difference": 5.514967269911947e-07,
+          "relative_mean_absolute_difference": 3.198571595279345e-06
+        },
+        "width_half": {
+          "signed_mean_real": 7.089897115038476e-06,
+          "signed_mean_imag": 8.746185973716638e-22,
+          "mean_absolute_difference": 5.027019859318987e-05,
+          "relative_mean_absolute_difference": 0.0002915571778394182
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.0002915571778394182,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 238,
+      "available_prefix_unresolved_count": 238,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "e5151c98968d6f27917b767c5c8a6c1d9adbcfc80952c840882e10bb57a85cdf",
+      "summary_sha256": "58e34e8b5bccad0c29a5859784721e7eeed82a5fe55c1bb9aac4023ff21769f9",
+      "pointwise_sha256": "302382fc835458782e377345c565be77f61bb8ee21407e3dec60ac76cffe9707",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.09724050000000001,
+              0.09724050000000001,
+              0.09724050000000001
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.09724050000000001,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.09724050000000001,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.09724050000000001
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.09724050000000001,
+              0.09724050000000001,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.09724050000000001,
+              0.75,
+              0.09724050000000001
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.09724050000000001,
+              0.09724050000000001
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.09724050000000001,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.0026841593676758323,
+        0.0012662588410464251
+      ],
+      "operation": "reuse",
+      "matrix_model_Q5": -0.174558140625,
+      "matrix_sampling_only_pull": 0.7757913778871157,
+      "final_audit_sha256": "1302e4f64f2caec7a7252d9d2298233a4af6de3fc398262a47f6f7d3082e1d05",
+      "completed_reference": "/n/holylabs/yin_lab/Everyone/yutaizhang/StringMC/sphere_six_point_radial_curve_15_20260910/yin_radial_curve_15_20260910_v1/t0p2205",
+      "retained_from_previous_audit": true
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.2305,
+      "radial_power": 0.10626050000000001,
+      "sample_count": 2048,
+      "mean_real": -0.2362385564517766,
+      "mean_imag": 1.157236311518216e-16,
+      "replicate_means": [
+        [
+          -0.25410345297080483,
+          1.2447517443883816e-16
+        ],
+        [
+          -0.2261320031057647,
+          1.1077360621992075e-16
+        ],
+        [
+          -0.23985269145544583,
+          1.1748123140291173e-16
+        ],
+        [
+          -0.23212450223560205,
+          1.1373189444801818e-16
+        ],
+        [
+          -0.22441164400587604,
+          1.0992060173614012e-16
+        ],
+        [
+          -0.2392254379037664,
+          1.1716060172681253e-16
+        ],
+        [
+          -0.2264444196771454,
+          1.1094323650085724e-16
+        ],
+        [
+          -0.2476143002598076,
+          1.2130270274107412e-16
+        ]
+      ],
+      "scramble_se_real": 0.0038392110965273264,
+      "scramble_se_imag": 1.879716345054782e-18,
+      "empirical_relative_scramble_se": 0.016251416170971332,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -3.5217364477802665e-07,
+          "signed_mean_imag": -1.5554833408015846e-20,
+          "mean_absolute_difference": 8.224630344868706e-07,
+          "relative_mean_absolute_difference": 3.481493651332737e-06
+        },
+        "core1": {
+          "signed_mean_real": 1.0938452324313704e-09,
+          "signed_mean_imag": -2.3460784166753513e-21,
+          "mean_absolute_difference": 7.834729887297625e-09,
+          "relative_mean_absolute_difference": 3.316448426104791e-08
+        },
+        "core2": {
+          "signed_mean_real": -1.4111402377144097e-08,
+          "signed_mean_imag": -2.680296236161808e-21,
+          "mean_absolute_difference": 1.4371899280896948e-08,
+          "relative_mean_absolute_difference": 6.083638292054449e-08
+        },
+        "tail0": {
+          "signed_mean_real": 8.697326203068046e-07,
+          "signed_mean_imag": -3.342943070869617e-21,
+          "mean_absolute_difference": 6.293855275725473e-06,
+          "relative_mean_absolute_difference": 2.664194774238827e-05
+        },
+        "tail1": {
+          "signed_mean_real": 2.564938994115651e-07,
+          "signed_mean_imag": -1.6246542179692054e-20,
+          "mean_absolute_difference": 3.5718656979675285e-06,
+          "relative_mean_absolute_difference": 1.5119740619887566e-05
+        },
+        "tail2": {
+          "signed_mean_real": -5.418952157289758e-07,
+          "signed_mean_imag": -7.363838942140685e-21,
+          "mean_absolute_difference": 9.019209694360959e-07,
+          "relative_mean_absolute_difference": 3.817839826752434e-06
+        },
+        "width_half": {
+          "signed_mean_real": 1.0906987698304846e-05,
+          "signed_mean_imag": -3.0655266297769585e-20,
+          "mean_absolute_difference": 6.858402645074741e-05,
+          "relative_mean_absolute_difference": 0.000290316819916513
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.000290316819916513,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 240,
+      "available_prefix_unresolved_count": 240,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "af6e3b74c6f46c9d6ce969cc7bf2dbdbb9e22d9fc7d54d3fc6f0a8bd65d49c7b",
+      "summary_sha256": "5bf4ef992791f16f52713987b3c33832b1f844707a82a403eacbc25d18f5e23e",
+      "pointwise_sha256": "d2e5019ce335c462f2a121250b4a94cb357c331d979ea142553385bf74d42460",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.10626050000000001,
+              0.10626050000000001,
+              0.10626050000000001
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.10626050000000001,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.10626050000000001,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.10626050000000001
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.10626050000000001,
+              0.10626050000000001,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.10626050000000001,
+              0.75,
+              0.10626050000000001
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.10626050000000001,
+              0.10626050000000001
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.10626050000000001,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [
+        "radial_fallback_000"
+      ],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.0027482815248594267,
+        0.0013086589374039401
+      ],
+      "operation": "compute",
+      "matrix_model_Q5": -0.238777828125,
+      "matrix_sampling_only_pull": 0.6614045462413477,
+      "final_audit_sha256": "7eadddbdc604cdcdbb444871017e2251cdbc43c242197fccbdff5cfc7fd4b11d"
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.2405,
+      "radial_power": 0.11568049999999999,
+      "sample_count": 2048,
+      "mean_real": -0.28732960245535544,
+      "mean_imag": 1.4074656958681304e-16,
+      "replicate_means": [
+        [
+          -0.3089103959123074,
+          1.512986195801952e-16
+        ],
+        [
+          -0.27553100229945066,
+          1.3495372651682638e-16
+        ],
+        [
+          -0.2909386265350623,
+          1.4253504240113403e-16
+        ],
+        [
+          -0.28200174492122115,
+          1.3813365711565116e-16
+        ],
+        [
+          -0.27355758176121975,
+          1.3399674435744726e-16
+        ],
+        [
+          -0.2903462228259529,
+          1.4220450710537177e-16
+        ],
+        [
+          -0.27534889839214927,
+          1.3489745630333584e-16
+        ],
+        [
+          -0.3020023469954798,
+          1.479528033145426e-16
+        ]
+      ],
+      "scramble_se_real": 0.004636701389134982,
+      "scramble_se_imag": 2.270762889672874e-18,
+      "empirical_relative_scramble_se": 0.016137221328788847,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -3.174916227994449e-07,
+          "signed_mean_imag": -5.621196692387445e-21,
+          "mean_absolute_difference": 7.692501356399826e-07,
+          "relative_mean_absolute_difference": 2.6772394109984083e-06
+        },
+        "core1": {
+          "signed_mean_real": 2.3866931064195675e-09,
+          "signed_mean_imag": 3.055475767623268e-21,
+          "mean_absolute_difference": 9.682123168548065e-09,
+          "relative_mean_absolute_difference": 3.3696921882779027e-08
+        },
+        "core2": {
+          "signed_mean_real": -2.2488446995732522e-08,
+          "signed_mean_imag": -5.626634880347667e-21,
+          "mean_absolute_difference": 2.3403853205537394e-08,
+          "relative_mean_absolute_difference": 8.145298293507306e-08
+        },
+        "tail0": {
+          "signed_mean_real": 1.4791056888768564e-06,
+          "signed_mean_imag": -1.0604024875983847e-21,
+          "mean_absolute_difference": 7.6287238649037855e-06,
+          "relative_mean_absolute_difference": 2.655042780038342e-05
+        },
+        "tail1": {
+          "signed_mean_real": 5.238918786301666e-07,
+          "signed_mean_imag": -5.496190729736398e-21,
+          "mean_absolute_difference": 4.915923620542121e-06,
+          "relative_mean_absolute_difference": 1.7109005053894316e-05
+        },
+        "tail2": {
+          "signed_mean_real": -9.398625897445615e-07,
+          "signed_mean_imag": -1.3058123982423731e-21,
+          "mean_absolute_difference": 1.3602603954291303e-06,
+          "relative_mean_absolute_difference": 4.734146373381365e-06
+        },
+        "width_half": {
+          "signed_mean_real": 1.1533949953265848e-05,
+          "signed_mean_imag": -8.28145154249236e-21,
+          "mean_absolute_difference": 8.123899181553408e-05,
+          "relative_mean_absolute_difference": 0.0002827379814725383
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.0002827379814725383,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 238,
+      "available_prefix_unresolved_count": 238,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "15a7fa8240368e81c969904de6cbf1e73f47e8f5fd1fc04fe0de61b3295ca148",
+      "summary_sha256": "9b79781c56ef084181ea29d4980403c648c0f1761af439cda00fe80aff18a26e",
+      "pointwise_sha256": "32580c74b4e9760dbaa8b66ff0445f2bb2fac6b92db5fb5ee18e6b2060c4ff2c",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.11568049999999999,
+              0.11568049999999999,
+              0.11568049999999999
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.11568049999999999,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.11568049999999999,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.11568049999999999
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.11568049999999999,
+              0.11568049999999999,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.11568049999999999,
+              0.75,
+              0.11568049999999999
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.11568049999999999,
+              0.11568049999999999
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.11568049999999999,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.002716666076172248,
+        0.0012553380827542743
+      ],
+      "operation": "compute",
+      "matrix_model_Q5": -0.290285015625,
+      "matrix_sampling_only_pull": 0.6373956227955186,
+      "final_audit_sha256": "471d32a7f708362ffd0afc267379edef0d2d70722a5eabb02ee43760874063d3"
+    },
+    {
+      "version": "sphere-six-point-yin-radial-mixture-audit-v1",
+      "t": 0.2505,
+      "radial_power": 0.1255005,
+      "sample_count": 2048,
+      "mean_real": -0.326654187966537,
+      "mean_imag": 1.600012151159459e-16,
+      "replicate_means": [
+        [
+          -0.350956083119696,
+          1.7189963545397496e-16
+        ],
+        [
+          -0.3134682205510888,
+          1.5355590932639007e-16
+        ],
+        [
+          -0.3298981026172337,
+          1.6162541231523957e-16
+        ],
+        [
+          -0.3204171778511132,
+          1.5693497863325998e-16
+        ],
+        [
+          -0.3111882835761213,
+          1.5238978664773086e-16
+        ],
+        [
+          -0.3284781529977794,
+          1.608952416424221e-16
+        ],
+        [
+          -0.31292901622515895,
+          1.5326898670778992e-16
+        ],
+        [
+          -0.34589846679410485,
+          1.694397702007599e-16
+        ]
+      ],
+      "scramble_se_real": 0.005370419603401367,
+      "scramble_se_imag": 2.6332236631059443e-18,
+      "empirical_relative_scramble_se": 0.016440688046379867,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -4.727597413110647e-07,
+          "signed_mean_imag": -5.801253691721174e-21,
+          "mean_absolute_difference": 8.303294395606542e-07,
+          "relative_mean_absolute_difference": 2.5419219166591996e-06
+        },
+        "core1": {
+          "signed_mean_real": 9.21022636076719e-09,
+          "signed_mean_imag": -2.8293227451211236e-22,
+          "mean_absolute_difference": 1.7844223061055074e-08,
+          "relative_mean_absolute_difference": 5.462725940278796e-08
+        },
+        "core2": {
+          "signed_mean_real": -5.991138337209778e-10,
+          "signed_mean_imag": -2.8736495746554844e-21,
+          "mean_absolute_difference": 1.9656109330665914e-09,
+          "relative_mean_absolute_difference": 6.017406191246971e-09
+        },
+        "tail0": {
+          "signed_mean_real": 2.3598728394060806e-06,
+          "signed_mean_imag": -3.040160446811104e-21,
+          "mean_absolute_difference": 9.016231145156494e-06,
+          "relative_mean_absolute_difference": 2.7601761977348753e-05
+        },
+        "tail1": {
+          "signed_mean_real": 9.439071188744805e-07,
+          "signed_mean_imag": -1.2450923978398552e-20,
+          "mean_absolute_difference": 6.721219989952127e-06,
+          "relative_mean_absolute_difference": 2.057594923791597e-05
+        },
+        "tail2": {
+          "signed_mean_real": -1.5258341679175125e-06,
+          "signed_mean_imag": -4.478797991155554e-21,
+          "mean_absolute_difference": 1.9912337657467583e-06,
+          "relative_mean_absolute_difference": 6.095846430570618e-06
+        },
+        "width_half": {
+          "signed_mean_real": 1.4979406785411748e-05,
+          "signed_mean_imag": -2.7246364512968e-20,
+          "mean_absolute_difference": 8.990392188375283e-05,
+          "relative_mean_absolute_difference": 0.00027522660108359837
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.00027522660108359837,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 236,
+      "available_prefix_unresolved_count": 236,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "aee53940382fcbf202bfb8013b0982ce7b478ffaeeba535054aa0e01646168a5",
+      "summary_sha256": "9da1edf1d38189b2ae8686019ea45853c4a04b4db7741a8edf395984cba86f62",
+      "pointwise_sha256": "5509ccf6c9204a8b2f2a54062892f4dd259d13ea326188f60e475ed53c403618",
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.1255005,
+              0.1255005,
+              0.1255005
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.1255005,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.1255005,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.1255005
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.1255005,
+              0.1255005,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.1255005,
+              0.75,
+              0.1255005
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.1255005,
+              0.1255005
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.1255005,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "base_seed": 2026091000,
+      "comparison": {
+        "old_mean": -0.31956856387201377,
+        "old_se": 0.007144173106088165,
+        "new_mean": -0.326654187966537,
+        "new_se": 0.005370419603401367,
+        "mean_shift": -0.007085624094523235,
+        "independent_difference_se": 0.008937595654668604,
+        "shift_in_empirical_sigma": -0.792788616569605,
+        "empirical_variance_ratio_new_over_old": 0.5650833363749073,
+        "interpretation": "Eight independent scrambles per design; variance ratio is an empirical diagnostic, not a precision certificate."
+      },
+      "reference_audit_sha256": "c8b73c94c8988f4b9c764606a71381d4dbb3f50d7baf14efd20247ce09317f92",
+      "original_CFT_banks_verified": true,
+      "additional_bank_families": [
+        "radial_fallback_000"
+      ],
+      "independent_old_and_new_scrambles": true,
+      "additional_bank_region": {
+        "point_count": 5,
+        "full_denominator_Q5_mean": -0.0015896772066392305
+      },
+      "operation": "reuse",
+      "matrix_model_Q5": -0.329829703125,
+      "matrix_sampling_only_pull": 0.5912974018737314,
+      "final_audit_sha256": "93b42360ae76bcaa6018ff30a949c1f1b47352dde0decf64fb2e7e15f3eac321",
+      "completed_reference": "/n/holylabs/yin_lab/Everyone/yutaizhang/StringMC/sphere_six_point_radial_comparison_20260910/yin_radial_three_energy_20260910_v2/t0p2505",
+      "retained_from_previous_audit": true
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.2655,
+      "radial_power": 0.1409805,
+      "sample_count": 2048,
+      "mean_real": -0.3641921056161393,
+      "mean_imag": 1.7841531902998074e-16,
+      "replicate_means": [
+        [
+          -0.3910101036160334,
+          1.915868437249576e-16
+        ],
+        [
+          -0.3490226441712443,
+          1.7099232580970394e-16
+        ],
+        [
+          -0.36732382767662464,
+          1.7997606907160297e-16
+        ],
+        [
+          -0.35726389201617287,
+          1.750224270334102e-16
+        ],
+        [
+          -0.3482270511035397,
+          1.705764168554805e-16
+        ],
+        [
+          -0.3650835645344733,
+          1.788543203004886e-16
+        ],
+        [
+          -0.34891211000174427,
+          1.7091265205650969e-16
+        ],
+        [
+          -0.386693651809282,
+          1.8940149738769244e-16
+        ]
+      ],
+      "scramble_se_real": 0.005980027645141532,
+      "scramble_se_imag": 2.9312502938490117e-18,
+      "empirical_relative_scramble_se": 0.01641998152328024,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -1.4586214842388124e-06,
+          "signed_mean_imag": -3.057298888133706e-21,
+          "mean_absolute_difference": 1.7164171596504496e-06,
+          "relative_mean_absolute_difference": 4.712944441084519e-06
+        },
+        "core1": {
+          "signed_mean_real": 2.3951874882016666e-08,
+          "signed_mean_imag": -2.6351609739786483e-21,
+          "mean_absolute_difference": 3.761260139987604e-08,
+          "relative_mean_absolute_difference": 1.0327681687729923e-07
+        },
+        "core2": {
+          "signed_mean_real": -1.6272912465814243e-08,
+          "signed_mean_imag": 1.6151746880419275e-20,
+          "mean_absolute_difference": 4.010202338684755e-08,
+          "relative_mean_absolute_difference": 1.1011228076732484e-07
+        },
+        "tail0": {
+          "signed_mean_real": 4.177943008957923e-06,
+          "signed_mean_imag": 9.38375810366454e-21,
+          "mean_absolute_difference": 1.0742649903461823e-05,
+          "relative_mean_absolute_difference": 2.9497206935025226e-05
+        },
+        "tail1": {
+          "signed_mean_real": 2.1212244009543115e-06,
+          "signed_mean_imag": 5.786645440672373e-21,
+          "mean_absolute_difference": 1.0571470297555498e-05,
+          "relative_mean_absolute_difference": 2.9027181354386337e-05
+        },
+        "tail2": {
+          "signed_mean_real": -3.270306962247693e-06,
+          "signed_mean_imag": 4.476915450405721e-21,
+          "mean_absolute_difference": 3.789106891065961e-06,
+          "relative_mean_absolute_difference": 1.040414339749501e-05
+        },
+        "width_half": {
+          "signed_mean_real": 1.5558952242123856e-05,
+          "signed_mean_imag": 6.072436924854137e-21,
+          "mean_absolute_difference": 0.00010203663224305919,
+          "relative_mean_absolute_difference": 0.0002801725536319187
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.0002801725536319187,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 238,
+      "available_prefix_unresolved_count": 238,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "f0f52308201f3f555962edd294e89ed1d1dfaaf833f335080aa4ff1352a44e9f",
+      "summary_sha256": "8831bf7ce0955ed805f271a8fd66e77b6f1fc13534401bf3417450d20ed1305e",
+      "pointwise_sha256": "d8f809ef570f0e04a759f95ca926f467d3384c96e4fbf3a92aa4a87ef4f674f6",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.1409805,
+              0.1409805,
+              0.1409805
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.1409805,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.1409805,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.1409805
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.1409805,
+              0.1409805,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.1409805,
+              0.75,
+              0.1409805
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.1409805,
+              0.1409805
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.1409805,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.002803165183909234,
+        0.0012685521150677921
+      ],
+      "operation": "compute",
+      "matrix_model_Q5": -0.368357671875,
+      "matrix_sampling_only_pull": 0.696579766189715,
+      "final_audit_sha256": "1ade663b7eea7a108b5723ae3eb6af05b076f79944b2d8e5d6dc9ad09ca63817"
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.2755,
+      "radial_power": 0.15180050000000003,
+      "sample_count": 2048,
+      "mean_real": -0.3769028709690878,
+      "mean_imag": 1.8462022873531845e-16,
+      "replicate_means": [
+        [
+          -0.40385323717654525,
+          1.978500886406899e-16
+        ],
+        [
+          -0.3617819605371028,
+          1.7721510701555168e-16
+        ],
+        [
+          -0.37950342389273284,
+          1.8589179935060888e-16
+        ],
+        [
+          -0.36909213733839563,
+          1.8073406403531372e-16
+        ],
+        [
+          -0.36077155929113236,
+          1.7671887951848923e-16
+        ],
+        [
+          -0.37786779307683466,
+          1.8509646289038228e-16
+        ],
+        [
+          -0.3620248525590498,
+          1.7735102439757856e-16
+        ],
+        [
+          -0.4003280038809094,
+          1.9610440403393334e-16
+        ]
+      ],
+      "scramble_se_real": 0.006056249990767769,
+      "scramble_se_imag": 2.9699985603514403e-18,
+      "empirical_relative_scramble_se": 0.016068463408612454,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -3.2511050606164954e-06,
+          "signed_mean_imag": -1.529160506584361e-20,
+          "mean_absolute_difference": 3.489632022481279e-06,
+          "relative_mean_absolute_difference": 9.258703743775636e-06
+        },
+        "core1": {
+          "signed_mean_real": 2.980440837641109e-08,
+          "signed_mean_imag": 1.862418008501506e-21,
+          "mean_absolute_difference": 5.248876987269069e-08,
+          "relative_mean_absolute_difference": 1.3926338565087667e-07
+        },
+        "core2": {
+          "signed_mean_real": 7.33754236948241e-09,
+          "signed_mean_imag": 5.7890218064221006e-21,
+          "mean_absolute_difference": 6.593426010695237e-08,
+          "relative_mean_absolute_difference": 1.7493700681404482e-07
+        },
+        "tail0": {
+          "signed_mean_real": 6.052589779144612e-06,
+          "signed_mean_imag": 1.4865824203667434e-20,
+          "mean_absolute_difference": 1.2403633094263384e-05,
+          "relative_mean_absolute_difference": 3.290936219820062e-05
+        },
+        "tail1": {
+          "signed_mean_real": 3.7087410407086053e-06,
+          "signed_mean_imag": -1.3374221051295954e-20,
+          "mean_absolute_difference": 1.508783629967123e-05,
+          "relative_mean_absolute_difference": 4.003109942059497e-05
+        },
+        "tail2": {
+          "signed_mean_real": -5.330964847233799e-06,
+          "signed_mean_imag": -1.2917091912201155e-20,
+          "mean_absolute_difference": 5.851010362957931e-06,
+          "relative_mean_absolute_difference": 1.5523920918707486e-05
+        },
+        "width_half": {
+          "signed_mean_real": 2.094569417122318e-05,
+          "signed_mean_imag": 7.323426174498916e-21,
+          "mean_absolute_difference": 0.00011048904480359979,
+          "relative_mean_absolute_difference": 0.00029314991557244385
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.00029314991557244385,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 239,
+      "available_prefix_unresolved_count": 239,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "085f676913e8265d49368009bb3b1916734750f630d90de72e63131df8c677b5",
+      "summary_sha256": "c0df4a86bdf4a7ad96467ceac3f5dd925c4468e7199e141fe9b0a409e569a6d2",
+      "pointwise_sha256": "9bb8ba5bf7ee6924d70567b0b9ad113f5b3658359d5d1c336ee08da0fde08b0e",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.15180050000000003,
+              0.15180050000000003,
+              0.15180050000000003
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.15180050000000003,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.15180050000000003,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.15180050000000003
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.15180050000000003,
+              0.15180050000000003,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.15180050000000003,
+              0.75,
+              0.15180050000000003
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.15180050000000003,
+              0.15180050000000003
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.15180050000000003,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.0028691959809217693,
+        0.001295150354693346
+      ],
+      "operation": "compute",
+      "matrix_model_Q5": -0.381277359375,
+      "matrix_sampling_only_pull": 0.722309748207345,
+      "final_audit_sha256": "3082155b166bddade1e7e6653935a70ac16083d7e92081aa40dfbd95f5b30421"
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.2855,
+      "radial_power": 0.16302049999999998,
+      "sample_count": 2048,
+      "mean_real": -0.3801657949058693,
+      "mean_imag": 1.8624380261037392e-16,
+      "replicate_means": [
+        [
+          -0.4066531909707558,
+          1.9922288588536407e-16
+        ],
+        [
+          -0.3666068652267891,
+          1.7960872303104063e-16
+        ],
+        [
+          -0.381417818364229,
+          1.86867041114015e-16
+        ],
+        [
+          -0.3738430978540694,
+          1.831504410680279e-16
+        ],
+        [
+          -0.36409737868094716,
+          1.7835538643732093e-16
+        ],
+        [
+          -0.3795147807298917,
+          1.8593834358308827e-16
+        ],
+        [
+          -0.36570159978411815,
+          1.791328485297128e-16
+        ],
+        [
+          -0.4034916276361544,
+          1.976747512344219e-16
+        ]
+      ],
+      "scramble_se_real": 0.005884143367689746,
+      "scramble_se_imag": 2.884660368925697e-18,
+      "empirical_relative_scramble_se": 0.015477834793492365,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": -3.966975152982372e-06,
+          "signed_mean_imag": 9.320584623612828e-21,
+          "mean_absolute_difference": 4.41955540226751e-06,
+          "relative_mean_absolute_difference": 1.1625336791180307e-05
+        },
+        "core1": {
+          "signed_mean_real": 5.296253284184715e-08,
+          "signed_mean_imag": 1.0333457984673214e-20,
+          "mean_absolute_difference": 8.53476690345323e-08,
+          "relative_mean_absolute_difference": 2.245011786388219e-07
+        },
+        "core2": {
+          "signed_mean_real": -2.2192535883019717e-08,
+          "signed_mean_imag": 1.8395884791079263e-20,
+          "mean_absolute_difference": 4.735862503171923e-08,
+          "relative_mean_absolute_difference": 1.2457360884728051e-07
+        },
+        "tail0": {
+          "signed_mean_real": 8.796992768756597e-06,
+          "signed_mean_imag": 1.1886339853688675e-20,
+          "mean_absolute_difference": 1.4817994705328323e-05,
+          "relative_mean_absolute_difference": 3.897771683798465e-05
+        },
+        "tail1": {
+          "signed_mean_real": 6.937888673745326e-06,
+          "signed_mean_imag": 1.0364149985870206e-20,
+          "mean_absolute_difference": 2.229193753126126e-05,
+          "relative_mean_absolute_difference": 5.863740986161272e-05
+        },
+        "tail2": {
+          "signed_mean_real": -8.312894801933701e-06,
+          "signed_mean_imag": 3.027778208288322e-20,
+          "mean_absolute_difference": 8.846386353174567e-06,
+          "relative_mean_absolute_difference": 2.3269811413109826e-05
+        },
+        "width_half": {
+          "signed_mean_real": 2.4314762318719595e-05,
+          "signed_mean_imag": 1.837489956180876e-20,
+          "mean_absolute_difference": 0.00011739504949855507,
+          "relative_mean_absolute_difference": 0.0003087996107793511
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.0003087996107793511,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 238,
+      "available_prefix_unresolved_count": 238,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "428477d90d203d8f4863d89b4d4f40cba765dde48344e116e141996512db9cc0",
+      "summary_sha256": "570b07f609f5332d8a910e3e8f32218d2a3312204fa217e9bd8d062f9541b236",
+      "pointwise_sha256": "1174fc33c1d0358001520ac8d3e66f7fd173a0ac246030652efde0b249784b1e",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.16302049999999998,
+              0.16302049999999998,
+              0.16302049999999998
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.16302049999999998,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.16302049999999998,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.16302049999999998
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.16302049999999998,
+              0.16302049999999998,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.16302049999999998,
+              0.75,
+              0.16302049999999998
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.16302049999999998,
+              0.16302049999999998
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.16302049999999998,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [
+        "radial_fallback_000"
+      ],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.002847472098068427,
+        0.0012552763404859294
+      ],
+      "operation": "compute",
+      "matrix_model_Q5": -0.384859546875,
+      "matrix_sampling_only_pull": 0.7976950383133792,
+      "final_audit_sha256": "4e77b8549ebb2199969e1b874e62a9a5da42d2fc9d857cd7bb80a27e8640ae25"
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.2955,
+      "radial_power": 0.17464049999999998,
+      "sample_count": 2048,
+      "mean_real": -0.37536250995123543,
+      "mean_imag": 1.8387868069640748e-16,
+      "replicate_means": [
+        [
+          -0.40029708314339985,
+          1.961034645105755e-16
+        ],
+        [
+          -0.3627234899756165,
+          1.776821104423911e-16
+        ],
+        [
+          -0.37568609012983106,
+          1.8405843176802054e-16
+        ],
+        [
+          -0.36893354350310437,
+          1.807430728273819e-16
+        ],
+        [
+          -0.359783734689632,
+          1.7622750265960484e-16
+        ],
+        [
+          -0.3748376633948973,
+          1.836253637668824e-16
+        ],
+        [
+          -0.361604733267749,
+          1.771702254956845e-16
+        ],
+        [
+          -0.3990337415056532,
+          1.95419274100719e-16
+        ]
+      ],
+      "scramble_se_real": 0.005693811498142815,
+      "scramble_se_imag": 2.7854870422215938e-18,
+      "empirical_relative_scramble_se": 0.015168833719921887,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": 8.527411885171049e-06,
+          "signed_mean_imag": -1.1199261228670313e-20,
+          "mean_absolute_difference": 9.17030381116402e-06,
+          "relative_mean_absolute_difference": 2.4430526672350322e-05
+        },
+        "core1": {
+          "signed_mean_real": 2.713912092516504e-09,
+          "signed_mean_imag": 4.976995171710951e-21,
+          "mean_absolute_difference": 1.5270065827128018e-07,
+          "relative_mean_absolute_difference": 4.06808496381586e-07
+        },
+        "core2": {
+          "signed_mean_real": -4.102323195823905e-07,
+          "signed_mean_imag": -6.086185664128099e-22,
+          "mean_absolute_difference": 4.3168332567221504e-07,
+          "relative_mean_absolute_difference": 1.1500437956052041e-06
+        },
+        "tail0": {
+          "signed_mean_real": 1.1851500599604879e-05,
+          "signed_mean_imag": -4.335584209762545e-21,
+          "mean_absolute_difference": 1.7850988109649245e-05,
+          "relative_mean_absolute_difference": 4.755666225688954e-05
+        },
+        "tail1": {
+          "signed_mean_real": 1.1251957904928641e-05,
+          "signed_mean_imag": -4.1893626853763434e-22,
+          "mean_absolute_difference": 3.340197863128676e-05,
+          "relative_mean_absolute_difference": 8.898592093181101e-05
+        },
+        "tail2": {
+          "signed_mean_real": -1.3438357136052383e-05,
+          "signed_mean_imag": -1.4917897149649384e-21,
+          "mean_absolute_difference": 1.3947972444101722e-05,
+          "relative_mean_absolute_difference": 3.715867214846189e-05
+        },
+        "width_half": {
+          "signed_mean_real": 4.455910777318815e-05,
+          "signed_mean_imag": -1.6115726911340397e-20,
+          "mean_absolute_difference": 0.0001262256854983383,
+          "relative_mean_absolute_difference": 0.00033627675154542387
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.00033627675154542387,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 241,
+      "available_prefix_unresolved_count": 241,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "fb604ba8d8bae2450a90876af796af07a53e76de9f4ac88820cc3e2de8ebff30",
+      "summary_sha256": "942f0455fa1f6f825e0e4721f305b0bf9c74497ad37d5cceb825409f1c2c1f54",
+      "pointwise_sha256": "d69d337a869bcb64a95bc7da8e4c30aaca5fd6fe8559a5ded007764419690205",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.17464049999999998,
+              0.17464049999999998,
+              0.17464049999999998
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.17464049999999998,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.17464049999999998,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.17464049999999998
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.17464049999999998,
+              0.17464049999999998,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.17464049999999998,
+              0.75,
+              0.17464049999999998
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.17464049999999998,
+              0.17464049999999998
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.17464049999999998,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.0029655920390651886,
+        0.0012823900937591352
+      ],
+      "operation": "compute",
+      "matrix_model_Q5": -0.379854234375,
+      "matrix_sampling_only_pull": 0.7888783155588566,
+      "final_audit_sha256": "d47bc5ec033e9674a706119e71d8111d401edf2fc70dceea8d650006b6e36bb9"
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.3055,
+      "radial_power": 0.18666049999999998,
+      "sample_count": 2048,
+      "mean_real": -0.362700357806497,
+      "mean_imag": 1.7765900447352724e-16,
+      "replicate_means": [
+        [
+          -0.386399091290605,
+          1.8928181653089213e-16
+        ],
+        [
+          -0.3516082236800765,
+          1.7219708875314026e-16
+        ],
+        [
+          -0.36215795637955683,
+          1.7743608185798895e-16
+        ],
+        [
+          -0.3562134928232439,
+          1.7447416399247993e-16
+        ],
+        [
+          -0.34768177776778625,
+          1.7032835776618844e-16
+        ],
+        [
+          -0.3610719941596129,
+          1.7683581793071455e-16
+        ],
+        [
+          -0.34918315430046004,
+          1.7100471995574802e-16
+        ],
+        [
+          -0.3872871720506348,
+          1.8971398900106559e-16
+        ]
+      ],
+      "scramble_se_real": 0.005578137433468649,
+      "scramble_se_imag": 2.735785857568767e-18,
+      "empirical_relative_scramble_se": 0.01537946493133768,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": 1.2303973009365734e-05,
+          "signed_mean_imag": -1.8230458794399246e-20,
+          "mean_absolute_difference": 1.2521663888784639e-05,
+          "relative_mean_absolute_difference": 3.452343958112395e-05
+        },
+        "core1": {
+          "signed_mean_real": -8.24982575456033e-08,
+          "signed_mean_imag": -1.1437412453560585e-20,
+          "mean_absolute_difference": 3.8393495768245615e-07,
+          "relative_mean_absolute_difference": 1.0585458476092487e-06
+        },
+        "core2": {
+          "signed_mean_real": -2.799454668492592e-07,
+          "signed_mean_imag": -7.697656549926589e-22,
+          "mean_absolute_difference": 2.9767844105494307e-07,
+          "relative_mean_absolute_difference": 8.207282806535208e-07
+        },
+        "tail0": {
+          "signed_mean_real": 1.6865048753394207e-05,
+          "signed_mean_imag": -1.0915752146120351e-20,
+          "mean_absolute_difference": 2.3411804105200865e-05,
+          "relative_mean_absolute_difference": 6.454861044744603e-05
+        },
+        "tail1": {
+          "signed_mean_real": 2.134464796432668e-05,
+          "signed_mean_imag": -1.8038890618644122e-20,
+          "mean_absolute_difference": 5.282122538553375e-05,
+          "relative_mean_absolute_difference": 0.00014563323208441448
+        },
+        "tail2": {
+          "signed_mean_real": -2.158651309431868e-05,
+          "signed_mean_imag": 1.1442492318899683e-20,
+          "mean_absolute_difference": 2.2127467530499053e-05,
+          "relative_mean_absolute_difference": 6.1007570172578104e-05
+        },
+        "width_half": {
+          "signed_mean_real": 6.138927799748356e-05,
+          "signed_mean_imag": -2.933466296941673e-20,
+          "mean_absolute_difference": 0.00014447777008455754,
+          "relative_mean_absolute_difference": 0.0003983391992175463
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.0003983391992175463,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 241,
+      "available_prefix_unresolved_count": 241,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "f940b21792f75fb33d9029d0fcf606cd4770483668e18ca00a7b388351f71c02",
+      "summary_sha256": "1453e81b3d90f11aeeef6061af7cbcb4bcbb568a1b5a4186112845e76836f729",
+      "pointwise_sha256": "0379d5e117bfa94d6993f2a881de36d33efaca00bfed333bbc85d051fa749574",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.18666049999999998,
+              0.18666049999999998,
+              0.18666049999999998
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.18666049999999998,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.18666049999999998,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.18666049999999998
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.18666049999999998,
+              0.18666049999999998,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.18666049999999998,
+              0.75,
+              0.18666049999999998
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.18666049999999998,
+              0.18666049999999998
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.18666049999999998,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.0029962056919999617,
+        0.001309932547803783
+      ],
+      "operation": "compute",
+      "matrix_model_Q5": -0.367011421875,
+      "matrix_sampling_only_pull": 0.7728500991454178,
+      "final_audit_sha256": "28b151471e20d8591d852348bbf8c2a856e9fd08f6b8772fd8cd00733baca296"
+    },
+    {
+      "version": "sphere-six-point-yin-radial-mixture-audit-v1",
+      "t": 0.3155,
+      "radial_power": 0.1990805,
+      "sample_count": 2048,
+      "mean_real": -0.34304648562526346,
+      "mean_imag": 1.6805231110942525e-16,
+      "replicate_means": [
+        [
+          -0.363660390709148,
+          1.781552793101041e-16
+        ],
+        [
+          -0.3329409478223442,
+          1.6313163623749707e-16
+        ],
+        [
+          -0.3420724024380227,
+          1.6755131201112484e-16
+        ],
+        [
+          -0.33664577018412223,
+          1.6494817528388045e-16
+        ],
+        [
+          -0.32913587581652726,
+          1.6120461750847645e-16
+        ],
+        [
+          -0.34144936280527005,
+          1.673054138305197e-16
+        ],
+        [
+          -0.33110871010905374,
+          1.6217629937884565e-16
+        ],
+        [
+          -0.3673584251176195,
+          1.7994575531495382e-16
+        ]
+      ],
+      "scramble_se_real": 0.00517309268857375,
+      "scramble_se_imag": 2.5340536381765436e-18,
+      "empirical_relative_scramble_se": 0.015079859160034433,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": 7.416611415094372e-06,
+          "signed_mean_imag": -9.277033506699288e-22,
+          "mean_absolute_difference": 7.527120196587407e-06,
+          "relative_mean_absolute_difference": 2.194198311889972e-05
+        },
+        "core1": {
+          "signed_mean_real": -1.3582568530638697e-07,
+          "signed_mean_imag": 5.891184753786206e-21,
+          "mean_absolute_difference": 3.622755191395385e-07,
+          "relative_mean_absolute_difference": 1.056053725427989e-06
+        },
+        "core2": {
+          "signed_mean_real": -1.5171416459792732e-07,
+          "signed_mean_imag": 9.82473142798023e-21,
+          "mean_absolute_difference": 1.6294050076566235e-07,
+          "relative_mean_absolute_difference": 4.7498081919910705e-07
+        },
+        "tail0": {
+          "signed_mean_real": 1.8877211367585214e-05,
+          "signed_mean_imag": 8.800656668932477e-21,
+          "mean_absolute_difference": 2.8351424375158018e-05,
+          "relative_mean_absolute_difference": 8.264601318821992e-05
+        },
+        "tail1": {
+          "signed_mean_real": 3.1302226367221415e-05,
+          "signed_mean_imag": -2.857367199226657e-20,
+          "mean_absolute_difference": 8.003218170089718e-05,
+          "relative_mean_absolute_difference": 0.00023329835767016893
+        },
+        "tail2": {
+          "signed_mean_real": -3.6884878194297496e-05,
+          "signed_mean_imag": 2.8372664615767516e-20,
+          "mean_absolute_difference": 3.75009876986604e-05,
+          "relative_mean_absolute_difference": 0.00010931751022112397
+        },
+        "width_half": {
+          "signed_mean_real": 5.3373317037345614e-05,
+          "signed_mean_imag": -1.4183468584963887e-20,
+          "mean_absolute_difference": 0.00015830403228426996,
+          "relative_mean_absolute_difference": 0.00046146525009790613
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.00046146525009790613,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 238,
+      "available_prefix_unresolved_count": 238,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "0365cbd14b870e24bc9b49340a5350c5244d96a68327e1a07575d9f59fddcc2d",
+      "summary_sha256": "a8c99b32b0e6a1cf3578606863fde35adf430354989754fbf10b3a6c04715966",
+      "pointwise_sha256": "74f790fddf9c5b7785e3b5f11850b30f6b997fb251feb9debebfdecb33bea0f2",
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.1990805,
+              0.1990805,
+              0.1990805
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.1990805,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.1990805,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.1990805
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.1990805,
+              0.1990805,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.1990805,
+              0.75,
+              0.1990805
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.1990805,
+              0.1990805
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.1990805,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "base_seed": 2026091000,
+      "comparison": {
+        "old_mean": -0.34355645155004944,
+        "old_se": 0.007560458457740621,
+        "new_mean": -0.34304648562526346,
+        "new_se": 0.00517309268857375,
+        "mean_shift": 0.0005099659247859711,
+        "independent_difference_se": 0.009160863499463186,
+        "shift_in_empirical_sigma": 0.055667888165330096,
+        "empirical_variance_ratio_new_over_old": 0.46817072874457955,
+        "interpretation": "Eight independent scrambles per design; variance ratio is an empirical diagnostic, not a precision certificate."
+      },
+      "reference_audit_sha256": "e6d34df9d03d303832c27c7e322fe63812bd474c89e05f2e6143072da8ef49a9",
+      "original_CFT_banks_verified": true,
+      "additional_bank_families": [],
+      "independent_old_and_new_scrambles": true,
+      "additional_bank_region": {
+        "point_count": 0,
+        "full_denominator_Q5_mean": -0.0
+      },
+      "operation": "reuse",
+      "matrix_model_Q5": -0.347081109375,
+      "matrix_sampling_only_pull": 0.7799248907038002,
+      "final_audit_sha256": "6168b4bee9a5d2a9345619bc9896328138ff0da06c61d807ba10f1a6edf113aa",
+      "completed_reference": "/n/holylabs/yin_lab/Everyone/yutaizhang/StringMC/sphere_six_point_radial_comparison_20260910/yin_radial_three_energy_20260910_v2/t0p3155",
+      "retained_from_previous_audit": true
+    },
+    {
+      "version": "sphere-six-point-yin-radial-production-audit-v2",
+      "t": 0.3255,
+      "radial_power": 0.21190050000000002,
+      "sample_count": 2048,
+      "mean_real": -0.3170315738930113,
+      "mean_imag": 1.553018764243728e-16,
+      "replicate_means": [
+        [
+          -0.33538344543526355,
+          1.6433412437524903e-16
+        ],
+        [
+          -0.3078323262647745,
+          1.508037084709271e-16
+        ],
+        [
+          -0.31552589207483955,
+          1.5454578253698346e-16
+        ],
+        [
+          -0.31096974389672905,
+          1.5234230795101597e-16
+        ],
+        [
+          -0.30582362472405633,
+          1.4981546170401215e-16
+        ],
+        [
+          -0.31595051497075066,
+          1.547381986386084e-16
+        ],
+        [
+          -0.30606037199857217,
+          1.4988824928191168e-16
+        ],
+        [
+          -0.33870667177910474,
+          1.659471784362745e-16
+        ]
+      ],
+      "scramble_se_real": 0.0045852912335802905,
+      "scramble_se_imag": 2.2527524212088614e-18,
+      "empirical_relative_scramble_se": 0.014463200549001753,
+      "control_differences": {
+        "baseline": {
+          "signed_mean_real": 0.0,
+          "signed_mean_imag": 0.0,
+          "mean_absolute_difference": 0.0,
+          "relative_mean_absolute_difference": 0.0
+        },
+        "core0": {
+          "signed_mean_real": 2.7729023190939468e-06,
+          "signed_mean_imag": -2.5603357220087246e-21,
+          "mean_absolute_difference": 2.996175430758302e-06,
+          "relative_mean_absolute_difference": 9.45071619828447e-06
+        },
+        "core1": {
+          "signed_mean_real": -5.217523172177842e-07,
+          "signed_mean_imag": -5.265403760450141e-24,
+          "mean_absolute_difference": 7.844040622286141e-07,
+          "relative_mean_absolute_difference": 2.4742143269721364e-06
+        },
+        "core2": {
+          "signed_mean_real": -6.060493726773985e-08,
+          "signed_mean_imag": 1.2244309378285222e-21,
+          "mean_absolute_difference": 7.313331488058748e-08,
+          "relative_mean_absolute_difference": 2.3068148696529449e-07
+        },
+        "tail0": {
+          "signed_mean_real": 1.85513812579539e-05,
+          "signed_mean_imag": -1.967274838299139e-20,
+          "mean_absolute_difference": 3.4602410477580886e-05,
+          "relative_mean_absolute_difference": 0.00010914499793404857
+        },
+        "tail1": {
+          "signed_mean_real": 4.6404171801892575e-05,
+          "signed_mean_imag": -2.6387246903194815e-20,
+          "mean_absolute_difference": 0.00012395101574433527,
+          "relative_mean_absolute_difference": 0.00039097372612535133
+        },
+        "tail2": {
+          "signed_mean_real": -6.390535808555487e-05,
+          "signed_mean_imag": 3.4997035243185193e-20,
+          "mean_absolute_difference": 6.508302054670869e-05,
+          "relative_mean_absolute_difference": 0.00020528876587122603
+        },
+        "width_half": {
+          "signed_mean_real": 5.575761782379621e-05,
+          "signed_mean_imag": -3.6619233380657944e-20,
+          "mean_absolute_difference": 0.00018869019156808934,
+          "relative_mean_absolute_difference": 0.0005951779163540558
+        }
+      },
+      "maximum_control_relative_mean_absolute_difference": 0.0005951779163540558,
+      "target_relative_accuracy": 0.01,
+      "one_percent_empirical_screen": false,
+      "finite": true,
+      "exact_complete_source": true,
+      "unresolved_scope_count": 0,
+      "numerical_failure_count": 0,
+      "baseline_prefix_unresolved_count": 237,
+      "available_prefix_unresolved_count": 237,
+      "analytic_patch_count": 0,
+      "total_accuracy_certified": false,
+      "input_release_sha256": "5d6cca4807b28d2d5785493bde55b1d829149ab351b71681793c6ffa5a1cf703",
+      "summary_sha256": "758e2a1b4dc670a29218b613dcc34b871420ce178f54b22b8ca7f656d2ba263a",
+      "pointwise_sha256": "65f816433c16683c120c09cf61c0153556065ecfaa25a13d0e9d8f61ea39240c",
+      "base_seed": 2026091000,
+      "radial_proposal": {
+        "version": "sphere-six-point-radial-product-mixture-v1",
+        "kind": "face-stratified",
+        "components": [
+          {
+            "name": "EEE",
+            "weight": 0.125,
+            "powers": [
+              0.21190050000000002,
+              0.21190050000000002,
+              0.21190050000000002
+            ]
+          },
+          {
+            "name": "BBB",
+            "weight": 0.5,
+            "powers": [
+              0.75,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "EBB",
+            "weight": 0.0625,
+            "powers": [
+              0.21190050000000002,
+              0.75,
+              0.75
+            ]
+          },
+          {
+            "name": "BEB",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.21190050000000002,
+              0.75
+            ]
+          },
+          {
+            "name": "BBE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.75,
+              0.21190050000000002
+            ]
+          },
+          {
+            "name": "EEB",
+            "weight": 0.0625,
+            "powers": [
+              0.21190050000000002,
+              0.21190050000000002,
+              0.75
+            ]
+          },
+          {
+            "name": "EBE",
+            "weight": 0.0625,
+            "powers": [
+              0.21190050000000002,
+              0.75,
+              0.21190050000000002
+            ]
+          },
+          {
+            "name": "BEE",
+            "weight": 0.0625,
+            "powers": [
+              0.75,
+              0.21190050000000002,
+              0.21190050000000002
+            ]
+          }
+        ],
+        "reference_endpoint_power": 0.21190050000000002,
+        "reference_endpoint_weight": 0.125,
+        "bulk_power": 0.75,
+        "weight_policy": "dyadic-face-count-v1"
+      },
+      "accepted_physics_settings_verified": true,
+      "extra_family_names": [],
+      "weighted_block_prefix_relative_absolute_increments": [
+        0.003084414556629728,
+        0.0013620562778354304
+      ],
+      "operation": "compute",
+      "matrix_model_Q5": -0.320813296875,
+      "matrix_sampling_only_pull": 0.8247508804442618,
+      "final_audit_sha256": "bf2380fd2a500e2d29b733b23c19e8ed3997de4b44882bb3d16c7cac6671e48e"
+    }
+  ],
+  "energies": [
+    0.1805,
+    0.1905,
+    0.2005,
+    0.2105,
+    0.2205,
+    0.2305,
+    0.2405,
+    0.2505,
+    0.2655,
+    0.2755,
+    0.2855,
+    0.2955,
+    0.3055,
+    0.3155,
+    0.3255
+  ],
+  "replicate_means": [
+    [
+      0.23398200867744032,
+      0.20973084666022834,
+      0.22588546737412105,
+      0.21760700138784972,
+      0.21099507479277357,
+      0.2268793513104152,
+      0.21325853352967789,
+      0.2286275697739248
+    ],
+    [
+      0.10686435727969273,
+      0.09542995734223318,
+      0.10222709907378814,
+      0.09878630338861141,
+      0.09515829224786583,
+      0.10308374697958315,
+      0.09664263911931872,
+      0.1046323467250653
+    ],
+    [
+      -0.005254663010925494,
+      -0.004678301096067805,
+      -0.004988141995685237,
+      -0.0047976015330843304,
+      -0.004657957494763731,
+      -0.00504163457097445,
+      -0.004717225018081174,
+      -0.0051431902431682466
+    ],
+    [
+      -0.10269147135267431,
+      -0.09137586023725838,
+      -0.0968619128908917,
+      -0.09335206205257686,
+      -0.090852474783202,
+      -0.09762076412788884,
+      -0.09181195766476674,
+      -0.10059664420483244
+    ],
+    [
+      -0.18542610813008611,
+      -0.1650009702979135,
+      -0.1752660703154627,
+      -0.16871565425046978,
+      -0.1638131080131107,
+      -0.17549799112186687,
+      -0.16590496187813042,
+      -0.17973266622333786
+    ],
+    [
+      -0.2541034529708049,
+      -0.22613200310576473,
+      -0.23985269145544583,
+      -0.23212450223560205,
+      -0.22441164400587607,
+      -0.23922543790376644,
+      -0.2264444196771454,
+      -0.24761430025980763
+    ],
+    [
+      -0.30891039591230746,
+      -0.27553100229945066,
+      -0.2909386265350623,
+      -0.28200174492122115,
+      -0.27355758176121975,
+      -0.2903462228259529,
+      -0.2753488983921492,
+      -0.30200234699547973
+    ],
+    [
+      -0.350956083119696,
+      -0.3134682205510888,
+      -0.3298981026172337,
+      -0.3204171778511132,
+      -0.3111882835761213,
+      -0.3284781529977794,
+      -0.31292901622515895,
+      -0.34589846679410485
+    ],
+    [
+      -0.3910101036160334,
+      -0.3490226441712443,
+      -0.36732382767662464,
+      -0.3572638920161728,
+      -0.34822705110353963,
+      -0.3650835645344734,
+      -0.34891211000174427,
+      -0.38669365180928206
+    ],
+    [
+      -0.40385323717654525,
+      -0.3617819605371028,
+      -0.37950342389273284,
+      -0.36909213733839563,
+      -0.36077155929113236,
+      -0.3778677930768347,
+      -0.3620248525590498,
+      -0.4003280038809094
+    ],
+    [
+      -0.4066531909707558,
+      -0.3666068652267891,
+      -0.381417818364229,
+      -0.37384309785406944,
+      -0.3640973786809471,
+      -0.37951478072989164,
+      -0.36570159978411815,
+      -0.4034916276361544
+    ],
+    [
+      -0.40029708314339985,
+      -0.3627234899756165,
+      -0.3756860901298311,
+      -0.36893354350310437,
+      -0.3597837346896319,
+      -0.3748376633948973,
+      -0.36160473326774895,
+      -0.39903374150565324
+    ],
+    [
+      -0.38639909129060507,
+      -0.35160822368007644,
+      -0.36215795637955683,
+      -0.3562134928232439,
+      -0.34768177776778625,
+      -0.36107199415961294,
+      -0.34918315430046,
+      -0.38728717205063473
+    ],
+    [
+      -0.363660390709148,
+      -0.3329409478223442,
+      -0.3420724024380227,
+      -0.33664577018412223,
+      -0.32913587581652726,
+      -0.34144936280527005,
+      -0.33110871010905374,
+      -0.3673584251176195
+    ],
+    [
+      -0.3353834454352635,
+      -0.3078323262647745,
+      -0.3155258920748395,
+      -0.310969743896729,
+      -0.3058236247240564,
+      -0.3159505149707507,
+      -0.3060603719985721,
+      -0.33870667177910474
+    ]
+  ],
+  "mean_covariance": [
+    [
+      1.042050605306242e-05,
+      5.069162464480391e-06,
+      -2.574117640055993e-07,
+      -5.005712881351137e-06,
+      -8.738325341088783e-06,
+      -1.206980037180968e-05,
+      -1.4446801327958118e-05,
+      -1.6421273081727205e-05,
+      -1.8085676406135693e-05,
+      -1.822136911424846e-05,
+      -1.734028830417542e-05,
+      -1.6595790635738363e-05,
+      -1.5801479114758463e-05,
+      -1.4394481875348939e-05,
+      -1.2699356967254172e-05
+    ],
+    [
+      5.069162464480391e-06,
+      2.4843296809011128e-06,
+      -1.2659539945104964e-07,
+      -2.472768846630164e-06,
+      -4.302341085420505e-06,
+      -5.962727577440262e-06,
+      -7.156032501415136e-06,
+      -8.171504363550023e-06,
+      -9.00677492247495e-06,
+      -9.087760451274382e-06,
+      -8.690213096928542e-06,
+      -8.341012420341979e-06,
+      -7.982216014293327e-06,
+      -7.293032743309389e-06,
+      -6.43198985702182e-06
+    ],
+    [
+      -2.574117640055993e-07,
+      -1.2659539945104964e-07,
+      6.493023598343792e-09,
+      1.2736101718688107e-07,
+      2.2100208696344778e-07,
+      3.0640560661617676e-07,
+      3.6878625608118613e-07,
+      4.2245115764674294e-07,
+      4.6634500323339783e-07,
+      4.7137205540616337e-07,
+      4.512719885680414e-07,
+      4.3392579123336933e-07,
+      4.1669637407409785e-07,
+      3.8135797025029195e-07,
+      3.3700571006672727e-07
+    ],
+    [
+      -5.005712881351137e-06,
+      -2.472768846630164e-06,
+      1.2736101718688107e-07,
+      2.5124944416441543e-06,
+      4.353385146613923e-06,
+      6.059183124228988e-06,
+      7.314040601913019e-06,
+      8.418007715894622e-06,
+      9.315938611859602e-06,
+      9.424457354604633e-06,
+      9.05739169825901e-06,
+      8.720782959920022e-06,
+      8.408519136961683e-06,
+      7.706103524794677e-06,
+      6.814550769488167e-06
+    ],
+    [
+      -8.738325341088783e-06,
+      -4.302341085420505e-06,
+      2.2100208696344778e-07,
+      4.353385146613923e-06,
+      7.598153060102057e-06,
+      1.0550755382812894e-05,
+      1.270348416644321e-05,
+      1.4555555942460843e-05,
+      1.607441999601839e-05,
+      1.6233542666127487e-05,
+      1.5592517157557178e-05,
+      1.4964440788178138e-05,
+      1.4377116258194615e-05,
+      1.3114097588878496e-05,
+      1.1575436211135291e-05
+    ],
+    [
+      -1.206980037180968e-05,
+      -5.962727577440262e-06,
+      3.0640560661617676e-07,
+      6.059183124228988e-06,
+      1.0550755382812894e-05,
+      1.4739541843698586e-05,
+      1.7783736183639093e-05,
+      2.0473302284397165e-05,
+      2.266677533740404e-05,
+      2.2887137483188936e-05,
+      2.2069174793201992e-05,
+      2.1205600845467968e-05,
+      2.0447285905314125e-05,
+      1.8686528738519578e-05,
+      1.6494181857136224e-05
+    ],
+    [
+      -1.4446801327958118e-05,
+      -7.156032501415136e-06,
+      3.6878625608118613e-07,
+      7.314040601913019e-06,
+      1.270348416644321e-05,
+      1.7783736183639093e-05,
+      2.1498999772006315e-05,
+      2.4826249604823033e-05,
+      2.7530926431131793e-05,
+      2.782227652903258e-05,
+      2.68692205303122e-05,
+      2.5853013929915206e-05,
+      2.499175678889011e-05,
+      2.287834578860565e-05,
+      2.0214635344419955e-05
+    ],
+    [
+      -1.6421273081727205e-05,
+      -8.171504363550023e-06,
+      4.2245115764674294e-07,
+      8.418007715894622e-06,
+      1.4555555942460843e-05,
+      2.0473302284397165e-05,
+      2.4826249604823033e-05,
+      2.8841406716597694e-05,
+      3.2078735123086556e-05,
+      3.245944389314485e-05,
+      3.1441343977429906e-05,
+      3.032336534201637e-05,
+      2.9444126555759024e-05,
+      2.7051974342870487e-05,
+      2.391575256046893e-05
+    ],
+    [
+      -1.8085676406135693e-05,
+      -9.00677492247495e-06,
+      4.6634500323339783e-07,
+      9.315938611859602e-06,
+      1.607441999601839e-05,
+      2.266677533740404e-05,
+      2.7530926431131793e-05,
+      3.2078735123086556e-05,
+      3.576073063665707e-05,
+      3.6200442854516146e-05,
+      3.509963410978477e-05,
+      3.387648698189012e-05,
+      3.294933929116565e-05,
+      3.0313204623882386e-05,
+      2.682723742113773e-05
+    ],
+    [
+      -1.822136911424846e-05,
+      -9.087760451274382e-06,
+      4.7137205540616337e-07,
+      9.424457354604633e-06,
+      1.6233542666127487e-05,
+      2.2887137483188936e-05,
+      2.782227652903258e-05,
+      3.245944389314485e-05,
+      3.6200442854516146e-05,
+      3.66781639506746e-05,
+      3.556598190078599e-05,
+      3.435992219586756e-05,
+      3.345403730688087e-05,
+      3.08177587970111e-05,
+      2.728303515233439e-05
+    ],
+    [
+      -1.734028830417542e-05,
+      -8.690213096928542e-06,
+      4.512719885680414e-07,
+      9.05739169825901e-06,
+      1.5592517157557178e-05,
+      2.2069174793201992e-05,
+      2.68692205303122e-05,
+      3.1441343977429906e-05,
+      3.509963410978477e-05,
+      3.556598190078599e-05,
+      3.4623143171527257e-05,
+      3.347663067802908e-05,
+      3.2676051033279446e-05,
+      3.0117980727994187e-05,
+      2.6649005304195612e-05
+    ],
+    [
+      -1.6595790635738363e-05,
+      -8.341012420341979e-06,
+      4.3392579123336933e-07,
+      8.720782959920022e-06,
+      1.4964440788178138e-05,
+      2.1205600845467968e-05,
+      2.5853013929915206e-05,
+      3.032336534201637e-05,
+      3.387648698189012e-05,
+      3.435992219586756e-05,
+      3.347663067802908e-05,
+      3.2419489376383474e-05,
+      3.170415001787872e-05,
+      2.9282805666674978e-05,
+      2.5920335170087095e-05
+    ],
+    [
+      -1.5801479114758463e-05,
+      -7.982216014293327e-06,
+      4.1669637407409785e-07,
+      8.408519136961683e-06,
+      1.4377116258194615e-05,
+      2.0447285905314125e-05,
+      2.499175678889011e-05,
+      2.9444126555759024e-05,
+      3.294933929116565e-05,
+      3.345403730688087e-05,
+      3.2676051033279446e-05,
+      3.170415001787872e-05,
+      3.1115617226664266e-05,
+      2.8808948735136282e-05,
+      2.550721019192369e-05
+    ],
+    [
+      -1.4394481875348939e-05,
+      -7.293032743309389e-06,
+      3.8135797025029195e-07,
+      7.706103524794677e-06,
+      1.3114097588878496e-05,
+      1.8686528738519578e-05,
+      2.287834578860565e-05,
+      2.7051974342870487e-05,
+      3.0313204623882386e-05,
+      3.08177587970111e-05,
+      3.0117980727994187e-05,
+      2.9282805666674978e-05,
+      2.8808948735136282e-05,
+      2.6760887964575192e-05,
+      2.3698307073728437e-05
+    ],
+    [
+      -1.2699356967254172e-05,
+      -6.43198985702182e-06,
+      3.3700571006672727e-07,
+      6.814550769488167e-06,
+      1.1575436211135291e-05,
+      1.6494181857136224e-05,
+      2.0214635344419955e-05,
+      2.391575256046893e-05,
+      2.682723742113773e-05,
+      2.728303515233439e-05,
+      2.6649005304195612e-05,
+      2.5920335170087095e-05,
+      2.550721019192369e-05,
+      2.3698307073728437e-05,
+      2.1024895696748244e-05
+    ]
+  ],
+  "empirical_covariance_rank": 7,
+  "covariance_note": "Same scramble labels across energies. Eight replicates imply covariance rank at most seven; do not invert it as a nonsingular fifteen-point covariance.",
+  "all_energies_finite": true,
+  "exact_all_source_points": true,
+  "total_accuracy_certified": false,
+  "numerical_failures": 0,
+  "scope_failures": 0
+}

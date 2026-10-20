@@ -1,0 +1,257 @@
+{
+  "status": "diagnostics_only_total_systematic_budget_not_closed",
+  "primary_control": {
+    "0.001": [
+      {
+        "from_setting": "rho0.001_b2_n24_m32",
+        "to_setting": "rho0.001_b4_n24_m32",
+        "mean_R1": -1.9453362531951512e-13,
+        "paired_SE_R1": 3.0455208482835616e-14,
+        "maximum_absolute_mean": 1.2715783287431393e-12,
+        "maximum_radius": 15.0,
+        "is_error_bound": false
+      },
+      {
+        "from_setting": "rho0.001_b4_n24_m32",
+        "to_setting": "rho0.001_b4_n32_m48",
+        "mean_R1": 5.652596446470426e-15,
+        "paired_SE_R1": 4.373209031403577e-17,
+        "maximum_absolute_mean": 2.3087434741775326e-14,
+        "maximum_radius": 15.0,
+        "is_error_bound": false
+      },
+      {
+        "from_setting": "rho0.001_b4_n32_m48",
+        "to_setting": "rho0.001_b4_n40_m64",
+        "mean_R1": -1.3022569134157891e-14,
+        "paired_SE_R1": 2.1656766352978843e-17,
+        "maximum_absolute_mean": 4.778295814578115e-14,
+        "maximum_radius": 15.0,
+        "is_error_bound": false
+      }
+    ],
+    "0.08": [
+      {
+        "from_setting": "rho0.08_b2_n24_m32",
+        "to_setting": "rho0.08_b4_n24_m32",
+        "mean_R1": -1.995027407164507e-12,
+        "paired_SE_R1": 3.4449359528822584e-13,
+        "maximum_absolute_mean": 1.377551892001172e-11,
+        "maximum_radius": 15.0,
+        "is_error_bound": false
+      },
+      {
+        "from_setting": "rho0.08_b4_n24_m32",
+        "to_setting": "rho0.08_b4_n32_m48",
+        "mean_R1": 9.758595036213347e-09,
+        "paired_SE_R1": 4.272256545990872e-12,
+        "maximum_absolute_mean": 2.225221856083648e-08,
+        "maximum_radius": 0.5,
+        "is_error_bound": false
+      },
+      {
+        "from_setting": "rho0.08_b4_n32_m48",
+        "to_setting": "rho0.08_b4_n40_m64",
+        "mean_R1": 3.804488408337692e-11,
+        "paired_SE_R1": 3.1624127640285704e-14,
+        "maximum_absolute_mean": 8.325951733612058e-11,
+        "maximum_radius": 0.5,
+        "is_error_bound": false
+      }
+    ]
+  },
+  "control_identity_warning": "Changing the control requires consistent changes to its sampled subtraction and integrated addition. No isolated control shift was added to the central value.",
+  "bulk": {
+    "saved_rows": 6846,
+    "retained_bulk_and_outer_rows": 6832,
+    "retained_rows_with_identical_low_high": 6832,
+    "current_source_sha256": "732493a988a67f7b6f3f9a4fd827e05ce8d95ed710099bb9fd804c5399a8799d",
+    "interpretation": "Identical saved low/high fields do not provide a truncation bound; zero must not be propagated as one.",
+    "older_inverse_audit_source_sha256": "8803c7ffa0e149e8456ca252101282cb2547bdeab3146a599da37e352d9472b2",
+    "older_inverse_audit_matches_current_source": false,
+    "older_audit_scope": "exact-final-table inverse-period-map correction and residual envelope",
+    "older_audit_bound_status": "empirical; ported from the earlier stratified CFT sensitivity audit",
+    "older_audit_added_to_current_budget": false,
+    "global_error_bound": null
+  },
+  "original_finite_bands": {
+    "original_successes": 38,
+    "original_successes_with_independent_CFT_order_checks": 5,
+    "original_successes_without_independent_CFT_order_checks": 33,
+    "separate_index3_and_index16_retries_checked": true,
+    "global_error_bound": null
+  },
+  "deep_finite_band": {
+    "successful": 16,
+    "nominal": 16,
+    "complete": true,
+    "accumulated_numerical_step_proxy_R1": 3.6648871847576545e-13,
+    "proxy_is_bound": false,
+    "limitations": "Finite order changes plus a floating-point proxy; period error is not converted into an integrand bound.",
+    "node_checks": [
+      {
+        "node_id": "res-b00-r02-p00000002",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 2.045226210402725e-10,
+          "rounding_proxy": 9.334582379530734e-13,
+          "theta_log_absolute_step": 4.405364961712621e-13
+        }
+      },
+      {
+        "node_id": "res-b00-r03-p00000003",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 1.7695356289803907e-10,
+          "rounding_proxy": 1.926395484324671e-12,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r03-p00000002",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 0.0,
+          "rounding_proxy": 2.5574849033382137e-11,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r02-p00000003",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 6.275513442036294e-11,
+          "rounding_proxy": 1.75780946161322e-11,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r00-p00000003",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 4.5474735087612436e-11,
+          "rounding_proxy": 2.745887895970403e-11,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r01-p00000002",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 2.6972202249089654e-11,
+          "rounding_proxy": 1.120486483375907e-12,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r01-p00000003",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 3.8511416278123275e-12,
+          "rounding_proxy": 3.67296776827937e-13,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r00-p00000002",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 1.136868377215514e-12,
+          "rounding_proxy": 4.387312013828936e-12,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r01-p00000000",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 5.684341886079186e-13,
+          "rounding_proxy": 2.46480666593319e-12,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r00-p00000001",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 5.684341886079186e-13,
+          "rounding_proxy": 5.692788720609724e-13,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r00-p00000000",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 3.99325017496379e-12,
+          "rounding_proxy": 5.062346331503616e-13,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r01-p00000001",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 1.1473844096395852e-10,
+          "rounding_proxy": 3.104723345148376e-13,
+          "theta_log_absolute_step": 4.618527782440651e-14
+        }
+      },
+      {
+        "node_id": "res-b00-r03-p00000001",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 5.897504706791441e-12,
+          "rounding_proxy": 5.935438251726686e-13,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r02-p00000000",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 2.3419488570378666e-11,
+          "rounding_proxy": 5.107942110171856e-12,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r02-p00000001",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 2.8421709430403604e-14,
+          "rounding_proxy": 6.309307467394889e-13,
+          "theta_log_absolute_step": 0.0
+        }
+      },
+      {
+        "node_id": "res-b00-r03-p00000000",
+        "checks": {
+          "scalar_powered_step": 0.0,
+          "block_relative_step": 0.0,
+          "momentum_relative_step": 2.9103830456310187e-11,
+          "rounding_proxy": 7.126793426276128e-13,
+          "theta_log_absolute_step": 0.0
+        }
+      }
+    ]
+  },
+  "remaining_deep_residual_bound": null,
+  "total_systematic_error_bound": null,
+  "absolute_measure_normalization_bound": null
+}

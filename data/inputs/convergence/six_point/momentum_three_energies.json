@@ -1,0 +1,331 @@
+{
+  "version": "sphere-six-point-radial-comparison-v1",
+  "complete": true,
+  "samples_per_energy_per_design": 2048,
+  "independent_scrambles_per_design": 8,
+  "matrix_formula": "Q5(i*t)=(1-5*t)*(2-5*t)*(3-5*t)",
+  "matrix_formula_source": "code/tree_level/comparison/sphere_six_point_matrix_comparison.py",
+  "analysis_source_sha256": "b288d8369218b46a2cbf80cfe84389d4da188d09bb4c30f47c7856ac57556545",
+  "results": [
+    {
+      "t": 0.1805,
+      "matrix_Q5": 0.224445609375,
+      "matrix_Q5_exact": "0.224445609375",
+      "previous": {
+        "mean": 0.22384803007827012,
+        "sampling_SE": 0.025236503564674495,
+        "relative_sampling_SE": 0.11273944897281592,
+        "replicate_means": [
+          0.17758034287114427,
+          0.20754522552416754,
+          0.1854678558204711,
+          0.21360424376985193,
+          0.39791608143226503,
+          0.19890598350695035,
+          0.20933733558494041,
+          0.20042717211637012
+        ],
+        "baseline_prefix_unresolved_count": 7,
+        "flagged_region_full_denominator_mean": 0.05118857281508641,
+        "flagged_region_amplitude_fraction": 0.2286755563459189,
+        "block_increments": [
+          {
+            "orders": [
+              8,
+              10
+            ],
+            "signed_mean": -0.00035313835160991514,
+            "relative_mean_absolute_difference": 0.0018596402404268805,
+            "relative_mean_momentum_node_absolute_difference": 0.00471033673900845
+          },
+          {
+            "orders": [
+              10,
+              12
+            ],
+            "signed_mean": 0.00021276586519650218,
+            "relative_mean_absolute_difference": 0.0010299248874705005,
+            "relative_mean_momentum_node_absolute_difference": 0.0023381478485173185
+          }
+        ],
+        "momentum_control_relative_mean_absolute_max": 0.00037169696511608566,
+        "additional_bank_region": null,
+        "pointwise_sha256": "a404ceee56e780e309c2b7742aa458270be18dfc7e2d371233b998c0df6d0ded",
+        "audit_sha256": "5092de9d594db35e8859f467a60c12574571c25c96895daa26ce2cbf96466d96",
+        "scope_failure_count": 0,
+        "numerical_failure_count": 0,
+        "matrix_difference": -0.0005975792967298776,
+        "matrix_relative_absolute_difference": 0.0026624681961652996,
+        "matrix_sampling_only_pull": -0.023679163605149964
+      },
+      "radial": {
+        "mean": 0.22087073168830385,
+        "sampling_SE": 0.003228080862224863,
+        "relative_sampling_SE": 0.014615249551399957,
+        "replicate_means": [
+          0.23398200867744032,
+          0.20973084666022834,
+          0.22588546737412105,
+          0.21760700138784972,
+          0.21099507479277357,
+          0.2268793513104152,
+          0.21325853352967789,
+          0.2286275697739248
+        ],
+        "baseline_prefix_unresolved_count": 239,
+        "flagged_region_full_denominator_mean": 0.025768877974541783,
+        "flagged_region_amplitude_fraction": 0.11666950065120994,
+        "block_increments": [
+          {
+            "orders": [
+              8,
+              10
+            ],
+            "signed_mean": -0.00012648308252307704,
+            "relative_mean_absolute_difference": 0.0024834456639994252,
+            "relative_mean_momentum_node_absolute_difference": 0.0104010540327453
+          },
+          {
+            "orders": [
+              10,
+              12
+            ],
+            "signed_mean": 4.226285167166617e-06,
+            "relative_mean_absolute_difference": 0.0011951568941870668,
+            "relative_mean_momentum_node_absolute_difference": 0.005729001056648837
+          }
+        ],
+        "momentum_control_relative_mean_absolute_max": 0.0003364695796340961,
+        "additional_bank_region": {
+          "point_count": 9,
+          "full_denominator_Q5_mean": 0.0016242835800505744
+        },
+        "pointwise_sha256": "70cebe3b91e9f993e5996d41eb13587b270d23763390395ccd4c14a02348ed03",
+        "audit_sha256": "4cbd9f8bd18a6a46a44837c977e70ab57b2adadc17a22399b49afa8065f88c4c",
+        "scope_failure_count": 0,
+        "numerical_failure_count": 0,
+        "matrix_difference": -0.0035748776866961485,
+        "matrix_relative_absolute_difference": 0.01592759019279055,
+        "matrix_sampling_only_pull": -1.1074312693122146
+      },
+      "empirical_SE_reduction_factor": 7.817804027152205,
+      "empirical_variance_ratio_new_over_old": 0.01636177593265432,
+      "independent_mean_difference_SE": 0.025442122911087647,
+      "mean_shift_in_empirical_sigma": -0.11702240415907934
+    },
+    {
+      "t": 0.2505,
+      "matrix_Q5": -0.329829703125,
+      "matrix_Q5_exact": "-0.329829703125",
+      "previous": {
+        "mean": -0.3195685638720138,
+        "sampling_SE": 0.007144173106088165,
+        "relative_sampling_SE": 0.022355681733918557,
+        "replicate_means": [
+          -0.30609647046298266,
+          -0.30439953934929,
+          -0.31503824634435407,
+          -0.3138675993805117,
+          -0.3357266005340186,
+          -0.35739710097542277,
+          -0.329147329039825,
+          -0.29487562488970565
+        ],
+        "baseline_prefix_unresolved_count": 18,
+        "flagged_region_full_denominator_mean": -0.03414459925761263,
+        "flagged_region_amplitude_fraction": 0.10684592640747803,
+        "block_increments": [
+          {
+            "orders": [
+              8,
+              10
+            ],
+            "signed_mean": -0.00014296052893004443,
+            "relative_mean_absolute_difference": 0.002219572383010453,
+            "relative_mean_momentum_node_absolute_difference": 0.006338032161470943
+          },
+          {
+            "orders": [
+              10,
+              12
+            ],
+            "signed_mean": -0.00010327820716788235,
+            "relative_mean_absolute_difference": 0.0007716277840035052,
+            "relative_mean_momentum_node_absolute_difference": 0.003208990331632966
+          }
+        ],
+        "momentum_control_relative_mean_absolute_max": 0.0002743728431797091,
+        "additional_bank_region": null,
+        "pointwise_sha256": "c1a2c875a43dc2713b93bd6e1fd34992a47f95678c5ee6373aeddf4d3ddacde8",
+        "audit_sha256": "c8b73c94c8988f4b9c764606a71381d4dbb3f50d7baf14efd20247ce09317f92",
+        "scope_failure_count": 0,
+        "numerical_failure_count": 0,
+        "matrix_difference": 0.010261139252986162,
+        "matrix_relative_absolute_difference": 0.031110415938182985,
+        "matrix_sampling_only_pull": 1.4362948798429536
+      },
+      "radial": {
+        "mean": -0.326654187966537,
+        "sampling_SE": 0.005370419603401367,
+        "relative_sampling_SE": 0.016440688046379867,
+        "replicate_means": [
+          -0.350956083119696,
+          -0.3134682205510888,
+          -0.3298981026172337,
+          -0.3204171778511132,
+          -0.3111882835761213,
+          -0.3284781529977794,
+          -0.31292901622515895,
+          -0.34589846679410485
+        ],
+        "baseline_prefix_unresolved_count": 236,
+        "flagged_region_full_denominator_mean": -0.04599321830145577,
+        "flagged_region_amplitude_fraction": 0.14080094483946246,
+        "block_increments": [
+          {
+            "orders": [
+              8,
+              10
+            ],
+            "signed_mean": 0.00020796888763220764,
+            "relative_mean_absolute_difference": 0.002810500505199642,
+            "relative_mean_momentum_node_absolute_difference": 0.009229685739547402
+          },
+          {
+            "orders": [
+              10,
+              12
+            ],
+            "signed_mean": 2.7923930218774625e-05,
+            "relative_mean_absolute_difference": 0.0012528037177605678,
+            "relative_mean_momentum_node_absolute_difference": 0.004649843040003715
+          }
+        ],
+        "momentum_control_relative_mean_absolute_max": 0.00027522660108359837,
+        "additional_bank_region": {
+          "point_count": 5,
+          "full_denominator_Q5_mean": -0.0015896772066392305
+        },
+        "pointwise_sha256": "5509ccf6c9204a8b2f2a54062892f4dd259d13ea326188f60e475ed53c403618",
+        "audit_sha256": "93b42360ae76bcaa6018ff30a949c1f1b47352dde0decf64fb2e7e15f3eac321",
+        "scope_failure_count": 0,
+        "numerical_failure_count": 0,
+        "matrix_difference": 0.0031755151584629826,
+        "matrix_relative_absolute_difference": 0.009627741614464344,
+        "matrix_sampling_only_pull": 0.5912974018737314
+      },
+      "empirical_SE_reduction_factor": 1.3302821071119635,
+      "empirical_variance_ratio_new_over_old": 0.5650833363749073,
+      "independent_mean_difference_SE": 0.008937595654668604,
+      "mean_shift_in_empirical_sigma": -0.7927886165695988
+    },
+    {
+      "t": 0.3155,
+      "matrix_Q5": -0.347081109375,
+      "matrix_Q5_exact": "-0.347081109375",
+      "previous": {
+        "mean": -0.34355645155004944,
+        "sampling_SE": 0.007560458457740621,
+        "relative_sampling_SE": 0.02200645170140026,
+        "replicate_means": [
+          -0.3331198620779976,
+          -0.32406544125408276,
+          -0.36957926144094966,
+          -0.35463057347340465,
+          -0.3321823400624535,
+          -0.3703981235535738,
+          -0.3523164126191397,
+          -0.31215959791879366
+        ],
+        "baseline_prefix_unresolved_count": 40,
+        "flagged_region_full_denominator_mean": -0.05127271214352466,
+        "flagged_region_amplitude_fraction": 0.14924101093777664,
+        "block_increments": [
+          {
+            "orders": [
+              8,
+              10
+            ],
+            "signed_mean": 9.474098692221e-05,
+            "relative_mean_absolute_difference": 0.0016621884170716392,
+            "relative_mean_momentum_node_absolute_difference": 0.0052171779545254395
+          },
+          {
+            "orders": [
+              10,
+              12
+            ],
+            "signed_mean": -0.00027550885280599004,
+            "relative_mean_absolute_difference": 0.0010958973908694871,
+            "relative_mean_momentum_node_absolute_difference": 0.0024756297458751386
+          }
+        ],
+        "momentum_control_relative_mean_absolute_max": 0.00041230090846953245,
+        "additional_bank_region": null,
+        "pointwise_sha256": "241c6d244f5c8f26d438f896bb601bc0e5a92098ea4f25bc6b273d3d96568370",
+        "audit_sha256": "e6d34df9d03d303832c27c7e322fe63812bd474c89e05f2e6143072da8ef49a9",
+        "scope_failure_count": 0,
+        "numerical_failure_count": 0,
+        "matrix_difference": 0.003524657824950539,
+        "matrix_relative_absolute_difference": 0.01015514163619421,
+        "matrix_sampling_only_pull": 0.4661963086830918
+      },
+      "radial": {
+        "mean": -0.34304648562526346,
+        "sampling_SE": 0.00517309268857375,
+        "relative_sampling_SE": 0.015079859160034433,
+        "replicate_means": [
+          -0.363660390709148,
+          -0.3329409478223442,
+          -0.3420724024380227,
+          -0.33664577018412223,
+          -0.32913587581652726,
+          -0.34144936280527005,
+          -0.33110871010905374,
+          -0.3673584251176195
+        ],
+        "baseline_prefix_unresolved_count": 238,
+        "flagged_region_full_denominator_mean": -0.0540817386183515,
+        "flagged_region_amplitude_fraction": 0.15765134139117581,
+        "block_increments": [
+          {
+            "orders": [
+              8,
+              10
+            ],
+            "signed_mean": 0.0001991462293120153,
+            "relative_mean_absolute_difference": 0.003027098892447797,
+            "relative_mean_momentum_node_absolute_difference": 0.008313792955020194
+          },
+          {
+            "orders": [
+              10,
+              12
+            ],
+            "signed_mean": 4.425302735481969e-05,
+            "relative_mean_absolute_difference": 0.0013083472300530895,
+            "relative_mean_momentum_node_absolute_difference": 0.004013191574819287
+          }
+        ],
+        "momentum_control_relative_mean_absolute_max": 0.00046146525009790613,
+        "additional_bank_region": {
+          "point_count": 0,
+          "full_denominator_Q5_mean": -0.0
+        },
+        "pointwise_sha256": "74f790fddf9c5b7785e3b5f11850b30f6b997fb251feb9debebfdecb33bea0f2",
+        "audit_sha256": "6168b4bee9a5d2a9345619bc9896328138ff0da06c61d807ba10f1a6edf113aa",
+        "scope_failure_count": 0,
+        "numerical_failure_count": 0,
+        "matrix_difference": 0.00403462374973651,
+        "matrix_relative_absolute_difference": 0.011624440630035399,
+        "matrix_sampling_only_pull": 0.7799248907038002
+      },
+      "empirical_SE_reduction_factor": 1.4614968091408935,
+      "empirical_variance_ratio_new_over_old": 0.46817072874457955,
+      "independent_mean_difference_SE": 0.009160863499463186,
+      "mean_shift_in_empirical_sigma": 0.055667888165330096
+    }
+  ],
+  "inference": "Empirical eight-scramble errors and variance ratios; finite-order increments do not bound the uncomputed CFT tail.",
+  "total_accuracy_certified": false
+}

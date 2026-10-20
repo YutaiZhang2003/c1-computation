@@ -1,0 +1,61 @@
+{
+  "description": "Worldsheet-only extension on omega=i*t; no matrix-model values were imported or evaluated.",
+  "settings": {
+    "block_order": 8,
+    "momentum_order": 20,
+    "momentum_maximum": 6.0,
+    "momentum_panels": 1,
+    "momentum_power": 1.25,
+    "block_scheme": "c",
+    "liouville_contour": "real",
+    "continuation": "real P>=0 double integral plus -2i times the residue at P=(5/2)omega-i on an incoming-outgoing cherry edge",
+    "validity_range": "0<t<1/2; a second DOZZ pole family pinches at t=1/2",
+    "sobol_power": 9,
+    "replicates": 4,
+    "radial_power": 0.15,
+    "seed": 20278001
+  },
+  "points": [
+    {
+      "t": 0.31,
+      "omega": {
+        "real": 0.0,
+        "imag": 0.31
+      },
+      "raw_integral": {
+        "real": -3.5305662129606323e-17,
+        "imag": -0.08246378264021686
+      },
+      "raw_standard_error": {
+        "real": 1.716945929893289e-19,
+        "imag": 0.00039707458721860233
+      },
+      "Q": {
+        "real": -0.18240429275939843,
+        "imag": 7.809372945272138e-17
+      },
+      "Q_standard_error": {
+        "real": 0.0008783020489168861,
+        "imag": 3.79776791727692e-19
+      },
+      "replicate_estimates": [
+        {
+          "real": -3.489197382245111e-17,
+          "imag": -0.08145499202161241
+        },
+        {
+          "real": -3.525786721957483e-17,
+          "imag": -0.08234613694634232
+        },
+        {
+          "real": -3.5728552964540686e-17,
+          "imag": -0.08336322269436805
+        },
+        {
+          "real": -3.534425451185866e-17,
+          "imag": -0.08269077889854465
+        }
+      ]
+    }
+  ]
+}

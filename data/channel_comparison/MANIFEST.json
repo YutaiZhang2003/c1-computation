@@ -1,0 +1,119 @@
+{
+  "format": "c1-channel-comparison-data-v1",
+  "completed_date": "2026-10-20",
+  "computation_host": "Cannon",
+  "block_order": 12,
+  "momentum_nodes_per_edge": 12,
+  "runs": [
+    {
+      "slurm_array_job": 54181948,
+      "channels": [
+        "theta"
+      ],
+      "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "slurm_array_job": 54183276,
+      "channels": [
+        "glasses"
+      ],
+      "rows": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "original_unrounded_coordinates_available": false,
+  "scope": "Fresh computations at the exact decimal matrices printed in the draft. Printed old Q_L values are comparison data only.",
+  "files": [
+    {
+      "path": "draft_printed_values.json",
+      "bytes": 750,
+      "sha256": "1af6411e4b5676775707646dc2d53dac57bd0ab8c1f306b4822414f3123f75d5"
+    },
+    {
+      "path": "receipts/row1_glasses_N12_n12.json",
+      "bytes": 5086,
+      "sha256": "a41f38e7e4a52306e9ca3cb548973836b569c443256c582ffa39022052fd8009"
+    },
+    {
+      "path": "receipts/row1_theta_N12_n12.json",
+      "bytes": 3095,
+      "sha256": "0524d4643e31e528a15d30f8508177b97d0f745f744f47390df68d52b63efd93"
+    },
+    {
+      "path": "receipts/row2_glasses_N12_n12.json",
+      "bytes": 5517,
+      "sha256": "df2ea243a02c09acebc46ee04d6f647ee2143b22be0326767ab19d3f86ca9778"
+    },
+    {
+      "path": "receipts/row2_theta_N12_n12.json",
+      "bytes": 3090,
+      "sha256": "0d4e21bd7e1cc4575a86df61245a832b9b5844d04327c3e1c02315f7e12a42c2"
+    },
+    {
+      "path": "receipts/row3_glasses_N12_n12.json",
+      "bytes": 5523,
+      "sha256": "743e7837dad466a8bb264349c1d0b049f305ad36423f9dbabb1683c1c42639b2"
+    },
+    {
+      "path": "receipts/row3_theta_N12_n12.json",
+      "bytes": 3090,
+      "sha256": "f2db7d6752e5f9670dd859d6786bdef45828bcc7029b941b04a8869d2557c08f"
+    },
+    {
+      "path": "receipts/row4_glasses_N12_n12.json",
+      "bytes": 5094,
+      "sha256": "e4ce9a449304c02d7e7b2c07508f0137eb2ab00d455172bb65c02e5025d6076e"
+    },
+    {
+      "path": "receipts/row4_theta_N12_n12.json",
+      "bytes": 3088,
+      "sha256": "ccbee1c42202f93dbe2ba7b79c7ddf01e08ce17fca2334a9ea8e2bfb08f3992a"
+    },
+    {
+      "path": "receipts/row5_glasses_N12_n12.json",
+      "bytes": 5517,
+      "sha256": "e602e0309a91c90aa11e7c4834aa9149006ce7fdee96319ea77e2664c19daa34"
+    },
+    {
+      "path": "receipts/row5_theta_N12_n12.json",
+      "bytes": 3096,
+      "sha256": "0d657dac0553d338f0e8b034fb8eca324f9cce4563021d6c2021fc7bb68fce49"
+    },
+    {
+      "path": "source_manifests/4efa3ea9be4c87ab43d26843421c2806cfbfb92381272699cf924861352aeb06.json",
+      "bytes": 54840,
+      "sha256": "4efa3ea9be4c87ab43d26843421c2806cfbfb92381272699cf924861352aeb06"
+    },
+    {
+      "path": "source_manifests/81730c03522f66ea2a644b05cdd279c4c3cf6a915e36224e39d50e4c148bf052.json",
+      "bytes": 54840,
+      "sha256": "81730c03522f66ea2a644b05cdd279c4c3cf6a915e36224e39d50e4c148bf052"
+    },
+    {
+      "path": "source_manifests/drivers/c22b37e6a55216cb6ba1e12a70b6fe9c6f6413bfeaf0ebddf8f30c34c49212ee.py",
+      "bytes": 13640,
+      "sha256": "c22b37e6a55216cb6ba1e12a70b6fe9c6f6413bfeaf0ebddf8f30c34c49212ee"
+    },
+    {
+      "path": "source_manifests/drivers/fd26b1bb755f9025e5ab096b1ad7900b52112a6700319b735803a1c09a071bcb.py",
+      "bytes": 12476,
+      "sha256": "fd26b1bb755f9025e5ab096b1ad7900b52112a6700319b735803a1c09a071bcb"
+    },
+    {
+      "path": "targets.json",
+      "bytes": 800,
+      "sha256": "bd990cf00f3a1b20dd761ab3086bbe5db6322a44636220993dd47bca614beca2"
+    }
+  ]
+}

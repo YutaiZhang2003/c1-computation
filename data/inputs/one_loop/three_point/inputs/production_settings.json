@@ -1,0 +1,1609 @@
+{
+  "payload": {
+    "compact": {
+      "coefficient_orders": [
+        4,
+        4,
+        4
+      ],
+      "momentum_sampling": {
+        "head_orders": 5,
+        "split_scales": 1.5,
+        "tail_width_scales": 0.25,
+        "total_nodes": 8
+      },
+      "points_per_scramble": 4,
+      "scrambles": 16,
+      "seed": 20260923
+    },
+    "config": {
+      "absolute_error_target": 4.4e-06,
+      "boundary_controls": {
+        "overrides": {},
+        "total_absolute_tolerance": 4e-07
+      },
+      "compact_seed": 20260923,
+      "diagnostics": {
+        "cpu_fraction": 0.1,
+        "max_locations": 48,
+        "max_parents": 96
+      },
+      "format": "genus1-local-analytic-production-v1",
+      "preparations": [],
+      "providers": {
+        "banks": [],
+        "coordinates": [
+          {
+            "dps": 45,
+            "maximum_nome": 0.95,
+            "phase_step": 0.2
+          },
+          {
+            "dps": 65,
+            "maximum_nome": 0.95,
+            "phase_step": 0.1
+          }
+        ],
+        "elliptic_orders": [
+          2,
+          4
+        ],
+        "height_banks": {},
+        "minimum_elliptic_order": 4,
+        "minimum_momentum_nodes": 8,
+        "native_regions": [],
+        "primary_regions": []
+      },
+      "run": {
+        "angle_order": 16,
+        "collision_height_split": 8.0,
+        "pair_radius": 0.125,
+        "q_max": 0.05,
+        "t": 0.025,
+        "triple_radius": 0.5
+      }
+    },
+    "created_utc": "2026-09-23T19:38:44.583433+00:00",
+    "diagnostics": {
+      "cpu_fraction": 0.1,
+      "integrated_remainder": false,
+      "max_locations": 48,
+      "max_parents": 96
+    },
+    "elliptic_orders": [
+      2,
+      4
+    ],
+    "format": "genus1-fresh-analytic-proposal-v1",
+    "full_amplitude_certified": false,
+    "imports": [],
+    "momentum_mode": "regional",
+    "physics": {
+      "angle_order": 16,
+      "collision_height_split": 8.0,
+      "compact_points": 64,
+      "cutoff_at_infinity": false,
+      "format": "genus1-analytic-boundary-integration-v1",
+      "mode": "analytic",
+      "normalization": "-Im(reduced)/(4*pi)",
+      "original_endpoint_addback_enabled": false,
+      "policy": {
+        "approximation_certified": false,
+        "format": "genus1-analytic-boundary-layer-v1",
+        "geometry_only": true,
+        "height_cap": 1.4303567985481191,
+        "pair_radius": 0.125,
+        "q_max": 0.05,
+        "triple_radius": 0.5
+      },
+      "t": 0.025
+    },
+    "profile": 9,
+    "quadrature": {
+      "adaptive": null,
+      "controls": {
+        "bulk:pair_face_analytic": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 700,
+          "minimum_splits": 1
+        },
+        "bulk:triple_corner": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 400,
+          "minimum_splits": 1
+        },
+        "bulk:triple_pair_face": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 1500,
+          "minimum_splits": 1
+        },
+        "bulk:triple_scale_face": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 900,
+          "minimum_splits": 1
+        },
+        "primary:012": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 1500,
+          "minimum_splits": 1
+        },
+        "primary:021": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 1500,
+          "minimum_splits": 1
+        },
+        "primary:102": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 1500,
+          "minimum_splits": 1
+        },
+        "primary:120": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 1500,
+          "minimum_splits": 1
+        },
+        "primary:201": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 1500,
+          "minimum_splits": 1
+        },
+        "primary:210": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 1500,
+          "minimum_splits": 1
+        },
+        "tail:pair_face_analytic": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 700,
+          "minimum_splits": 1
+        },
+        "tail:triple_corner": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 400,
+          "minimum_splits": 1
+        },
+        "tail:triple_pair_face": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 1500,
+          "minimum_splits": 1
+        },
+        "tail:triple_scale_face": {
+          "absolute_tolerance": 2.857142857142857e-08,
+          "high_order": 3,
+          "low_order": 2,
+          "max_cells": 256,
+          "max_depth": 24,
+          "max_evaluations": 900,
+          "minimum_splits": 1
+        }
+      },
+      "directional_probes": false,
+      "high_order": 3,
+      "low_order": 2
+    },
+    "refinement": {
+      "imported_cft_values": 0,
+      "maximum_refinement_passes": 1,
+      "mode": "single_final_refinement",
+      "selected_roots": [
+        {
+          "axis": 0,
+          "parent": "5c8ef3b99dfee27e08912d84afa5d19e9be3907532b4969f10d36b544bbb220c",
+          "term": "bulk:triple_corner"
+        },
+        {
+          "axis": 0,
+          "parent": "fd029006ea577a22ed61004b4fe4cec1cc7b78482c2e8937a0370686e2b59301",
+          "term": "bulk:triple_corner"
+        },
+        {
+          "axis": 0,
+          "parent": "c2e218bbb44132d481251d50ee023a8ce850bbf8e61c3bd5a045dbdcdb5fe3c6",
+          "term": "bulk:triple_corner"
+        },
+        {
+          "axis": 2,
+          "parent": "a5abc7ca5905fdde15e9cfe788d1fe18828005fcf17e298cd5f38abba7229cd5",
+          "term": "bulk:triple_scale_face"
+        },
+        {
+          "axis": 1,
+          "parent": "0b2627ddb8855dda19fd481ab16ef13f3f921c53c5032a7c6b9f31085b4816b6",
+          "term": "bulk:pair_face_analytic"
+        },
+        {
+          "axis": 3,
+          "parent": "d67295f1d8373bdcbbde55782825dd691575b3711bb5ba7be1a395d2c8035ca1",
+          "term": "tail:pair_face_analytic"
+        },
+        {
+          "axis": 1,
+          "parent": "f92da3b277034c0ac278c2b9db5dd8e81536a09ee79744b0ed97afaf1a5277b7",
+          "term": "primary:012"
+        },
+        {
+          "axis": 1,
+          "parent": "e1421c4a004c504e58fa5e6e70ca142dd062eff9ebb3ea9f9c088426103c0c91",
+          "term": "primary:012"
+        },
+        {
+          "axis": 2,
+          "parent": "50bc301834321d56d6a2deed25347beff98587cead5a5d66dbf34b19f45d2ec1",
+          "term": "primary:012"
+        },
+        {
+          "axis": 1,
+          "parent": "b02741b8240bce6313dadf298721b4f66ea2c7b241e28ba1dbe40698df6e19d4",
+          "term": "primary:012"
+        },
+        {
+          "axis": 1,
+          "parent": "e17dc2bfafd145b1a904f0117b7b6048f6e41c70d4a1baeb2d34a0bd9192aafb",
+          "term": "primary:021"
+        },
+        {
+          "axis": 1,
+          "parent": "0a6e01df7a01dcc179601fc90e047344ce824bd1b3254117b27426d8c779563d",
+          "term": "primary:021"
+        },
+        {
+          "axis": 2,
+          "parent": "3d2101ea5de9f92af86fa904df2a8f5ede1b81e1a9588fd7bc4e973830b926c0",
+          "term": "primary:021"
+        },
+        {
+          "axis": 1,
+          "parent": "c98a7f9ee184be6fc831fab7257bc00f04064f8511d8bfea92b80271f19a6188",
+          "term": "primary:021"
+        },
+        {
+          "axis": 1,
+          "parent": "48f0762aa03859c9cae941cd3b9c7f360748e4a374ee031198cacb68951f3ec3",
+          "term": "primary:102"
+        },
+        {
+          "axis": 1,
+          "parent": "cc4e415d9e692bf0a1800fc7bfa9f0035307a8f986baa27800a04b3d09a4b10e",
+          "term": "primary:102"
+        },
+        {
+          "axis": 2,
+          "parent": "c38d9a7680b0ecf71dae58bb4bb27430a854792ae04ae899d6082dff3075d142",
+          "term": "primary:102"
+        },
+        {
+          "axis": 1,
+          "parent": "d5ffb6c1eb83c97a3c2e65af8f63d6eb9b9132b46cccb7bdd2c05a31907ebc8a",
+          "term": "primary:102"
+        },
+        {
+          "axis": 1,
+          "parent": "44e292ed6280971f7a12a080122075b63af663420663e47e928853648b6bff93",
+          "term": "primary:120"
+        },
+        {
+          "axis": 1,
+          "parent": "b75f64cdec94f8a3e0f63acd7f0a5414f859ca75b87b0b52e4e40915751535d2",
+          "term": "primary:120"
+        },
+        {
+          "axis": 2,
+          "parent": "d6778786f871326263b58763c83798c458e3bb10d2daff032cdb4b708e16f8f8",
+          "term": "primary:120"
+        },
+        {
+          "axis": 1,
+          "parent": "863022604b99c123de07df6bf1b78ccb76309fd2489850c928f20a4ce4e4c996",
+          "term": "primary:120"
+        },
+        {
+          "axis": 1,
+          "parent": "fd605a959f2a02337c5df42fab3337efba093ebdaf3a76389e6cae2f2c62b42d",
+          "term": "primary:201"
+        },
+        {
+          "axis": 1,
+          "parent": "31b63eb73ce5798d64b8f059acf818511ae33a982ce72316845a27e7436fc4ee",
+          "term": "primary:201"
+        },
+        {
+          "axis": 2,
+          "parent": "3a2dcd56af8b0b5ab2b67dbe1ecc40b6b85fed217a938163507a38f7401ebda4",
+          "term": "primary:201"
+        },
+        {
+          "axis": 1,
+          "parent": "792eec8f65e6a46327ff9612dbd9e6dd850f3911f7b096860f18b53aee27f4b2",
+          "term": "primary:201"
+        },
+        {
+          "axis": 1,
+          "parent": "87268a435b3049fd1f63d40c9653f0d826b9e317ee64eed297c68e8207bc35f4",
+          "term": "primary:210"
+        },
+        {
+          "axis": 1,
+          "parent": "401bd95faf0f1a99504ed5a3d22951cbea095351aab2143c283af4c1a95d779c",
+          "term": "primary:210"
+        },
+        {
+          "axis": 2,
+          "parent": "9fbe4bd142ac042881245ef43ae7fc35f07555522e15b83e6806beed94311b41",
+          "term": "primary:210"
+        },
+        {
+          "axis": 1,
+          "parent": "fe1346b13c46a54361c2bb89c4f6ccc5ac2713e5ba072562b3fd347bced79e2b",
+          "term": "primary:210"
+        }
+      ],
+      "selection": "bisect each unresolved root once along its largest initial directional indicator",
+      "source_boundary_sha256": "60f04d7f48635a1b30a1b80312720711739a58e47f4b9b043d98f5d60f60f165",
+      "source_diagnostics_sha256": "406539e88225c1537ed21e37dd08b3a24525a6d0a1ea3750cdd1eb73f29697b7",
+      "source_plan_sha256": "0565fe74b21497a0889d572698c24c21d05817f545c1040b54b162f1c82386e6"
+    },
+    "source_files": {
+      "PACKAGE_MAP.json": "c329f0f5dc4fdc7c158d9262d1d68daaf6a827530d708d90c5a193945bd906f7",
+      "code/figures/export_amplitude_component_plot_data.py": "ba60c109472f736e2cf85ffd66cb88cb305f2ed63c9a6817cc1a19b3b6c4fbc9",
+      "code/general/conventions/c1_string_conventions.py": "1a30c03ebb0a00e97ec6d8e1e7409655f1dec33064ff16191080411383b3fbc6",
+      "code/general/conventions/genus2_integrand_normalization.py": "95b846ef7ac9abe6c33489d7f765dd7e3d0c76dd45aa53e5f48a0067fbda4cf1",
+      "code/general/conventions/genus2_integrand_normalization_checks.py": "709044832edafa1485fae6f79822aa8eb65bc786e880b52bad40fdd3bc8b0a98",
+      "code/general/geometry/ccy_plumbing_conventions.py": "ab5a8f28ef1e17d07180d1f77bb34fe730ce228c34ca0367f25b81512d59480e",
+      "code/general/geometry/conformal_frame_labels.py": "41f9be489cef82c78f1d2fec80c1cccd95ad76d284b932139cff237ade023a9a",
+      "code/general/geometry/genus3_plumbing_channels.py": "eae7630cdaa9d89f6538fb1871692ba0d802b918dc448562a41ba03845178e5d",
+      "code/general/geometry/plumbing_algorithms.py": "533a784cbfcbc1c391eed645e1b9c2e2e617a2e9562d9114de13928737168882",
+      "code/general/io/c1_frozen_bundle.py": "62e31b3b5ec1f5390b05663d736d299c46d7df6e897a7d38a58ba9d3516f915a",
+      "code/general/io/c1_paths.py": "de77df4484bc87f6cb174a70774902bcf6cb6097f281f42d89caf9fbb5c10366",
+      "code/general/liouville/liouville_torus.py": "29eb290c446a3371d6a649c936a77cdd6ec287cd15426581b7285c1273bcab9b",
+      "code/general/liouville/liouville_torus_checks.py": "e73fa84edd59787d3be784988309f6046934b79e9880e21c5590dac034365b83",
+      "code/general/liouville/liouville_torus_plumbing_modular_check.py": "e3cab8de03238ee0720eef5915a884972e5116db223379341d25740cf6b8f3f1",
+      "code/general/numerics/liouville_momentum_quadrature.py": "32dc70f656a951eaca062958cf0d20e8e70db888b5f769f596fb3402f74725dc",
+      "code/general/numerics/liouville_momentum_quadrature_checks.py": "c724c3e4eff2758fa6b8200ef0d31f70b6521da84b6dc05ec11f56d4fef00fa5",
+      "code/general/numerics/torus_sampling.py": "34c9e178c13173f3bfe73ad089e19b5caece3a9a967dd708ab8de0fdd89a1c8d",
+      "code/general/scalar/free_boson_pair_of_pants.py": "0f16f641a27a87dd9f89a42246804e87c77725b972d64dce6862201160def44d",
+      "code/general/scalar/free_boson_plumbing.py": "a935f3fa0027f498b12d5362ba8441810986698db5879f0460173fae8c6a8636",
+      "code/general/validation/reproduce_results.py": "a0bea0c09c27dc3fe48ff4ed2d2fe636428c78a456f32f9c9ce4beaf45f1f160",
+      "code/general/validation/run_core_checks.py": "9aa3b2d456b4be6c7094c0154918e026cf0d417d86b4bcd77ecd0f28f518c8e9",
+      "code/general/validation/verify_snapshot.py": "e89658ed76f3521ad0cca64a3d283094fe1ac372592660f6e2d2f4f8985b1c85",
+      "code/general/virasoro/ccy_genus2_block.py": "b007b48dbbd1da2905bbbf98e220fa2feab471dda5cb4b639b4a4e9e98ecdf3a",
+      "code/general/virasoro/ccy_genus2_block_checks.py": "89d70466fd524a7c27760d507e0bc08a75b25f7617dd101e59f91c3ff57d35db",
+      "code/general/virasoro/genus2_vacuum_blocks.py": "d27a32e46c5abc902010c8c09fb8edc9bde70fcf3392352fa9ce37b479f32e70",
+      "code/general/virasoro/sphere_four_point_c25.py": "dc50e337bd923a938de79f6d15380335fce7b4cd0cfb9d9210c7108f00149376",
+      "code/general/virasoro/sphere_four_point_elliptic_c_recursion.py": "ca30d190fb53c0d2afacf1ff18af752d27587e04fb46d27a7496c35cdf0776e9",
+      "code/general/virasoro/sphere_four_point_pillow_evaluate.py": "16e3e3eab01fb06f022418d0b33e485fb30bc1f6637bbd63b92db879328ae5bd",
+      "code/general/virasoro/torus_descendant_blocks.py": "91cbfb4462c3b293b02ba6e1ba99dd5997f9e49c1356a94c641141beb038dcd1",
+      "code/general/virasoro/torus_primary_low_order.py": "66706d6359f2b6e7559fc3b2c1323891aac142792edcbe6135ea1730fdab9be5",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/examples/six_point_block.py": "22c96a5d6be540dda424048ade8ee6cee218b782652420947ca3d09785378abb",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/src/genus0_elliptic_h_recursion/__init__.py": "bd59aae7302749b51c9978ff8b064ccf7b4fc2f63403d4a40b2920576e2e16c1",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/src/genus0_elliptic_h_recursion/__main__.py": "bf725243b1b718804bd8d1e4379ebf5a9ed25e1b4d3260a2cac11cb82210cb3e",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/src/genus0_elliptic_h_recursion/block.py": "c86f13027d70eb42c3ce52ca8bf7e815f6f2c525d5fc3f43e5c42571a4ceecca",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/src/genus0_elliptic_h_recursion/geometry.py": "14c1f32217610f19488636f3e1fbd7c2840fcd610781fa3ca9dbe19de46d5051",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/src/genus0_elliptic_h_recursion/kac.py": "9f98cdb9f79e45baa3bafb253c97f7cec326c29b80cf5c954cbd0c1154d58ed5",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/src/genus0_elliptic_h_recursion/recursion.py": "a099560ac96040d479485e23bde67d995d2b18ea2fbdadaeb74be71353e37698",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/tests/reference_coefficients_order3.json": "bfbf3281a2a4505ff7601313cc31918cdf6b9667845c91611ffb6c88dd0c254a",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/tests/test_geometry_and_block.py": "32ac6c9bd49bf8159e0f387b182966c3d9a0e46db9a88c3f6427d86c9ce21649",
+      "code/general/virasoro/vendor/genus0_elliptic_h_recursion/tests/test_reference_coefficients.py": "9b25a4eb0161675592b685d2f8ae767e98bf638715bbcc6f9f2c5120f5a66b86",
+      "code/general/virasoro/virasoro_blocks.py": "c7466630ceec8ac6fcb20637916d1f5c506881e7b61050300321ec905a97c1de",
+      "code/general/virasoro/virasoro_descendant_algebra.py": "83bb7cab46662eba1d400fa687c2fa07111fe092811583355f5cc090263a76b5",
+      "code/general/virasoro/virasoro_plumbing_graph.py": "70b01a10c7a77318e28c0bd4da3ee00eff197a688a4708688f7192b23473258f",
+      "code/historical/five_point_collar_subtraction/five_point_boundary_subtraction.py": "a0e71a00ac9b4a92feecc7d4b7f2e739d6209b453af2a173a6d8d0a96293e5f3",
+      "code/historical/five_point_collar_subtraction/five_point_physical_integrand.py": "34c0532bef7108fbc69ce9ed87ad7b21206848d4573a67e5a615d9f76ca7ab73",
+      "code/historical/five_point_collar_subtraction/sphere_five_point_physical_scan.py": "6563f6b6c7689e35d866dd282614d6e15b781c16492a13e1bc4e8775bc1ce400",
+      "code/historical/four_point_1to3/four_point_boundary_subtraction.py": "69fb3f51a081d7e137037269647a38bcdf3689fd6a29f48704c184cbcdd0a6fa",
+      "code/historical/four_point_1to3/four_point_integrate_imaginary_amplitude.py": "4139b85027cc0171bd35127db8235f75b9ef0b5151648be99df0ff79541970a3",
+      "code/historical/four_point_1to3/four_point_integrate_physical_amplitude.py": "d3d40898fa3ade0e31ce188e2672f310920472894486ffa69bc084d387338eb8",
+      "code/historical/four_point_1to3/four_point_merge_amplitude_scans.py": "b93e9266aa97443422c80791d0f39c839425e253af46955066d19f8b376c093a",
+      "code/historical/four_point_1to3/four_point_scan_imaginary_amplitudes.py": "1bbda95823fc8c3c553c6c8af870dbdc3e562d5d734c6fa12cd6e3728bf273cd",
+      "code/historical/four_point_1to3/four_point_virasoro_block_recursion.py": "1b7c051a59414dc44269c8d4f9b99487ccaff46617b236c41002318569c4e153",
+      "code/historical/six_point_pilots/six_point_prepare_endpoint_campaign.py": "3fb34b1cce643674d228d4148708b9fa6f3f40e14c3719f009684d75750e4218",
+      "code/historical/six_point_pilots/six_point_prepare_mixed_order_campaign.py": "da280e2ce4f99f72962e7b5a946a0e724b622ce9e4003af94e3a9a3dbc8d3d7e",
+      "code/historical/six_point_pilots/six_point_run_endpoint_worker.py": "0267044eee2cef0934e36436a162d7c05d97fdf8365aad5e72ef1339f5af4878",
+      "code/historical/six_point_pilots/six_point_run_mixed_order_worker.py": "6ff9efb370c3f824ea8fd5ceef0a07a4c4e59961dd766279c9e8c38432364b17",
+      "code/historical/six_point_resummation/six_point_check_pillow_resummation.py": "c9ee9e48fc6a1c7593a0d3a2fab9ea3acbbceaec5c206af620951134468e020f",
+      "code/historical/six_point_resummation/six_point_export_saved_resummation_banks.py": "2682a495afc5146eb340cae14625562fcd325d3feadcfa06f567b791d704b652",
+      "code/historical/six_point_resummation/six_point_pillow_coordinates.py": "ceb10f6e456c67bc91a84af20e0d1c6b1ee75650d9a240f492386c0708d07d32",
+      "code/historical/six_point_resummation/six_point_pillow_resummation.py": "dc74fd7d2c4725d8bf025e490147809bc1779a6f6b7d9ee7a974be1a6ac836e3",
+      "code/historical/six_point_resummation/six_point_prepare_pillow_geometry.py": "df6749c25472f860ba1ce748b85575a1779ff1b903c1bba63b5126bebca50628",
+      "code/historical/six_point_resummation/six_point_receive_resummation_banks.py": "fc0ec6c17f5abeb838b35f8f4781f0579c2e3249c4654767b79d489f762fcccb",
+      "code/historical/six_point_resummation/six_point_reconstruct_pillow_amplitudes.py": "c00ecf19d701629fbc5d47ecaf9bce7bd70ba85a161f6b8714af353263bf9799",
+      "code/historical/six_point_resummation/six_point_summarize_pillow_reconstruction.py": "74f8713a4ec6100e55c53c214ed78df7177b1a269e85e5ea6ee9bedca13cc33a",
+      "code/one_loop/analysis/analyze_genus1_collar_momentum_subsets.py": "81633bfbae4a5d8c42cc7de7c08d8103981119cd473eac2d81356174fd16d7af",
+      "code/one_loop/analysis/analyze_genus1_comb_fixed_momentum.py": "b33e16a6a45d72576ac77ce1a1c4ec32e8111cee56da91293eb004b99f9ec7f1",
+      "code/one_loop/analysis/analyze_genus1_long_neck_audit.py": "1a546d07681d6e3f04d2a88b3b5b003cbd1ab2a8609c35216152df669a669b03",
+      "code/one_loop/analysis/analyze_genus1_momentum_block_coupling.py": "7da98411bb2ddcca5b3a646e21dc9f31313094e701d7862260e4f53617df368a",
+      "code/one_loop/analysis/analyze_genus1_selective_axes.py": "61966e84a9dc5d7783f4057da79ae4bc4645cf169f7855fcd4e64d4c6d728ddc",
+      "code/one_loop/analysis/analyze_genus1_three_point_collision_resolved.py": "c352776fef5d6cfe3766bf7524f09ee06ddd53bcfcb31a8584e7a42533224d81",
+      "code/one_loop/analysis/analyze_genus1_three_point_hdominant_extension.py": "90f755bc94cf93450fa91e83e0d5cd773c1f752e7df11432401e509133d2dda1",
+      "code/one_loop/analysis/analyze_genus1_three_point_hdominant_scan.py": "a85ae1536b56afe939d1a9ced7b1cf88aab60399458abdd11caeea479f09fd44",
+      "code/one_loop/analysis/assemble_genus1_hybrid_tail_radius_study.py": "682e6508c65c3704192d6051a0ca8be8b6f5528c8dbc355de1c0819c24ba4a1a",
+      "code/one_loop/analysis/assemble_genus1_three_point_block_systematics.py": "4e89299c446bc047e39108b7b30790d6c1ed03538aab1f458444cf96cdbb53f0",
+      "code/one_loop/analysis/assemble_genus1_three_point_nonseparating_tail.py": "1d78735a2173827e47f62390d609d0996b812a6712028a1bfbbf172fe135045c",
+      "code/one_loop/analysis/compare_genus1_hybrid_tail.py": "7d05388074d297653f6cdaf9f67d04c8b316fff3b81ad468c38ff6d176ee2aca",
+      "code/one_loop/analysis/compose_genus1_three_point_adaptive_systematics.py": "897fa515b26306bd5c16407191863b5ac7f5efcdb607be512b60735e91920d6e",
+      "code/one_loop/analysis/diagnose_genus1_nonseparating_primary_outlier.py": "6c59991fd8780f8f60ee8f0652831a6256282d4ae0b6336fa508b5c810f990be",
+      "code/one_loop/analysis/diagnose_genus1_nonseparating_residual_outlier.py": "3f46ad245a83927abbabd02fbe716e7a5c32e78dd5bc00dae180c5cd9b95bf52",
+      "code/one_loop/analysis/export_genus1_collision_plot_data.py": "ad16d00dba19ed92dddff33ee393b2dee8923b9f93b81d82328bae5077b1ccb8",
+      "code/one_loop/analysis/genus1_adaptive_controller_release.py": "b8e9a64e7c99bdd3fba19fb8bbca95fe03e5df4b4d8be0ffd5eb5eb467662f2e",
+      "code/one_loop/analysis/genus1_adaptive_moduli_ledger.py": "77bde1bc694916abcdef84d74fe1cb15453796b0b27a5fdf6c18f8a897240400",
+      "code/one_loop/analysis/genus1_adaptive_report.py": "960a2763a1b05e07a3dda0a3225d860886a3677a38ca5c567c3d134ce73d2341",
+      "code/one_loop/analysis/genus1_adaptive_rerun.py": "9506a9036985af8e7db3dc2748d69fabd09c58acfa67959fb017f389365f8eb4",
+      "code/one_loop/analysis/genus1_adaptive_shared.py": "80aede64f3e85059e0ae890d148427b1b9c85c8d1ea08ff77a4062dfbb18a384",
+      "code/one_loop/analysis/genus1_adaptive_shared_deploy.py": "45e10cf36e26703fd5376175410dd401a3acfb0aef8691d95e89a32a6d63f98f",
+      "code/one_loop/analysis/genus1_amplitude_corrections.py": "8b8d511df11b63c663a372f7ff138f174b3a158a7208e9d5dc32b82f198f40d6",
+      "code/one_loop/analysis/genus1_amplitude_native.py": "dcf00f0ed7efa0e9e9fced90bc3f85cebe3e6b7070b9cfd77a62b4cc0b6dca18",
+      "code/one_loop/analysis/genus1_block_prefix_window.py": "6ad5c2718a7d12eefaaa5f51d1ebdd0927654ac1ebe52bd90f92ee9c22544978",
+      "code/one_loop/analysis/genus1_bulk_pair_projection_continuation.py": "a9592d92fabe8926ba04657838adcc34614d395857d34f6a69493e1786ed24be",
+      "code/one_loop/analysis/genus1_bulk_pair_residual_refinement.py": "b9dd2d4a10d4b3240b3db7104c728e70c4937963817b1484e2bf81bbb6fa3103",
+      "code/one_loop/analysis/genus1_bulk_rectangular_bank.py": "4d42b3b16db4d74cf53017ddb2b6949a7aef303f8b59895ef9d9f0dbba2366f5",
+      "code/one_loop/analysis/genus1_bulk_rectangular_continuation.py": "aa5581b8262a6c42880968c5d4cd46fb8e2c87be99789f9fe3b654e112fb6a36",
+      "code/one_loop/analysis/genus1_bulk_smoking_gun.py": "1cafa21ba0cbe524c28302699823712f1b66ef45db926ed1427ddfcdef5356aa",
+      "code/one_loop/analysis/genus1_channel_convergence.py": "ff3244d3d5aae6966b59ff033d03400e51f2f26cbf0a1da433db1337ae977151",
+      "code/one_loop/analysis/genus1_channel_search_combine.py": "758371903b6e885b53c11f4b8e2186f478893ded9f7064aa78daa8f97bc6ffc1",
+      "code/one_loop/analysis/genus1_channel_search_followup.py": "941181019c3330691c55513ca67dce0448e0455f6627382ee21d982d5793ed0f",
+      "code/one_loop/analysis/genus1_collar_shape_campaign.py": "687854652c927c78ebcebe583fa879a08df1f0e93ca7e8a98123612fe17912ac",
+      "code/one_loop/analysis/genus1_collar_shape_momentum_refinement.py": "891ea7694db97b27f497504342460740e1298498329516a4c3270ac6b25c6a02",
+      "code/one_loop/analysis/genus1_collar_shape_probe.py": "7dd3d3135e3a36ceb6b53a5952180b4d1d6931279c5ffcd40bf061fd87ff5967",
+      "code/one_loop/analysis/genus1_comb_arithmetic_recovery.py": "7990524c92f4fed016fae894a0c641cc682a2347dbe56aebc26b877c39a93019",
+      "code/one_loop/analysis/genus1_comb_checkpoint_resume.py": "21c53e0fbb08553f56e2be130942bcbfd7269ce73eea612f1aa398c2d785f5b7",
+      "code/one_loop/analysis/genus1_comb_projection_corrections.py": "ba23def3943c1e26500ed51d3e51eb40e7aa7329c4968dae85f0f3f159e0be0f",
+      "code/one_loop/analysis/genus1_comb_projection_momentum_refinement.py": "6719e700827ac45e53b82d74c0976d5f549a4f5513df3c5d5e0133c4a1a17c04",
+      "code/one_loop/analysis/genus1_comb_recovery_results.py": "edc3442a62e26a6fd3d90851c253d4f098155a6592b516898a4d7b041f0b48cb",
+      "code/one_loop/analysis/genus1_complete_recovery_reduction.py": "b331cf7f1eec1cb71d50b82f10f0ee2497cfb31048c739e4d4b165b55e124918",
+      "code/one_loop/analysis/genus1_completed_refinements.py": "755ca0aa60b8c06f82321302839d316230f3e6374daa1ea8f37ec40de6cc592f",
+      "code/one_loop/analysis/genus1_corner_momentum_refinement.py": "c5400cb2f61b6aa31a8278fbebe59d1dd9afa33db66b658f3b8d78f2b0db334c",
+      "code/one_loop/analysis/genus1_current_mc_audit.py": "36567a101aa660c3c939d33375f404b1c891975d72a792598a0040d537c90ec6",
+      "code/one_loop/analysis/genus1_factorized_forest.py": "ee98b55dae6fade69fd58a5632ed47a76a8bfd1e2621f8969660ade676d07ffe",
+      "code/one_loop/analysis/genus1_factorized_forest_campaign.py": "c0d2deec4e8dcdf24db832299d79de4735b0e403d127f582f51bf832ce8ef36b",
+      "code/one_loop/analysis/genus1_factorized_forest_refinement.py": "31143509f728c6d759cc3c2e11128421f288e68d3c459187c552cfd4e8fb8c9f",
+      "code/one_loop/analysis/genus1_factorized_scale_projector.py": "a8cab21254ba7ded5900e936fab387982266294b2a296ccd5d8cfc894c6663b3",
+      "code/one_loop/analysis/genus1_local_bank_followup.py": "aca9584513bfcf0409d6746507c7ae4fc62c21841592e7fab97639cea597afdc",
+      "code/one_loop/analysis/genus1_local_bank_pbw.py": "90b3b87a10a975298911c4541f42a179db98348a6a74098cd87b2d4e1bd4d4d3",
+      "code/one_loop/analysis/genus1_local_bank_validity.py": "61ddb1ab1fe8cef1e566a28487859f02e8ed3f94d8279fb72c3952705bf0f4c0",
+      "code/one_loop/analysis/genus1_modular_channel_screen.py": "9c39c4e85e2a0eb4b1d24b7043fb96b4b995a1b83d99dcc59641683bd2b41ab1",
+      "code/one_loop/analysis/genus1_modular_collar_arithmetic.py": "0d5baeb413f6c358b39cc14f1d0bfb6e4ceef43e79b868c7c027b6a9302128d1",
+      "code/one_loop/analysis/genus1_modular_mc_smoke.py": "9f5525ebddb6dbd9b28ed516bfee948b7f5e10e9282f1bc65f434e9e01285b66",
+      "code/one_loop/analysis/genus1_ordered_forest.py": "833227261d14509100b5f71243321aa6d4e7cb1290884fac622ec751eb550744",
+      "code/one_loop/analysis/genus1_ordered_forest_probe.py": "bbd0cf5023ba29ec5366d379b886c7a38a24f338dfa204be8adea216b6e6cd38",
+      "code/one_loop/analysis/genus1_ordered_forest_projection.py": "44680079cbfd0cd43239c9201b0c208dffb4a3902a10d3b28c505c93346b5baa",
+      "code/one_loop/analysis/genus1_pair_cusp_completion.py": "77799d70b9f9864d880332d43a0f8e4702cd566b17f9a04156b75541d2976358",
+      "code/one_loop/analysis/genus1_pair_cusp_continuation.py": "9000022fdbd32d4bc638072b82f382a764dd175cf3c1115faecb2ce25c4ef23c",
+      "code/one_loop/analysis/genus1_pair_cusp_log_normalization.py": "7d50cf4cc73e259b76c2e0faef569321d059712d370a559bc84dd9d55a1a7098",
+      "code/one_loop/analysis/genus1_pair_cusp_probe.py": "5a72ea5399c2132914e83b58477198a5ebd35d83aae651653e84703e018fbfd8",
+      "code/one_loop/analysis/genus1_pair_cusp_results.py": "339593c04afb38b2acd8421ae69e4095dee6934fe1a9abdfa58e6ba46621367a",
+      "code/one_loop/analysis/genus1_pair_refinement_batch.py": "b5132f8f76154cf35522469340d0bb1a23068a9a6c8ce50e8526b42ef49b30c1",
+      "code/one_loop/analysis/genus1_pair_remainder_refinement.py": "34d0359d23cfff119a3cbb57b97c896cd6e0506d99fcad3f984ca2206c73fa26",
+      "code/one_loop/analysis/genus1_pair_sample_completion.py": "35cf466ddc807440bf0ca6488f2f75748864c7b8780d2d945a31ab64e6efe29a",
+      "code/one_loop/analysis/genus1_plumbing_survey.py": "89a53b29b85443aedee0c3f675dc882bf922958bdd9371ad90a1183853d32d53",
+      "code/one_loop/analysis/genus1_rectangular_bank_campaign.py": "68dc4a9c514507281b49da085daa886845139279eb5304e6dae305c7fd22fbf9",
+      "code/one_loop/analysis/genus1_rectangular_comb_bank.py": "b140be9dae55cdd6fd1848c35290828c02a761317e8d30bff4d5be5f1aa8c482",
+      "code/one_loop/analysis/genus1_regular_cusp_recovery.py": "157840dc291a62a40171e9c5088132f7daf5d0ba620c08fd366516d71849c1c3",
+      "code/one_loop/analysis/genus1_signed_log_reduction.py": "ca6c429ebcc9ecd456bb589834d9c26d99315b632dd892c129344e8832d4e308",
+      "code/one_loop/analysis/genus1_single_amplitude.py": "c20c9df29a0b8097c4e00f76379f6c2131207ad5e7dfc1be41ff0142ba710015",
+      "code/one_loop/analysis/genus1_thin_comb_bank.py": "aa536f70a90cfd3587cbafddc168e76b7c3b4482f071b9ca257065cb79427232",
+      "code/one_loop/analysis/genus1_thin_comb_refinement.py": "d637773358b388e1c9a12ed1bf417699b8bb9b47e44bcae390fc289969f81889",
+      "code/one_loop/analysis/plot_genus1_collision_final.py": "a9d937194cec414527a6b44ae10b05bff296997044d9d5106aebc211142c099a",
+      "code/one_loop/analysis/plot_genus1_two_point_hybrid_recursion.py": "32b3eb3d715206392e60c4ed657bf30166249e86ccf056a084d10a8ff9696f21",
+      "code/one_loop/blocks/torus_c_recursion_numerics.py": "427f3201876364c66f583e8ebb83a7f72d5cb287fa4d36c17776e09ca1c9dc21",
+      "code/one_loop/blocks/torus_necklace_global.py": "b19bf57af87f7d94bcde21f829756d9492a04d98ccfb5f15b750fc61329af98e",
+      "code/one_loop/blocks/torus_three_point_blocks.py": "19a35e670f608ca3f688ee18cd922c2c72f0aa79004394a7f6cb75a1bce1222a",
+      "code/one_loop/blocks/torus_three_point_ope_blocks.py": "1f7342cc8c7cc7e614f64156c6bd79c01b35d0ff613ca02dec70bd7db41a4cef",
+      "code/one_loop/blocks/torus_three_point_resummed.py": "1dff573a81c97cda9aec0bff460d057a540b8127a2cfe7efdd04d4628e60a80d",
+      "code/one_loop/blocks/torus_two_point_blocks.py": "a6285252f01f8327770b086f440832794685d38be46263387e57e2e401fa5a89",
+      "code/one_loop/blocks/torus_two_point_glasses_c_recursion.py": "838757034e8c983b5314b76f63b533d34e9fc47e37795f265bb287e0e002bc5e",
+      "code/one_loop/blocks/torus_two_point_glasses_geometry.py": "69d3942be6d15f97b4e3da2056c2f95139ef16203262f83d9223b5ca5c3ebd47",
+      "code/one_loop/blocks/torus_two_point_sewing_g.py": "74fff076f2faadbdaadd904db6326f94b22e3a85ab17e501c8b3364ce8463cc6",
+      "code/one_loop/comparison/fit_genus1_two_point_bry_scan.py": "9d23e8ba86074431f67c3f216fd743b80bd8c59299c9c4bd9f14b2ee83d1f530",
+      "code/one_loop/genus1/__init__.py": "dd429809f1ac1b4d974f8caa71235e70351a1224452909a8a91e1a54792bd18c",
+      "code/one_loop/genus1/__main__.py": "79704cbe54d4805a5b9161b7940626c6aa86c0eef9719feb508996f813be0c90",
+      "code/one_loop/genus1/amplitude.py": "9dbe7b1ff6966b25c4999331f3ac076a71453611702870348ccd674244c32385",
+      "code/one_loop/genus1/amplitude_adaptive.py": "a633695313d7c4114c86756848a27e40b22b8e6ade399dd054b662f1a845b942",
+      "code/one_loop/genus1/amplitude_backend.py": "4bdbfdc12d10ecd51b86a8c1446f42d740e371a226d135f85794c121238bb11f",
+      "code/one_loop/genus1/amplitude_banks.py": "954a2b76bc2911c0b6a6015143cd293eb619c7bd6de5c3422ce8bed49f0d7935",
+      "code/one_loop/genus1/amplitude_chart_sampling.py": "5c685027b45f0ac611a6f48f08388ac87e520a63e977b472a79cfaae4d8c2468",
+      "code/one_loop/genus1/amplitude_endpoints.py": "9f90f451b3dd1f9099b9ac0922dc9f87382560356d60cc2e35bf961995bda364",
+      "code/one_loop/genus1/amplitude_forward_cft.py": "495b347cdaf575f86911dc97c02695ca1b0da83a50d9d8a851e11f31d20b36bf",
+      "code/one_loop/genus1/amplitude_geometry.py": "a667c2b7cde0e9dec2065277010c7c7032acb8217df9ed79c18375df81286c16",
+      "code/one_loop/genus1/amplitude_hard_necklace.py": "20021a44213b9af091977cd22e6f126dc4eae1884c7d1a47be3778470ded745d",
+      "code/one_loop/genus1/amplitude_necklace.py": "51898f3547a753984714442b531e09d03f90a3c2c0d448c252abea9757fc7850",
+      "code/one_loop/genus1/amplitude_parallel.py": "013ea31a744ec87a3b1edd4ddb8995343b92dfc1cfb3421f41e843bebf374170",
+      "code/one_loop/genus1/amplitude_refinement.py": "67e753519a0e065b7705c6fdacf266743a1c797ecbf6a53ac5f8d1bfaac73124",
+      "code/one_loop/genus1/amplitude_resummation.py": "795bc0f086b1dc83334abce884c423bcd718378d07711c9739b050a0ede7204d",
+      "code/one_loop/genus1/amplitude_sampling.py": "7b5d42861bd60c86f8bf8dca72eceb3b1e54ec7dbfb25a4c73b110bef8bccbda",
+      "code/one_loop/genus1/amplitude_statistics.py": "e37629f39c1dac80db17ae66b223022c6e1ee9616a016ab82854fa54ae8d9648",
+      "code/one_loop/genus1/amplitude_tail.py": "c238e04bd1a109640aff44aa7a8b7395e294b96245565fc0526b17b92aa94a9c",
+      "code/one_loop/genus1/arithmetic.py": "50007851dc93350f7ddcfca9b3313c967c8d2ff1de5c48a67b50fcc363ccd3ad",
+      "code/one_loop/genus1/assess_amplitude_endpoints.py": "980cc8fa8b1afeee719307093f2e443ffd06805488932cabd3f7f2b85bd94d74",
+      "code/one_loop/genus1/assess_amplitude_start.py": "012c1dfc2b994ee21d4be3429fe6cbb50d88e5ecbd00923f7a3347d03ccf9be7",
+      "code/one_loop/genus1/assess_glasses_cft.py": "4dfda1ffe58ab079bd678dc46009db4e50e42b99a622f88bd25b34c9af320ade",
+      "code/one_loop/genus1/atlas.py": "b7e5aa8f7ceed82b4d99f97ea1c10da5307a673a54851f9b950a4fbdeeddb40e",
+      "code/one_loop/genus1/comb_geometry.py": "c91287ba8768a6e3aa49feac5865f7e49a4febd9c0077f9a91b01ea405992160",
+      "code/one_loop/genus1/conventions.py": "1def46bc6aae32510639ad42f4defbd4b131582c9cd10922f4cac3a217b2ae18",
+      "code/one_loop/genus1/elliptic.py": "41bda59470479a7d89e65aefb958c5b09c958e48067517c73ceab954a09d8172",
+      "code/one_loop/genus1/geometry_cache.py": "d842c44167676f3dfc46a3c44ddcd8ceef9e19946b5ae0c31df18a11cdeb7ab2",
+      "code/one_loop/genus1/glasses_comb.py": "0c74e0d40e72116a0e0d4bbbbc7029322369759896ff833d4bd71bed643bd56e",
+      "code/one_loop/genus1/glasses_comb_geometry.py": "4cf7d17396b5b9b2b60e5058f95176c5bd4874ee47122ca17d4cfd9dbcdddf0a",
+      "code/one_loop/genus1/moduli_survey.py": "f625d076998eed025f88e59d854f0aaa86c2db453e367073529a2442e86a6293",
+      "code/one_loop/genus1/pair_elliptic_amplitude.py": "0c406fc102079769de83ddbf034d7e42b86e49e0255ee1e95da91866b637d761",
+      "code/one_loop/genus1/pbw_validation.py": "74c17c92ff8d9a688f83817f7580a4d7a7181777be0231d4c14cb80f258dea2a",
+      "code/one_loop/genus1/period_comb.py": "8bd64c4a12a8f163ba80954a3569708a6095fb7637cb5a30915a8aa98b4085ac",
+      "code/one_loop/genus1/pillow.py": "0eed362336c3232c2b336ae2c8b2f5bc10d26aaf438d7877b71c9bd07d6eccd8",
+      "code/one_loop/genus1/pillow_geometry.py": "953638b0db67278bb33e6005fd70fcedcb520943a67fe29357a077066ad7e158",
+      "code/one_loop/genus1/prepare_geometry_map.py": "dbb526de3d0723a16bda9d82dd1c387e554da8e07d9a3b62a5362e675ad62155",
+      "code/one_loop/genus1/project.py": "2e9723b225509f0455370a677b0faf51ed8887a3325623e8f7ef83f1d1321e9e",
+      "code/one_loop/genus1/qmax_map.py": "49022b91d9168d2a6afe7e2f3c670378508e7900b9ab3a0679f9b74953a84016",
+      "code/one_loop/genus1/queue_registration.py": "501beae386518015a91544991c2baa6879745d2941a3b2deeaf983d9e19479a8",
+      "code/one_loop/genus1/schottky_words.py": "a5877a89bcd4d821aea7ca19dca6edfe86358721c0a90317596498a962bffb7c",
+      "code/one_loop/genus1/series.py": "188428fca0377c390f35fa1c2b4502566b87152033dae3a031528fea3a99349a",
+      "code/one_loop/genus1/storage.py": "f46f81633e5971702b65ed52798cc2c6624cc4622045484b09b79d44cdffc231",
+      "code/one_loop/genus1/tests/fixtures/provenance.json": "3c7110f772062eab487960c3ffb180ec811df711291b32d248ffcf43166d3f52",
+      "code/one_loop/genus1/tests/test_amplitude.py": "81c277f8372d5ef25998270962df674c64b39dfc1802f5507366cbad9f951f82",
+      "code/one_loop/genus1/tests/test_amplitude_adaptive.py": "8bebd76a49cda9ef57388b8a9702fc20fa47fc62819454d5143b6c2327add10f",
+      "code/one_loop/genus1/tests/test_amplitude_baseline.py": "0259465f2b354bf9e518b00e43e54f3835f12129fb80017115f46e1f949dc5c2",
+      "code/one_loop/genus1/tests/test_amplitude_chart_sampling.py": "45b43dc8846d8dd3e251a02af7131af5ffcba21c4297b1aabfa6e562f5fcb56c",
+      "code/one_loop/genus1/tests/test_amplitude_endpoints.py": "3a0f2f52f78505f3af46ddeeb706056338c9e225ee9fbba16f45c34e938bef1d",
+      "code/one_loop/genus1/tests/test_amplitude_forward_cft.py": "b5b6ba5426a961dcd3afecb7f46ef7d4f447f68956d0014004fe0d47800bb4dc",
+      "code/one_loop/genus1/tests/test_amplitude_geometry.py": "31ab9f091bdbae38671608f0b6f1cb60ea915865ccb4702374009370343b8be7",
+      "code/one_loop/genus1/tests/test_amplitude_parallel.py": "00888f3bc580734f73c7c3cfa6d86b1ecab88cf02c7a3d6f30213987b6f5b372",
+      "code/one_loop/genus1/tests/test_amplitude_recovery.py": "b3768e02c4c2d2de1d3f51d9bcdec4b292ddcf5b6f805b85e930b74707bd9223",
+      "code/one_loop/genus1/tests/test_comb_elliptic.py": "0efcd35b1015a4a26e2ae47493c79477e0579c994a5205f8d2349a5a25a8618c",
+      "code/one_loop/genus1/tests/test_elliptic.py": "3a149c6e5cabde6ad027ba00a68bbb245cb5053d7de80aeecbeb81ec7a8f4e0e",
+      "code/one_loop/genus1/tests/test_glasses_comb.py": "59790bac14c88c0fcf9afe6f41fd29f80d67ca48ecc76ea8ca5e4afa1bf9681d",
+      "code/one_loop/genus1/tests/test_moduli_survey.py": "e17a8a7c51024758ebd5fd69542772771656b399d5496c53466d76a6921f1656",
+      "code/one_loop/genus1/tests/test_outer_cap_fallback.py": "277aec02ce2b12cf844e006c304fdd0853e9224d8e4c789abd8ecbbc2d51f0ab",
+      "code/one_loop/genus1/tests/test_pair_elliptic_and_collars.py": "b75e9b20ab6588db8a194926f72de7d954f8f224354f7ac9acfb52b76093ce7f",
+      "code/one_loop/genus1/tests/test_period_comb.py": "c09fbe6ab05897671f18ee6dbd74b39de778a84d563634cd5d72fdb2b9bac746",
+      "code/one_loop/genus1/tests/test_qmax_map.py": "77aaed8a67276d5d8babf2274792364b0529b970a2c92e0c05423ea30ebc3fb0",
+      "code/one_loop/genus1/tests/test_qmax_mc_preparation.py": "3f66100fcdbee8cd9d86f2cd078900b3a204e17716da5245f6451305c4fc5bda",
+      "code/one_loop/genus1/validate_comb.py": "0772dc7677dc23095051a0434dbb5ca58ccc6d7d2b44e3e93fd64f49f26d14c3",
+      "code/one_loop/genus1/validate_glasses_comb.py": "06e265bf6b45b6d30ab2366cc66acc932528f78f0504ddd075bcb384ca562b30",
+      "code/one_loop/genus1/validate_layer.py": "93fa69b38817a8aa2faef5b0aa5f84a7126d9b71f5c325971c4c027495cb6c84",
+      "code/one_loop/genus1/validate_period_comb.py": "4f3e56e34ec992f4a82fc951090e5f5adb4654ef864301ebea58705bdf70cf8d",
+      "code/one_loop/kernels/genus1_modular_geometry.py": "e3ea2897663de0947d86db76d48856bf755edb72f9c058423749f2e2c498636c",
+      "code/one_loop/kernels/genus1_plumbing_assignment.py": "cb4eacb4f78be81ff103e42687c68caff0082b5d76b272070cbb5e6e2efe5737",
+      "code/one_loop/kernels/genus1_sewing_domains.py": "af95ed70ff3acdc51c970f0e7fd082029e11ad6fb481ff6b911484ba320eb740",
+      "code/one_loop/kernels/genus1_spectral_integration.py": "e70d44f6454b383a53c73fa87c852a02ef1113a43896a5173987a62a93c8cc0d",
+      "code/one_loop/kernels/genus1_three_point_channel_atlas.py": "225438a9bdf0922d626c666878a5b60e33ed736554e5e073633928d0e6379e92",
+      "code/one_loop/kernels/genus1_three_point_collision.py": "2f0c4d56131b3c9c4aff2a7b9dbcd3adad526aa8eef3cd0d42553391d1272717",
+      "code/one_loop/kernels/genus1_three_point_momentum.py": "b34ba2555036220e0b885620bfd298a1d3a6dfcd8a12d27904b3cd92c6ddf7bb",
+      "code/one_loop/kernels/genus1_three_point_nonseparating_tail.py": "4cc129d8d8606cde8ae4c05e64211c712ab034930e3944ccb346f94b06e6c1be",
+      "code/one_loop/kernels/genus1_three_point_ope_buffer.py": "7988e4c0fa4e71616116b9506027255309a5e85c319c977346cdbf9be1754212",
+      "code/one_loop/kernels/genus1_three_point_worldsheet.py": "ffe8cfedf8a9914d4a2c545f23d78a4370f34861a30303193de46ad1da36edae",
+      "code/one_loop/kernels/genus1_two_point_worldsheet.py": "bc03a6e64549d82fb90475c16096c87fb517d2f05418765471bbaa4ffbc7c20a",
+      "code/one_loop/production/genus1_adaptive_cft.py": "616710d4cf49cbc86967322f50b9322ad3993ad165e74d57e904eee5fd81b6dd",
+      "code/one_loop/production/genus1_all30_continue.py": "010306d2c7dadde4a879b8508afbb7cdf389ff442790d9bc93ccbe4658095a8f",
+      "code/one_loop/production/genus1_all30_launch.py": "9ab620faad55846b246a67b884e9d637872daff1225eb2d232815fa3887e41b9",
+      "code/one_loop/production/genus1_amplitude_bank_catalogue.py": "49a7140a8e791179d28bafea3a262d2f37346f0d76b1a31810d6d6c935355c74",
+      "code/one_loop/production/genus1_amplitude_error_budget.py": "9348504576cd8b727e95d7f6663872dd3ab07eae0cb86e71d00f9f2bb9359fcb",
+      "code/one_loop/production/genus1_analytic_boundary_layer.py": "518163bc90f1e77af32319f6c3e0b0b4c66ad2a30b0483e2637f156970544169",
+      "code/one_loop/production/genus1_analytic_production.py": "5d8c4b0e657489eac771d8ecc663a09988c80bf8c65b99aed37b7e0bdde97b91",
+      "code/one_loop/production/genus1_analytic_providers.py": "45602f4996ee9f09b4783abc6fc80833931583302cb61397f05d90fda81cbfa1",
+      "code/one_loop/production/genus1_analytic_storage.py": "8fd085621cf5f23f4754ba1f13ee881bc179983d2bb6c92ddb9d342b2b3f2259",
+      "code/one_loop/production/genus1_banked_nonseparating_tail.py": "6608ddfbe67cc908beb0681d925febcecce7ef7d7822572f1c83bd2222b3f551",
+      "code/one_loop/production/genus1_boundary_banks.py": "c76796e253ef2ebe5944145c4588f28c35ae4eb3b3dbfd1bd2784a6bdc25da1b",
+      "code/one_loop/production/genus1_boundary_batch.py": "30f92c74d0107d8b2dd34807d786c6a76ee7478a37ea7e4fef3243668834bf27",
+      "code/one_loop/production/genus1_boundary_block_order.py": "d563d6466be8dc4ca0c68f40909edbe02f884d14c4ccca02af76c083545cd0e4",
+      "code/one_loop/production/genus1_boundary_collision_accuracy.py": "7be7aa01f05ed511465af2d1f71035d379d3013ae3e59bfd171e49cfbe46b1d0",
+      "code/one_loop/production/genus1_boundary_control.py": "763870b8587916f1cf77277d59518b0ae124bbf6cd40c8d0ad17c4f652034a3f",
+      "code/one_loop/production/genus1_boundary_cubature.py": "7032d78557f3a0d77f70836e070577466ff6577f9fb62bb793aac2ac2eabddf7",
+      "code/one_loop/production/genus1_boundary_diagnostics.py": "78ffe8d7fb9c1a2c5b3be50d656eaabf80c8705becd7239bafe0f2be96901495",
+      "code/one_loop/production/genus1_boundary_geometry.py": "3d530c9a48a71f34302897e3aa14435016068a1926d025bbecb77eef73bd5cfa",
+      "code/one_loop/production/genus1_boundary_integration.py": "57d8039b01af203018fc93c49edc33f1909723756ba62e7462c4b52daab726a3",
+      "code/one_loop/production/genus1_boundary_orders.py": "2f2449492e18c23942bf3a03a1552f2bf78d47ddf58ab5529b576ba1dbb509c8",
+      "code/one_loop/production/genus1_boundary_sampling_budget.py": "b879cbc3a91c7f79f1f3e5611a7af4d15f7db506907945f81c1fed9484b62c04",
+      "code/one_loop/production/genus1_boundary_spectral_jobs.py": "cd0a763534ac9253cd5d1873858036b4c15fdc2ac233159c7da0dc89aa795e46",
+      "code/one_loop/production/genus1_boundary_spectrum.py": "25a3782bc442a7c0e0af8367a17b53c26b56a80ec56dd84aba8ef33633f3eff5",
+      "code/one_loop/production/genus1_boundary_work.py": "0b7a9ce02be4c38867b62b24856fa197537513c95c8be737a8c6d2278731fde4",
+      "code/one_loop/production/genus1_bulk_pilot.py": "5b713bba7d114e6e75a63dfc0463f974768bb498b822bdaedd274b7a439b69a1",
+      "code/one_loop/production/genus1_bulk_sampling.py": "b2082baf241c804191ba8f90255a705dceaeb086167b579fe6676373a2016c45",
+      "code/one_loop/production/genus1_bulk_shared_run.py": "049b02873f4b04fd306c037d7eecf49deb54d75b5454093861927824d6b8ecf6",
+      "code/one_loop/production/genus1_collar_baseline_integration.py": "4ecf3d2322d434156b51ccc3a097f5335cacd3f94cc0586acd6477112c6de6cc",
+      "code/one_loop/production/genus1_collar_mp_arithmetic.py": "86972ab1155ec84473a38664d06b6ff4636c434edef8e605e3b19b63a9090a59",
+      "code/one_loop/production/genus1_collision_elliptic.py": "cc7c9d80efd6dc46948544136678eb4a33fb53490a2a2728a4837ede9aed13b5",
+      "code/one_loop/production/genus1_collision_elliptic_bank.py": "ea2ffc6ebe7e3ab4a57fc567414af6cb09cfda3b59a3e047dba84cc845d3b390",
+      "code/one_loop/production/genus1_collision_momentum.py": "ea1aec2d91608b0fe9c5ccbb4c56a2e97b1d633def2ed1bf1f9416ac4df77dc3",
+      "code/one_loop/production/genus1_collision_thresholds.py": "4ecbe79318fae9a2cb32f06dead6c5074e491609823aa28c2da6e11f25761bb4",
+      "code/one_loop/production/genus1_compact_amplitude_plan.py": "f4e4811fd6c248b101e573f3e7c927adccd2f777bc67e11ec3289df257d8a443",
+      "code/one_loop/production/genus1_compact_amplitude_runtime.py": "d650404fdec5d2a78b6eb0630d1fc32eb0862b0a8829201430cc327246b120e9",
+      "code/one_loop/production/genus1_cusp_banks.py": "1711712eedd3edd484a172fcd1778a23b17131a43ed51fb189ccde99f46ed764",
+      "code/one_loop/production/genus1_cusp_bootstrap.py": "12159cefb188c252ce731f91aae0690046b8b357ad5064b5c2cff96e6fdff791",
+      "code/one_loop/production/genus1_cusp_control.py": "d2b6b529c669a88a74ea83e5310527e2274cc8a017d13a087d40d5a7838fe525",
+      "code/one_loop/production/genus1_cusp_coordinates.py": "9020d1deebfe3ac09d99de0c53da52e84484c0068237058a04593fb51bbf0208",
+      "code/one_loop/production/genus1_cusp_pilot.py": "584ff42dd21e319b5f22d5737771e3255563c51098958302f00873421fddce36",
+      "code/one_loop/production/genus1_cusp_sampling.py": "16ad040c2e94097c5038bfa76d5b4e9295e80f848a7c797d09179cbd97d0947f",
+      "code/one_loop/production/genus1_cusp_shared_run.py": "5251d448f94dcb7eb5eac20b2ae3e3ae22defcb45ee03a2bd509ec0990abe38d",
+      "code/one_loop/production/genus1_diagnostic_preparation.py": "4de98499e21bf5fb8ccb6f16cb99bca08a1d79fd79533e78008169d8cddd339f",
+      "code/one_loop/production/genus1_fixed_compact_replay.py": "afcc197b722005902986ce2659009f68e5ce50a944c4ba738a038b0615183536",
+      "code/one_loop/production/genus1_fixed_n8_campaign.py": "438a9e9369bbc6ed811e8b17fe685cf4ed6189e1cbbabc747d20ebbfebfbe47a",
+      "code/one_loop/production/genus1_fixed_n8_launch.py": "eb3e81edee9dcb1d27fffa5bc41de0ee3cc12d6dd874c372bfc33067a5cd9b25",
+      "code/one_loop/production/genus1_fixed_n8_reuse.py": "94bbe0118cd07d03af0bfc473864c0095d9eb0899bb683dba3d212fa74f20ad9",
+      "code/one_loop/production/genus1_integrated_scale_collar.py": "cc31bbc86ac4ff03da6e88e4cac234e095532657e10a4b8eace73b0f34bcfeea",
+      "code/one_loop/production/genus1_integrated_scale_collar_fast.py": "74650b14208a1b25b30b724afced72d0d69f2b72f36f9a8414f0ad3e28e173a0",
+      "code/one_loop/production/genus1_modular_cft.py": "874e0adac01a50019ea46ff724c1ca10177e71cd8a3fde188221e80205bfd091",
+      "code/one_loop/production/genus1_modular_run.py": "3fca0e1b26360fa2f03a2c3dc788d8d255b3726c42646f8aee0548363fb83f78",
+      "code/one_loop/production/genus1_n8_pair_arithmetic_repair.py": "d0d4ce988dfbde642b5a0aab0a7cccfeb7b2eebdabaa34d599a8a7de4fb55a10",
+      "code/one_loop/production/genus1_n8_resource_manager.py": "4874ddb92b3713a68e26a784f963ae9cb569cf66590c8ba6500d43c37df54f60",
+      "code/one_loop/production/genus1_native_log_evaluation.py": "47321e3c52dcbcd0128cfff48d2126a07b7bbe4190b9f51e24ae9f67b5f2dcec",
+      "code/one_loop/production/genus1_nested_amplitude_campaign.py": "ec88f13620afe0744f006da725d9dd777871c1635b60ff81611feb0495debf3c",
+      "code/one_loop/production/genus1_nested_arithmetic_resume.py": "c7397820069ab68146e353777f80d91371fe6ce1b3649da19e93039abf95dbd2",
+      "code/one_loop/production/genus1_pair_cusp.py": "f3fb11f955394c45581ad6a62f3c06b6d4cb733467a691f7ec63cce674f0424b",
+      "code/one_loop/production/genus1_pair_cusp_preparation.py": "3ece03d0fe40c714931ffedbac4b29f392ba6d66c684949d8f3eb65561ecb1af",
+      "code/one_loop/production/genus1_pair_projection_mp.py": "156078198c27b25d60b3e8318d0ade504325e722fbe5b5a6b286d1c9e0c3daa3",
+      "code/one_loop/production/genus1_prepared_geometry.py": "71cb72c7c004cf22de83f57f64870208419857b44c13bdcb00b82bb5d210e059",
+      "code/one_loop/production/genus1_projection_momentum.py": "5d9141bb292e5d15a6cdf57ae2482733dff209bd2261423945957157fe9e4076",
+      "code/one_loop/production/genus1_projection_preparation.py": "96a9a138728d60bbd68bf8764b0fac3b600df9b15b9d4ecd7c92f7e8488ee4f5",
+      "code/one_loop/production/genus1_rebuild_policy.py": "56afd81b29da14e3da9cf73ccb30d96e58776fb8182b2d61ae47ebd0203cd33f",
+      "code/one_loop/production/genus1_regional_comb_collar.py": "311a89c30e93acd4484c17a23174197bb3afc882fc12d3a3fdaadac80273d25b",
+      "code/one_loop/production/genus1_regional_pair_collar.py": "b66ae90154fe3060479cb3bc8323206075a1656bed46227b622d9e9e16f2a020",
+      "code/one_loop/production/genus1_remaining_amplitude_campaign.py": "eb582f3d345d6762e9e9d64647f94c57a55f746ee193b5f7b03a013bdf3bfcc8",
+      "code/one_loop/production/genus1_retained_t025_candidate.json": "9fc8b0b83be2ead482c6c6e0b8439c18f7609abbf79b15f2d67237489042720e",
+      "code/one_loop/production/genus1_scan30_baseline_data.py": "922d30e99f33f0062f1920f1847f8e8f9008cc41a2925229e7bf80a1f43ab0c5",
+      "code/one_loop/production/genus1_scan30_preparation.py": "04b344f6f1fd0cd8c84be7c5a742453911913e9fc77da0cf964114d38d793352",
+      "code/one_loop/production/genus1_seven_strata_backend.py": "b784926dbf10a418eaf7b884e53741fb3feae2852e63ad555eb19d1cd746fa00",
+      "code/one_loop/production/genus1_seven_strata_worker.py": "9cd4aab7569f58a2454b7d2aa47b95804a9ed9d1b290c402f961c8763ee1b7d2",
+      "code/one_loop/production/genus1_shared_bank_ensemble.py": "47ee7c4ac0bbd801d2d2e5aed06a244fab28c0c4447daf695d4819e99d0a0338",
+      "code/one_loop/production/genus1_shared_bank_extension.py": "fcf82672ebb10846dab18c814a3b96dcfcc9c91cc43fb86fe18952a1f2b274a2",
+      "code/one_loop/production/genus1_shared_comb_collar.py": "121f19e7bf6e381a827af9f6a394b6d6ff1404cf5874745272145515599284af",
+      "code/one_loop/production/genus1_shared_native_bank.py": "c3eb8ebe3891f0fb5a58790c8cc8c165f5e3f9057e8768dd4d29a4c478152cd5",
+      "code/one_loop/production/genus1_shared_pair_collar.py": "98984b4a9b868d292cd83e90c51414a2656187600b3d3e0131f1bf40549b7d27",
+      "code/one_loop/production/genus1_shared_projection_bank.py": "fa0878d4930927a0ea302c47e31032ef4e2c745434b5ab3bc3cb2cc0a7b20683",
+      "code/one_loop/production/genus1_spectral_controls.py": "6907a61ba29822bf6a04488ce819e9a3b9075f57ec48a576be027a020e8e04f4",
+      "code/one_loop/production/genus1_three_point_block_systematics_cache.py": "3f71958c2197320a723f3ca67df2451cf04510e86b710960b89efdd905a8d062",
+      "code/one_loop/production/genus1_three_point_block_systematics_tail.py": "3196fdc19a0ea5604d55932e1a4ca8519141b4e8138440442fc7dd746a5daf8e",
+      "code/one_loop/production/genus1_three_point_block_systematics_worker.py": "26e7af97880caa31ef67a4f0c14849d8fabe6d7b690e500b3337f8d4b7035517",
+      "code/one_loop/production/genus1_three_point_hdominant_cannon.py": "abc34ff01f55c75b0cb600388309802555b42333b25d08b06ec5ca30070a2cfd",
+      "code/one_loop/production/genus1_three_point_hdominant_extension.py": "c43fc10daa50e335c21f5c96c55f15d55ec7af0968d85ffff717856625657fbd",
+      "code/one_loop/production/genus1_three_point_long_neck_audit.py": "f49cfc74bdeaea8dd09120d05ef7ec0d75713986a0cdd1f524d81df0623ad458",
+      "code/one_loop/production/genus1_three_point_nonseparating_tail_pilot.py": "bc2b71182b606a5f27bbfac9ae9f0f2e4c1eeed0a38b0b601556b4e755b0c231",
+      "code/one_loop/production/genus1_three_point_order10_cache_cannon.py": "775237ddbf41ac86130dd5e3ff4ae4f6a03c176a4d8cc8db0eb3675ebe80253a",
+      "code/one_loop/production/genus1_three_point_order12_pilot_cache_cannon.py": "4b2cec6a93a660e9428210f3dadcd60dbb06c2b821f93f93cd8a3baea1a7d238",
+      "code/one_loop/production/genus1_three_point_sampling.py": "8af10fb0fa5405ad55dbc1ba278a2bc2113553e698eec65db3100d6deabded26",
+      "code/one_loop/production/integrate_genus1_three_point_collision_resolved.py": "7e2e5cd30a69857d83201d4521d2b4f62818801343bdbe94c9ea4b31d5b7dfaa",
+      "code/one_loop/production/integrate_genus1_three_point_nonseparating_tail.py": "21913c0daf1be760651b0f9014b8cf6675ccd635614a8d5a754df55186de0937",
+      "code/one_loop/production/integrate_genus1_three_point_tail_collision_strata.py": "23b03a000612ba10a8352cd5e9a54eccc0570045572a248d3e7c9fcb8f59ddd0",
+      "code/one_loop/production/integrate_genus1_two_point_worldsheet.py": "4d37aa4e1fa10618504cf314a4a353dd985090f6947fcecf2e992fb4ed7f17eb",
+      "code/one_loop/production/run_genus1_three_point_hdominant_scan.py": "289d601b59ca5470fe9d1bdd8f6ad87aaf27e08a8f283cb22db496e24a54fb20",
+      "code/one_loop/production/run_genus1_two_point_imaginary_scan.py": "9f0a1b0f767ba2165576d54d1630674e12466cb2262da83df0cd71dfc4adb039",
+      "code/one_loop/production/smoke_genus1_three_point_channel_atlas.py": "8b8895ecb48b1835ce156b625935e81dd4a4c8b46050933d674733372c7e74be",
+      "code/one_loop/validation/genus1_adaptive_cft_checks.py": "acf3e07530b40acdd1a8997cb6fb4a31a34872112feb28a30df9b7ef0d3acc81",
+      "code/one_loop/validation/genus1_adaptive_cost_floor_checks.py": "7457327304a5053093e4c460254835c231e845734b0cd8f6cfe849b83e652468",
+      "code/one_loop/validation/genus1_adaptive_ledger_checks.py": "c0ab093c9ca090e4c1125902ac1c17d2f6bc74c792576f5d385ef2f597817efd",
+      "code/one_loop/validation/genus1_adaptive_release_checks.py": "75a982f40e901e02104d492f6bc5928b5a45b972ce8084546004de96e2ca0d7c",
+      "code/one_loop/validation/genus1_adaptive_shared_checks.py": "7d03526c458b093de0a41bedeb47974f2fc6b990b9dbde5dd8c2687a2af0b757",
+      "code/one_loop/validation/genus1_amplitude_corrections_checks.py": "8b7e7593058e88ab2674a5317179d41c9e9362d44665d3f04e83abdd890512e9",
+      "code/one_loop/validation/genus1_amplitude_error_budget_checks.py": "0a4e3c2491da19641a967f023ee7808609d48a93fad01a951d9187f2db8cf7df",
+      "code/one_loop/validation/genus1_analytic_boundary_layer_checks.py": "ca013af04f7a88d5dbbc6a4348fe8cd7a29634a3d1e23d40e16aff09bd516c2d",
+      "code/one_loop/validation/genus1_analytic_production_checks.py": "e4ff835578a19f142604bbd4120c942cdeaed4f9734d3a398d0c3abc00a280e7",
+      "code/one_loop/validation/genus1_analytic_repair_checks.py": "1af65809db8d3b91e4c7c8a0be2220ed148ceb4eae62f155e07b87b8ceffef12",
+      "code/one_loop/validation/genus1_analytic_shared_checks.py": "b0259fecc4ac73c8af37b20bc438bfe14edab1304b846d466424c1c960389f04",
+      "code/one_loop/validation/genus1_banked_nonseparating_tail_checks.py": "300035d672a05819f5c1c010826ca317ff33ee088f9e9042203f2fc4d6cb5b39",
+      "code/one_loop/validation/genus1_block_prefix_window_checks.py": "3f75d2d4ac2d6f1dc46ca633089bd71f8d1e94040ad1f86f634b740964962cfd",
+      "code/one_loop/validation/genus1_boundary_annulus_audit.py": "005a55cd37615a5416406b418f7bc9ca784e7cd87daeb7fa9714808fe7a23181",
+      "code/one_loop/validation/genus1_boundary_collar_audit.py": "dd5f6331cb090fb325a1ba223cd39705006ae66bc04fd6a5bab5c37cca9cab93",
+      "code/one_loop/validation/genus1_boundary_integration_checks.py": "9edc51d2b09571128d1328f2787f3cb266d5171076f25d9f11f9ce0489716d1b",
+      "code/one_loop/validation/genus1_boundary_nodes.py": "50e09dbd6aa57a3d5d61975ae91c9d27ea677a520f6f46dc2a2469583e4f567b",
+      "code/one_loop/validation/genus1_boundary_two_jobs_checks.py": "e3f8aafac6acd3f28ae2649bea3a56d23a0b3649145159f0070d1eb0731ece22",
+      "code/one_loop/validation/genus1_boundary_two_jobs_prepare.py": "e4e88fe31f2a418cd365b73dc11e77f89a33b95addaa383e59447344b6114456",
+      "code/one_loop/validation/genus1_bulk_cft_replay.py": "6479177dbce01a0b874f9e488d3e352ac12ace4f23d17f21eec5105f56f48565",
+      "code/one_loop/validation/genus1_bulk_pair_projection_checks.py": "92398d24455747055208280859812abe17696ca5c999abe95975e71884ef1054",
+      "code/one_loop/validation/genus1_bulk_pair_reduction_checks.py": "199f4eb6b839eebd8228e8e64736efcbcbc72c416a0d1952d4351298f9d978cf",
+      "code/one_loop/validation/genus1_bulk_pair_residual_checks.py": "e3ec409b864904a0a3a5c1ba33b01a0b93e86e0cd85650a23b39a07d222e2c83",
+      "code/one_loop/validation/genus1_bulk_rectangular_bank_checks.py": "168704eedee29c2ae8c72130f96c760c0f682545ebb53315442e8c901ceb7372",
+      "code/one_loop/validation/genus1_bulk_rectangular_continuation_checks.py": "f8f9d1b3464ca3f67a2c018877988c7a497708ac85d4841b276a612ad0839d70",
+      "code/one_loop/validation/genus1_bulk_sampling_checks.py": "88aeabddc60d6dcab8676aea1caa2ab8692cc5a2e63490252eae5423e09ab1aa",
+      "code/one_loop/validation/genus1_bulk_shared_checks.py": "f460dd7d6916e3ec4e77efe8f2be11fabd8c9a64e4c30cd4acbd52730f870f98",
+      "code/one_loop/validation/genus1_c_recursion_benchmark.py": "823a69f384e952f954d783ed1ca7b737ac58a1a0b435d540574cb422933af4f0",
+      "code/one_loop/validation/genus1_collar_anisotropic_checks.py": "8236e8574dfa1b59015ddd2913af13a880c83fa7531d7cc6d3639ea00b75e6ad",
+      "code/one_loop/validation/genus1_collar_baseline_integration_checks.py": "3dc3a653da5e0eb512130aaa38b65ed167d246c3d8156fc906ff1dfa04eb2d48",
+      "code/one_loop/validation/genus1_collar_failed_point_replay.py": "3079605e96c3c084e85685434552e9611084689b65c2d6cd80fb274edeac7f54",
+      "code/one_loop/validation/genus1_collar_height_momentum_refinement.py": "4cb40a7ac173898416d2216a6f1029248c3ea31f56250ba1bee5ce4c271332e4",
+      "code/one_loop/validation/genus1_collar_integrated_campaign.py": "ebf7d48e9d4061e0f91cc8d66fbf6052adc0d1f34575bf25871b3df7cfa2758a",
+      "code/one_loop/validation/genus1_collar_loop_repair.py": "34472d1bb9f54d91757be0a2f303776d1a16de9f355d6e13df0793d49edf9842",
+      "code/one_loop/validation/genus1_collar_momentum_audit.py": "9b81bd8ef7e576675ec99ee428c7c4bce0d5d1621227911fb02ee97b7ac2b554",
+      "code/one_loop/validation/genus1_collar_reuse_inventory.py": "3badc11ebbbf27e42313c1edb92e33c7293816c87dce6f6b812334a4bc065d5d",
+      "code/one_loop/validation/genus1_collar_runtime_checkpoint_audit.py": "9214ac3a043b514e5dfd7eb4a27ba6ec0be2ba67fc1fdf18974b4630b83345a5",
+      "code/one_loop/validation/genus1_collar_selective_repair.py": "90db3d4cb8496ff7c61d7fef9737f5d8f68b704ebe894c0d9bee6948b1eb19ae",
+      "code/one_loop/validation/genus1_collision_elliptic_checks.py": "143d050026df0eedfbb25729a419812c550b92e767c24dc2e6b424ab7a9cc5be",
+      "code/one_loop/validation/genus1_collision_momentum_checks.py": "bc8661ea4743f4362dea927b927657287aa3d13ab0b451c05796c9a073b4cd14",
+      "code/one_loop/validation/genus1_collision_thresholds_checks.py": "d0254f6f4cdf9e23361cc3319ff309566a6cf5fcb711e4e8a1337b801ce1671a",
+      "code/one_loop/validation/genus1_comb_arithmetic_recovery_checks.py": "d33a8844b79f8878645893810094eba08eb22a263e9a72ad62180b179042b59f",
+      "code/one_loop/validation/genus1_comb_fixed_momentum_convergence.py": "745347d272ce9969a18912e346d58ff0c7987f121106adaea7b614e1ae45317c",
+      "code/one_loop/validation/genus1_comb_projection_corrections_checks.py": "a5cdfa5c0a425df7dacfd68038ec86e963b8dcb8006578f6a69e9135864b3e3a",
+      "code/one_loop/validation/genus1_comb_projection_momentum_checks.py": "2ce07b1955e75f700781280ecfcc95f689c5d95a795a3baaf5e029319c4b26d5",
+      "code/one_loop/validation/genus1_comb_recovery_results_checks.py": "ecd1c93811bc32dd9280a013d97601f3405cea2de0e4af0d32b8bed3b91e86b0",
+      "code/one_loop/validation/genus1_comb_scale_threshold_trial.py": "69f078780dd2b4627e8657d392b272250beff396b7c9305ce533e680fc8c4294",
+      "code/one_loop/validation/genus1_compact_amplitude_plan_checks.py": "466883e2940e9e522140c9d3dbd961d9e1ed660e3eaeabda2a17dfac34ab5697",
+      "code/one_loop/validation/genus1_completed_refinements_checks.py": "edfb19b72acb3e7cf22f56c52006a6f7af0067e8a5454ae633e656d4672ad26f",
+      "code/one_loop/validation/genus1_corner_momentum_order_confirm.py": "a14fb506dfb7aa859aeb8fa1e2305aaefdbf8521807b343b86921f3e99fa9243",
+      "code/one_loop/validation/genus1_corner_momentum_order_test.py": "5d98923ee1f3b4cc0d4e145de528437c368971235ef2c072b877443154177813",
+      "code/one_loop/validation/genus1_corner_refinement_checks.py": "745d88f5ee0379eb07d567274e9c224a5a162a1d91220b41932166107222020d",
+      "code/one_loop/validation/genus1_corrected_cft_cluster.py": "b92aaf7955984fb1b3c1c58e392ce02d623fe22c58edbdbaf2c863f6c842c6ff",
+      "code/one_loop/validation/genus1_corrected_cft_replay.py": "8b8726b6067bae5b2eb7bc7542d6344eb47b46dad3a4777f16e1bde34acdf992",
+      "code/one_loop/validation/genus1_cusp_pilot_checks.py": "dba3fe8e27b26fd8a1c031d414942294ca1cd06e0b679f28d6e66db48085a1db",
+      "code/one_loop/validation/genus1_cusp_primary_check.py": "12d8555a69159aa279c0ecedc395a2a60f0f0ecf532df2b9bbdbb35af600d70f",
+      "code/one_loop/validation/genus1_cusp_reduction_checks.py": "32f4b59b59c875adf4ec4a314bcd9041c2a136cbdbea7cc83f2900623e1cbeb1",
+      "code/one_loop/validation/genus1_disjoint_collars_checks.py": "be8bc3ef9524cdf4d529897d42476badb6c9f22d9a650be691193b4704b8a160",
+      "code/one_loop/validation/genus1_factorized_forest_campaign_checks.py": "b83183237a495da5ef05c7216edb2fbaa443cccc62182e5f76c6c4c60cd3364f",
+      "code/one_loop/validation/genus1_factorized_forest_checks.py": "bc47c3d0f318dda19f67842264e51483ffa340b4d2ee47804c104a20cb4f938e",
+      "code/one_loop/validation/genus1_factorized_projection_checks.py": "712ce587745cfa5bba10f95d42cbe985a4f2d5593ad6d943cf592988ba59631d",
+      "code/one_loop/validation/genus1_fitted_boundary_checks.py": "917dafdeb891e65024102398cd5cb308b3b545e1f2ddecc49054707d52613ffe",
+      "code/one_loop/validation/genus1_fitted_cannon_checks.py": "d008df6791833a39819b219ddaabb326738f741d570b2056d70dab3044e0b8e6",
+      "code/one_loop/validation/genus1_fitted_collision_checks.py": "71293f39c1331b751bf0a19c7e2832ded33dc0eaae60cb88049896b417fc69cb",
+      "code/one_loop/validation/genus1_fitted_runner_checks.py": "5767f991da7e80ee904ecab5d39152685c2a1df7dc37ab549d98e13870ad59b7",
+      "code/one_loop/validation/genus1_fixed_compact_replay_checks.py": "8192704edc6d7e586c463cf60f7f94e1656666c49857bd1120a1752056c7d984",
+      "code/one_loop/validation/genus1_fixed_n8_campaign_checks.py": "18acc4733a2db8713d603a8b8ebff3531ceadc9cc82940c74a63dbee679a670d",
+      "code/one_loop/validation/genus1_fixed_n8_reuse_checks.py": "f93aacb5c6c7ec0cf5c56837a310b789ab4aa9809bf530aa2a0fc077c82a3112",
+      "code/one_loop/validation/genus1_forest_refinement_checks.py": "b5494e16c0891d67ba9f1703aea8030853ce2834a2250006bfb66f24d29f61a9",
+      "code/one_loop/validation/genus1_fresh_analytic_checks.py": "3c396c5b2df1f0fdf14490d5447eb33f807d9ec5f42867ff61d0c4db7281a983",
+      "code/one_loop/validation/genus1_h4_optimization_checks.py": "37ff374bbf40890e1799ce50a41baf77bdf1e2a12fd5043873ace0c11e211860",
+      "code/one_loop/validation/genus1_integrated_block_order_checks.py": "54cb8486e777fbfbca1cb111f1dbe69a1930285cca5937aae24debcb9bc316f0",
+      "code/one_loop/validation/genus1_integrated_scale_collar_checks.py": "c0786027e64042d0ff940ff33d3163ddbc7589af3cb0667f3ebdde89ab9131fb",
+      "code/one_loop/validation/genus1_legacy_component_reuse_audit.py": "7b8273d824d88472a72d1d58c96df86867791ecd5656337518108777da0ac14b",
+      "code/one_loop/validation/genus1_matched_projector_checks.py": "4d009a7c4ba9c93681def45828ab87382f2ec1cf6ba6cdc0d635bf1f1ea87558",
+      "code/one_loop/validation/genus1_modular_cft_checks.py": "1068708178efe42844b850d6128186549be77633a068772b215906d5c6408a87",
+      "code/one_loop/validation/genus1_modular_collar_arithmetic_checks.py": "c182ec2f57a99c40abf2e499301f2450f4065b8187d447211a5f273cf2c8311c",
+      "code/one_loop/validation/genus1_modular_mc_checks.py": "a25f849ce849bedb4b3578f4bdfc6f68a393462500f329dc36bf9c4bb0acb1b2",
+      "code/one_loop/validation/genus1_momentum_adapted_audit.py": "d0a3bf85eeb6d684c4ef2bf5e1f1fef68b8f611ebf69fb89ffa36d8bf1a2239e",
+      "code/one_loop/validation/genus1_momentum_adapted_checks.py": "1b0d99295ea36bf0730d294f5c5171339c3ff5cd1fa4a05b49b0f63d9524cef1",
+      "code/one_loop/validation/genus1_momentum_adaptive_reference.py": "cf6ec25de50bfba3ea49e40a0744511c7ebfcf17f5935e4f9fad01f187ed8a05",
+      "code/one_loop/validation/genus1_momentum_block_coupling_checks.py": "01f1ed0d0ad2e4a587100e37effc77ea15ecb1810ab05466bcc98d72b1d80caa",
+      "code/one_loop/validation/genus1_n8_pair_repair_checks.py": "17ce8b3fdff97085bca57d7644c840502f46472a781ecf217adce5aeb22bf791",
+      "code/one_loop/validation/genus1_n8_resource_manager_checks.py": "6cee4a6543869cae9bd6cf86bab33ec4c417ae48e33d0bf9d21632fb8bdd7d71",
+      "code/one_loop/validation/genus1_native_sewing_checks.py": "40d59a1c7c96348e824deea28f47ab3679b2ef6849638d4c99faacb2934e95a9",
+      "code/one_loop/validation/genus1_necklace_long_neck_checks.py": "fa279383b06734c73447a4fac9647ab236ca5d0cabd1aaecb20554f05083787a",
+      "code/one_loop/validation/genus1_necklace_resummed_checks.py": "3b020a5f76ce1521d9ab0e3a6ab55820704a71f1c6c2413af51546c8c150775e",
+      "code/one_loop/validation/genus1_ope_buffer_audit.py": "fa02e86911f7671efa2d83dc86acae098a7268f53462316f5fcce6e995db5215",
+      "code/one_loop/validation/genus1_ope_buffer_overlap.py": "c4ab6640007dee03749b6f7f6ad8598cf373d8a1a5c78291f24fb0a56f43e5bf",
+      "code/one_loop/validation/genus1_ope_buffer_refinement.py": "bb9f179c39106862f217fe3508ac2d1a2ac2bdb5be09cb2ffc824ee9ab55bc40",
+      "code/one_loop/validation/genus1_ope_domain_screen.py": "f43efbb3a658032e5704e51cf1fd7181176c3d489bf16bedb6edac032917484b",
+      "code/one_loop/validation/genus1_ope_reference_audit.py": "2f0916a928e09c573598e6c933712be41e93af9343bec52cc600f646c16a5ead",
+      "code/one_loop/validation/genus1_order10_acceptance.py": "59fd5d1b7f87a6b3654799770641d9f735c54b92df8ae74518a4c6a505680f95",
+      "code/one_loop/validation/genus1_order10_policy_checks.py": "d85da71530e46e8aa196c50855043db2aa79d4a1ca2f6fb3629d591cd23b26c0",
+      "code/one_loop/validation/genus1_ordered_forest_checks.py": "7930575a1ba330381bbb36018aaf923ded554624c36c34ad3a4e43ba5ec99263",
+      "code/one_loop/validation/genus1_p1_regression_checks.py": "8dc6d5f16fd66f9f5e2dbc5f00ac6e1c0bd2be60b42cda8f3e90aff26482f4f6",
+      "code/one_loop/validation/genus1_pair_completion_checks.py": "453d5524ba64991a842ea21902b5dfd66543ea5bc007df2f4dea238ef52a733c",
+      "code/one_loop/validation/genus1_pair_completion_origin_checks.py": "8ae86fe8c5d2532ca249b7f1ee911ab414b921e0ad297412159c8aeb61bdadd0",
+      "code/one_loop/validation/genus1_pair_cusp_checks.py": "1e8f1cc4da116e4eb5fd218b07c2b588a5725d18354ea3ace3ac78d9df1d5bc9",
+      "code/one_loop/validation/genus1_pair_cusp_completion_checks.py": "dae4da1b8e404cd3f54d30fbf46574d64e6bc23fd84f7b76a7016de2978d00ac",
+      "code/one_loop/validation/genus1_pair_cusp_continuation_checks.py": "d6b9f41a8f3028d739696ffc175741a5a2e4a707825dc2201a8ae49d6070a8a8",
+      "code/one_loop/validation/genus1_pair_cusp_normalization_checks.py": "009663b5aba8fc9eafef688bf7ef1b2b52b02188a9cd8dc0fc90a1edbe95be4e",
+      "code/one_loop/validation/genus1_pair_projection_mp_checks.py": "4197f0deeb97f2bd79d9a6337ffc917c8666606727482de0041f569b7c3a7389",
+      "code/one_loop/validation/genus1_pair_refinement_checks.py": "5607f6186f4660825a6a4f7aebc382d912930a14b0e2ccb04d5e505a21d92782",
+      "code/one_loop/validation/genus1_plumbing_assignment_checks.py": "81c0bd5a1187a420366a71322f613a13419e2c98d11d2cf7aa7973fbd8bbad65",
+      "code/one_loop/validation/genus1_preparation_cache_checks.py": "3496b951e63e6d4bfb58ab2e96c9776583e933046d350dda229e1bd5a0c39a29",
+      "code/one_loop/validation/genus1_preparation_resume_checks.py": "52031d09a290800e94b61f45861c6f45977e7b633111539e589a80325fd32f5f",
+      "code/one_loop/validation/genus1_projection_momentum_checks.py": "b1c67b3f388a80605a33d494c49f3817c63e2073cdbe960d95ebbd99f1689f29",
+      "code/one_loop/validation/genus1_proposal_reuse_checks.py": "6ceb3561fd81e74643c0e8c5727d676e4ede944737d84517893638036111b09a",
+      "code/one_loop/validation/genus1_rectangular_bank_checks.py": "564def6636066603a8e7617940cac7801fc8e558ebf12aa2b9ef0e3b80175267",
+      "code/one_loop/validation/genus1_refined_collar_sampler.py": "0ad534e0d21f8104d354ff820fd0fbb83d4920ecf0790f60d3337de8371c830e",
+      "code/one_loop/validation/genus1_region_cft_cluster.py": "8ac93dee9a710634d3a6ee12bfc34908000d909c3b5724c7881b12cd6ab1ca3d",
+      "code/one_loop/validation/genus1_region_cft_import.py": "e8ccd00a6dde96b59a8fdd900a379a5fd98c2469174f3c0c237978ab1e470d4d",
+      "code/one_loop/validation/genus1_region_cft_replay.py": "6fd2ae9b50aa975e87f5206d22927316e4c9c1acd38c6d243dcf9a3478d5b26e",
+      "code/one_loop/validation/genus1_region_cft_retarget.py": "56e1564cc08bb92f33ce081c7e12a72bdbb4e77b3667e5d83023a70c4c1681ef",
+      "code/one_loop/validation/genus1_remaining_amplitude_checks.py": "ad1048d547f81c7a4ab7cd9111579976c492d173be65f1d2e35b60bab9d35384",
+      "code/one_loop/validation/genus1_routed_spectrum_checks.py": "eeab5da9717cc818c4052c56fcb57230e261cb2e8f65bb1105137edbfdfb44c3",
+      "code/one_loop/validation/genus1_saved_overlap_audit.py": "fe1ad4bc76d7e28283fd484c03e10b31a96ebf9fcdfdea58a780b30c70af5ac0",
+      "code/one_loop/validation/genus1_scan30_baseline_assembly_checks.py": "55cddb7da959ec76fe2dddf067c8371cf1d154290e285531f8dfb6c0bf0e51db",
+      "code/one_loop/validation/genus1_scan30_baseline_data_checks.py": "8d55c258f68d7cefe423509911544709f7b223198e867736420df54c169eb549",
+      "code/one_loop/validation/genus1_scan30_preparation_checks.py": "1c1d6a60ae6668915da4bc7087d4c276effc6e62f6ace92fea5fd17c14cf412d",
+      "code/one_loop/validation/genus1_seven_strata_worker_checks.py": "9a651da3aadef455f14eabcf180877a9d3f31da9a3789a94a08061e0735e1f64",
+      "code/one_loop/validation/genus1_shape_campaign_checks.py": "6dc461d611471dc234a7c0e0afa1c2e7c569241748cbecde9a357da31bba2a28",
+      "code/one_loop/validation/genus1_shape_momentum_refinement_checks.py": "c592c33730ad04c381a06702a2b4380ac2bb62f784754683ecb19d4907716e9d",
+      "code/one_loop/validation/genus1_shared_bank_catalog_checks.py": "540ea3e508a51d1241bb418039e55a1ff4baac9e0b94e2e33b65e370ca3e0ae4",
+      "code/one_loop/validation/genus1_shared_bank_ensemble_checks.py": "c6eeadc4db6c018db7edbd51501cb9d03e0fddb62dfcfbd27b49dc0d75bc786f",
+      "code/one_loop/validation/genus1_shared_bank_extension_checks.py": "0f1d6a91bfd9ad20e91b84d91537d0e08c7344c0427b65aa1d0325c73afa3f3d",
+      "code/one_loop/validation/genus1_shared_collar_annulus_checks.py": "c971452fda1b7439cd636cb4b058ad4d2b7935a944e06ad83a38b39980ac5ca4",
+      "code/one_loop/validation/genus1_shared_comb_collar_checks.py": "06c48a28aab17836e26fc48bd7a81350b794bd47392a8ebc5c9b8ce87926be5c",
+      "code/one_loop/validation/genus1_shared_comb_proposal_reuse_checks.py": "3af41b438191f2cd8f919c45b56d8e8ab0d12db4dbba888448bcb68238acec55",
+      "code/one_loop/validation/genus1_shared_export_batch.py": "4b1d47be9c37c948a29fe172e2df51d815b1507594c80f3a43e4da4341b2f0f6",
+      "code/one_loop/validation/genus1_shared_extension_campaign.py": "93c6aadf97d90054c93e283c612e33a18f1b208537926c7ea0e43878fd75498d",
+      "code/one_loop/validation/genus1_shared_extension_campaign_checks.py": "e35c1b2cf9d777447e3318f9d4214ca7fc5d171bc4039d4a375d5b884b48e95b",
+      "code/one_loop/validation/genus1_shared_extension_result_checks.py": "0f5d349b51458fc04d731bfa47e409f4d6a288906eee221051212160a4c510f9",
+      "code/one_loop/validation/genus1_shared_loop_extension_campaign.py": "624ab0ad840fa6a6481d854dfc18b599380661508d3b284f674c602701ab56a3",
+      "code/one_loop/validation/genus1_shared_loop_extension_checks.py": "536470e557f5e0471551c0406731c25fe5eb76bd46520b48a0521ff69922a7eb",
+      "code/one_loop/validation/genus1_shared_native_bank_checks.py": "5db91af0967b46753b60b3b28ed4620cfacc867b328b0606fc782abeac826ccc",
+      "code/one_loop/validation/genus1_shared_native_bank_export.py": "1d6299b197628fb2b1f9dbfab6eb5fed2bae4cdafdf6c470d1963512edabdcb9",
+      "code/one_loop/validation/genus1_shared_necklace_bank_checks.py": "b888f2b3ee8d98d323c24ac9dad9d7fb1c5e78841367a0132d4327092d6176be",
+      "code/one_loop/validation/genus1_shared_pair_collar_checks.py": "259dec2bf73bc95075aa6fa54f90f3611de3148b68a11be662e7160612269e53",
+      "code/one_loop/validation/genus1_shared_pair_remainder_checks.py": "7910e5711b7e4498256dbaeeebff79f44f94d77f53dadb20876accbaab85ec28",
+      "code/one_loop/validation/genus1_shared_projection_bank_checks.py": "d84a44f1c2c616e86715157831cd6a94fa65e12e2b0585014028f365291d921f",
+      "code/one_loop/validation/genus1_shared_projection_campaign.py": "47e66a8a9a430e00d06376f08ef4488193dace6a611cfaf0a7bf317e2a6d1186",
+      "code/one_loop/validation/genus1_shared_projection_campaign_checks.py": "5886361d84f4e9ac706778b12f37ce9540dd9e6cc360efe6159854ceb6982df7",
+      "code/one_loop/validation/genus1_shared_projection_prepare.py": "1c97507d64c855620d70ca93ab302471623f5bca8f2bfe4960c712ad30fa6227",
+      "code/one_loop/validation/genus1_shared_projection_result_checks.py": "2c3f4af648928b81582f9c7f0d2bb691a60759db01a135e2e24f09004877ce48",
+      "code/one_loop/validation/genus1_shared_proposal_overlap_checks.py": "269f51d22d179332089f1bad52efd351259ba94f05b5fab1d6c94b25a9829dd7",
+      "code/one_loop/validation/genus1_shared_remainder_bank_reuse_checks.py": "3a1f2f9e937eb8a9fcf4536de1e7276732ce658e6cfe6e7ae3eba5381b9f9172",
+      "code/one_loop/validation/genus1_shared_rule_snapshot.py": "a9ac42fafdee63fa84e7ea5875188a1ee2c7fec13273b678cbfd039df370bd89",
+      "code/one_loop/validation/genus1_signed_log_reduction_checks.py": "8998807e9796ec6c13f57b3b4a05479c8f433d8b9bbb55d4ad977328e0e1e87c",
+      "code/one_loop/validation/genus1_single_amplitude_checks.py": "d27258680dd7865c3760769277495e401e7f609bfc92298c6de771360020d00d",
+      "code/one_loop/validation/genus1_staged_production_checks.py": "a1a43aa595a00cf242f5cad9fe01deac5a21c9c76eca2d45ecd777881157fad2",
+      "code/one_loop/validation/genus1_staggered_momentum_checks.py": "da59c6438b94486c81dd695a1d9f307e5e8f2e823a77b1cf07dca372d043116e",
+      "code/one_loop/validation/genus1_tail_fixed_shape_momentum_probe.py": "50ba3d9d6d49040f7ff5058275240d7a9f9524261e28395f0d171a6b3482c49b",
+      "code/one_loop/validation/genus1_thin_comb_checks.py": "3e22b2b6831bc3b32b8683f92ed680eb6e1922202033b636750eb3b5167a3918",
+      "code/one_loop/validation/genus1_three_point_block_systematics_checks.py": "ac125a1bfa23d91d6708a58404a861688565a40278e87252bfca469aca6976e7",
+      "code/one_loop/validation/genus1_three_point_c_recursion_checks.py": "eba55b82422674bbd91bb1f569428babb174a307ccb9dd1af2fd106319e144b9",
+      "code/one_loop/validation/genus1_three_point_channel_atlas_checks.py": "5ef374910bcb833149d105a4da69bbc8aa1bb42298c43a0fd43a1a359271fa45",
+      "code/one_loop/validation/genus1_three_point_collision_checks.py": "3d6e7e7281583afdd9c8fdf13c1f83dc585dc50d0d4c6480b8ea45560adf1cc9",
+      "code/one_loop/validation/genus1_three_point_matrix_comparison_checks.py": "9ddc82629dbb91bcfc16382afe137fd10ac9b8d07d8a9d46e3efee6d81fa1d1e",
+      "code/one_loop/validation/genus1_three_point_nonseparating_tail_checks.py": "b29f750d457bdc1fe55bb31cdc5832ce57a8ff15989a10d7b9782d82262ad8e3",
+      "code/one_loop/validation/genus1_three_point_sampling_checks.py": "bebecde64abeca03bd033930301b4c022f2c571087dc3ed7367e991d8b5909d8",
+      "code/one_loop/validation/genus1_three_point_worldsheet_checks.py": "764ec73a629245cab4f6cff3b67da3daae124a1f19b15d6878d57441ba6a20c0",
+      "code/one_loop/validation/genus1_two_point_worldsheet_checks.py": "88ad235ca4295969eedbc35171e427936cdc386621925ecab967ddb3a2dbae93",
+      "code/one_loop/validation/test_genus1_all30_continue.py": "511378e9b2e515e0e603d167643246e09d3cf6d167e2aab42836a1b6f4c7a69c",
+      "code/one_loop/validation/test_genus1_nested_amplitude_campaign.py": "44b3bbdfb24f33be49294e5c998f28c1f6e1efdb4ef80a43d772045a632c6916",
+      "code/one_loop/validation/torus_necklace_blocks_checks.py": "aec19430ea7f0d705a8e9f3cfb6920ece2c5bba693b0c1d94b0a05f052658788",
+      "code/one_loop/validation/torus_two_point_blocks_checks.py": "3194fe7acc6d709bc96bdf7b071506d8b11b075a1965257532f89e041cb98d99",
+      "code/one_loop/validation/torus_two_point_genus2_comparison.py": "2048911880346c89ed3fc368b59082ca60f66ca1501fd0489be6f2a4541b0d75",
+      "code/one_loop/validation/torus_two_point_glasses_c_recursion_checks.py": "6c130d96985a81e8274e20c1a46d46dbd13cba96c0e7c66f8b4983e37f17eaaf",
+      "code/one_loop/validation/torus_two_point_glasses_geometry_checks.py": "6f2c6e7c13aa783a33afc5cf35f436dd556730daa8dd24e6cc579083beea4105",
+      "code/one_loop/validation/torus_two_point_pillow_frame_pbw_checks.py": "e32347b7d59992072514110fe0348c58d9910bc268d4626bdd63ca749e573ec2",
+      "code/one_loop/validation/torus_two_point_sewing_g_checks.py": "bedf73c6e6cc04391f3341db339d1be8cd70c2ac7c06c3559b1886dc24d3b004",
+      "code/tasks/genus1_amplitude_baseline.py": "4425bbef698c7da80af097cf6baa6e14abf1bbb31ec8e26597d4731604578655",
+      "code/tasks/genus1_amplitude_campaign.py": "5e0b2a8153f6dc39d4c295338241681043c62a1862c439c97846ab9527a227a2",
+      "code/tasks/genus1_amplitude_diagnostics.py": "d778c93c7b52d03359d0c1b19011e1ceead6e122c90f10c7ce563ec37800b6b6",
+      "code/tasks/genus1_amplitude_forward_release.py": "836119b83d22e1d8b5678b89cc74e369484325a556ec1d9ba729047c5bfd053c",
+      "code/tasks/genus1_amplitude_pipeline.py": "b64c79456c52dd0a96e032f8e204edb014458d86fa5ff7b18516d423cfa30619",
+      "code/tasks/genus1_amplitude_pointwise.py": "37a30bc1d1ca1cf92c5d41b40a71e6f2321d46dea28d29dcf4e44a39e55fd3e1",
+      "code/tasks/genus1_amplitude_queue_repair.py": "2b31751e3d3f36d3d09ff5e56519177346ce035773befe09d89a89a1e8b21e01",
+      "code/tasks/genus1_amplitude_recovery.py": "be3ba7ae1249f5b59d9dab55566c2f1f2d4527db8cb9705bd3012be39b89b0e9",
+      "code/tasks/genus1_amplitude_shared.py": "29b5643af3b8f7f8b71026e0c66fabc93a5dc882c82bcc8f3fb2cb872b09416e",
+      "code/tasks/genus1_amplitude_smoke.py": "dd3e4a9804bd5129f69bb1326af9f9924e2b18c7b75750dcd53534e3c8173d50",
+      "code/tasks/genus1_amplitude_statistics.py": "6b5f4135e27b59109bbff12543ba7cd109865cc83aac61224553123812aae4fb",
+      "code/tasks/genus1_amplitude_yin.py": "70df86db4bb2347196edb516d848a5eb066dba4fede57f7c841cf73ea008f9d0",
+      "code/tasks/genus1_analytic_boundary.py": "60030be994f7f64656b7f708f5140d98b766ca466b560137ba980f893594f552",
+      "code/tasks/genus1_analytic_fitted.py": "6ca0239a7c6bc59f70bfda8f58949aeec05f7e964a26c4ae340d4abb38ba67e0",
+      "code/tasks/genus1_analytic_shared.py": "5739c98f915afc43d7daa93f53274d61457e274360c4109f741a14bd3fa74c3f",
+      "code/tasks/genus1_chart_sampling.py": "69f97b539a39718107f83ddd019cb06749467f8592055544f48a215994965701",
+      "code/tasks/genus1_compact_replay.py": "bf60a7085697c80ac095eef3e53263cf93e55581dd4f91d5e71af87d8189500a",
+      "code/tasks/genus1_fitted_cannon.py": "f58260d6b7898356cb37b247eaf37aa4d11f2cad719e5e1265b1b93174f80cf6",
+      "code/tasks/genus1_fresh_analytic.py": "9c20851e0728f4a4b7b67930d1417ed63bd5fb82a6c8171dd7d0bd72267de777",
+      "code/tasks/genus1_head_tail_sampling_audit.py": "2ff5d9a471e7289185c8283f0dcc5d536a8d2f9ad6b95ad08f2af0d1f93733fb",
+      "code/tasks/genus1_head_tail_tensor_audit.py": "765091d353a6491ff61cc533b60da9bb44bf798580c508e66d3435d85b86e0db",
+      "code/tasks/genus1_moduli_head_tail_audit.py": "1fa4195e8f77005ba735772352e82908b021b419e3150259f01a44b610cc0825",
+      "code/tasks/genus1_moduli_head_tail_summary.py": "1adce37276f9ccbb14f2b9b3fdde7a9f2beb53ae4438141bc8b50eac39ac9ddb",
+      "code/tasks/genus1_moduli_head_tail_tensor_check.py": "7ae0a872e21cc9ac94e116cf79b692437668ef3c5ec1d4ef0b2fbbf978b839a8",
+      "code/tasks/genus1_pair_cusp_grid.py": "a5abf3751e0a9a08c0caf71827d0e4a20a6d9b1709d77ca297c0456ec0ef1b1a",
+      "code/tasks/genus1_pipeline_cannon.py": "0fe379cde1d60764fc07725d5384a829e4cd6f6221b9a97308426f00a96bb225",
+      "code/tasks/genus1_projection_grid.py": "4f06464cc090c96c6413a4003129954d13ce3a449214fb10049842336bcbc99e",
+      "code/tasks/genus1_proposal_probe.py": "3851768257fe69934fc113864137862becd10f4552bec0607e9bfb5cd78a0144",
+      "code/tasks/genus1_proposal_reuse.py": "3ed6f325167d13eb2403510f826f50cfe78edb56d062826b6d3d21e870811b08",
+      "code/tasks/genus1_qmax_audit.py": "ab4c39e2e4226ed8cd0d6d6c6879e0d908550d21e8a9fe78458ff7ef126c2bdf",
+      "code/tasks/genus1_qmax_expand.py": "3d7ff5ee87b916a371b252e64e210d3a4d22a8c100405b4023ab178a47ca5f09",
+      "code/tasks/genus1_qmax_map.py": "063a9a2e55287c657b0896a0c70de30db15bb74a17e8c8f294454491032fd8c8",
+      "code/tasks/genus1_qmax_plot.py": "1efbe5191f93c7b32c950386886e0906d05f8a02f090b8970b1ec9740f06f128",
+      "code/tasks/run_frozen_genus1_amplitude.py": "6a8017d30a074c217932ed8e1647fa29517ce1293f5f6714e6f47d90be8c7a39",
+      "code/tree_level/LAYOUT.json": "40df84deb49975ed02dae2b8fa84d8664606b4edeea0ccde9f8cbe12f72af42e",
+      "code/tree_level/archive/analyze_sphere_six_point_channel_routing.py": "e1542cb25f31df40934c2192eb442a59b8a1c44fd4c07fee0d0798edbb4a976a",
+      "code/tree_level/archive/analyze_sphere_six_point_radial_comparison.py": "b288d8369218b46a2cbf80cfe84389d4da188d09bb4c30f47c7856ac57556545",
+      "code/tree_level/archive/audit_c1_sphere_topology_normalization.py": "1f83ef9f70bd1d797893be9dd976831fb929761e435f92281507e49c210d8853",
+      "code/tree_level/archive/audit_genus0_one_to_two_amplitude.py": "10b198fa55ba95f08679eaaadc288408d4daea4ddf0260526e4da8f5a41966a6",
+      "code/tree_level/archive/audit_genus0_one_to_two_amplitude_checks.py": "c40d70b1d3eecc90669a715fbea5afa2f70ecae138d990f10ca4a18cde55e971",
+      "code/tree_level/archive/ccy_sphere_five_point_checks.py": "485ce6bf954cbacaf699a1c302913813e5842a495e5d9a02445fe7fef5d5f457",
+      "code/tree_level/archive/ccy_sphere_four_point_checks.py": "17ca414b3dfcd7db875fcce107cd0ac9f95d68108ec5222bdd8181393027198f",
+      "code/tree_level/archive/ccy_sphere_six_point.py": "3ca375e044b6a57d9c69dafeaa4d3748bf8ba27e9c8344e2ee07455edf7e2c65",
+      "code/tree_level/archive/ccy_sphere_six_point_checks.py": "b50df4243c8b3129ef5311c28a88acf311428a4d9c8ea3372fd134e099c05215",
+      "code/tree_level/archive/ccy_sphere_six_point_star.py": "11b17b3ac074c9cbffe25f8eace298737073e9836e48f4bd7133721dcf1b0e4f",
+      "code/tree_level/archive/ccy_sphere_six_point_star_checks.py": "19d851a975591c3183523aaa8e93a76733ff07ee98c442ace9fa551d7e931c2f",
+      "code/tree_level/archive/export_sphere_five_point_t_axis_plot_data.py": "5a9ff7648bb20c1d49c5b88fcf6418559f4811a62f89f28f51eab86d997acb59",
+      "code/tree_level/archive/finalize_yin_curve_campaign.py": "bd7336a3defbed8ed8aeeb95661a98c9f6923ea107f60544e84a81d89b8cc401",
+      "code/tree_level/archive/merge_sphere_six_point_worldsheet_scans.py": "b86a3939b0c3c9a10b8c71cf8dfd4925f0f29f35bf5bf7f5751ce75f9840acc2",
+      "code/tree_level/archive/plot_sphere_five_point_contour_poles.py": "e0cf3c868e76c4c415dd55e860acb08d2bd618b72abed972be8bf92d49674113",
+      "code/tree_level/archive/sphere_five_point_30point_audit_summary.py": "f9a019b688032113fbcdebab9c5980d88c84c0ea96810d5d1e2befd2d575e18d",
+      "code/tree_level/archive/sphere_five_point_30point_checks.py": "0bc4c11fec02eab3170294b00a9442188e3a30fd886a366f577bd835bd9f9d7d",
+      "code/tree_level/archive/sphere_five_point_30point_matrix_comparison.py": "e2c5bf22bfb37bd0c01862ad41db33679feacc9171190b002fa05cfd449b2aed",
+      "code/tree_level/archive/sphere_five_point_30point_worldsheet_fit.py": "5e1b97d61ba4bcfc1e98c8fb49cfb174ea0c42423628dc81c4f8d81aaacc4b25",
+      "code/tree_level/archive/sphere_five_point_continuation_checks.py": "62d481123fa8288c2aa0e1159ae0adadeb626e4e03c23ba871123676de249f44",
+      "code/tree_level/archive/sphere_five_point_imaginary_ray_fit.py": "1184806aedb5ed5dcc9a0be6c788445e8562294bcedfe0358713ae290e558cbb",
+      "code/tree_level/archive/sphere_five_point_liouville_checks.py": "299e2dc03a459a7469a642f87a04e9985e01907797fd12f3411c9adf30f91b6a",
+      "code/tree_level/archive/sphere_four_point_30point_matrix_comparison.py": "9188c5ef654591ce3252eeef7147a00c618502363900ac364676e119161ad870",
+      "code/tree_level/archive/sphere_four_point_c25_checks.py": "e6a0aa9eac85004b342049e3ff232777b0697d4a206821cd76976704b4faa473",
+      "code/tree_level/archive/sphere_four_point_elliptic_c_recursion_checks.py": "81665bf484e2ce42ac92556376ba3a28e1ee281996daf67147d6179d5c0d2d52",
+      "code/tree_level/archive/sphere_four_point_imaginary_ray_fit.py": "695341329e20a88838268841925c0157dee91283a7b818c89f5d6fd48e0ca80a",
+      "code/tree_level/archive/sphere_four_point_matrix_comparison.py": "bee0b33ff6db54bb80e30ecdcef322a9fef8208571e9e910127be65d7431c3d7",
+      "code/tree_level/archive/sphere_four_point_worldsheet_audit.py": "c493b5312a84c43e0ce9779a94709d387d19c80c0888a4d9d85aeb700420e8e2",
+      "code/tree_level/archive/sphere_six_point_1to5_adaptive_c_order_20260901.json": "83c5c504c93913d1e95b490a07e4de82fd67f5d7542d40dfe33beb524780c248",
+      "code/tree_level/archive/sphere_six_point_1to5_adaptive_c_order_fast12h_20260901.json": "00dbc890f240ebeb0b38437c8fef58d4968a89127d9ebc7a5f1a1e23561293f3",
+      "code/tree_level/archive/sphere_six_point_1to5_c_order11_extension_20260831.json": "634149302cb94ec943f414a1412a6194a4544954fb7ead82a90803d85eb20815",
+      "code/tree_level/archive/sphere_six_point_1to5_c_order12_corrected_20260901.json": "56e856d9a7be2ac3898a8ae29370f01c0db43cefda7b7667f763b3b62a574a06",
+      "code/tree_level/archive/sphere_six_point_1to5_c_order_pilot_20260831.json": "1e1862cc70c86f5737b44d5b6452d445ceb5857b6aa9623f53309e6f13f4742d",
+      "code/tree_level/archive/sphere_six_point_1to5_cannon_blind30_3h_v1.json": "83ec60e63e10b1045368dde470d399845c1ab0f707b10f2f39f3dfa7980bb076",
+      "code/tree_level/archive/sphere_six_point_1to5_corrected_replay_20260901.json": "437acd1ef9a751fffcc1672928a29b43b6611c6e6bad64c26e9461f1bded4c25",
+      "code/tree_level/archive/sphere_six_point_1to5_hybrid_hc_q030.json": "545901e1774d6ae16c8e863d0fbd05863d0582c0665e8a1dd43285442ff624e0",
+      "code/tree_level/archive/sphere_six_point_adaptive_c_order.py": "c7bf9a96fc6e03bd199be8d334858a56018885c54d5e749904e258ce8ce77c75",
+      "code/tree_level/archive/sphere_six_point_adaptive_c_order_fast.py": "a6ff5d63a3b9eb22df0c8e9dcde43883ac0339e4787a08c0a281d20bbb2e1803",
+      "code/tree_level/archive/sphere_six_point_analytic_collar_checks.py": "2f526abc64257992942f52e8b10248251d405c2d5fcd6f7eacf14cc79885001b",
+      "code/tree_level/archive/sphere_six_point_archive_replay.py": "177a529d3edce1aa80eeab321747ea96204e77cdb1603fb4bfec01b01c1f0c2a",
+      "code/tree_level/archive/sphere_six_point_archive_replay_checks.py": "c16d4512fd5dfcfda1ef9adcded981a41030e0a5d2743d2180b6f29676ec4934",
+      "code/tree_level/archive/sphere_six_point_atlas_checks.py": "8d30368fface5e32dc555aea72d3df4825da05e161abcda461454d34a8584bdd",
+      "code/tree_level/archive/sphere_six_point_bank_build_checks.py": "e5d18bab2cffa6f4d899688e03ab5acfd701a0ce6d9b9352813b694dc40c2f3c",
+      "code/tree_level/archive/sphere_six_point_boundary_completion_batch_checks.py": "fe741f5d3b51cf466124323fa9c2de52da576d48953e77a3e9e61b9ba7380e36",
+      "code/tree_level/archive/sphere_six_point_boundary_completion_checks.py": "da7a55b9778e9c14833e363ad10ca587546ae5528c8b7483a81a20f297af4fbd",
+      "code/tree_level/archive/sphere_six_point_boundary_scan_checks.py": "d00a4b31900ebb2c97dfec798f7ddbe5c1cc20351c51d6cf0c5244b98802ec50",
+      "code/tree_level/archive/sphere_six_point_boundary_treatment_checks.py": "68fa183c6498fafe7786913019821a5c4a2e7e8a4b19ada806e0862c6dff3db3",
+      "code/tree_level/archive/sphere_six_point_c25_corner_checks.py": "f1c7d1dc3c0a5fe6d17b35da351540e0b4693c8ef22a1008b3d3bb42eb960955",
+      "code/tree_level/archive/sphere_six_point_c3_batch_check.py": "a39f6d251cf95338f9201355dcd3c5e7271b4b2a4d0554ff6144bf73ede915f3",
+      "code/tree_level/archive/sphere_six_point_c_batch_check.py": "a9f40d5214ddb2b2395a10c650ca66407045cf9857e21049cb9c4897aa559d4c",
+      "code/tree_level/archive/sphere_six_point_c_hybrid_check.py": "556735fb5d466117f8587cf11883d68a9547ece636527400628914d1ee14fe9b",
+      "code/tree_level/archive/sphere_six_point_c_order11_extension.py": "f4865d6f799f107fa93ffb4974efe2c7f1745208c0d559095409ed66b7ebc375",
+      "code/tree_level/archive/sphere_six_point_c_order12_corrected.py": "3fbd90ebb30a509d95abb4d6f47ddf900457dde780ebed1876202b523ad45871",
+      "code/tree_level/archive/sphere_six_point_c_order12_integration_recovery.py": "6f30b4281958224e1af0718a3ec36eab21550a29096ea60686b5d60e22785aa7",
+      "code/tree_level/archive/sphere_six_point_c_order_pilot.py": "72dafe642a004f2e02ff46fd9bf79c8a044589d5921968fc3a40b6ce979d1f0c",
+      "code/tree_level/archive/sphere_six_point_c_order_pilot_summary.py": "d9646bdde0826e0e532be84802005f6628342511891393fc3c117bf50b3875fd",
+      "code/tree_level/archive/sphere_six_point_c_order_review.py": "86ada38fd2109455be4b3bba59b620f32fb3ec9721512d2ff1474d6532f8c886",
+      "code/tree_level/archive/sphere_six_point_c_precision_benchmark.py": "0e0411aa175b972e6a2d1d2b03c7dbbbce9c3df3239ae4015fac259e105c7250",
+      "code/tree_level/archive/sphere_six_point_catalog_import_checks.py": "7c56579878adaf7c0ab01f068d65da70908126fe2befb10318887f5e803a88b6",
+      "code/tree_level/archive/sphere_six_point_channel_routing_checks.py": "d0bdb57696829d351be95546986ad52be8d8afba2d909209102693f89b5a58d7",
+      "code/tree_level/archive/sphere_six_point_coefficient_provider_checks.py": "29701ec24982aca95ef927a7f3b13776303fdbbe9b1419f08e781e969cd30148",
+      "code/tree_level/archive/sphere_six_point_collar_cut_matching_checks.py": "a14f32db25402e9d9e90922a91376446d4587db7d9270653dbc87b3d0529a640",
+      "code/tree_level/archive/sphere_six_point_collar_routing_checks.py": "28a950428a8a60bd30a7f96a41e72c78a6a9e38b1129a460b5d2bead13a71976",
+      "code/tree_level/archive/sphere_six_point_collar_routing_v1.json": "247d75b57835b25d9efb163f6fd9e13b1b3a466426d2be435d3b1679a9c9fb45",
+      "code/tree_level/archive/sphere_six_point_collar_subtraction.py": "5ad878c01da527f592a36ff22a20193f5fd470dcf83ac551071e70f58a17b9e9",
+      "code/tree_level/archive/sphere_six_point_continuation_preflight.py": "99b99b6badfb630c5950921976940a4e96b60d0c62429de1a88788c9bbe07499",
+      "code/tree_level/archive/sphere_six_point_corrected_replay.py": "ff7b25c6dfd777804b650485cca074f5753efeaa4bb14d1151acd87c12d7a98d",
+      "code/tree_level/archive/sphere_six_point_degeneration_atlas_checks.py": "e34f8d6ef732e19911c13c13c7bb54265ba4c031ce86e4bf85852e317559d09f",
+      "code/tree_level/archive/sphere_six_point_elliptic_checks.py": "32d59e8cd0b299b68e65d09a83c978d759d35b149385548a634299c5c415986e",
+      "code/tree_level/archive/sphere_six_point_endpoint_cft_checks.py": "0bb3e538fc22cd875b243dc80e700c2e2beeb10cb4434ce10331ca21013c42c0",
+      "code/tree_level/archive/sphere_six_point_endpoint_cft_controls.py": "75548ece65ff8c1f9ebacb3be59d1d41504f8c95fb0dc75cefb10c441174f245",
+      "code/tree_level/archive/sphere_six_point_endpoint_cft_reference.py": "648ef9e463524e12f65bddcb82445e6a092529893af08667c09e6a1c41cea1c0",
+      "code/tree_level/archive/sphere_six_point_endpoint_cft_summary.py": "506f301fc4d5813655d28016cd4e7f2e069ff7e80df179ddcee9453df9fb97c8",
+      "code/tree_level/archive/sphere_six_point_endpoint_quadrature_checks.py": "5f229135117184e765c219a6b606848289e6c4f4201a6ddd456b3eb33c60bedb",
+      "code/tree_level/archive/sphere_six_point_high_gauge_contribution.py": "8926b27e2a8073649746b6f8e67b632fa1f24bfa7bbed0002496d2d72929613d",
+      "code/tree_level/archive/sphere_six_point_high_order_pbw_checks.py": "a423072af923f973f0fc2836674de13b0f6f214273ecc5e5ccc15cf3ecbd2834",
+      "code/tree_level/archive/sphere_six_point_hybrid_scan.py": "d3b8d08eba796189c7aa4219eaccc2b4f0b118316c574691c763b0f1b7bc017b",
+      "code/tree_level/archive/sphere_six_point_hybrid_summary.py": "cceb55f0c563ed3ed152dd6d7ed8b346a78aa670f068d81971af2b6fdaad4f16",
+      "code/tree_level/archive/sphere_six_point_imaginary_ray_fit.py": "d88fbf01a01db3cb31acb2d79cf0e435e4006b62a7d78601cc115f0012e52853",
+      "code/tree_level/archive/sphere_six_point_imaginary_ray_fit_checks.py": "af557cf59c47b3b77c4d82f1484bb354044f784bc0b86e01e3bfeaef3c1646e3",
+      "code/tree_level/archive/sphere_six_point_imaginary_ray_fit_comparison.py": "3f20f08467c4d8c5407287790a577db0f2e08a094b80e8a8002510b64f5318bf",
+      "code/tree_level/archive/sphere_six_point_matrix_comparison.py": "d2ca1784383b77eb09073513644a0eb97a780c281c8f6ef404cbd6d9ca4df9a4",
+      "code/tree_level/archive/sphere_six_point_momentum_banks_checks.py": "df77f1b991677743cdbe73398d3f7f3093ef70026e5fa4dd87b8130af650a492",
+      "code/tree_level/archive/sphere_six_point_momentum_quadrature_review.py": "b7e458cf289e1f6af4940a89cff325e6744dee70159b7f2c825241e172fa6633",
+      "code/tree_level/archive/sphere_six_point_momentum_refinement.py": "86402969d6731bf04777f22daa3ca9a9beba96b3e64217c3ddacb37f2cb82b1d",
+      "code/tree_level/archive/sphere_six_point_momentum_refinement_summary.py": "00fa0b948a0c6b5b4b391b061ec41cdae71df01f5bf1661d9f73c3b3705f40d4",
+      "code/tree_level/archive/sphere_six_point_multilevel_campaign_checks.py": "632feb56d9e85d83b23e4dcb94de06da7b75b102e60e31308c21f06374ae5ab2",
+      "code/tree_level/archive/sphere_six_point_multilevel_catalog_checks.py": "f8e7511fe0c88e82ab0347879865f6d05657c0007efb67e91f5571cd2df5a5d7",
+      "code/tree_level/archive/sphere_six_point_multilevel_checks.py": "996b34d6f080519cd7cbfc9794f23b52f35fd272beb0935bf18ec5a538080857",
+      "code/tree_level/archive/sphere_six_point_multilevel_scan_checks.py": "5f546367688e48a6881782928388bcd317fc058781e92d636004239a376f4d22",
+      "code/tree_level/archive/sphere_six_point_named_variants_checks.py": "0cc4eb09d8448489d3aa4d50b69204e3addfa349cdf0e38f2b4eb0e8c2dea9ad",
+      "code/tree_level/archive/sphere_six_point_native_convergence_checks.py": "b2c1b159071aa49c6abf0feff625361cb93a45109b1a8077b0a7201b4056757f",
+      "code/tree_level/archive/sphere_six_point_native_geometry_checks.py": "951de8ee6478bce3085ada388a5b26a0a417eeb4eab39aee0971f170c2a4fc74",
+      "code/tree_level/archive/sphere_six_point_node_catalog_checks.py": "3aa558dd78981632781c55d7bd18b622e348ba55e63e6be2417903184e77dc5f",
+      "code/tree_level/archive/sphere_six_point_node_reduction.py": "eaac2fc5483a85d64c8ac0273a2c46bf68e16c2fa4cc125b612976a72e4950c0",
+      "code/tree_level/archive/sphere_six_point_optimized_geometry_checks.py": "327cb3340abdc0abf24ebc4fb9cd34557838d4da80efcdec06ab156213160ddd",
+      "code/tree_level/archive/sphere_six_point_optimized_scan.py": "42764745f7839f59c54069dccab2f9dc457efd2bfe5c80ab2a9a385037fa818a",
+      "code/tree_level/archive/sphere_six_point_optimized_scan_checks.py": "2dc573b79488ee84ba8e2bebd782af1047f27a999afe867e85582fb49b7f9d70",
+      "code/tree_level/archive/sphere_six_point_order8_covariance_checks.py": "1a774ff378025d5b080b68f538aef1375f3e3de298aaa7080f07ea23069b5c22",
+      "code/tree_level/archive/sphere_six_point_order8_current_comparison.py": "d1d53270d07e819c4413f9313f1d08129c47766cc9deb6e546c30f77c0401899",
+      "code/tree_level/archive/sphere_six_point_order8_current_fit.py": "52afe7017e062e585afd9a408a6af178349cf70853b5c68fcb9cc245bd6e8e5d",
+      "code/tree_level/archive/sphere_six_point_parallel_routing_checks.py": "4b35c3d651558334640f6e59fbb72511f1b115ef18b997a6f49879bbeb09ee9f",
+      "code/tree_level/archive/sphere_six_point_pole_quadrature_toy.py": "2d0ce32ee4cd71ff8f62154ad9f580d00716502839e650049c5f8f020c0d8924",
+      "code/tree_level/archive/sphere_six_point_pole_quadrature_toy_plot.py": "2243db8661b7eb8500e4628956931f12d01f8ce4af4f1279f9587d4615f0c665",
+      "code/tree_level/archive/sphere_six_point_prepare_optimized_continuation.py": "593521f3220351db896c7351376983e24397e54fcb677e2063521b9d90eefa08",
+      "code/tree_level/archive/sphere_six_point_prepare_routing.py": "302502b94d6c8b83d0eaa60559bdc1cd894175fd4927e18672358dbfa895aab6",
+      "code/tree_level/archive/sphere_six_point_prepare_yin_curve.py": "27d39943d749e7b1b087599e41c93dbfa3c9ca5543c975c73d1fdb9604ca8c3c",
+      "code/tree_level/archive/sphere_six_point_prepare_yin_curve_selection.py": "dddb8894f5804a9e8e9283211ef642127767ac640d5f15ca347bc5875a52819a",
+      "code/tree_level/archive/sphere_six_point_prepare_yin_curve_v2.py": "feba4a74c92052734903b06adc3109b675eef54ceea21aba78c10503fa6eef59",
+      "code/tree_level/archive/sphere_six_point_prepare_yin_radial.py": "60828a6d65571b3307472080bda0010d0f1ce18e66201a75e3a01542117c0a51",
+      "code/tree_level/archive/sphere_six_point_primary_faces_checks.py": "18e51208b590b576a83292c088f1b1ed16aa691a52ec9f780d50877eafaf728c",
+      "code/tree_level/archive/sphere_six_point_radial_curve_checks.py": "cf232d2fee03a7b88429993b4e24015efe6b4d89c9c3be9c23d24ef21851cb8f",
+      "code/tree_level/archive/sphere_six_point_radial_forest_checks.py": "1398d2c071ff4c1b1844db6b46cca11877d893c5cec958d504d6403d810a502d",
+      "code/tree_level/archive/sphere_six_point_radial_proposal_checks.py": "da5e1fafaa892f351d32f85dc72a6d46d64b67161b4df232dbb081512174c9ba",
+      "code/tree_level/archive/sphere_six_point_routed_scan_checks.py": "b599d7900a275c97532550f66d73734c0fc1c0394c2eb3e82eeda4fceb03bcb4",
+      "code/tree_level/archive/sphere_six_point_routing_integration_checks.py": "499e9a26b235b2ac1dfc988f1a898b32bd1172795f377cca55b80a8e0c20c93b",
+      "code/tree_level/archive/sphere_six_point_worldsheet_audit.py": "92c76a2dd82860ae6b8f2efc92137abe1f206d930f0a826e32bff94a393891a0",
+      "code/tree_level/archive/sphere_six_point_worldsheet_scan.py": "f33289f3f62f430906cb3e9f3275269bd208f4c2f0697880beaa250d6b6a07a9",
+      "code/tree_level/archive/sphere_six_point_yin_amplitude_worker.py": "7d28aff978b33cf18f9214851631f2c4b9edbc7232292ea0f3fa59d7cad2d46e",
+      "code/tree_level/archive/sphere_six_point_yin_curve_submit.py": "0f6564b5a955bb5ad5bd1a2b0f500e35bc1388d1c8eb370c2f00b4980729ad72",
+      "code/tree_level/archive/sphere_six_point_yin_radial_worker.py": "076ad96306b32cb534a861c2f0c06326041577198fb97d6f7fd6c5db60855aa9",
+      "code/tree_level/archive/sphere_six_point_yin_worker.py": "824a5a8dddbf6c8db910f087d067dd3fdcad2f4fcf0faca2181c344a97dbb523",
+      "code/tree_level/five_point/five_point_channel_geometry.py": "91b8901c092fc7ca83be111cea125820eed4399ae37437ae04d7ea40f5cd37c9",
+      "code/tree_level/five_point/five_point_extend_amplitude_scan_to_30_points.py": "0b992d51768f69de9bc80e9516e00bb86a01842392d4872da85204fc2e7f4ad0",
+      "code/tree_level/five_point/five_point_integrand_and_quadrature.py": "c00fd3f97dac65014206c21939ced33a40624f75ec9bc3ab091547b66d104051",
+      "code/tree_level/five_point/five_point_liouville_correlator_and_atlas.py": "4dbca731ee4e438d9bc52afd7d910711627e94de6bb31c2156e739499c5cd30d",
+      "code/tree_level/five_point/five_point_scan_imaginary_amplitudes.py": "78dfdd6f48c909b06076943ef70132e46c0c9211393a7cc949421051987acd05",
+      "code/tree_level/five_point/five_point_virasoro_block_recursion.py": "a7b72f7904dc947926b32455e2bedb3259f436506206ccd4a1dae26df3a9fbf6",
+      "code/tree_level/general/momentum_quadrature.py": "cb9ec3295bb9d417b06ff128aeb6d4db8ff0ae6258b069468bacea74a06ebff1",
+      "code/tree_level/general/sphere_mobius_geometry.py": "a6b6a58dd4fa1f769775d4b8ef95eebe2345aa765a263487507412f2e271be4f",
+      "code/tree_level/general/tree_level_source_compatibility.py": "cd6da1d138676d7477994e24cb976404447fd2fb2899654b3e25d2b64904e79a",
+      "code/tree_level/six_point/four_point_pillow_block_h_recursion.py": "6f6a338dbd2a87f98e4734bf51ceadd63d27cafc017ceb7f49d29986341ad673",
+      "code/tree_level/six_point/liouville_dozz_vectorized.py": "9c54930a2472d01af5ad7a0f3de58a96f2c982300cd5d7bb276f7066c1824540",
+      "code/tree_level/six_point/selective_refinement/apply_pointwise_amplitude_corrections.py": "35cbf47b7fc692c2ae499876b19dc5772cabf2880fb069756c04e9aa51b04fcf",
+      "code/tree_level/six_point/selective_refinement/cap14/assemble_final_amplitudes.py": "1c7be8dedd4cf431fdb97838ea8a40a18b7de1d83328c15b71c6a9606400c01a",
+      "code/tree_level/six_point/selective_refinement/cap14/finalize_refinement_and_assemble.py": "88b01c895952e7a5f88e82dce381bfae288c3085f7d7d660d27092f10098e58c",
+      "code/tree_level/six_point/selective_refinement/cap14/stopping_policy.py": "ca7a407b35619948c88a8887ebb633f6ccc917369a88421656e943ac969e6dde",
+      "code/tree_level/six_point/selective_refinement/refine_flagged_samples.py": "604ff81adbf671c6277d9406dbb4b79c0752cfe380f811b45cb8a548ec7c4c0c",
+      "code/tree_level/six_point/selective_refinement/refinement_state_and_statistics.py": "5ef3129bdebfe3f8c587e4a0228d2695f3e9559eeb785960bf7f0789417f74b4",
+      "code/tree_level/six_point/six_point_analytic_collar_subtraction.py": "a6e2696fe460bdad07c76fd61a809d5008bb974ad5e2c09d22cb8b87eddc9dee",
+      "code/tree_level/six_point/six_point_analyze_quadrature_and_order_controls.py": "daa9ba833ca2f7847fbf5c3dce2f6161be8c952248f32cb1c574a24ee77ba765",
+      "code/tree_level/six_point/six_point_apply_boundary_completion.py": "61beb9427435fd444afe0905285c657bbd53d114425010381aca4164d63900d0",
+      "code/tree_level/six_point/six_point_arbitrary_precision_c_recursion.py": "fc588b1ef8d63c3a3b17e3423402bfd695d12b06b70d2c5e6473abd4843d9b78",
+      "code/tree_level/six_point/six_point_assemble_curve_amplitudes.py": "1450ef77fa50097dde20c31ddd15ee6669aa3dc7476802daa7e581548a53ae6e",
+      "code/tree_level/six_point/six_point_assemble_radial_curve_covariance.py": "b634e979c44fb5524f2dd941c5dfa0fe6db16c55922c07659851d01e71c94e43",
+      "code/tree_level/six_point/six_point_batch_block_contraction.py": "08c7138f051e9d47d71a3777daf2ad11b2e3b644ea6a8f57577d2e909de935cc",
+      "code/tree_level/six_point/six_point_block_coefficient_provider.py": "9ca75078a111a30e0d5a9b9ce9f1371370310f048995287d0d9837e148bba6ce",
+      "code/tree_level/six_point/six_point_boundary_strata.py": "4c79dd62dc678c8975dc29d3cf52474936a1e2bc70feeaa6c42dfd18248536c9",
+      "code/tree_level/six_point/six_point_boundary_treatment_settings_v1.json": "40d4a757d3b64af3e873f5788d9fee7bd7affc85f312200689f0f9129b46fd33",
+      "code/tree_level/six_point/six_point_build_momentum_banks.py": "f0046251a6adcee9e48907da0b2c1aa59a52981e44255ff86da14d5688c2848e",
+      "code/tree_level/six_point/six_point_channel_coordinates.py": "f3603a1b7cc2934639889bd2c58db088c40e7545efc9d93a887cf38f8b3e821b",
+      "code/tree_level/six_point/six_point_check_sampling_variance.py": "c6dbfc0b6c5554a111b1575657c8da4a9aa227b735bcfd31febd6b4a1cc912a2",
+      "code/tree_level/six_point/six_point_collar_block_evaluator.py": "afc69a7634c578aa911f6ead6d0c29a0c7370f7530c6fa499c48a7454de5fd44",
+      "code/tree_level/six_point/six_point_collar_counterterm_geometry.py": "609b7e764bb4a2bd8bae235f7f81b721c43cb5804deb31124839dbb0a1ace51d",
+      "code/tree_level/six_point/six_point_collar_momentum_quadrature.py": "5d8281a0036472a5a7c234e2c2dd2b3decc7ea3447ed059a0e88d40eb5eef8a7",
+      "code/tree_level/six_point/six_point_combine_truncation_orders.py": "fc2ce8a9eefef39b093443f78f0d1be7be12891192481bc6e90c793b40b20afc",
+      "code/tree_level/six_point/six_point_compare_momentum_quadratures.py": "9f9e50087e76b139389938cbe84d9c0159ac1fc9aaadfa49fab3d7c5ca763f17",
+      "code/tree_level/six_point/six_point_complete_boundary_blocks.py": "63e7f2f688360ba9e5a6fea73ca97d7f1ab28310a2b2955151d79b957d583c44",
+      "code/tree_level/six_point/six_point_deduplicate_momentum_nodes.py": "02ed3ec59a0e7e940c4bda7675415105fc08ce993c1b058b7cbdba9d0cbaaef3",
+      "code/tree_level/six_point/six_point_elliptic_block_recursion.py": "f4981057b06e548658d317a38495cd55f98ddad9d5e0654cba8553de54e54431",
+      "code/tree_level/six_point/six_point_endpoint_and_tail_quadrature.py": "cc3ebab7e8943cbcf4f5cb0c064dab41eadf6909b2d58186acf893d5e07370b3",
+      "code/tree_level/six_point/six_point_estimate_collar_corrected_integrand.py": "f63bfbec33a1b7856b6d69f529f62a92a12a230e901994ab529e3fbfb0c563d1",
+      "code/tree_level/six_point/six_point_evaluate_routed_geometry_shards.py": "7c1261d4fbee3379076029439940c4ebc3638ed85f94c86da2bd8d67278d6367",
+      "code/tree_level/six_point/six_point_integrate_collar_patch.py": "ef551f74d736d8cc6bfb169472dec0b41a36d0036fdac51ca2c0964b39984238",
+      "code/tree_level/six_point/six_point_integrate_equal_energy_amplitude.py": "ee3dab8525c5d060075682700795841938635a5c3f572e27f1b5abe45ca3145f",
+      "code/tree_level/six_point/six_point_integrate_mixed_order_amplitudes.py": "ec718957f9d1a00d96cdd77db910d0dd1a12162477a06f6aed5ce179f62999b3",
+      "code/tree_level/six_point/six_point_measure_block_convergence.py": "9b654ea575e7802c4302ca9ff56fae8cc20611e73cf5be82231495d05c9bf8d4",
+      "code/tree_level/six_point/six_point_middle_pillow_block_expansion.py": "6b270aba355581f67ea9033b3209dd9b79d5ad58fb148c78ab5ec8fdd0609d80",
+      "code/tree_level/six_point/six_point_mixed_order_node_catalog.py": "2af34885d098e89119a327e7114c8848144d93fc3ab497e26344a4cd6b1d0141",
+      "code/tree_level/six_point/six_point_momentum_banks_and_reweighting.py": "446020f9083b087c08e58c8a50ea0f06a8d25c9ddf20d226947f9fb66447f54a",
+      "code/tree_level/six_point/six_point_momentum_control_proposals.py": "cdfd9dc57e219d79d4e586c45d56ef161b03c6177a6ba7a5a3e29bfd7b23f032",
+      "code/tree_level/six_point/six_point_prepare_amplitude_curve.py": "e919b2047f26c29f87dfbb65cb39230c7be8b91e77421088949f18569edc2a98",
+      "code/tree_level/six_point/six_point_prepare_radial_geometry.py": "758af0aca3cf7bd91792f67bb91321b8d984028e00f08c5f0d591e8b1c4d2c07",
+      "code/tree_level/six_point/six_point_primary_boundary_blocks.py": "9f5e8fa3df558ec54839ea04459e669be4d586ab868b4ba87053f9074dbe4094",
+      "code/tree_level/six_point/six_point_radial_forest_subtraction.py": "f86bfc80b80cdd029406511224c1db42dfa75502d6637ee585f676c60b7236d7",
+      "code/tree_level/six_point/six_point_radial_sampling_distribution.py": "dfab33875a7524fd06d918ac0a4c4e499a07820cb7da2daa7c0742f469cb16b6",
+      "code/tree_level/six_point/six_point_reuse_saved_coefficients.py": "db09f47ff4738dc23236d82351afc971ee12e308d358f43906968a7c717e9aaa",
+      "code/tree_level/six_point/six_point_route_collar_contributions.py": "aa61cc0c7163954c7aebebca8d3a231ee6aa9f0c6977d7c592d46aff3d052433",
+      "code/tree_level/six_point/six_point_run_frozen_energy_worker.py": "d895f9981875e6a28b1e4c52a476f2cd31a5060149d64afadcabf0bd8c4af3dd",
+      "code/tree_level/six_point/six_point_run_frozen_radial_worker.py": "40a5edab3890c5b781e2779912bd89f9dcda4917a30c65481b41ba6f5573dab7",
+      "code/tree_level/six_point/six_point_run_worldsheet_campaign.py": "aef47a235406883fbe91a0c76250de6a45d661582ab931718e7938ff0989f3e0",
+      "code/tree_level/six_point/six_point_sample_integration_geometry.py": "5498f5e839a2842758f4a749e8cfe65ed1943ffaad73183c1a0eb5284d3444b5",
+      "code/tree_level/six_point/six_point_select_integration_channels.py": "c601bd50228849be2e4d4e6692339936e36bbb847467103d24c5babc6b2a7563",
+      "code/tree_level/six_point/six_point_stable_puncture_coordinates.py": "9cbfb3eed95b89eddeb0cc0ca8b4f85127a4828c480864692cb6d6d04996142b",
+      "code/tree_level/six_point/six_point_submit_radial_campaign.py": "d550ca9ac0790e642c00bfefd9fea0bef9f60b87ac29b6acd51621071744b590",
+      "code/two_loop/analysis/assemble_genus2_resolved_production.py": "5ac03cde9176eb9628d975c0c6b509bcae738cd5485c419050bf853bb7d84fe7",
+      "code/two_loop/analysis/assemble_genus2_tail_completion.py": "cd0ec9bb456e7475a0e1bed35fa94de2fd22cb1c0b761526607d4228c6ec44fd",
+      "code/two_loop/analysis/audit_genus2_g_convention.py": "ff998a91ab51c1a05bf8b62f8c81dbc9146819c4cb213840633c59d6bcd45b4f",
+      "code/two_loop/analysis/plot_genus2_absolute_bry.py": "6654ead43e619249c5aff78c04a2863483beda60d641ea701798cfd72c3aa5f3",
+      "code/two_loop/analysis/rebuild_genus2_bulk_control_groups.py": "1e53b76d58f981e2cdce7065ba8be9c153304a98df5da4e2843ff9b349c7198a",
+      "code/two_loop/cft/ccy_genus2_glasses_block.py": "0a37beb5028021295d36f676051836d3023934a850d98fe87bb91544f68afb92",
+      "code/two_loop/cft/liouville_genus2.py": "c1e91c9a179bb7c1f0e9085021f3e923ac79f155a574e09f59d1ef0febabc763",
+      "code/two_loop/cft/liouville_genus2_ccy.py": "3b09286e0bf80be09e7cba362fe31ab72be120b809e4ded35ca6182337a88d53",
+      "code/two_loop/cft/liouville_genus2_glasses.py": "d932c332e54d5cbd9efdc2b423f93328bdd30c5f277fdb8ed88c9038ba578575",
+      "code/two_loop/cft/liouville_genus2_modular_check.py": "a11aad6f683fd7f21e0662f24fc8f3a0a8f2a75f9233ed606a8747522a5e7c5a",
+      "code/two_loop/geometry/audit_q_to_omega_accuracy.py": "7ec2876c5899a091d32e15f7efefbf4fb510139b3cb7671afa5b0568669657ae",
+      "code/two_loop/geometry/bolza_ccy_recursion.py": "444757884c1d8a5559995541cb8baac37a146208f6cdc909a27f2c07c48733c9",
+      "code/two_loop/geometry/bolza_torus_plumbing_reach.py": "8462b7620243af177be4db742fb047d5a55c89424e2035248c2b6052f13c213b",
+      "code/two_loop/geometry/genus2_calibrated_schottky.py": "8ee6c3f146a96bd6734ba1cd15562c46d286cd1006ca41e63f1bed2bb2a63171",
+      "code/two_loop/geometry/genus2_holomorphic_period_table.py": "4e479f10701c38dbe27a298f09ef49fabbf64e6ed51da6b13e4b64829076fb99",
+      "code/two_loop/geometry/genus2_hybrid_period_map.py": "e638ff8dc49df3cf566b37da79050d3baba9a88e85412aec01364d41528de8b1",
+      "code/two_loop/geometry/genus2_multiprecision_collocation.py": "34f47cbd51f033f57f40d9574378fc5b925ee3b5cdbfbaf93719e73617130b77",
+      "code/two_loop/geometry/genus2_period_table.py": "1289f4e2c7d92a3f27433246c6fa0cad67c2e2d6f481183d172c363c0724737c",
+      "code/two_loop/geometry/genus2_period_table_grid.py": "c55017498d65ebb980eac126e8089c6cd71aeab119f14242e20c9d168d779372",
+      "code/two_loop/geometry/genus2_period_table_selector.py": "95e8070e2f62afa758d6c2948122739f9637ea7bb7d254926bbeb61394239009",
+      "code/two_loop/geometry/genus2_plumbing_atlas.py": "877de7fed169bf06107ddebfa13b3db47d28f9e492f345ef5492db57079ed348",
+      "code/two_loop/integrand/genus2_bc_ghost.py": "48467a88fbb3df44e53afae69959e15bb876909fb9a59bbfe827f9d7ecb115a1",
+      "code/two_loop/integrand/genus2_c1_string_integrand.py": "989aa4bf00632567b7a1dd8e51ed6bd568acd3c8ebe7f249b45945f6f0ae315e",
+      "code/two_loop/integrand/genus2_separating_tail.py": "a7675c58ed2a3d41082bbefdf709d1df322025aa64d5214a4cc8bb378ccc0ee4",
+      "code/two_loop/production/genus2_glasses_production_gate.py": "2f4d1038e203b9dc8f55bb69c1ef55aac64e23abbeba40aae557ee31d2383cdc",
+      "code/two_loop/production/genus2_moduli_physical_mixture_rqmc.py": "4f2baddab868f0656133685f62f553634dbbc54b4a4a9c26e0133f31ef0c6712",
+      "code/two_loop/production/genus2_moduli_rqmc.py": "19e9cd548bd56273edba0b232e1d121aeca48168e708b5e4e79ff8d5a0e504b7",
+      "code/two_loop/production/genus2_separating_residual_pilot.py": "8ccd0ecd8a0e1666d8b1d7117c761b1404fc939be6e6e0f16b188fff17b3ceac",
+      "code/two_loop/production/genus2_separating_residual_retry.py": "767e235ad6bc5c7be55b65273296b36c4914d9c6584f5e61d2402652ab82b798",
+      "code/two_loop/production/genus2_separating_tail_cluster.py": "00efd263c6c887f5a06d39e5ea83a3b96d028e9526ae8bc55490e62c61231e89",
+      "code/two_loop/production/genus2_siegel_fundamental_domain.py": "cbbdb78877a365d0c7d021923ecc2794a5f3ecd003b5f7e83fbf36256f7c041e",
+      "code/two_loop/production/genus2_tail_completion_production.py": "98a76088f7cfde0689f9e729d42a6f2073f1c98c6a0a293006944cbc34fead9b",
+      "code/two_loop/production/monte_carlo_integrate_genus2_c1.py": "ba9e4e5ac9af35914c85d07305bb8989d1dc6bedcc09262b488200f1de9749ce",
+      "code/two_loop/production/study_genus2_separating_tail_correction.py": "782b9a823d5d3bf5eb9b70106c7f1f3873ff5fbd11eec39c6ee9ca2408881164",
+      "code/two_loop/validation/ccy_genus2_glasses_block_checks.py": "b132c24b05ab9cf9c8c8b7202ef2c05cbbbdda4e3562a695a37c28261bd972b7",
+      "code/two_loop/validation/genus2_c1_string_integrand_checks.py": "c423539d71f1a6da33e40ee9228e3a3677723e52172c2cabc71d76aa9abdf471",
+      "code/two_loop/validation/genus2_separating_tail_checks.py": "774818df0fc353ca16d3c2c2ed1a8a83d00d7f0220fe0243b79b99c5481ca6af",
+      "code/two_loop/validation/genus2_tail_completion_checks.py": "19ea52403949a258443273d35e03aa649b948ba8377611c6f84ba793c2ff92eb",
+      "code/two_loop/validation/genus2_tail_precision_checks.py": "4d8c9a7737e25ea1b7228f5b6161d0f0e3be1fdaaedb3159b30405172d2d185f",
+      "code/two_loop/validation/plot_genus2_absolute_bry_checks.py": "59a63b67b112da967ab9aa5952b6f7f70541c28906b605411bdfb5953b27ba3a"
+    },
+    "spectrum": {
+      "chunk_size": 32,
+      "coefficient_orders": {
+        "comb_pair_face": [
+          0,
+          4,
+          2
+        ],
+        "pair": [
+          0,
+          2,
+          2
+        ],
+        "primary": [
+          0,
+          0,
+          0
+        ],
+        "triple_corner": [
+          0,
+          0,
+          2
+        ],
+        "triple_scale_face": [
+          2,
+          0,
+          2
+        ]
+      },
+      "collision_elliptic": {
+        "h_order": 8,
+        "long_order": 3
+      },
+      "format": "genus1-boundary-spectrum-v1",
+      "profiles": {
+        "8": {
+          "kernels": {
+            "comb_pair_face": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "pair": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "primary": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "triple_corner": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "triple_scale_face": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          }
+        },
+        "9": {
+          "kernels": {
+            "comb_pair_face": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "pair": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "primary": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "short_refinement": {
+                "head_order": 6,
+                "maximum_short_length": 0.5,
+                "split_scale": 1.5,
+                "tail_width_scale": 0.275,
+                "total_nodes": 9
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "triple_corner": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "triple_scale_face": {
+              "momentum_orders": [
+                8,
+                8,
+                8
+              ],
+              "momentum_sampling": {
+                "head_orders": [
+                  5,
+                  5,
+                  5
+                ],
+                "placement_policy": "moduli-head-tail-v1",
+                "split_scales": [
+                  1.5,
+                  1.5,
+                  1.5
+                ],
+                "tail_width_scales": [
+                  0.25,
+                  0.25,
+                  0.25
+                ],
+                "total_nodes": [
+                  8,
+                  8,
+                  8
+                ]
+              },
+              "tail_orders": [
+                3,
+                3,
+                3
+              ],
+              "width_scales": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          }
+        }
+      },
+      "reference_only": false,
+      "special_dps": 40
+    }
+  },
+  "sha256": "295dd2a03ffb3519cff2a7ebb53d4d3d8fbe159fd1416ca4cc5dfa60f395baf3"
+}

@@ -1,0 +1,59 @@
+{
+  "status": "sphere_1to4_worldsheet_newpoint_block_audit_frozen",
+  "program": "sphere_five_point_30point_audit_summary.py",
+  "matrix_model_information_used": false,
+  "selection_basis": {
+    "0.31": "representative real-contour interior point",
+    "0.35": "block-order transition region below the first wall",
+    "0.44": "representative residue-corrected point above the first wall"
+  },
+  "verified_production_scan": {
+    "path": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/sphere_five_point_1to4/blind30_20260824/worldsheet_scan_30point.json",
+    "sha256": "63e8df62c1301110f4131b846dc2908a18a62500564f5a0a891dd90d01f360d1"
+  },
+  "source_audits": [
+    {
+      "path": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/sphere_five_point_1to4/blind30_20260824/worldsheet_newpoint_block8_audit.json",
+      "sha256": "6d3fda1312657e81aa7511656604fa7f366207a5ef774631f814ad7c70013986"
+    },
+    {
+      "path": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/sphere_five_point_1to4/blind30_20260824/worldsheet_newpoint_block6_audit.json",
+      "sha256": "4fe8dd4894a383d9d723c26a2b643af76ae55cc9856b1c760446d9104abf491b"
+    }
+  ],
+  "points": [
+    {
+      "t": 0.31,
+      "production_block_order": 6,
+      "production_Q4": -0.18233967126851575,
+      "production_Q4_qmc_standard_error": 0.00030618682851502065,
+      "audit_block_order": 8,
+      "audit_Q4": -0.18240429275939843,
+      "audit_Q4_qmc_standard_error": 0.0008783020489168861,
+      "independent_block_order_spread": 6.462149088268254e-05,
+      "conservative_standard_error": 0.0008783020489168861
+    },
+    {
+      "t": 0.35,
+      "production_block_order": 8,
+      "production_Q4": -0.24254949709210757,
+      "production_Q4_qmc_standard_error": 0.001402612982654003,
+      "audit_block_order": 6,
+      "audit_Q4": -0.2385507568807763,
+      "audit_Q4_qmc_standard_error": 0.0004283909242112141,
+      "independent_block_order_spread": 0.003998740211331286,
+      "conservative_standard_error": 0.003998740211331286
+    },
+    {
+      "t": 0.44,
+      "production_block_order": 8,
+      "production_Q4": -0.18261291582991118,
+      "production_Q4_qmc_standard_error": 0.0006709068751658643,
+      "audit_block_order": 6,
+      "audit_Q4": -0.18098325988619163,
+      "audit_Q4_qmc_standard_error": 0.00043457829684643,
+      "independent_block_order_spread": 0.0016296559437195546,
+      "conservative_standard_error": 0.0016296559437195546
+    }
+  ]
+}

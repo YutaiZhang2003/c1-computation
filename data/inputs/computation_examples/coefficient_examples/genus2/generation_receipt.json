@@ -1,0 +1,78 @@
+{
+  "checks": [
+    {
+      "table": "genus2_theta_q_series_N4",
+      "rows": 35,
+      "reference_comparison_performed": false
+    },
+    {
+      "table": "genus2_theta_c_poles_B4",
+      "rows": 13,
+      "reference_comparison_performed": false
+    },
+    {
+      "table": "genus2_glasses_q_series_N4",
+      "rows": 35,
+      "reference_comparison_performed": false
+    },
+    {
+      "table": "genus2_glasses_c_poles_B4",
+      "rows": 12,
+      "reference_comparison_performed": false
+    }
+  ],
+  "reference_comparison_performed": false,
+  "all_requested_comparisons_passed": true,
+  "seconds": 0.7563344580121338,
+  "environment": {
+    "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 17.0.0 (clang-1700.6.3.2)]",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "mpmath": "1.4.1",
+    "sympy": "1.14.0"
+  },
+  "source_hashes": {
+    "code/general/conventions/genus2_integrand_normalization.py": "95b846ef7ac9abe6c33489d7f765dd7e3d0c76dd45aa53e5f48a0067fbda4cf1",
+    "code/general/geometry/ccy_plumbing_conventions.py": "ab5a8f28ef1e17d07180d1f77bb34fe730ce228c34ca0367f25b81512d59480e",
+    "code/general/geometry/conformal_frame_labels.py": "41f9be489cef82c78f1d2fec80c1cccd95ad76d284b932139cff237ade023a9a",
+    "code/general/geometry/genus3_plumbing_channels.py": "eae7630cdaa9d89f6538fb1871692ba0d802b918dc448562a41ba03845178e5d",
+    "code/general/geometry/plumbing_algorithms.py": "533a784cbfcbc1c391eed645e1b9c2e2e617a2e9562d9114de13928737168882",
+    "code/general/io/c1_frozen_bundle.py": "62e31b3b5ec1f5390b05663d736d299c46d7df6e897a7d38a58ba9d3516f915a",
+    "code/general/io/c1_paths.py": "de77df4484bc87f6cb174a70774902bcf6cb6097f281f42d89caf9fbb5c10366",
+    "code/general/liouville/liouville_torus.py": "29eb290c446a3371d6a649c936a77cdd6ec287cd15426581b7285c1273bcab9b",
+    "code/general/numerics/liouville_momentum_quadrature.py": "32dc70f656a951eaca062958cf0d20e8e70db888b5f769f596fb3402f74725dc",
+    "code/general/numerics/torus_sampling.py": "34c9e178c13173f3bfe73ad089e19b5caece3a9a967dd708ab8de0fdd89a1c8d",
+    "code/general/scalar/free_boson_plumbing.py": "a935f3fa0027f498b12d5362ba8441810986698db5879f0460173fae8c6a8636",
+    "code/general/virasoro/ccy_genus2_block.py": "b007b48dbbd1da2905bbbf98e220fa2feab471dda5cb4b639b4a4e9e98ecdf3a",
+    "code/general/virasoro/genus2_vacuum_blocks.py": "d27a32e46c5abc902010c8c09fb8edc9bde70fcf3392352fa9ce37b479f32e70",
+    "code/general/virasoro/torus_primary_low_order.py": "66706d6359f2b6e7559fc3b2c1323891aac142792edcbe6135ea1730fdab9be5",
+    "code/general/virasoro/virasoro_blocks.py": "c7466630ceec8ac6fcb20637916d1f5c506881e7b61050300321ec905a97c1de",
+    "code/general/virasoro/virasoro_descendant_algebra.py": "83bb7cab46662eba1d400fa687c2fa07111fe092811583355f5cc090263a76b5",
+    "code/general/virasoro/virasoro_plumbing_graph.py": "70b01a10c7a77318e28c0bd4da3ee00eff197a688a4708688f7192b23473258f",
+    "code/two_loop/cft/ccy_genus2_glasses_block.py": "0a37beb5028021295d36f676051836d3023934a850d98fe87bb91544f68afb92",
+    "code/two_loop/cft/liouville_genus2.py": "c1e91c9a179bb7c1f0e9085021f3e923ac79f155a574e09f59d1ef0febabc763",
+    "code/two_loop/cft/liouville_genus2_ccy.py": "3b09286e0bf80be09e7cba362fe31ab72be120b809e4ded35ca6182337a88d53",
+    "code/two_loop/cft/liouville_genus2_glasses.py": "d932c332e54d5cbd9efdc2b423f93328bdd30c5f277fdb8ed88c9038ba578575",
+    "code/two_loop/cft/liouville_genus2_modular_check.py": "a11aad6f683fd7f21e0662f24fc8f3a0a8f2a75f9233ed606a8747522a5e7c5a",
+    "code/two_loop/geometry/audit_q_to_omega_accuracy.py": "7ec2876c5899a091d32e15f7efefbf4fb510139b3cb7671afa5b0568669657ae",
+    "code/two_loop/geometry/bolza_ccy_recursion.py": "444757884c1d8a5559995541cb8baac37a146208f6cdc909a27f2c07c48733c9",
+    "code/two_loop/geometry/bolza_torus_plumbing_reach.py": "8462b7620243af177be4db742fb047d5a55c89424e2035248c2b6052f13c213b",
+    "code/two_loop/geometry/genus2_calibrated_schottky.py": "8ee6c3f146a96bd6734ba1cd15562c46d286cd1006ca41e63f1bed2bb2a63171",
+    "code/two_loop/geometry/genus2_holomorphic_period_table.py": "4e479f10701c38dbe27a298f09ef49fabbf64e6ed51da6b13e4b64829076fb99",
+    "code/two_loop/geometry/genus2_hybrid_period_map.py": "e638ff8dc49df3cf566b37da79050d3baba9a88e85412aec01364d41528de8b1",
+    "code/two_loop/geometry/genus2_multiprecision_collocation.py": "34f47cbd51f033f57f40d9574378fc5b925ee3b5cdbfbaf93719e73617130b77",
+    "code/two_loop/geometry/genus2_period_table.py": "1289f4e2c7d92a3f27433246c6fa0cad67c2e2d6f481183d172c363c0724737c",
+    "code/two_loop/geometry/genus2_period_table_grid.py": "c55017498d65ebb980eac126e8089c6cd71aeab119f14242e20c9d168d779372",
+    "code/two_loop/geometry/genus2_period_table_selector.py": "95e8070e2f62afa758d6c2948122739f9637ea7bb7d254926bbeb61394239009",
+    "code/two_loop/geometry/genus2_plumbing_atlas.py": "877de7fed169bf06107ddebfa13b3db47d28f9e492f345ef5492db57079ed348",
+    "code/two_loop/integrand/genus2_c1_string_integrand.py": "989aa4bf00632567b7a1dd8e51ed6bd568acd3c8ebe7f249b45945f6f0ae315e",
+    "code/two_loop/integrand/genus2_separating_tail.py": "a7675c58ed2a3d41082bbefdf709d1df322025aa64d5214a4cc8bb378ccc0ee4",
+    "code/two_loop/production/genus2_glasses_production_gate.py": "2f4d1038e203b9dc8f55bb69c1ef55aac64e23abbeba40aae557ee31d2383cdc",
+    "code/two_loop/production/genus2_moduli_physical_mixture_rqmc.py": "4f2baddab868f0656133685f62f553634dbbc54b4a4a9c26e0133f31ef0c6712",
+    "code/two_loop/production/genus2_moduli_rqmc.py": "19e9cd548bd56273edba0b232e1d121aeca48168e708b5e4e79ff8d5a0e504b7",
+    "code/two_loop/production/genus2_separating_residual_pilot.py": "8ccd0ecd8a0e1666d8b1d7117c761b1404fc939be6e6e0f16b188fff17b3ceac",
+    "code/two_loop/production/genus2_separating_tail_cluster.py": "00efd263c6c887f5a06d39e5ea83a3b96d028e9526ae8bc55490e62c61231e89",
+    "code/two_loop/production/genus2_siegel_fundamental_domain.py": "cbbdb78877a365d0c7d021923ecc2794a5f3ecd003b5f7e83fbf36256f7c041e",
+    "code/two_loop/production/monte_carlo_integrate_genus2_c1.py": "ba9e4e5ac9af35914c85d07305bb8989d1dc6bedcc09262b488200f1de9749ce"
+  }
+}

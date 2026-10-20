@@ -1,0 +1,2576 @@
+{
+  "description": "Saved-data comparison: direct six-point plumbing series with the existing separately integrated four-point collar retained.",
+  "scope": "All 15 current energies, 8 shared scrambles and 256 points per scramble. Replace all 4950 nome-based pointwise evaluations by their saved C12 direct values. Preserve all existing C13-C18 refinements, momenta, weights, samples, and the analytic four-point collar addback.",
+  "four_point_completion_scope": "The strict variant also removes the 101 primary-face-nome evaluations. It keeps the separately integrated four-point collar. The secondary variant retains those 101 boundary completions including their transformed finite corrections; it is not a complete elimination of general nome transformations.",
+  "limits": "This is a reduction of saved finite-order evaluations. No new conformal-block coefficients or momentum integrals were computed. The direct values at reverted points stop at C12. Small amplitude shifts and prefix increments are not bounds on omitted higher levels or other systematic errors.",
+  "amplitude_convention": "mu^4 A = i I6/(8 pi^3); relative changes are independent of the fixed amplitude normalization.",
+  "source_report": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/curve_results.json",
+  "source_report_sha256": "a0a756f3b1ce32b95e829f4c7635ab585af3e705e314cec272a12d6ec995c7ed",
+  "results": [
+    {
+      "t": 0.1805,
+      "label": "t0p1805",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p1805/pointwise.npz",
+      "source_sha256": "829bd62de47e2f28e61adeb74f13b275c0fc9e0cf997b5b11ffe7fa210145bfc",
+      "source_fingerprint": "b648561f918ce24ad02dc11dee224e1d37efab6c47f004116f9736957ad5a484",
+      "changed_sample_count": 331,
+      "changed_by_method": {
+        "native-nome": 306,
+        "native-multinome": 17,
+        "primary-face-nome": 8
+      },
+      "current_mu4_A": {
+        "mean": [
+          -1.4036710998703294e-20,
+          -3.820324289233629e-05
+        ],
+        "sampling_se": [
+          2.0554628646111842e-22,
+          5.590177833484085e-07
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          -1.4035555825704855e-20,
+          -3.8202601093800654e-05
+        ],
+        "sampling_se": [
+          2.0758684248284514e-22,
+          5.652471660164577e-07
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          1.1551729984393182e-24,
+          6.417985356290731e-10
+        ],
+        "sampling_se": [
+          8.476764389506799e-24,
+          2.2636563234992575e-08
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          -1.487487660477255e-20,
+          -4.047696502915119e-05
+        ],
+        [
+          -1.3322064358269553e-20,
+          -3.625804355929972e-05
+        ],
+        [
+          -1.4353972987764835e-20,
+          -3.906469174132535e-05
+        ],
+        [
+          -1.385471014054498e-20,
+          -3.770076992082445e-05
+        ],
+        [
+          -1.3402104870461609e-20,
+          -3.648312990917166e-05
+        ],
+        [
+          -1.440440258841685e-20,
+          -3.922135895714862e-05
+        ],
+        [
+          -1.3550378670610721e-20,
+          -3.687699861107823e-05
+        ],
+        [
+          -1.4531177768785262e-20,
+          -3.954398541069106e-05
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          -1.4884934072271446e-20,
+          -4.051505497613423e-05
+        ],
+        [
+          -1.3321298665650494e-20,
+          -3.6255631535051465e-05
+        ],
+        [
+          -1.432138985302931e-20,
+          -3.898024149122194e-05
+        ],
+        [
+          -1.3855871992356166e-20,
+          -3.770471769134148e-05
+        ],
+        [
+          -1.3395911089838967e-20,
+          -3.646649901238562e-05
+        ],
+        [
+          -1.438263799152713e-20,
+          -3.916558665563213e-05
+        ],
+        [
+          -1.354320158731953e-20,
+          -3.686084837761559e-05
+        ],
+        [
+          -1.4579201353645804e-20,
+          -3.9672229011022794e-05
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          -1.0057467498892904e-23,
+          -3.808994698303515e-08
+        ],
+        [
+          7.656926190616307e-25,
+          2.4120242482514608e-09
+        ],
+        [
+          3.258313473552603e-23,
+          8.445025010341044e-08
+        ],
+        [
+          -1.1618518111868455e-24,
+          -3.947770517030233e-09
+        ],
+        [
+          6.193780622640167e-24,
+          1.6630896786039992e-08
+        ],
+        [
+          2.176459688971601e-23,
+          5.5772301516489687e-08
+        ],
+        [
+          7.177083291192315e-24,
+          1.6150233462635953e-08
+        ],
+        [
+          -4.802358486054185e-23,
+          -1.2824360033172957e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.0016799582628044918,
+      "signed_relative_imaginary_shift_percent": -0.0016799582628044918,
+      "paired_shift_sampling_se_percent_of_current": 0.05925298880722389,
+      "current_relative_sampling_se_percent": 1.463273117739828,
+      "direct_relative_sampling_se_percent": 1.479603874690573,
+      "affected_native_8_to_10_net_shift_percent": 0.5449377118233264,
+      "affected_native_10_to_12_net_shift_percent": 0.18457239215141102,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.4366542706772355,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.4464047938979973,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 331,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          -1.4035659737628478e-20,
+          -3.820352977611092e-05
+        ],
+        "sampling_se": [
+          2.0774744204692424e-22,
+          5.658553640508338e-07
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.0007509408964167093,
+      "reconstruction_max_absolute_I6_error": 7.453933492066973e-19,
+      "analytic_four_point_addback_I6": [
+        -8.91853250457701e-11,
+        5.05282928146189e-26
+      ]
+    },
+    {
+      "t": 0.1905,
+      "label": "t0p1905",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p1905/pointwise.npz",
+      "source_sha256": "0e598af14186e362dcc35d1cb6db02968e2ca1677503626e2ac40cbd53ca2d66",
+      "source_fingerprint": "2eff55a1e6df19582cc9de1f28ad5286b6911e86a4855b24d822b96526771a89",
+      "changed_sample_count": 337,
+      "changed_by_method": {
+        "native-nome": 313,
+        "native-multinome": 16,
+        "primary-face-nome": 8
+      },
+      "current_mu4_A": {
+        "mean": [
+          -8.81201132555109e-21,
+          -2.3986615236559246e-05
+        ],
+        "sampling_se": [
+          1.3858224576093467e-22,
+          3.7729189806173543e-07
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          -8.811388435725565e-21,
+          -2.398419495462006e-05
+        ],
+        "sampling_se": [
+          1.401912872471538e-22,
+          3.8116654349541107e-07
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          6.228898255261477e-25,
+          2.4202819391840812e-09
+        ],
+        "sampling_se": [
+          4.568301711713462e-24,
+          1.3038703972165736e-08
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          -9.380802185437909e-21,
+          -2.5541479670298867e-05
+        ],
+        [
+          -8.37050355193824e-21,
+          -2.279138898140208e-05
+        ],
+        [
+          -8.978971795156829e-21,
+          -2.4433095703758132e-05
+        ],
+        [
+          -8.690221581298287e-21,
+          -2.36519597777118e-05
+        ],
+        [
+          -8.35369285492017e-21,
+          -2.2739051265084056e-05
+        ],
+        [
+          -9.045788242281389e-21,
+          -2.4628451452384277e-05
+        ],
+        [
+          -8.485736133468551e-21,
+          -2.3095451505825035e-05
+        ],
+        [
+          -9.19037425990736e-21,
+          -2.5012043536009708e-05
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          -9.388860061933677e-21,
+          -2.5560455888444697e-05
+        ],
+        [
+          -8.368023131343432e-21,
+          -2.2790160014894788e-05
+        ],
+        [
+          -8.960753987299896e-21,
+          -2.4380921078620897e-05
+        ],
+        [
+          -8.69081525575378e-21,
+          -2.365379585710245e-05
+        ],
+        [
+          -8.349897528201872e-21,
+          -2.272877310457309e-05
+        ],
+        [
+          -9.034503887524957e-21,
+          -2.4591892717401794e-05
+        ],
+        [
+          -8.482995373394577e-21,
+          -2.308527260165434e-05
+        ],
+        [
+          -9.215258260352333e-21,
+          -2.5082288374268432e-05
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          -8.057876495767652e-24,
+          -1.897621814583001e-08
+        ],
+        [
+          2.480420594806174e-24,
+          1.2289665072934197e-09
+        ],
+        [
+          1.8217807856933048e-23,
+          5.2174625137235436e-08
+        ],
+        [
+          -5.936744554934226e-25,
+          -1.8360793906491944e-09
+        ],
+        [
+          3.7953267182972924e-24,
+          1.0278160510965964e-08
+        ],
+        [
+          1.1284354756433124e-23,
+          3.655873498248371e-08
+        ],
+        [
+          2.7407600739744056e-24,
+          1.0178904170691742e-08
+        ],
+        [
+          -2.4884000444973786e-23,
+          -7.024483825871842e-08
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.010090135333038586,
+      "signed_relative_imaginary_shift_percent": -0.010090135333038586,
+      "paired_shift_sampling_se_percent_of_current": 0.05435824872986987,
+      "current_relative_sampling_se_percent": 1.5729267941342773,
+      "direct_relative_sampling_se_percent": 1.5892405153335665,
+      "affected_native_8_to_10_net_shift_percent": 0.524313837393288,
+      "affected_native_10_to_12_net_shift_percent": 0.1741777944056831,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.4273769568016738,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.4371088761641461,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 337,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          -8.811686219360192e-21,
+          -2.3984851979153452e-05
+        ],
+        "sampling_se": [
+          1.4034904496831977e-22,
+          3.815803090001285e-07
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.0073510055020375095,
+      "reconstruction_max_absolute_I6_error": 1.9947664940423928e-18,
+      "analytic_four_point_addback_I6": [
+        -5.00274246509603e-11,
+        2.834323203091689e-26
+      ]
+    },
+    {
+      "t": 0.2005,
+      "label": "t0p2005",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2005/pointwise.npz",
+      "source_sha256": "d4255b96d510c2920d659e5cb3447901bcd6a0cc1a8309afb7a36ce225b1826c",
+      "source_fingerprint": "355a1425f732b755e71a4915c4aa2f273155b632484fbe8d9eb77fa2a5e21d8b",
+      "changed_sample_count": 337,
+      "changed_by_method": {
+        "native-nome": 312,
+        "native-multinome": 17,
+        "primary-face-nome": 8
+      },
+      "current_mu4_A": {
+        "mean": [
+          7.814516235787268e-22,
+          1.5953276439602503e-06
+        ],
+        "sampling_se": [
+          1.2865031427585716e-23,
+          2.622473384837404e-08
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          7.81379771730622e-22,
+          1.5950169886311448e-06
+        ],
+        "sampling_se": [
+          1.2965448235883685e-23,
+          2.6468582923058346e-08
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -7.185184810466479e-26,
+          -3.106553291055186e-10
+        ],
+        "sampling_se": [
+          3.785064933093712e-25,
+          7.894270048242168e-10
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          8.365891886412639e-22,
+          1.7076947015241793e-06
+        ],
+        [
+          7.44016762380143e-22,
+          1.5190541381731537e-06
+        ],
+        [
+          7.9357119577429745e-22,
+          1.620535033334323e-06
+        ],
+        [
+          7.649761824675615e-22,
+          1.5613459316112906e-06
+        ],
+        [
+          7.410492524378459e-22,
+          1.512994151066397e-06
+        ],
+        [
+          8.021511841699076e-22,
+          1.637372562745657e-06
+        ],
+        [
+          7.505148113356824e-22,
+          1.532355857256057e-06
+        ],
+        [
+          8.187444114231119e-22,
+          1.671268775970946e-06
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          8.371169438851336e-22,
+          1.708836563496352e-06
+        ],
+        [
+          7.4412672991895015e-22,
+          1.5190867898790432e-06
+        ],
+        [
+          7.919348648978744e-22,
+          1.6170716572369769e-06
+        ],
+        [
+          7.650185029441546e-22,
+          1.5609229975694633e-06
+        ],
+        [
+          7.408558006525049e-22,
+          1.5123345896070763e-06
+        ],
+        [
+          8.010303177458056e-22,
+          1.6349409091604186e-06
+        ],
+        [
+          7.502758177656569e-22,
+          1.5317409281640331e-06
+        ],
+        [
+          8.2067919603489665e-22,
+          1.6752014739357959e-06
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          5.277552438696059e-25,
+          1.1418619721728268e-09
+        ],
+        [
+          1.0996753880721362e-25,
+          3.265170588974161e-11
+        ],
+        [
+          -1.6363308764230008e-24,
+          -3.463376097346088e-09
+        ],
+        [
+          4.2320476592938835e-26,
+          -4.229340418275312e-10
+        ],
+        [
+          -1.934517853410568e-25,
+          -6.595614593208815e-10
+        ],
+        [
+          -1.1208664241020487e-24,
+          -2.4316535852382534e-09
+        ],
+        [
+          -2.389935700255544e-25,
+          -6.149290920241126e-10
+        ],
+        [
+          1.9347846117845842e-24,
+          3.9326979648501494e-09
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.01947282304557489,
+      "signed_relative_imaginary_shift_percent": -0.01947282304557489,
+      "paired_shift_sampling_se_percent_of_current": 0.04948369119114232,
+      "current_relative_sampling_se_percent": 1.6438462624062362,
+      "direct_relative_sampling_se_percent": 1.6594546084285835,
+      "affected_native_8_to_10_net_shift_percent": 0.5212393251486669,
+      "affected_native_10_to_12_net_shift_percent": 0.16338720558788086,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.41549186657881965,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.425341540452518,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 337,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          7.814055130192119e-22,
+          1.5950656459319514e-06
+        ],
+        "sampling_se": [
+          1.297998271886489e-23,
+          2.649906261209186e-08
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.016422835101683082,
+      "reconstruction_max_absolute_I6_error": 2.469285226257485e-20,
+      "analytic_four_point_addback_I6": [
+        2.9644056059970402e-12,
+        -1.4521399347034981e-27
+      ]
+    },
+    {
+      "t": 0.2105,
+      "label": "t0p2105",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2105/pointwise.npz",
+      "source_sha256": "35ca11b1295218c004af3771017c9883928a47034a08845126735700c17e1a28",
+      "source_fingerprint": "3f49fdf3f61705627ce25454c8086d0d0c94a5fa74935dbdd6b66b5b70f17cbd",
+      "changed_sample_count": 335,
+      "changed_by_method": {
+        "native-nome": 312,
+        "native-multinome": 15,
+        "primary-face-nome": 8
+      },
+      "current_mu4_A": {
+        "mean": [
+          2.0386719725503636e-20,
+          4.161817959408163e-05
+        ],
+        "sampling_se": [
+          3.384913372982681e-22,
+          6.907898374903813e-07
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          2.0381445349279012e-20,
+          4.1607210522779686e-05
+        ],
+        "sampling_se": [
+          3.412764771226123e-22,
+          6.96747911870075e-07
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -5.274376224621614e-24,
+          -1.0969071301947764e-08
+        ],
+        "sampling_se": [
+          8.831080089910725e-24,
+          1.8559037364598297e-08
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          2.1888647082085762e-20,
+          4.468884774417211e-05
+        ],
+        [
+          1.946434554730585e-20,
+          3.973741105390926e-05
+        ],
+        [
+          2.0645533594439396e-20,
+          4.214149052525026e-05
+        ],
+        [
+          1.992559202668673e-20,
+          4.0682550529828174e-05
+        ],
+        [
+          1.9356172261622863e-20,
+          3.951739721534822e-05
+        ],
+        [
+          2.080052604353268e-20,
+          4.245747554466787e-05
+        ],
+        [
+          1.9566217998068725e-20,
+          3.994019222513139e-05
+        ],
+        [
+          2.1446723250287074e-20,
+          4.378007191434573e-05
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          2.189944565235702e-20,
+          4.471328056525621e-05
+        ],
+        [
+          1.9464444990699282e-20,
+          3.9739363805787694e-05
+        ],
+        [
+          2.0600711995060735e-20,
+          4.2050190125574666e-05
+        ],
+        [
+          1.992445793262943e-20,
+          4.0672291691708195e-05
+        ],
+        [
+          1.934903492911755e-20,
+          3.950115748973896e-05
+        ],
+        [
+          2.077247636608283e-20,
+          4.239541496034761e-05
+        ],
+        [
+          1.955542470105635e-20,
+          3.9923381981224616e-05
+        ],
+        [
+          2.1485566227228922e-20,
+          4.386260356259951e-05
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          1.0798570271257154e-23,
+          2.4432821084101233e-08
+        ],
+        [
+          9.944339343153619e-26,
+          1.9527518784218287e-09
+        ],
+        [
+          -4.482159937866068e-23,
+          -9.130039967560033e-08
+        ],
+        [
+          -1.1340940573043085e-24,
+          -1.0258838119987262e-08
+        ],
+        [
+          -7.13733250531732e-24,
+          -1.623972560926026e-08
+        ],
+        [
+          -2.804967744985124e-23,
+          -6.206058432026346e-08
+        ],
+        [
+          -1.0793297012376246e-23,
+          -1.6810243906766268e-08
+        ],
+        [
+          3.884297694184819e-23,
+          8.253164825377242e-08
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.026356441845687154,
+      "signed_relative_imaginary_shift_percent": -0.026356441845687154,
+      "paired_shift_sampling_se_percent_of_current": 0.04459358276986605,
+      "current_relative_sampling_se_percent": 1.659827133786063,
+      "direct_relative_sampling_se_percent": 1.6745845326223199,
+      "affected_native_8_to_10_net_shift_percent": 0.4850165395866628,
+      "affected_native_10_to_12_net_shift_percent": 0.14102077390660203,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.4076073351461844,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.4174336907911203,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 335,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          2.0382215863744305e-20,
+          4.160860393834932e-05
+        ],
+        "sampling_se": [
+          3.417107505382224e-22,
+          6.976157532082885e-07
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.023008348336482774,
+      "reconstruction_max_absolute_I6_error": 6.605471732476155e-18,
+      "analytic_four_point_addback_I6": [
+        6.863019214078391e-11,
+        -3.3619098052031546e-26
+      ]
+    },
+    {
+      "t": 0.2205,
+      "label": "t0p2205",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2205/pointwise.npz",
+      "source_sha256": "81cdadc568992ca4173822d2d08b9e40f86ac4478d35291293de04c63b1b42b5",
+      "source_fingerprint": "4d805f180a60e202e9b52ee5c21b6887426891392574ce1803ba84c6beed2491",
+      "changed_sample_count": 334,
+      "changed_by_method": {
+        "native-nome": 308,
+        "native-multinome": 19,
+        "primary-face-nome": 7
+      },
+      "current_mu4_A": {
+        "mean": [
+          4.855140763399597e-20,
+          9.911998443244493e-05
+        ],
+        "sampling_se": [
+          7.7721821213885035e-22,
+          1.5872921079426292e-06
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          4.853365772610719e-20,
+          9.908532667834618e-05
+        ],
+        "sampling_se": [
+          7.821499546968366e-22,
+          1.5941774850420764e-06
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -1.7749907888778636e-23,
+          -3.465775409876153e-08
+        ],
+        "sampling_se": [
+          1.9319928623243814e-23,
+          3.605594377197835e-08
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          5.2224831883824713e-20,
+          0.00010661034188102169
+        ],
+        [
+          4.6441800474182993e-20,
+          9.481167064987996e-05
+        ],
+        [
+          4.935103760821772e-20,
+          0.00010074033312302328
+        ],
+        [
+          4.7585494666342424e-20,
+          9.713218723999719e-05
+        ],
+        [
+          4.610400288826543e-20,
+          9.413323514561666e-05
+        ],
+        [
+          4.9396586611098743e-20,
+          0.00010085342694312715
+        ],
+        [
+          4.670620815836074e-20,
+          9.53468990070795e-05
+        ],
+        [
+          5.0601298781675e-20,
+          0.00010333178146981405
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          5.226863654957919e-20,
+          0.00010667046090141688
+        ],
+        [
+          4.644708696390166e-20,
+          9.482327285503275e-05
+        ],
+        [
+          4.923945877861009e-20,
+          0.0001005192525392424
+        ],
+        [
+          4.757989059243106e-20,
+          9.711256674564794e-05
+        ],
+        [
+          4.6081206341476906e-20,
+          9.409930292857671e-05
+        ],
+        [
+          4.9322441142569075e-20,
+          0.00010072163935778624
+        ],
+        [
+          4.668089844780308e-20,
+          9.530767806330649e-05
+        ],
+        [
+          5.06496429924865e-20,
+          0.00010342844003575999
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          4.3804665754474266e-23,
+          6.011902039521361e-08
+        ],
+        [
+          5.286489718662873e-24,
+          1.1602205152774132e-08
+        ],
+        [
+          -1.115788296076379e-22,
+          -2.2108058378087286e-07
+        ],
+        [
+          -5.6040739113589324e-24,
+          -1.9620494349248478e-08
+        ],
+        [
+          -2.279654678853051e-23,
+          -3.3932217039960006e-08
+        ],
+        [
+          -7.41454685296718e-23,
+          -1.3178758534091387e-07
+        ],
+        [
+          -2.5309710557662735e-23,
+          -3.9220943773016584e-08
+        ],
+        [
+          4.8344210811495647e-23,
+          9.665856594593182e-08
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.03496545555087579,
+      "signed_relative_imaginary_shift_percent": -0.03496545555087579,
+      "paired_shift_sampling_se_percent_of_current": 0.036376058751857676,
+      "current_relative_sampling_se_percent": 1.6013845412016237,
+      "direct_relative_sampling_se_percent": 1.6088936056265366,
+      "affected_native_8_to_10_net_shift_percent": 0.4409923306362443,
+      "affected_native_10_to_12_net_shift_percent": 0.10914973238693328,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.36463158640528415,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.3745158920316455,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 334,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          4.853533353108657e-20,
+          9.908896987083773e-05
+        ],
+        "sampling_se": [
+          7.831134243789456e-22,
+          1.5964693015166785e-06
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.031289917754521536,
+      "reconstruction_max_absolute_I6_error": 3.595077902617249e-18,
+      "analytic_four_point_addback_I6": [
+        1.4481660674876362e-10,
+        -7.093967756730175e-26
+      ]
+    },
+    {
+      "t": 0.2305,
+      "label": "t0p2305",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2305/pointwise.npz",
+      "source_sha256": "8c5abb98dbc07c65487a8dd224873e2a42b48fdfaaa9f1aa55f37e3a3d8547b3",
+      "source_fingerprint": "2681f6c84173713225c0152ed9fb632991a870dcb9fa769b1a9b3657f8293a31",
+      "changed_sample_count": 329,
+      "changed_by_method": {
+        "native-nome": 306,
+        "native-multinome": 16,
+        "primary-face-nome": 7
+      },
+      "current_mu4_A": {
+        "mean": [
+          8.680600402995169e-20,
+          0.00017721844920430687
+        ],
+        "sampling_se": [
+          1.4113140625764348e-21,
+          2.884790972908984e-06
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          8.677063106603251e-20,
+          0.00017715724712877184
+        ],
+        "sampling_se": [
+          1.4190891738470595e-21,
+          2.897532387555935e-06
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -3.5372963919180687e-23,
+          -6.12020755350168e-08
+        ],
+        "sampling_se": [
+          2.824637575205927e-23,
+          6.321645056501511e-08
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          9.337702572611376e-20,
+          0.00019063378927574093
+        ],
+        [
+          8.306047559212521e-20,
+          0.0001695710364377273
+        ],
+        [
+          8.810496156960411e-20,
+          0.0001798966684747987
+        ],
+        [
+          8.543576734190553e-20,
+          0.00017438786824946958
+        ],
+        [
+          8.243331232323335e-20,
+          0.0001682741699029969
+        ],
+        [
+          8.786952755544995e-20,
+          0.00017940205173049424
+        ],
+        [
+          8.318710051964416e-20,
+          0.00016982326195929222
+        ],
+        [
+          9.097986161153748e-20,
+          0.00018575874760393495
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          9.34292467380226e-20,
+          0.00019074461075782126
+        ],
+        [
+          8.305211786420402e-20,
+          0.00016959631424242247
+        ],
+        [
+          8.791272813916326e-20,
+          0.00017948907250180538
+        ],
+        [
+          8.54072018073265e-20,
+          0.0001743610979727797
+        ],
+        [
+          8.239709706807928e-20,
+          0.0001682156651934487
+        ],
+        [
+          8.777862268866494e-20,
+          0.0001791843770703326
+        ],
+        [
+          8.315112751822983e-20,
+          0.00016976672012106864
+        ],
+        [
+          9.103690670456968e-20,
+          0.00018590011917049595
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          5.22210119088361e-23,
+          1.1082148208033223e-07
+        ],
+        [
+          -8.357727921202781e-24,
+          2.5277804695166124e-08
+        ],
+        [
+          -1.9223343044083675e-22,
+          -4.0759597299332345e-07
+        ],
+        [
+          -2.856553457903763e-23,
+          -2.6770276689881706e-08
+        ],
+        [
+          -3.621525515406421e-23,
+          -5.850470954821033e-08
+        ],
+        [
+          -9.09048667850044e-23,
+          -2.176746601616519e-07
+        ],
+        [
+          -3.597300141433096e-23,
+          -5.654183822355971e-08
+        ],
+        [
+          5.704509303219513e-23,
+          1.4137156656099439e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.03453482174672445,
+      "signed_relative_imaginary_shift_percent": -0.03453482174672445,
+      "paired_shift_sampling_se_percent_of_current": 0.03567148389394595,
+      "current_relative_sampling_se_percent": 1.6278163960137373,
+      "direct_relative_sampling_se_percent": 1.6355709035429864,
+      "affected_native_8_to_10_net_shift_percent": 0.43398442624230243,
+      "affected_native_10_to_12_net_shift_percent": 0.10695125524527282,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.35747609292655425,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.3673130828290632,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 329,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          8.677339154090515e-20,
+          0.00017716413354316535
+        ],
+        "sampling_se": [
+          1.420786206308875e-21,
+          2.9017013811727705e-06
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.03064898794981974,
+      "reconstruction_max_absolute_I6_error": 1.8079161026991037e-17,
+      "analytic_four_point_addback_I6": [
+        2.2850156069036334e-10,
+        -1.1193348195985126e-25
+      ]
+    },
+    {
+      "t": 0.2405,
+      "label": "t0p2405",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2405/pointwise.npz",
+      "source_sha256": "cb6b53715abc090742581b9325c563415f95ce1f953da6a31261ceaa248c675a",
+      "source_fingerprint": "d04a8315bf6bfeb6a624ab924543ffe512d53a706ceab811bb2ff88c921dd51c",
+      "changed_sample_count": 327,
+      "changed_by_method": {
+        "native-nome": 303,
+        "native-multinome": 17,
+        "primary-face-nome": 7
+      },
+      "current_mu4_A": {
+        "mean": [
+          1.3622166987200472e-19,
+          0.00027809029785924507
+        ],
+        "sampling_se": [
+          2.202857241090517e-21,
+          4.494419520400529e-06
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          1.3618011782344709e-19,
+          0.00027799253282286365
+        ],
+        "sampling_se": [
+          2.2154175039806498e-21,
+          4.51549640411612e-06
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -4.15520485576133e-23,
+          -9.77650363814217e-08
+        ],
+        "sampling_se": [
+          4.976491348729618e-23,
+          9.649622356132559e-08
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          1.4646261533181656e-19,
+          0.0002990055020569501
+        ],
+        [
+          1.3057255358122314e-19,
+          0.00026657950460358886
+        ],
+        [
+          1.3790884204827047e-19,
+          0.0002815352292594118
+        ],
+        [
+          1.3386409346506506e-19,
+          0.000273325726981098
+        ],
+        [
+          1.2964734658109147e-19,
+          0.0002646561871953838
+        ],
+        [
+          1.3756165980308846e-19,
+          0.0002808685078726987
+        ],
+        [
+          1.3052709573592927e-19,
+          0.0002664302602386327
+        ],
+        [
+          1.432291524295533e-19,
+          0.00029232146466619697
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          1.4656620967553238e-19,
+          0.00029918380846908574
+        ],
+        [
+          1.3060077041954392e-19,
+          0.000266623223756184
+        ],
+        [
+          1.3757720118118375e-19,
+          0.00028088472491130765
+        ],
+        [
+          1.338450414050373e-19,
+          0.0002732701982081884
+        ],
+        [
+          1.2961024368523047e-19,
+          0.00026457326215476886
+        ],
+        [
+          1.3743568427175073e-19,
+          0.00028056482730846535
+        ],
+        [
+          1.3047392913940413e-19,
+          0.0002663423110424257
+        ],
+        [
+          1.4333186280989414e-19,
+          0.0002924979067324838
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          1.0359434371581385e-22,
+          1.7830641213564626e-07
+        ],
+        [
+          2.821683832079494e-23,
+          4.371915259514836e-08
+        ],
+        [
+          -3.316408670866961e-22,
+          -6.505043481041883e-07
+        ],
+        [
+          -1.9052060027776644e-23,
+          -5.5528772909546494e-08
+        ],
+        [
+          -3.71028958610168e-23,
+          -8.292504061496069e-08
+        ],
+        [
+          -1.2597553133770175e-22,
+          -3.0368056423334573e-07
+        ],
+        [
+          -5.316659652515456e-23,
+          -8.7949196207003e-08
+        ],
+        [
+          1.0271038034083069e-22,
+          1.7644206628687602e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.03515586021303962,
+      "signed_relative_imaginary_shift_percent": -0.03515586021303962,
+      "paired_shift_sampling_se_percent_of_current": 0.03469960092249137,
+      "current_relative_sampling_se_percent": 1.6161727162000352,
+      "direct_relative_sampling_se_percent": 1.6243229119371299,
+      "affected_native_8_to_10_net_shift_percent": 0.4243291563115735,
+      "affected_native_10_to_12_net_shift_percent": 0.10223786162791923,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.34669790707035186,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.3564382210702539,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 327,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          1.361848532962969e-19,
+          0.0002780037576749391
+        ],
+        "sampling_se": [
+          2.2185942669282715e-21,
+          4.522108368401546e-06
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.03111945471388301,
+      "reconstruction_max_absolute_I6_error": 2.2959709086077756e-17,
+      "analytic_four_point_addback_I6": [
+        3.1598831404829603e-10,
+        -1.5478963094688575e-25
+      ]
+    },
+    {
+      "t": 0.2505,
+      "label": "t0p2505",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2505/pointwise.npz",
+      "source_sha256": "9671a7fc1dcadabedd80cfc20dbb25674d4d46dc126963d5443df88abeeb68b6",
+      "source_fingerprint": "456566ab6e7a1ab5421c384e10188492275ef037750b657515b992e389eedfcf",
+      "changed_sample_count": 331,
+      "changed_by_method": {
+        "native-nome": 309,
+        "native-multinome": 16,
+        "primary-face-nome": 6
+      },
+      "current_mu4_A": {
+        "mean": [
+          1.9774373011274357e-19,
+          0.00040369381051754013
+        ],
+        "sampling_se": [
+          3.2585933940797337e-21,
+          6.646319683476613e-06
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          1.976985301880315e-19,
+          0.0004035849522058419
+        ],
+        "sampling_se": [
+          3.280981810559816e-21,
+          6.6822417894371664e-06
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -4.5199924712097367e-23,
+          -1.0885831169821308e-07
+        ],
+        "sampling_se": [
+          5.401407265875343e-23,
+          1.078645046763174e-07
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          2.1246285169629096e-19,
+          0.0004337624684948578
+        ],
+        [
+          1.8971197965687123e-19,
+          0.0003872684535265223
+        ],
+        [
+          1.997385203501696e-19,
+          0.0004076872026220887
+        ],
+        [
+          1.9424732017440018e-19,
+          0.0003965108346794528
+        ],
+        [
+          1.8826923113300854e-19,
+          0.0003844372753349451
+        ],
+        [
+          1.9873533508813822e-19,
+          0.00040575654571717307
+        ],
+        [
+          1.8936529988595142e-19,
+          0.0003866374301428884
+        ],
+        [
+          2.0941930291711853e-19,
+          0.00042749027362239274
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          2.1262042679066434e-19,
+          0.0004340259281299143
+        ],
+        [
+          1.8972000192446455e-19,
+          0.00038734206188806465
+        ],
+        [
+          1.9941997873984444e-19,
+          0.0004070689662493518
+        ],
+        [
+          1.9419229821125514e-19,
+          0.00039639855496770375
+        ],
+        [
+          1.8823547807234717e-19,
+          0.000384328831085099
+        ],
+        [
+          1.9856613583591545e-19,
+          0.00040529933511297423
+        ],
+        [
+          1.892915950685087e-19,
+          0.0003865203024537635
+        ],
+        [
+          2.095423268612521e-19,
+          0.0004276956377598641
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          1.5757509437338426e-22,
+          2.634596350564568e-07
+        ],
+        [
+          8.022267593366389e-24,
+          7.360836154235164e-08
+        ],
+        [
+          -3.185416103251594e-22,
+          -6.18236372736912e-07
+        ],
+        [
+          -5.502196314505565e-23,
+          -1.122797117490735e-07
+        ],
+        [
+          -3.375306066138011e-23,
+          -1.0844424984610181e-07
+        ],
+        [
+          -1.691992522227601e-22,
+          -4.572106041988676e-07
+        ],
+        [
+          -7.370481744273743e-23,
+          -1.1712768912491025e-07
+        ],
+        [
+          1.2302394413356314e-22,
+          2.0536413747135198e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.02696556371737666,
+      "signed_relative_imaginary_shift_percent": -0.02696556371737666,
+      "paired_shift_sampling_se_percent_of_current": 0.026719385302943797,
+      "current_relative_sampling_se_percent": 1.6463764145791473,
+      "direct_relative_sampling_se_percent": 1.6557212435484954,
+      "affected_native_8_to_10_net_shift_percent": 0.40156162131452705,
+      "affected_native_10_to_12_net_shift_percent": 0.1056001803811613,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.32437861881540136,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.3335314109777745,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 331,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          1.977051732111243e-19,
+          0.00040359786334396956
+        ],
+        "sampling_se": [
+          3.285822116373375e-21,
+          6.692015877906955e-06
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.02376731351108218,
+      "reconstruction_max_absolute_I6_error": 2.674462845479353e-17,
+      "analytic_four_point_addback_I6": [
+        4.031489874274155e-10,
+        -1.9748604681299238e-25
+      ]
+    },
+    {
+      "t": 0.2655,
+      "label": "t0p2655",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2655/pointwise.npz",
+      "source_sha256": "6f37b5e1370a4dce3cc8919504b9a64f5ddf35b13db0ff3580f996402edc16aa",
+      "source_fingerprint": "c38a5127c69c1d3c30b295787d5828066557a4c13b115ea1ebb1c075e0672e14",
+      "changed_sample_count": 334,
+      "changed_by_method": {
+        "native-nome": 308,
+        "native-multinome": 20,
+        "primary-face-nome": 6
+      },
+      "current_mu4_A": {
+        "mean": [
+          3.1254099026044943e-19,
+          0.0006379886432558955
+        ],
+        "sampling_se": [
+          5.141257436714748e-21,
+          1.049280062582988e-05
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          3.1245663855690525e-19,
+          0.0006378333385771264
+        ],
+        "sampling_se": [
+          5.161807111333362e-21,
+          1.0543400968878042e-05
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -8.435170354417383e-23,
+          -1.5530467876920727e-07
+        ],
+        "sampling_se": [
+          7.719403035672939e-23,
+          1.640991939378699e-07
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          3.3566957973236305e-19,
+          0.0006850837836679533
+        ],
+        [
+          2.993991294971378e-19,
+          0.0006112445543536749
+        ],
+        [
+          3.1515990924659113e-19,
+          0.0006433210231243198
+        ],
+        [
+          3.06918908824807e-19,
+          0.0006266137114867435
+        ],
+        [
+          2.9871549951445254e-19,
+          0.0006098014772405482
+        ],
+        [
+          3.1324646047100556e-19,
+          0.0006393077907578038
+        ],
+        [
+          2.9942828788304133e-19,
+          0.0006111067734251583
+        ],
+        [
+          3.3179014691419714e-19,
+          0.0006774300319909627
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          3.358033456015345e-19,
+          0.0006855082464272785
+        ],
+        [
+          2.994822387581428e-19,
+          0.0006113860504965505
+        ],
+        [
+          3.146520561116673e-19,
+          0.0006422459806942405
+        ],
+        [
+          3.067527345176123e-19,
+          0.0006263759339434752
+        ],
+        [
+          2.9864894318036526e-19,
+          0.0006096627167875161
+        ],
+        [
+          3.1301483576753987e-19,
+          0.0006388607050001421
+        ],
+        [
+          2.9937115554796526e-19,
+          0.0006109712204279238
+        ],
+        [
+          3.319277989704149e-19,
+          0.0006776558548398844
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          1.337658691713889e-22,
+          4.2446275932509493e-07
+        ],
+        [
+          8.310926100498363e-23,
+          1.4149614287561038e-07
+        ],
+        [
+          -5.078531349238353e-22,
+          -1.0750424300794102e-06
+        ],
+        [
+          -1.661743071947216e-22,
+          -2.3777754326828825e-07
+        ],
+        [
+          -6.655633408733595e-23,
+          -1.3876045303199755e-07
+        ],
+        [
+          -2.316247034656745e-22,
+          -4.470857576616444e-07
+        ],
+        [
+          -5.713233507598265e-23,
+          -1.35552997234558e-07
+        ],
+        [
+          1.3765205621778687e-22,
+          2.2582284892153492e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.024342859455401777,
+      "signed_relative_imaginary_shift_percent": -0.024342859455401777,
+      "paired_shift_sampling_se_percent_of_current": 0.025721334646399047,
+      "current_relative_sampling_se_percent": 1.6446688725180407,
+      "direct_relative_sampling_se_percent": 1.6530024900232054,
+      "affected_native_8_to_10_net_shift_percent": 0.3929037833384691,
+      "affected_native_10_to_12_net_shift_percent": 0.10321769159126723,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.3135081444114588,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.32219360938741093,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 333,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          3.124651594908105e-19,
+          0.0006378522517956589
+        ],
+        "sampling_se": [
+          5.169331362644853e-21,
+          1.0558373695124027e-05
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.02137835237012665,
+      "reconstruction_max_absolute_I6_error": 4.959597646703653e-17,
+      "analytic_four_point_addback_I6": [
+        5.239191798978962e-10,
+        -2.5664637866954594e-25
+      ]
+    },
+    {
+      "t": 0.2755,
+      "label": "t0p2755",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2755/pointwise.npz",
+      "source_sha256": "7c03982ff6eac5548b4c2a9c6c39ef8711f4f8da3649b6d93fcf6fbb3b3f0348",
+      "source_fingerprint": "d1ce3a1e9239d901f7d14dcccea79b18a7e4cbe6bcb35b7fe7fbdd78d3acaeb0",
+      "changed_sample_count": 333,
+      "changed_by_method": {
+        "native-nome": 305,
+        "native-multinome": 22,
+        "primary-face-nome": 6
+      },
+      "current_mu4_A": {
+        "mean": [
+          4.037505378775221e-19,
+          0.0008242505041095173
+        ],
+        "sampling_se": [
+          6.512678689750008e-21,
+          1.327920050558065e-05
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          4.036471879341619e-19,
+          0.0008240684254401717
+        ],
+        "sampling_se": [
+          6.544978531211076e-21,
+          1.3338451531812604e-05
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -1.0334994336024716e-22,
+          -1.820786693456218e-07
+        ],
+        "sampling_se": [
+          1.124998729808392e-22,
+          2.1365249713252155e-07
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          4.3280881284619333e-19,
+          0.0008834555122066331
+        ],
+        [
+          3.8737237380431635e-19,
+          0.0007909242274267277
+        ],
+        [
+          4.0649484743114895e-19,
+          0.0008296800990658231
+        ],
+        [
+          3.957414661514606e-19,
+          0.0008080999104850322
+        ],
+        [
+          3.863323129176587e-19,
+          0.0007886948373189411
+        ],
+        [
+          4.046104455994e-19,
+          0.0008260446818852423
+        ],
+        [
+          3.877671676960431e-19,
+          0.0007915511261068268
+        ],
+        [
+          4.2887687657395605e-19,
+          0.0008755536383809118
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          4.3312967187051967e-19,
+          0.0008840320863222136
+        ],
+        [
+          3.874454401746232e-19,
+          0.0007911230853488786
+        ],
+        [
+          4.0570209124447904e-19,
+          0.0008282177492293964
+        ],
+        [
+          3.955888089565724e-19,
+          0.0008077888553258586
+        ],
+        [
+          3.8621162486373037e-19,
+          0.0007885860581323738
+        ],
+        [
+          4.0450582057980796e-19,
+          0.0008256712190863104
+        ],
+        [
+          3.8768142159333627e-19,
+          0.0007913858809183915
+        ],
+        [
+          4.2891262419022627e-19,
+          0.0008757424691579504
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          3.2085902432636554e-22,
+          5.765741155803945e-07
+        ],
+        [
+          7.306637030679359e-23,
+          1.9885792215089537e-07
+        ],
+        [
+          -7.927561866698678e-22,
+          -1.4623498364265504e-06
+        ],
+        [
+          -1.5265719488815826e-22,
+          -3.110551591735309e-07
+        ],
+        [
+          -1.2068805392834063e-22,
+          -1.0877918656731891e-07
+        ],
+        [
+          -1.0462501959205337e-22,
+          -3.73462798932161e-07
+        ],
+        [
+          -8.574610270685775e-23,
+          -1.6524518843534697e-07
+        ],
+        [
+          3.574761627014128e-23,
+          1.888307770386438e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.02209021025013886,
+      "signed_relative_imaginary_shift_percent": -0.02209021025013886,
+      "paired_shift_sampling_se_percent_of_current": 0.025920820923651357,
+      "current_relative_sampling_se_percent": 1.6110636802008262,
+      "direct_relative_sampling_se_percent": 1.6186097076450834,
+      "affected_native_8_to_10_net_shift_percent": 0.38205761649391184,
+      "affected_native_10_to_12_net_shift_percent": 0.10226158724721561,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.306291343495554,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.3149834839771739,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 333,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          4.036584096596435e-19,
+          0.0008240915596774353
+        ],
+        "sampling_se": [
+          6.555688688600277e-21,
+          1.3356905424141057e-05
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.019283510448527486,
+      "reconstruction_max_absolute_I6_error": 4.076752390457722e-17,
+      "analytic_four_point_addback_I6": [
+        5.918127802039029e-10,
+        -2.8990465078848233e-25
+      ]
+    },
+    {
+      "t": 0.2855,
+      "label": "t0p2855",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2855/pointwise.npz",
+      "source_sha256": "c1df845d21312ad487e4477ac83441f2f3c841ce9ffa259bfb039516b796ad10",
+      "source_fingerprint": "414bea0c5b60d3ec2a8890afaa10574a1e5f08a6c2754950fa88b7b603095be0",
+      "changed_sample_count": 328,
+      "changed_by_method": {
+        "native-nome": 300,
+        "native-multinome": 21,
+        "primary-face-nome": 7
+      },
+      "current_mu4_A": {
+        "mean": [
+          5.045038009176205e-19,
+          0.0010298325804223361
+        ],
+        "sampling_se": [
+          7.82203250131978e-21,
+          1.5941415405769853e-05
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          5.043774195889996e-19,
+          0.0010296425463311785
+        ],
+        "sampling_se": [
+          7.854422259831122e-21,
+          1.6020027528544178e-05
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -1.2638132862088847e-22,
+          -1.9003409115767585e-07
+        ],
+        "sampling_se": [
+          1.2083326457325114e-22,
+          2.4300897756387724e-07
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          5.399000522005405e-19,
+          0.0011017853478252355
+        ],
+        [
+          4.862819701833394e-19,
+          0.0009926568817287735
+        ],
+        [
+          5.060353027294174e-19,
+          0.0010329451862613115
+        ],
+        [
+          4.966440508291082e-19,
+          0.001013693094280672
+        ],
+        [
+          4.833509062312176e-19,
+          0.0009867088175557579
+        ],
+        [
+          5.034234615869773e-19,
+          0.0010276509891028016
+        ],
+        [
+          4.850595194990084e-19,
+          0.000990326819097898
+        ],
+        [
+          5.353351440813554e-19,
+          0.0010928935075262395
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          5.402014911392412e-19,
+          0.0011024976290416977
+        ],
+        [
+          4.863664629980824e-19,
+          0.0009929278692240137
+        ],
+        [
+          5.051580089580528e-19,
+          0.0010313012098916085
+        ],
+        [
+          4.964706826427825e-19,
+          0.0010133106761698605
+        ],
+        [
+          4.832199145975968e-19,
+          0.0009864894386987801
+        ],
+        [
+          5.032628095669124e-19,
+          0.0010273926793126949
+        ],
+        [
+          4.849918830549779e-19,
+          0.0009901668399216778
+        ],
+        [
+          5.353481037543514e-19,
+          0.0010930540283890947
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          3.0143893870062133e-22,
+          7.122812164620454e-07
+        ],
+        [
+          8.449281474279693e-23,
+          2.7098749524028836e-07
+        ],
+        [
+          -8.772937713645784e-22,
+          -1.6439763697027936e-06
+        ],
+        [
+          -1.733681863256913e-22,
+          -3.824181108117121e-07
+        ],
+        [
+          -1.3099163362069755e-22,
+          -2.193788569776365e-07
+        ],
+        [
+          -1.6065202006494641e-22,
+          -2.583097901066522e-07
+        ],
+        [
+          -6.763644403055357e-23,
+          -1.599791762202139e-07
+        ],
+        [
+          1.2959672995941229e-23,
+          1.6052086285526745e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.018452911159573388,
+      "signed_relative_imaginary_shift_percent": -0.018452911159573388,
+      "paired_shift_sampling_se_percent_of_current": 0.02359694014188392,
+      "current_relative_sampling_se_percent": 1.54796184436428,
+      "direct_relative_sampling_se_percent": 1.555882435669226,
+      "affected_native_8_to_10_net_shift_percent": 0.34479279545681707,
+      "affected_native_10_to_12_net_shift_percent": 0.07046562988049605,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.28284145282153644,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.29100531361806004,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 328,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          5.04378021830756e-19,
+          0.0010296363299552643
+        ],
+        "sampling_se": [
+          7.86572447015759e-21,
+          1.6041494320359457e-05
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.01905654091768194,
+      "reconstruction_max_absolute_I6_error": 8.923381205423184e-17,
+      "analytic_four_point_addback_I6": [
+        6.453993788010066e-10,
+        -3.1615451336813714e-25
+      ]
+    },
+    {
+      "t": 0.2955,
+      "label": "t0p2955",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p2955/pointwise.npz",
+      "source_sha256": "92665efb7c13b2df705f62d7020e420a49db3eb26f6da996b4644626531ff017",
+      "source_fingerprint": "937ccf0a3559f817e5ae9cf8b5062e9ff0a6c6d86fefc888c47077c54b1bb1a1",
+      "changed_sample_count": 320,
+      "changed_by_method": {
+        "native-nome": 293,
+        "native-multinome": 22,
+        "primary-face-nome": 5
+      },
+      "current_mu4_A": {
+        "mean": [
+          6.123727462675772e-19,
+          0.0012500556475702703
+        ],
+        "sampling_se": [
+          9.287281013421396e-21,
+          1.897713057992999e-05
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          6.122740152380377e-19,
+          0.0012498459735690395
+        ],
+        "sampling_se": [
+          9.337381343185124e-21,
+          1.9071897374431055e-05
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -9.873102953934176e-23,
+          -2.0967400123083337e-07
+        ],
+        "sampling_se": [
+          1.6501210027485694e-22,
+          3.1809159288455906e-07
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          6.531803934284794e-19,
+          0.0013333705690875828
+        ],
+        [
+          5.915060877036773e-19,
+          0.0012074565634808323
+        ],
+        [
+          6.128096986274664e-19,
+          0.001250939668149131
+        ],
+        [
+          6.024728331702632e-19,
+          0.001229708359391429
+        ],
+        [
+          5.870977489706872e-19,
+          0.0011984467457537657
+        ],
+        [
+          6.112743790550809e-19,
+          0.0012478186760635766
+        ],
+        [
+          5.897838996700188e-19,
+          0.0012039148629645437
+        ],
+        [
+          6.508569295149434e-19,
+          0.0013287897356713016
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          6.536496406026419e-19,
+          0.001334267684529515
+        ],
+        [
+          5.916468296470053e-19,
+          0.001207825512391347
+        ],
+        [
+          6.11665127932732e-19,
+          0.0012487515280709017
+        ],
+        [
+          6.023220517223716e-19,
+          0.0012292928385283727
+        ],
+        [
+          5.870420418206295e-19,
+          0.0011982351064487614
+        ],
+        [
+          6.112568230823609e-19,
+          0.001247723948943029
+        ],
+        [
+          5.89653988762874e-19,
+          0.0012037220306648465
+        ],
+        [
+          6.509556183336864e-19,
+          0.0013289491389755423
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          4.69247174162428e-22,
+          8.971154419325558e-07
+        ],
+        [
+          1.4074194332812656e-22,
+          3.689489105148563e-07
+        ],
+        [
+          -1.1445706947343488e-21,
+          -2.1881400782293424e-06
+        ],
+        [
+          -1.5078144789152147e-22,
+          -4.155208630564819e-07
+        ],
+        [
+          -5.570715005767312e-23,
+          -2.116393050043563e-07
+        ],
+        [
+          -1.7555972720051043e-23,
+          -9.472712054729968e-08
+        ],
+        [
+          -1.2991090714469155e-22,
+          -1.9283229969733881e-07
+        ],
+        [
+          9.868881874299737e-23,
+          1.5940330424074027e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.016773173389390796,
+      "signed_relative_imaginary_shift_percent": -0.016773173389390796,
+      "paired_shift_sampling_se_percent_of_current": 0.02544619461564234,
+      "current_relative_sampling_se_percent": 1.5181028634057843,
+      "direct_relative_sampling_se_percent": 1.5259398180057069,
+      "affected_native_8_to_10_net_shift_percent": 0.3442204027711626,
+      "affected_native_10_to_12_net_shift_percent": 0.07366721653572236,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.2767560672437026,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.28515420490113375,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 320,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          6.122560495612983e-19,
+          0.0012498153014803407
+        ],
+        "sampling_se": [
+          9.337781993296171e-21,
+          1.907218592252825e-05
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.01922683125321726,
+      "reconstruction_max_absolute_I6_error": 7.806642224754909e-17,
+      "analytic_four_point_addback_I6": [
+        6.818012491427239e-10,
+        -3.3398628696692154e-25
+      ]
+    },
+    {
+      "t": 0.3055,
+      "label": "t0p3055",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p3055/pointwise.npz",
+      "source_sha256": "f014393b1211e6f6163fdb3da1658a52506b9f97aa3bf58f9115f63ea28dc367",
+      "source_fingerprint": "84cf64f7c45a8c66b705d0d5323c59c66d006376f96a25c0eeb7225bd4123bd2",
+      "changed_sample_count": 320,
+      "changed_by_method": {
+        "native-nome": 292,
+        "native-multinome": 22,
+        "primary-face-nome": 6
+      },
+      "current_mu4_A": {
+        "mean": [
+          7.224068257451483e-19,
+          0.0014747983996838201
+        ],
+        "sampling_se": [
+          1.1135121691269333e-20,
+          2.2699540299028998e-05
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          7.223714246336491e-19,
+          0.0014746645427797835
+        ],
+        "sampling_se": [
+          1.1222826666917116e-20,
+          2.28592949304738e-05
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -3.540111149926772e-23,
+          -1.3385690403673373e-07
+        ],
+        "sampling_se": [
+          2.0551361198476407e-22,
+          4.089102543139451e-07
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          7.697185337787856e-19,
+          0.001571356429043286
+        ],
+        [
+          6.999136054141807e-19,
+          0.0014291301942570183
+        ],
+        [
+          7.215111400574149e-19,
+          0.0014725075423139007
+        ],
+        [
+          7.100549908270666e-19,
+          0.0014497133072483442
+        ],
+        [
+          6.925579667652225e-19,
+          0.0014137405343476067
+        ],
+        [
+          7.188187498074532e-19,
+          0.0014676979799032595
+        ],
+        [
+          6.952419707264974e-19,
+          0.0014195432800099507
+        ],
+        [
+          7.714376485845651e-19,
+          0.001574697930347196
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          7.704187019819619e-19,
+          0.0015724129052980958
+        ],
+        [
+          7.001604388589757e-19,
+          0.0014296050550192732
+        ],
+        [
+          7.202445933429309e-19,
+          0.001469813111015625
+        ],
+        [
+          7.098022389359996e-19,
+          0.0014492921542991742
+        ],
+        [
+          6.9246547511947e-19,
+          0.001413523549000978
+        ],
+        [
+          7.189550091368493e-19,
+          0.0014678233504432378
+        ],
+        [
+          6.951423310091416e-19,
+          0.0014193547716667087
+        ],
+        [
+          7.717826086838627e-19,
+          0.0015754914454951753
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          7.001682031763994e-22,
+          1.0564762548099988e-06
+        ],
+        [
+          2.4683344479505904e-22,
+          4.748607622550067e-07
+        ],
+        [
+          -1.2665467144839831e-21,
+          -2.694431298275814e-06
+        ],
+        [
+          -2.5275189106698694e-22,
+          -4.211529491700616e-07
+        ],
+        [
+          -9.249164575261337e-23,
+          -2.16985346628758e-07
+        ],
+        [
+          1.3625932939616151e-22,
+          1.2537053997835793e-07
+        ],
+        [
+          -9.963971735575597e-23,
+          -1.8850834324167143e-07
+        ],
+        [
+          3.4496009929757773e-22,
+          7.935151479790718e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.009076284871575064,
+      "signed_relative_imaginary_shift_percent": -0.009076284871575064,
+      "paired_shift_sampling_se_percent_of_current": 0.02772651871615882,
+      "current_relative_sampling_se_percent": 1.5391622545763217,
+      "direct_relative_sampling_se_percent": 1.550135252278013,
+      "affected_native_8_to_10_net_shift_percent": 0.3171890799187446,
+      "affected_native_10_to_12_net_shift_percent": 0.07462686785442546,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.2658720359887616,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.27287579276496554,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 320,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          7.223664387121188e-19,
+          0.001474645673652006
+        ],
+        "sampling_se": [
+          1.1223473654054525e-20,
+          2.2859608513331767e-05
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.01035572264297156,
+      "reconstruction_max_absolute_I6_error": 8.332172639600812e-17,
+      "analytic_four_point_addback_I6": [
+        6.989412105190986e-10,
+        -3.4238244650175616e-25
+      ]
+    },
+    {
+      "t": 0.3155,
+      "label": "t0p3155",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p3155/pointwise.npz",
+      "source_sha256": "2d289e941c255873fe74157e2a356c2c2204149c4b7d1e06852a384016b35b12",
+      "source_fingerprint": "bbb434ae409b61387e82ecd6b19e90adc2a6a8a157e22d68768ff983c20992c7",
+      "changed_sample_count": 324,
+      "changed_by_method": {
+        "native-nome": 297,
+        "native-multinome": 21,
+        "primary-face-nome": 6
+      },
+      "current_mu4_A": {
+        "mean": [
+          8.289138901476547e-19,
+          0.0016922260188288875
+        ],
+        "sampling_se": [
+          1.2489268377254068e-20,
+          2.5538520190173877e-05
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          8.288454694277855e-19,
+          0.001692074898391845
+        ],
+        "sampling_se": [
+          1.2553053074466103e-20,
+          2.56932487724287e-05
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -6.842071986912483e-23,
+          -1.511204370425759e-07
+        ],
+        "sampling_se": [
+          2.124393682832524e-22,
+          4.858625664126526e-07
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          8.787606772470627e-19,
+          0.001794135978399569
+        ],
+        [
+          8.043734118202596e-19,
+          0.0016417332955325557
+        ],
+        [
+          8.264876576490817e-19,
+          0.001687294913262025
+        ],
+        [
+          8.143321839784791e-19,
+          0.001662202044942794
+        ],
+        [
+          7.9506505770741185e-19,
+          0.0016234552125745725
+        ],
+        [
+          8.2502616511395e-19,
+          0.0016838303615831585
+        ],
+        [
+          7.998415985117255e-19,
+          0.0016330774188124644
+        ],
+        [
+          8.87424369153267e-19,
+          0.0018120789255239617
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          8.792859281059358e-19,
+          0.0017953830283769685
+        ],
+        [
+          8.045845059994569e-19,
+          0.0016422879351657288
+        ],
+        [
+          8.250321802653132e-19,
+          0.0016839999619396968
+        ],
+        [
+          8.142026318450182e-19,
+          0.001661867378107928
+        ],
+        [
+          7.950225723374506e-19,
+          0.0016232660301079686
+        ],
+        [
+          8.252357618398606e-19,
+          0.00168423533510718
+        ],
+        [
+          7.997438244503572e-19,
+          0.001632898438933132
+        ],
+        [
+          8.876563505788915e-19,
+          0.0018126610793961573
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          5.252508588730851e-22,
+          1.2470499773997852e-06
+        ],
+        [
+          2.1109417919724673e-22,
+          5.546396331730275e-07
+        ],
+        [
+          -1.4554773837684856e-21,
+          -3.2949513223280106e-06
+        ],
+        [
+          -1.2955213346075277e-22,
+          -3.3466683486620286e-07
+        ],
+        [
+          -4.248536996119391e-23,
+          -1.891824666040054e-07
+        ],
+        [
+          2.0959672591072562e-22,
+          4.0497352402157947e-07
+        ],
+        [
+          -9.777406136823883e-23,
+          -1.7897987933233416e-07
+        ],
+        [
+          2.3198142562461503e-22,
+          5.82153872195554e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.008930274996431,
+      "signed_relative_imaginary_shift_percent": -0.008930274996431,
+      "paired_shift_sampling_se_percent_of_current": 0.028711446402939482,
+      "current_relative_sampling_se_percent": 1.5091672096997966,
+      "direct_relative_sampling_se_percent": 1.5184463049979446,
+      "affected_native_8_to_10_net_shift_percent": 0.3174895416353642,
+      "affected_native_10_to_12_net_shift_percent": 0.07435750653077931,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.2609281978107845,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.2659016629244338,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 324,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          8.288527745246895e-19,
+          0.0016920705055573587
+        ],
+        "sampling_se": [
+          1.2554868771804434e-20,
+          2.5692965270449587e-05
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.009189864107901796,
+      "reconstruction_max_absolute_I6_error": 5.859363999073184e-17,
+      "analytic_four_point_addback_I6": [
+        6.956560358611464e-10,
+        -3.4077317504995575e-25
+      ]
+    },
+    {
+      "t": 0.3255,
+      "label": "t0p3255",
+      "source": "/Users/yutaizhang/.codex/worktrees/c735/c=1 string/data set/tree_level/sphere_six_point_1to5/yin_selective_2pct_c18_20260913_v1/refined/t0p3255/pointwise.npz",
+      "source_sha256": "3068de69cda2621ef4465a4efb5197991d3d8a6f8a9c369f76930a5f8cf65376",
+      "source_fingerprint": "89812dc07e222aaf102d4c1820c5362c9e32e6a26ff4a1c58103c4bdb340d2e6",
+      "changed_sample_count": 330,
+      "changed_by_method": {
+        "native-nome": 302,
+        "native-multinome": 22,
+        "primary-face-nome": 6
+      },
+      "current_mu4_A": {
+        "mean": [
+          9.237704934028866e-19,
+          0.0018858995122800555
+        ],
+        "sampling_se": [
+          1.3400945943119492e-20,
+          2.728379234980273e-05
+        ]
+      },
+      "direct_plus_four_point_collar_mu4_A": {
+        "mean": [
+          9.237343027018992e-19,
+          0.0018857305812388814
+        ],
+        "sampling_se": [
+          1.3462315003880397e-20,
+          2.745483192070444e-05
+        ]
+      },
+      "paired_shift_mu4_A": {
+        "mean": [
+          -3.619070098733109e-23,
+          -1.689310411739651e-07
+        ],
+        "sampling_se": [
+          2.394605139385519e-22,
+          5.441006408940034e-07
+        ]
+      },
+      "current_replicates_mu4_A": [
+        [
+          9.774355733087995e-19,
+          0.001995237610612532
+        ],
+        [
+          8.965842757022441e-19,
+          0.0018304326333637624
+        ],
+        [
+          9.191420904443458e-19,
+          0.0018766993841189458
+        ],
+        [
+          9.070155918270041e-19,
+          0.0018515786197753816
+        ],
+        [
+          8.90761464701754e-19,
+          0.0018188027571700745
+        ],
+        [
+          9.203334150312667e-19,
+          0.0018788853368869865
+        ],
+        [
+          8.917867621911131e-19,
+          0.0018208034657780211
+        ],
+        [
+          9.87104774016566e-19,
+          0.00201475629053474
+        ]
+      ],
+      "direct_replicates_mu4_A": [
+        [
+          9.779980371772285e-19,
+          0.0019966365496255287
+        ],
+        [
+          8.968075596668164e-19,
+          0.0018307486760177085
+        ],
+        [
+          9.17512749913751e-19,
+          0.0018729563380229864
+        ],
+        [
+          9.069366754407522e-19,
+          0.001851424796997108
+        ],
+        [
+          8.906564938403619e-19,
+          0.001818482159205953
+        ],
+        [
+          9.206071474260368e-19,
+          0.0018794842053663026
+        ],
+        [
+          8.920002446432264e-19,
+          0.0018208537074438076
+        ],
+        [
+          9.873555135070218e-19,
+          0.0020152582172316574
+        ]
+      ],
+      "paired_shift_replicates_mu4_A": [
+        [
+          5.624638684287499e-22,
+          1.3989390129967123e-06
+        ],
+        [
+          2.232839645724238e-22,
+          3.160426539460382e-07
+        ],
+        [
+          -1.6293405305949306e-21,
+          -3.743046095959501e-06
+        ],
+        [
+          -7.891638625186489e-23,
+          -1.5382277827389483e-07
+        ],
+        [
+          -1.0497086139210409e-22,
+          -3.205979641213057e-07
+        ],
+        [
+          2.7373239477008544e-22,
+          5.988684793162561e-07
+        ],
+        [
+          2.1348245211319107e-22,
+          5.024166578650136e-08
+        ],
+        [
+          2.507394904558006e-22,
+          5.019266969174732e-07
+        ]
+      ],
+      "absolute_relative_amplitude_shift_percent": 0.008957584435118031,
+      "signed_relative_imaginary_shift_percent": -0.008957584435118031,
+      "paired_shift_sampling_se_percent_of_current": 0.028850987942416126,
+      "current_relative_sampling_se_percent": 1.446725669747726,
+      "direct_relative_sampling_se_percent": 1.4559254749248034,
+      "affected_native_8_to_10_net_shift_percent": 0.31251443106953675,
+      "affected_native_10_to_12_net_shift_percent": 0.0806628052834369,
+      "affected_native_10_to_12_absolute_sample_shift_percent": 0.25946430528721043,
+      "affected_native_10_to_12_absolute_node_shift_percent": 0.26292550794507114,
+      "restored_samples_failing_original_0p25pct_native_prefix_gate": 330,
+      "keep_pointwise_four_point_completions_mu4_A": {
+        "mean": [
+          9.23738280764755e-19,
+          0.001885741920100025
+        ],
+        "sampling_se": [
+          1.346251352159111e-20,
+          2.7453312865674706e-05
+        ]
+      },
+      "keep_pointwise_four_point_completions_relative_shift_percent": 0.008356340250588215,
+      "reconstruction_max_absolute_I6_error": 3.371852047381545e-17,
+      "analytic_four_point_addback_I6": [
+        6.71670685324984e-10,
+        -3.2902374194574027e-25
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "sphere_1to4_worldsheet_30point_quadratic_fit_frozen_for_separate_comparison",
+  "artifact": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/sphere_five_point_1to4/blind30_20260824/worldsheet_quadratic_fit_30point_frozen.json",
+  "sha256": "5e165ec33cdbd721af8ce5550212315eb41a07323bad42b7bd83ae7f51e61907",
+  "frozen_on": "2026-08-24",
+  "point_count": 30,
+  "primary_point_count": 29,
+  "target_information_used": false
+}

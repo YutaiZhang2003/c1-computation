@@ -1,0 +1,10 @@
+{
+  "policy": "conditional-boundary-blocks-v1",
+  "relative_tolerance": 0.0025,
+  "momentum_tolerance": 0.0025,
+  "minimum_native_order": 12,
+  "elliptic_orders": [8, 12],
+  "dps": 60,
+  "maximum_nome_radius": 0.1,
+  "momentum_controls": null
+}

@@ -1,0 +1,31 @@
+{
+  "status": "finite_band_completed_deep_tail_and_systematics_not_closed",
+  "full_free_energy_available": false,
+  "certified": false,
+  "remaining_residual_region": "0 < |Omega12| < 0.00001",
+  "uncertainty_scope": "Empirical independent-scramble covariance only; no missing term or systematic replaced by zero.",
+  "error_budget": [
+    {
+      "component": "Monte Carlo",
+      "status": "estimated",
+      "scope": "complete independent scramble curves; covariance retained"
+    },
+    {
+      "component": "Remaining deep residual",
+      "status": "unbounded",
+      "region": "0 < |Omega12| < 0.00001"
+    },
+    {
+      "component": "Primary control",
+      "status": "order sensitivity computed separately; not a uniform bound"
+    },
+    {
+      "component": "Current bulk CFT/period/scalar",
+      "status": "no complete validated global error bound"
+    },
+    {
+      "component": "Absolute measure prescription",
+      "status": "BRY-v7 adopted unchanged; independent derivation not supplied by these checks"
+    }
+  ]
+}

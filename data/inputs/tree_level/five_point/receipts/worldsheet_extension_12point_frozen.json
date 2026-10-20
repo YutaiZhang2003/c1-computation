@@ -1,0 +1,22 @@
+{
+  "status": "sphere_1to4_worldsheet_extension_frozen_before_external_comparison",
+  "artifact": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/sphere_five_point_1to4/blind30_20260824/worldsheet_extension_12point.json",
+  "sha256": "be9af08cbd871f727ef6068167fb27467f18428013eaa6a9b9d2fee8e03c584c",
+  "frozen_on": "2026-08-24",
+  "point_count": 12,
+  "t_values": [
+    0.19,
+    0.21,
+    0.23,
+    0.27,
+    0.29,
+    0.31,
+    0.33,
+    0.35,
+    0.37,
+    0.39,
+    0.44,
+    0.47
+  ],
+  "matrix_model_information_used": false
+}

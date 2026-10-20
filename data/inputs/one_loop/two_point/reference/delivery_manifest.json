@@ -1,0 +1,7 @@
+{
+  "format": "thermal-one-loop-two-point-delivery-v1",
+  "files": {
+    "one_loop_1to1_R.csv": "8c8e07934a9e6be68f40ab144c8ce5781f46ce6cd97515d2cebf7896f1e13434",
+    "one_loop_amplitudes_R.json": "954686c7594c2faf1f11252e653fadc5aaf49594736f230b95e761372559eeb0"
+  }
+}

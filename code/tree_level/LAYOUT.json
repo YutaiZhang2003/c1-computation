@@ -1,0 +1,1446 @@
+{
+  "version": "consolidated-source-only-v1",
+  "module_map": {
+    "sphere_five_point_30point_worldsheet_fit": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_worldsheet_fit.py",
+    "evaluation": "code/one_loop/three_point/liouville_integration/thermal/evaluation.py",
+    "replot_sphere_six_direct_series": "code/figures/replot_sphere_six_direct_series.py",
+    "genus1_amplitude_curve": "code/one_loop/three_point/other_scripts/genus1_amplitude_curve.py",
+    "paired_quadrature": "code/one_loop/three_point/liouville_integration/thermal/paired_quadrature.py",
+    "six_point_assemble_curve_amplitudes": "code/tree_level/six_point/moduli_integration/six_point_assemble_curve_amplitudes.py",
+    "project": "code/one_loop/genus1/project.py",
+    "genus1_boundary_batch": "code/one_loop/three_point/moduli_integration/genus1_boundary_batch.py",
+    "export_current_convention_results": "code/figures/export_current_convention_results.py",
+    "virasoro_plumbing_graph": "code/general/virasoro/virasoro_plumbing_graph.py",
+    "liouville_genus2": "code/two_loop/liouville_integration/liouville_genus2.py",
+    "plot_genus2_absolute_bry_checks": "code/two_loop/other_scripts/checks/plot_genus2_absolute_bry_checks.py",
+    "genus1_boundary_cubature": "code/one_loop/three_point/moduli_integration/genus1_boundary_cubature.py",
+    "genus1_final_curve_plan": "code/one_loop/three_point/other_scripts/genus1_final_curve_plan.py",
+    "torus_two_point_blocks_checks": "code/one_loop/two_point/other_scripts/checks/torus_two_point_blocks_checks.py",
+    "genus1_two_point_worldsheet": "code/one_loop/two_point/liouville_integration/genus1_two_point_worldsheet.py",
+    "genus2_separating_tail_checks": "code/two_loop/other_scripts/checks/genus2_separating_tail_checks.py",
+    "genus1_moduli_panel_campaign": "code/one_loop/three_point/other_scripts/genus1_moduli_panel_campaign.py",
+    "genus2_tail_completion_checks": "code/two_loop/other_scripts/checks/genus2_tail_completion_checks.py",
+    "audit_genus2_g_convention": "code/two_loop/other_scripts/audit_genus2_g_convention.py",
+    "c1_observables": "code/general/conventions/c1_observables.py",
+    "liouville_torus": "code/general/liouville/liouville_torus.py",
+    "sphere_five_point_30point_checks": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_checks.py",
+    "verify_saved_c14_continuation_inputs": "code/tree_level/six_point/production/verify_saved_c14_continuation_inputs.py",
+    "plot_genus1_two_point_hybrid_recursion": "code/one_loop/two_point/other_scripts/plot_genus1_two_point_hybrid_recursion.py",
+    "genus1_fresh_analytic": "code/one_loop/three_point/other_scripts/genus1_fresh_analytic.py",
+    "six_point_run_frozen_radial_worker": "code/tree_level/six_point/production/six_point_run_frozen_radial_worker.py",
+    "genus1_compact_replay": "code/one_loop/three_point/other_scripts/genus1_compact_replay.py",
+    "six_point_refinement": "code/tree_level/six_point/production/six_point_refinement.py",
+    "genus1_nonseparating": "code/one_loop/three_point/moduli_integration/genus1_nonseparating.py",
+    "six_point_compare_momentum_quadratures": "code/tree_level/six_point/liouville_integration/six_point_compare_momentum_quadratures.py",
+    "genus2_period_table_grid": "code/two_loop/geometry/genus2_period_table_grid.py",
+    "genus2_separating_production": "code/two_loop/other_scripts/genus2_separating_production.py",
+    "genus1_native_bank": "code/one_loop/three_point/liouville_integration/genus1_native_bank.py",
+    "six_point_collar_counterterm_geometry": "code/tree_level/six_point/moduli_integration/six_point_collar_counterterm_geometry.py",
+    "free_boson_pair_of_pants": "code/general/scalar/free_boson_pair_of_pants.py",
+    "genus1_projection_preparation": "code/one_loop/three_point/liouville_integration/genus1_projection_preparation.py",
+    "genus3_plumbing_channels": "code/general/geometry/genus3_plumbing_channels.py",
+    "genus1_collision_elliptic": "code/one_loop/three_point/conformal_block/genus1_collision_elliptic.py",
+    "genus1_three_point_c_recursion_checks": "code/one_loop/three_point/other_scripts/checks/genus1_three_point_c_recursion_checks.py",
+    "genus1_primary_moduli_refinement": "code/one_loop/three_point/other_scripts/genus1_primary_moduli_refinement.py",
+    "ccy_genus2_glasses_block_checks": "code/two_loop/other_scripts/checks/ccy_genus2_glasses_block_checks.py",
+    "genus1_pair_collar": "code/one_loop/three_point/moduli_integration/genus1_pair_collar.py",
+    "plot_thermal_one_loop_radius": "code/figures/plot_thermal_one_loop_radius.py",
+    "bolza_ccy_recursion": "code/two_loop/geometry/bolza_ccy_recursion.py",
+    "fit_genus1_two_point_bry_scan": "code/one_loop/two_point/other_scripts/fit_genus1_two_point_bry_scan.py",
+    "remainders": "code/one_loop/three_point/moduli_integration/thermal/remainders.py",
+    "five_point_moduli_integration": "code/tree_level/five_point/moduli_integration/five_point_moduli_integration.py",
+    "virasoro_blocks": "code/general/virasoro/virasoro_blocks.py",
+    "genus2_c1_string_integrand_checks": "code/two_loop/other_scripts/checks/genus2_c1_string_integrand_checks.py",
+    "bolza_torus_plumbing_reach": "code/two_loop/geometry/bolza_torus_plumbing_reach.py",
+    "genus2_integrand_normalization": "code/general/conventions/genus2_integrand_normalization.py",
+    "virasoro_descendant_algebra": "code/general/virasoro/virasoro_descendant_algebra.py",
+    "genus2_tail_precision_checks": "code/two_loop/other_scripts/checks/genus2_tail_precision_checks.py",
+    "genus2_moduli_estimation": "code/two_loop/moduli_integration/genus2_moduli_estimation.py",
+    "recover_native_q_results": "code/general/recovery/recover_native_q_results.py",
+    "liouville_genus2_modular_check": "code/two_loop/geometry/liouville_genus2_modular_check.py",
+    "genus2_calibrated_schottky": "code/two_loop/geometry/genus2_calibrated_schottky.py",
+    "thermal_cut_rule": "code/one_loop/three_point/liouville_integration/thermal/thermal_cut_rule.py",
+    "free_boson_plumbing": "code/general/scalar/free_boson_plumbing.py",
+    "genus1_collision_sampling": "code/one_loop/three_point/moduli_integration/genus1_collision_sampling.py",
+    "sphere_five_point_30point_audit_summary": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_audit_summary.py",
+    "genus2_vacuum_blocks": "code/general/virasoro/genus2_vacuum_blocks.py",
+    "genus1_two_point_thermal_integration": "code/one_loop/two_point/moduli_integration/genus1_two_point_thermal_integration.py",
+    "six_point_boundary_strata": "code/tree_level/six_point/moduli_integration/six_point_boundary_strata.py",
+    "genus1_projection_momentum": "code/one_loop/three_point/liouville_integration/genus1_projection_momentum.py",
+    "conformal_frame_labels": "code/general/geometry/conformal_frame_labels.py",
+    "plot_genus2_absolute_bry": "code/two_loop/other_scripts/plot_genus2_absolute_bry.py",
+    "reference_campaign": "code/one_loop/three_point/other_scripts/thermal/reference_campaign.py",
+    "dispatch_shared_refinement_queue": "code/tree_level/six_point/production/dispatch_shared_refinement_queue.py",
+    "genus2_siegel_fundamental_domain": "code/two_loop/moduli_integration/genus2_siegel_fundamental_domain.py",
+    "plumbing_algorithms": "code/general/geometry/plumbing_algorithms.py",
+    "genus1_integrated_scale_collar": "code/one_loop/three_point/moduli_integration/genus1_integrated_scale_collar.py",
+    "plot_thermal_tree_radius": "code/figures/plot_thermal_tree_radius.py",
+    "sphere_five_point_imaginary_ray_fit": "code/tree_level/five_point/other_scripts/sphere_five_point_imaginary_ray_fit.py",
+    "six_point_block_coefficient_provider": "code/tree_level/six_point/conformal_block/six_point_block_coefficient_provider.py",
+    "genus1_pair_cell_refinement": "code/one_loop/three_point/other_scripts/genus1_pair_cell_refinement.py",
+    "sphere_five_point_30point_matrix_comparison": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_matrix_comparison.py",
+    "integrate_genus1_two_point_worldsheet": "code/one_loop/two_point/moduli_integration/integrate_genus1_two_point_worldsheet.py",
+    "genus1_comb_collar": "code/one_loop/three_point/moduli_integration/genus1_comb_collar.py",
+    "six_point_reuse_saved_coefficients": "code/tree_level/six_point/liouville_integration/six_point_reuse_saved_coefficients.py",
+    "ccy_plumbing_conventions": "code/general/geometry/ccy_plumbing_conventions.py",
+    "audit_q_to_omega_accuracy": "code/two_loop/geometry/audit_q_to_omega_accuracy.py",
+    "genus2_moduli_production": "code/two_loop/other_scripts/genus2_moduli_production.py",
+    "c1_matrix_model": "code/general/conventions/c1_matrix_model.py",
+    "genus1_two_point_thermal_report": "code/one_loop/two_point/other_scripts/genus1_two_point_thermal_report.py",
+    "genus1_two_point_worldsheet_checks": "code/one_loop/two_point/other_scripts/checks/genus1_two_point_worldsheet_checks.py",
+    "genus1_moduli_stability_curve": "code/one_loop/three_point/other_scripts/genus1_moduli_stability_curve.py",
+    "genus1_primary_first_production": "code/one_loop/three_point/other_scripts/genus1_primary_first_production.py",
+    "six_point_arbitrary_precision_c_recursion": "code/tree_level/six_point/conformal_block/six_point_arbitrary_precision_c_recursion.py",
+    "genus1_collar_mp_arithmetic": "code/one_loop/three_point/liouville_integration/genus1_collar_mp_arithmetic.py",
+    "genus1_upper_pair_refinement": "code/one_loop/three_point/other_scripts/genus1_upper_pair_refinement.py",
+    "five_point_virasoro_block_recursion": "code/tree_level/five_point/conformal_block/five_point_virasoro_block_recursion.py",
+    "genus1_boundary_spectrum": "code/one_loop/three_point/liouville_integration/genus1_boundary_spectrum.py",
+    "run_genus1_two_point_imaginary_scan": "code/one_loop/two_point/other_scripts/run_genus1_two_point_imaginary_scan.py",
+    "six_point_run_frozen_energy_worker": "code/tree_level/six_point/production/six_point_run_frozen_energy_worker.py",
+    "genus1_three_point_worldsheet": "code/one_loop/three_point/liouville_integration/genus1_three_point_worldsheet.py",
+    "five_point_liouville_correlator_and_atlas": "code/tree_level/five_point/conformal_block/five_point_liouville_correlator_and_atlas.py",
+    "genus1_moduli_sampling": "code/one_loop/three_point/moduli_integration/genus1_moduli_sampling.py",
+    "momentum_quadrature": "code/tree_level/general/momentum_quadrature.py",
+    "genus1_three_point_collision": "code/one_loop/three_point/moduli_integration/genus1_three_point_collision.py",
+    "genus2_glasses_production_gate": "code/two_loop/other_scripts/genus2_glasses_production_gate.py",
+    "genus1_source_paths": "code/one_loop/three_point/other_scripts/genus1_source_paths.py",
+    "six_point_collar_momentum_quadrature": "code/tree_level/six_point/liouville_integration/six_point_collar_momentum_quadrature.py",
+    "c1_string_conventions": "code/general/conventions/c1_string_conventions.py",
+    "assemble_genus2_tail_completion": "code/two_loop/other_scripts/assemble_genus2_tail_completion.py",
+    "genus2_hybrid_period_map": "code/two_loop/geometry/genus2_hybrid_period_map.py",
+    "torus_primary_low_order": "code/general/virasoro/torus_primary_low_order.py",
+    "ccy_genus2_glasses_block": "code/two_loop/conformal_block/ccy_genus2_glasses_block.py",
+    "genus1_amplitude_report": "code/one_loop/three_point/other_scripts/genus1_amplitude_report.py",
+    "six_point_channel_coordinates": "code/tree_level/six_point/moduli_integration/six_point_channel_coordinates.py",
+    "genus2_moduli_sampling": "code/two_loop/moduli_integration/genus2_moduli_sampling.py",
+    "genus1_cusp_control": "code/one_loop/three_point/moduli_integration/genus1_cusp_control.py",
+    "sphere_five_point_liouville_checks": "code/tree_level/five_point/other_scripts/sphere_five_point_liouville_checks.py",
+    "genus1_native_log_evaluation": "code/one_loop/three_point/conformal_block/genus1_native_log_evaluation.py",
+    "kernels": "code/one_loop/three_point/moduli_integration/thermal/kernels.py",
+    "six_point_momentum_control_proposals": "code/tree_level/six_point/liouville_integration/six_point_momentum_control_proposals.py",
+    "genus1_two_point_coefficient_bank": "code/one_loop/two_point/liouville_integration/genus1_two_point_coefficient_bank.py",
+    "torus_descendant_blocks": "code/general/virasoro/torus_descendant_blocks.py",
+    "torus_three_point_blocks": "code/one_loop/three_point/conformal_block/torus_three_point_blocks.py",
+    "genus2_separating_residual_retry": "code/two_loop/other_scripts/genus2_separating_residual_retry.py",
+    "genus2_liouville_evaluation": "code/two_loop/liouville_integration/genus2_liouville_evaluation.py",
+    "sphere_four_point_c25": "code/general/virasoro/sphere_four_point_c25.py",
+    "genus1_production_support": "code/one_loop/three_point/other_scripts/genus1_production_support.py",
+    "six_point_deduplicate_momentum_nodes": "code/tree_level/six_point/liouville_integration/six_point_deduplicate_momentum_nodes.py",
+    "assemble_genus2_resolved_production": "code/two_loop/other_scripts/assemble_genus2_resolved_production.py",
+    "six_point_select_integration_channels": "code/tree_level/six_point/conformal_block/six_point_select_integration_channels.py",
+    "tree_level_source_compatibility": "code/tree_level/general/tree_level_source_compatibility.py",
+    "six_point_refinement_assembly": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "c1_paths": "code/general/io/c1_paths.py",
+    "genus1_rebuild_policy": "code/one_loop/three_point/other_scripts/genus1_rebuild_policy.py",
+    "genus2_scalar_evaluation": "code/two_loop/moduli_integration/genus2_scalar_evaluation.py",
+    "genus2_c1_string_integrand": "code/two_loop/moduli_integration/genus2_c1_string_integrand.py",
+    "genus2_separating_tail": "code/two_loop/moduli_integration/genus2_separating_tail.py",
+    "sphere_mobius_geometry": "code/tree_level/general/sphere_mobius_geometry.py",
+    "six_point_radial_sampling_distribution": "code/tree_level/six_point/moduli_integration/six_point_radial_sampling_distribution.py",
+    "torus_two_point_blocks": "code/one_loop/two_point/conformal_block/torus_two_point_blocks.py",
+    "six_point_measure_block_convergence": "code/tree_level/six_point/conformal_block/six_point_measure_block_convergence.py",
+    "torus_c_recursion_numerics": "code/one_loop/three_point/conformal_block/torus_c_recursion_numerics.py",
+    "ccy_sphere_five_point_checks": "code/tree_level/five_point/other_scripts/ccy_sphere_five_point_checks.py",
+    "six_point_collar_block_evaluator": "code/tree_level/six_point/conformal_block/six_point_collar_block_evaluator.py",
+    "six_point_endpoint_and_tail_quadrature": "code/tree_level/six_point/liouville_integration/six_point_endpoint_and_tail_quadrature.py",
+    "six_point_integrate_collar_patch": "code/tree_level/six_point/moduli_integration/six_point_integrate_collar_patch.py",
+    "six_point_analyze_quadrature_and_order_controls": "code/tree_level/six_point/liouville_integration/six_point_analyze_quadrature_and_order_controls.py",
+    "export_sphere_five_point_t_axis_plot_data": "code/tree_level/five_point/other_scripts/export_sphere_five_point_t_axis_plot_data.py",
+    "genus2_plumbing_atlas": "code/two_loop/geometry/genus2_plumbing_atlas.py",
+    "six_point_estimate_collar_corrected_integrand": "code/tree_level/six_point/moduli_integration/six_point_estimate_collar_corrected_integrand.py",
+    "genus2_bc_ghost": "code/two_loop/moduli_integration/genus2_bc_ghost.py",
+    "six_point_evaluate_routed_geometry_shards": "code/tree_level/six_point/moduli_integration/six_point_evaluate_routed_geometry_shards.py",
+    "torus_necklace_blocks_checks": "code/one_loop/two_point/other_scripts/checks/torus_necklace_blocks_checks.py",
+    "draft_radius_campaign": "code/one_loop/three_point/other_scripts/thermal/draft_radius_campaign.py",
+    "genus1_boundary_banks": "code/one_loop/three_point/liouville_integration/genus1_boundary_banks.py",
+    "six_point_assemble_radial_curve_covariance": "code/tree_level/six_point/moduli_integration/six_point_assemble_radial_curve_covariance.py",
+    "sphere_four_point_pillow_evaluate": "code/general/virasoro/sphere_four_point_pillow_evaluate.py",
+    "c1_frozen_bundle": "code/general/io/c1_frozen_bundle.py",
+    "five_point_production": "code/tree_level/five_point/other_scripts/five_point_production.py",
+    "liouville_genus2_glasses": "code/two_loop/liouville_integration/liouville_genus2_glasses.py",
+    "study_pair_sampling": "code/one_loop/three_point/moduli_integration/thermal/study_pair_sampling.py",
+    "genus1_boundary_integration": "code/one_loop/three_point/moduli_integration/genus1_boundary_integration.py",
+    "radius_scan": "code/one_loop/three_point/moduli_integration/thermal/radius_scan.py",
+    "rebuild_genus2_bulk_control_groups": "code/two_loop/other_scripts/rebuild_genus2_bulk_control_groups.py",
+    "banks": "code/one_loop/three_point/liouville_integration/thermal/banks.py",
+    "recover_production_results": "code/general/recovery/recover_production_results.py",
+    "genus1_channel_evaluation": "code/one_loop/three_point/liouville_integration/genus1_channel_evaluation.py",
+    "genus1_moduli_stability": "code/one_loop/three_point/other_scripts/genus1_moduli_stability.py",
+    "genus2_holomorphic_period_table": "code/two_loop/geometry/genus2_holomorphic_period_table.py",
+    "quadrature": "code/one_loop/three_point/liouville_integration/thermal/quadrature.py",
+    "six_point_refinement_statistics": "code/tree_level/six_point/conformal_block/six_point_refinement_statistics.py",
+    "genus1_compact_boson": "code/general/scalar/genus1_compact_boson.py",
+    "draft_radius_validation": "code/one_loop/three_point/other_scripts/thermal/draft_radius_validation.py",
+    "genus1_sewing_domains": "code/one_loop/three_point/moduli_integration/genus1_sewing_domains.py",
+    "six_point_momentum_banks_and_reweighting": "code/tree_level/six_point/liouville_integration/six_point_momentum_banks_and_reweighting.py",
+    "thermal_saved_inputs": "code/one_loop/three_point/liouville_integration/thermal/thermal_saved_inputs.py",
+    "genus1_moduli_panels": "code/one_loop/three_point/moduli_integration/genus1_moduli_panels.py",
+    "genus1_analytic_boundary_layer": "code/one_loop/three_point/moduli_integration/genus1_analytic_boundary_layer.py",
+    "six_point_route_collar_contributions": "code/tree_level/six_point/moduli_integration/six_point_route_collar_contributions.py",
+    "six_point_mixed_order_node_catalog": "code/tree_level/six_point/liouville_integration/six_point_mixed_order_node_catalog.py",
+    "genus2_integration_geometry": "code/two_loop/geometry/genus2_integration_geometry.py",
+    "torus_sampling": "code/general/numerics/torus_sampling.py",
+    "six_point_check_sampling_variance": "code/tree_level/six_point/moduli_integration/six_point_check_sampling_variance.py",
+    "genus1_moduli_amplitude": "code/one_loop/three_point/other_scripts/genus1_moduli_amplitude.py",
+    "six_point_combine_truncation_orders": "code/tree_level/six_point/moduli_integration/six_point_combine_truncation_orders.py",
+    "five_point_integrand_and_quadrature": "code/tree_level/five_point/liouville_integration/five_point_integrand_and_quadrature.py",
+    "genus1_modular_geometry": "code/one_loop/three_point/moduli_integration/genus1_modular_geometry.py",
+    "genus2_period_table": "code/two_loop/geometry/genus2_period_table.py",
+    "sphere_five_point_continuation_checks": "code/tree_level/five_point/other_scripts/sphere_five_point_continuation_checks.py",
+    "six_point_build_momentum_banks": "code/tree_level/six_point/liouville_integration/six_point_build_momentum_banks.py",
+    "liouville_genus2_ccy": "code/two_loop/liouville_integration/liouville_genus2_ccy.py",
+    "genus2_multiprecision_collocation": "code/two_loop/geometry/genus2_multiprecision_collocation.py",
+    "genus2_node_evaluation": "code/two_loop/moduli_integration/genus2_node_evaluation.py",
+    "six_point_prepare_amplitude_curve": "code/tree_level/six_point/production/six_point_prepare_amplitude_curve.py",
+    "plot_genus1_production": "code/one_loop/three_point/other_scripts/plot_genus1_production.py",
+    "six_point_stable_puncture_coordinates": "code/tree_level/six_point/moduli_integration/six_point_stable_puncture_coordinates.py",
+    "study_genus2_separating_tail_correction": "code/two_loop/other_scripts/study_genus2_separating_tail_correction.py",
+    "draft_radius_collect": "code/one_loop/three_point/other_scripts/thermal/draft_radius_collect.py",
+    "genus1_three_point_momentum": "code/one_loop/three_point/liouville_integration/genus1_three_point_momentum.py",
+    "genus1_two_point_thermal_production": "code/one_loop/two_point/other_scripts/genus1_two_point_thermal_production.py",
+    "six_point_submit_radial_campaign": "code/tree_level/six_point/production/six_point_submit_radial_campaign.py",
+    "six_point_sample_integration_geometry": "code/tree_level/six_point/moduli_integration/six_point_sample_integration_geometry.py",
+    "six_point_integrate_mixed_order_amplitudes": "code/tree_level/six_point/moduli_integration/six_point_integrate_mixed_order_amplitudes.py",
+    "six_point_prepare_radial_geometry": "code/tree_level/six_point/moduli_integration/six_point_prepare_radial_geometry.py",
+    "ccy_genus2_block": "code/general/virasoro/ccy_genus2_block.py",
+    "genus1_three_point_channel_atlas": "code/one_loop/three_point/moduli_integration/genus1_three_point_channel_atlas.py",
+    "liouville_momentum_quadrature": "code/general/numerics/liouville_momentum_quadrature.py",
+    "six_point_analytic_collar_subtraction": "code/tree_level/six_point/moduli_integration/six_point_analytic_collar_subtraction.py",
+    "genus2_period_table_selector": "code/two_loop/geometry/genus2_period_table_selector.py",
+    "six_point_batch_block_contraction": "code/tree_level/six_point/moduli_integration/six_point_batch_block_contraction.py"
+  },
+  "module_aliases": {
+    "ccy_sphere_five_point": "five_point_virasoro_block_recursion",
+    "sphere_five_point_equal_energy": "five_point_integrand_and_quadrature",
+    "sphere_five_point_liouville": "five_point_liouville_correlator_and_atlas",
+    "tree_level_layout": "tree_level_source_compatibility",
+    "sphere_five_point_30point_worldsheet_extension": "five_point_production",
+    "sphere_five_point_extended_scan": "five_point_production",
+    "sphere_six_point_c_precision": "six_point_arbitrary_precision_c_recursion",
+    "sphere_six_point_coefficient_provider": "six_point_block_coefficient_provider",
+    "sphere_six_point_collar_block": "six_point_collar_block_evaluator",
+    "sphere_six_point_analytic_collar": "six_point_analytic_collar_subtraction",
+    "sphere_six_point_atlas": "six_point_channel_coordinates",
+    "sphere_six_point_batch": "six_point_batch_block_contraction",
+    "sphere_six_point_channel_routing": "six_point_select_integration_channels",
+    "sphere_six_point_collar_patch_geometry": "six_point_collar_counterterm_geometry",
+    "sphere_six_point_collar_router": "six_point_route_collar_contributions",
+    "sphere_six_point_degeneration_atlas": "six_point_boundary_strata",
+    "sphere_six_point_endpoint_quadrature": "six_point_endpoint_and_tail_quadrature",
+    "sphere_six_point_equal_energy": "six_point_radial_sampling_distribution",
+    "sphere_six_point_geometry": "six_point_sample_integration_geometry",
+    "sphere_six_point_momentum_banks": "six_point_momentum_banks_and_reweighting",
+    "sphere_six_point_multilevel": "six_point_combine_truncation_orders",
+    "sphere_six_point_native_convergence": "six_point_measure_block_convergence",
+    "sphere_six_point_native_geometry": "six_point_stable_puncture_coordinates",
+    "sphere_six_point_radial_forest": "six_point_route_collar_contributions",
+    "sphere_six_point_radial_proposal": "six_point_radial_sampling_distribution",
+    "sphere_six_point_sampling_diagnostics": "six_point_check_sampling_variance",
+    "sphere_six_point_analytic_collar_pilot": "six_point_integrate_collar_patch",
+    "sphere_six_point_bank_build": "six_point_build_momentum_banks",
+    "sphere_six_point_catalog_import": "six_point_reuse_saved_coefficients",
+    "sphere_six_point_multilevel_analyze": "six_point_analyze_quadrature_and_order_controls",
+    "sphere_six_point_multilevel_catalog": "six_point_mixed_order_node_catalog",
+    "sphere_six_point_multilevel_scan": "six_point_integrate_mixed_order_amplitudes",
+    "sphere_six_point_named_variants": "six_point_compare_momentum_quadratures",
+    "sphere_six_point_node_catalog": "six_point_deduplicate_momentum_nodes",
+    "sphere_six_point_parallel_routing": "six_point_evaluate_routed_geometry_shards",
+    "sphere_six_point_prepare_radial_mixture_geometry": "six_point_prepare_radial_geometry",
+    "sphere_six_point_prepare_yin_radial_curve": "six_point_prepare_amplitude_curve",
+    "sphere_six_point_routed_estimator": "six_point_estimate_collar_corrected_integrand",
+    "sphere_six_point_yin_curve_aggregate": "six_point_assemble_curve_amplitudes",
+    "sphere_six_point_yin_curve_worker_v2": "six_point_run_frozen_energy_worker",
+    "sphere_six_point_yin_radial_curve_aggregate": "six_point_assemble_radial_curve_covariance",
+    "sphere_six_point_yin_radial_curve_worker": "six_point_run_frozen_radial_worker",
+    "sphere_six_point_yin_radial_submit": "six_point_submit_radial_campaign",
+    "sphere_six_point_analytic_collar_spectral": "six_point_collar_momentum_quadrature",
+    "sphere_six_point_middle_pillow": "six_point_collar_block_evaluator",
+    "five_point_channel_geometry": "five_point_liouville_correlator_and_atlas",
+    "five_point_scan_imaginary_amplitudes": "five_point_production",
+    "five_point_extend_amplitude_scan_to_30_points": "five_point_production",
+    "monte_carlo_integrate_genus2_c1": "genus2_integration_geometry",
+    "genus2_moduli_rqmc": "genus2_moduli_sampling",
+    "genus2_moduli_physical_mixture_rqmc": "genus2_moduli_sampling",
+    "refinement_state_and_statistics": "six_point_refinement_statistics",
+    "refinement_2pct_state_and_statistics": "six_point_refinement_statistics",
+    "refine_flagged_samples": "six_point_refinement",
+    "continue_flagged_samples_to_c18": "six_point_refinement",
+    "six_point_middle_pillow_block_expansion": "six_point_collar_block_evaluator",
+    "six_point_radial_forest_subtraction": "six_point_route_collar_contributions",
+    "six_point_integrate_equal_energy_amplitude": "six_point_radial_sampling_distribution",
+    "apply_pointwise_amplitude_corrections": "six_point_refinement_assembly",
+    "stopping_policy": "six_point_refinement_assembly",
+    "assemble_final_amplitudes": "six_point_refinement_assembly",
+    "finalize_refinement_and_assemble": "six_point_refinement_assembly",
+    "assemble_amplitudes_from_c14_corrections": "six_point_refinement_assembly",
+    "genus2_separating_tail_cluster": "genus2_separating_production",
+    "genus2_separating_residual_pilot": "genus2_separating_production",
+    "genus2_tail_completion_production": "genus2_separating_production",
+    "package_six_point_source": "package_amplitude_source"
+  },
+  "archived_modules": [],
+  "symbol_aliases": {
+    "five_point_channel_geometry": {
+      "BoundaryDivisor": [
+        "five_point_liouville_correlator_and_atlas",
+        "BoundaryDivisor"
+      ],
+      "BoundaryCorner": [
+        "five_point_liouville_correlator_and_atlas",
+        "BoundaryCorner"
+      ],
+      "five_point_boundary_divisors": [
+        "five_point_liouville_correlator_and_atlas",
+        "five_point_boundary_divisors"
+      ],
+      "five_point_boundary_corners": [
+        "five_point_liouville_correlator_and_atlas",
+        "five_point_boundary_corners"
+      ],
+      "signed_channel_energy": [
+        "five_point_liouville_correlator_and_atlas",
+        "signed_channel_energy"
+      ],
+      "equal_outgoing_signed_energies": [
+        "five_point_liouville_correlator_and_atlas",
+        "equal_outgoing_signed_energies"
+      ],
+      "divergent_spin_zero_levels": [
+        "five_point_liouville_correlator_and_atlas",
+        "divergent_spin_zero_levels"
+      ]
+    },
+    "five_point_scan_imaginary_amplitudes": {
+      "scan_point": [
+        "five_point_production",
+        "scan_point"
+      ],
+      "main": [
+        "five_point_production",
+        "scan_main"
+      ]
+    },
+    "five_point_extend_amplitude_scan_to_30_points": {
+      "sha256_file": [
+        "five_point_production",
+        "sha256_file"
+      ],
+      "write_json": [
+        "five_point_production",
+        "write_json"
+      ],
+      "_settings": [
+        "five_point_production",
+        "_settings"
+      ],
+      "_empty_payload": [
+        "five_point_production",
+        "_empty_payload"
+      ],
+      "_load_resume": [
+        "five_point_production",
+        "_load_resume"
+      ],
+      "_flat_record": [
+        "five_point_production",
+        "_flat_record"
+      ],
+      "run": [
+        "five_point_production",
+        "run"
+      ],
+      "main": [
+        "five_point_production",
+        "extension_main"
+      ]
+    },
+    "monte_carlo_integrate_genus2_c1": {
+      "RescaledLiouvillePartition": [
+        "genus2_liouville_evaluation",
+        "RescaledLiouvillePartition"
+      ],
+      "_positive_real_partition": [
+        "genus2_liouville_evaluation",
+        "_positive_real_partition"
+      ],
+      "evaluate_liouville_rescaled": [
+        "genus2_liouville_evaluation",
+        "evaluate_liouville_rescaled"
+      ],
+      "evaluate_liouville": [
+        "genus2_liouville_evaluation",
+        "evaluate_liouville"
+      ],
+      "NoncompactScalarEvaluation": [
+        "genus2_scalar_evaluation",
+        "NoncompactScalarEvaluation"
+      ],
+      "NoncompactScalarFixedCapStep": [
+        "genus2_scalar_evaluation",
+        "NoncompactScalarFixedCapStep"
+      ],
+      "NoncompactScalarFixedCapConvergence": [
+        "genus2_scalar_evaluation",
+        "NoncompactScalarFixedCapConvergence"
+      ],
+      "evaluate_noncompact_scalar_detailed": [
+        "genus2_scalar_evaluation",
+        "evaluate_noncompact_scalar_detailed"
+      ],
+      "evaluate_noncompact_scalar_fixed_cap_convergence": [
+        "genus2_scalar_evaluation",
+        "evaluate_noncompact_scalar_fixed_cap_convergence"
+      ],
+      "evaluate_glasses_noncompact_scalar_fixed_cap_convergence": [
+        "genus2_scalar_evaluation",
+        "evaluate_glasses_noncompact_scalar_fixed_cap_convergence"
+      ],
+      "evaluate_noncompact_scalar": [
+        "genus2_scalar_evaluation",
+        "evaluate_noncompact_scalar"
+      ],
+      "scalar_word_safety_cap": [
+        "genus2_scalar_evaluation",
+        "scalar_word_safety_cap"
+      ],
+      "_complex_string": [
+        "genus2_integration_geometry",
+        "_complex_string"
+      ],
+      "_matrix_from_strings": [
+        "genus2_integration_geometry",
+        "_matrix_from_strings"
+      ],
+      "validate_covariant_period_frames": [
+        "genus2_integration_geometry",
+        "validate_covariant_period_frames"
+      ],
+      "_best_usable_chart": [
+        "genus2_integration_geometry",
+        "_best_usable_chart"
+      ],
+      "select_plumbing_chart": [
+        "genus2_integration_geometry",
+        "select_plumbing_chart"
+      ],
+      "table_first_period_validation": [
+        "genus2_integration_geometry",
+        "table_first_period_validation"
+      ],
+      "_optional_float": [
+        "genus2_integration_geometry",
+        "_optional_float"
+      ],
+      "_cached_period_value": [
+        "genus2_integration_geometry",
+        "_cached_period_value"
+      ],
+      "cached_period_solution_objects": [
+        "genus2_integration_geometry",
+        "cached_period_solution_objects"
+      ],
+      "canonicalize_string_note_kernel_row": [
+        "genus2_moduli_estimation",
+        "canonicalize_string_note_kernel_row"
+      ],
+      "omega_from_csv_row": [
+        "genus2_moduli_estimation",
+        "omega_from_csv_row"
+      ],
+      "node_fundamental_domain_integration_weight": [
+        "genus2_moduli_estimation",
+        "node_fundamental_domain_integration_weight"
+      ],
+      "kernel_det_im_power": [
+        "genus2_moduli_estimation",
+        "kernel_det_im_power"
+      ],
+      "sampling_scheme_for_rows": [
+        "genus2_moduli_estimation",
+        "sampling_scheme_for_rows"
+      ],
+      "summarize_rqmc_rows": [
+        "genus2_moduli_estimation",
+        "summarize_rqmc_rows"
+      ],
+      "estimate_from_transformed_values": [
+        "genus2_moduli_estimation",
+        "estimate_from_transformed_values"
+      ],
+      "evaluate_node": [
+        "genus2_node_evaluation",
+        "evaluate_node"
+      ],
+      "_write_csv": [
+        "genus2_moduli_production",
+        "_write_csv"
+      ],
+      "_resume_node_key": [
+        "genus2_moduli_production",
+        "_resume_node_key"
+      ],
+      "_jsonable_argument": [
+        "genus2_moduli_production",
+        "_jsonable_argument"
+      ],
+      "_resume_config": [
+        "genus2_moduli_production",
+        "_resume_config"
+      ],
+      "_write_json_atomic": [
+        "genus2_moduli_production",
+        "_write_json_atomic"
+      ],
+      "_load_resume_rows": [
+        "genus2_moduli_production",
+        "_load_resume_rows"
+      ],
+      "run": [
+        "genus2_moduli_production",
+        "run"
+      ]
+    },
+    "genus2_moduli_rqmc": {
+      "RQMCReplicateSummary": [
+        "genus2_moduli_sampling",
+        "RQMCReplicateSummary"
+      ],
+      "RQMCIntegralEstimate": [
+        "genus2_moduli_sampling",
+        "RQMCIntegralEstimate"
+      ],
+      "_tail_level": [
+        "genus2_moduli_sampling",
+        "_tail_level"
+      ],
+      "_marginal_balance": [
+        "genus2_moduli_sampling",
+        "_marginal_balance"
+      ],
+      "generate_rqmc_replicate": [
+        "genus2_moduli_sampling",
+        "generate_rqmc_replicate"
+      ],
+      "generate_rqmc_design": [
+        "genus2_moduli_sampling",
+        "generate_rqmc_design"
+      ],
+      "_mean_and_scramble_se": [
+        "genus2_moduli_sampling",
+        "invariant_mean_and_scramble_se"
+      ],
+      "estimate_rqmc_integral": [
+        "genus2_moduli_sampling",
+        "estimate_rqmc_integral"
+      ],
+      "_write_csv": [
+        "genus2_moduli_sampling",
+        "invariant_write_csv"
+      ],
+      "run": [
+        "genus2_moduli_sampling",
+        "invariant_run"
+      ],
+      "THIS_FILE": [
+        "genus2_moduli_sampling",
+        "THIS_FILE"
+      ],
+      "DEFAULT_OUTPUT": [
+        "genus2_moduli_sampling",
+        "INVARIANT_DEFAULT_OUTPUT"
+      ]
+    },
+    "genus2_moduli_physical_mixture_rqmc": {
+      "PhysicalProposalComponent": [
+        "genus2_moduli_sampling",
+        "PhysicalProposalComponent"
+      ],
+      "PhysicalMixtureReplicateSummary": [
+        "genus2_moduli_sampling",
+        "PhysicalMixtureReplicateSummary"
+      ],
+      "PhysicalMixtureIntegralEstimate": [
+        "genus2_moduli_sampling",
+        "PhysicalMixtureIntegralEstimate"
+      ],
+      "_validate_components": [
+        "genus2_moduli_sampling",
+        "_validate_components"
+      ],
+      "equal_mixture_log_density": [
+        "genus2_moduli_sampling",
+        "equal_mixture_log_density"
+      ],
+      "physical_mixture_proposals_from_unit_cube": [
+        "genus2_moduli_sampling",
+        "physical_mixture_proposals_from_unit_cube"
+      ],
+      "_mean_and_scramble_se": [
+        "genus2_moduli_sampling",
+        "_mean_and_scramble_se"
+      ],
+      "generate_physical_mixture_replicate": [
+        "genus2_moduli_sampling",
+        "generate_physical_mixture_replicate"
+      ],
+      "generate_physical_mixture_design": [
+        "genus2_moduli_sampling",
+        "generate_physical_mixture_design"
+      ],
+      "estimate_physical_mixture_integral": [
+        "genus2_moduli_sampling",
+        "estimate_physical_mixture_integral"
+      ],
+      "physical_mixture_contribution_diagnostics": [
+        "genus2_moduli_sampling",
+        "physical_mixture_contribution_diagnostics"
+      ],
+      "_write_csv": [
+        "genus2_moduli_sampling",
+        "_write_csv"
+      ],
+      "run": [
+        "genus2_moduli_sampling",
+        "run"
+      ],
+      "PHYSICAL_MIXTURE_SAMPLING_SCHEME": [
+        "genus2_moduli_sampling",
+        "PHYSICAL_MIXTURE_SAMPLING_SCHEME"
+      ],
+      "DEFAULT_OUTPUT": [
+        "genus2_moduli_sampling",
+        "DEFAULT_OUTPUT"
+      ],
+      "DEFAULT_COMPONENTS": [
+        "genus2_moduli_sampling",
+        "DEFAULT_COMPONENTS"
+      ]
+    },
+    "refinement_state_and_statistics": {
+      "VERSION": [
+        "six_point_refinement_statistics",
+        "VERSION"
+      ],
+      "TOLERANCE": [
+        "six_point_refinement_statistics",
+        "TOLERANCE"
+      ],
+      "BASE_ORDER": [
+        "six_point_refinement_statistics",
+        "BASE_ORDER"
+      ],
+      "CAP": [
+        "six_point_refinement_statistics",
+        "CAP"
+      ],
+      "STATUSES": [
+        "six_point_refinement_statistics",
+        "STATUSES"
+      ],
+      "digest": [
+        "six_point_refinement_statistics",
+        "digest"
+      ],
+      "json_hash": [
+        "six_point_refinement_statistics",
+        "json_hash"
+      ],
+      "array_hash": [
+        "six_point_refinement_statistics",
+        "array_hash"
+      ],
+      "seal": [
+        "six_point_refinement_statistics",
+        "seal"
+      ],
+      "read_manifest": [
+        "six_point_refinement_statistics",
+        "read_manifest"
+      ],
+      "write_json_once": [
+        "six_point_refinement_statistics",
+        "write_json_once"
+      ],
+      "save_arrays": [
+        "six_point_refinement_statistics",
+        "save_arrays"
+      ],
+      "load_arrays": [
+        "six_point_refinement_statistics",
+        "load_arrays"
+      ],
+      "degree_keys": [
+        "six_point_refinement_statistics",
+        "degree_keys"
+      ],
+      "shell_keys": [
+        "six_point_refinement_statistics",
+        "shell_keys"
+      ],
+      "validate_shell": [
+        "six_point_refinement_statistics",
+        "validate_shell"
+      ],
+      "merge_overlay": [
+        "six_point_refinement_statistics",
+        "merge_overlay"
+      ],
+      "point_slots": [
+        "six_point_refinement_statistics",
+        "point_slots"
+      ],
+      "gaps_pass": [
+        "six_point_refinement_statistics",
+        "gaps_pass"
+      ],
+      "classify": [
+        "six_point_refinement_statistics",
+        "classify"
+      ],
+      "require_active": [
+        "six_point_refinement_statistics",
+        "require_active"
+      ],
+      "contract_chiral": [
+        "six_point_refinement_statistics",
+        "contract_chiral"
+      ],
+      "nonchiral_diagnostic": [
+        "six_point_refinement_statistics",
+        "nonchiral_diagnostic"
+      ],
+      "apply_corrections": [
+        "six_point_refinement_statistics",
+        "apply_corrections"
+      ],
+      "paired_statistics": [
+        "six_point_refinement_statistics",
+        "paired_statistics"
+      ]
+    },
+    "refinement_2pct_state_and_statistics": {
+      "VERSION": [
+        "six_point_refinement_statistics",
+        "c18_VERSION"
+      ],
+      "TOLERANCE": [
+        "six_point_refinement_statistics",
+        "c18_TOLERANCE"
+      ],
+      "BASE_ORDER": [
+        "six_point_refinement_statistics",
+        "c18_BASE_ORDER"
+      ],
+      "CAP": [
+        "six_point_refinement_statistics",
+        "c18_CAP"
+      ],
+      "STATUSES": [
+        "six_point_refinement_statistics",
+        "c18_STATUSES"
+      ],
+      "digest": [
+        "six_point_refinement_statistics",
+        "digest"
+      ],
+      "json_hash": [
+        "six_point_refinement_statistics",
+        "json_hash"
+      ],
+      "array_hash": [
+        "six_point_refinement_statistics",
+        "array_hash"
+      ],
+      "seal": [
+        "six_point_refinement_statistics",
+        "seal"
+      ],
+      "read_manifest": [
+        "six_point_refinement_statistics",
+        "read_manifest"
+      ],
+      "write_json_once": [
+        "six_point_refinement_statistics",
+        "write_json_once"
+      ],
+      "save_arrays": [
+        "six_point_refinement_statistics",
+        "save_arrays"
+      ],
+      "load_arrays": [
+        "six_point_refinement_statistics",
+        "load_arrays"
+      ],
+      "degree_keys": [
+        "six_point_refinement_statistics",
+        "degree_keys"
+      ],
+      "shell_keys": [
+        "six_point_refinement_statistics",
+        "c18_shell_keys"
+      ],
+      "validate_shell": [
+        "six_point_refinement_statistics",
+        "c18_validate_shell"
+      ],
+      "point_slots": [
+        "six_point_refinement_statistics",
+        "point_slots"
+      ],
+      "gaps_pass": [
+        "six_point_refinement_statistics",
+        "c18_gaps_pass"
+      ],
+      "classify": [
+        "six_point_refinement_statistics",
+        "c18_classify"
+      ],
+      "require_active": [
+        "six_point_refinement_statistics",
+        "require_active"
+      ],
+      "contract_chiral": [
+        "six_point_refinement_statistics",
+        "contract_chiral"
+      ],
+      "nonchiral_diagnostic": [
+        "six_point_refinement_statistics",
+        "c18_nonchiral_diagnostic"
+      ],
+      "apply_corrections": [
+        "six_point_refinement_statistics",
+        "apply_corrections"
+      ],
+      "paired_statistics": [
+        "six_point_refinement_statistics",
+        "paired_statistics"
+      ]
+    },
+    "refine_flagged_samples": {
+      "source": [
+        "six_point_refinement",
+        "initial_source"
+      ],
+      "bootstrap": [
+        "six_point_refinement",
+        "initial_bootstrap"
+      ],
+      "verify_deployment": [
+        "six_point_refinement",
+        "initial_verify_deployment"
+      ],
+      "prepare_groups": [
+        "six_point_refinement",
+        "initial_prepare_groups"
+      ],
+      "states_before": [
+        "six_point_refinement",
+        "initial_states_before"
+      ],
+      "group_data": [
+        "six_point_refinement",
+        "initial_group_data"
+      ],
+      "prepare_stage": [
+        "six_point_refinement",
+        "initial_prepare_stage"
+      ],
+      "construct_shell": [
+        "six_point_refinement",
+        "initial_construct_shell"
+      ],
+      "validate_task": [
+        "six_point_refinement",
+        "initial_validate_task"
+      ],
+      "read_shell": [
+        "six_point_refinement",
+        "initial_read_shell"
+      ],
+      "extend_worker": [
+        "six_point_refinement",
+        "initial_extend_worker"
+      ],
+      "load_group_shell": [
+        "six_point_refinement",
+        "initial_load_group_shell"
+      ],
+      "point_chiral": [
+        "six_point_refinement",
+        "initial_point_chiral"
+      ],
+      "evaluate_worker": [
+        "six_point_refinement",
+        "initial_evaluate_worker"
+      ],
+      "advance": [
+        "six_point_refinement",
+        "initial_advance"
+      ],
+      "atomic_json": [
+        "six_point_refinement",
+        "initial_atomic_json"
+      ],
+      "submit_stage": [
+        "six_point_refinement",
+        "initial_submit_stage"
+      ],
+      "main": [
+        "six_point_refinement",
+        "initial_main"
+      ]
+    },
+    "continue_flagged_samples_to_c18": {
+      "source": [
+        "six_point_refinement",
+        "continuation_source"
+      ],
+      "bootstrap": [
+        "six_point_refinement",
+        "continuation_bootstrap"
+      ],
+      "verify_deployment": [
+        "six_point_refinement",
+        "continuation_verify_deployment"
+      ],
+      "states_before": [
+        "six_point_refinement",
+        "continuation_states_before"
+      ],
+      "group_data": [
+        "six_point_refinement",
+        "continuation_group_data"
+      ],
+      "prepare_stage": [
+        "six_point_refinement",
+        "continuation_prepare_stage"
+      ],
+      "construct_shell": [
+        "six_point_refinement",
+        "continuation_construct_shell"
+      ],
+      "validate_task": [
+        "six_point_refinement",
+        "continuation_validate_task"
+      ],
+      "read_shell": [
+        "six_point_refinement",
+        "continuation_read_shell"
+      ],
+      "extend_worker": [
+        "six_point_refinement",
+        "continuation_extend_worker"
+      ],
+      "load_group_shell": [
+        "six_point_refinement",
+        "continuation_load_group_shell"
+      ],
+      "point_chiral": [
+        "six_point_refinement",
+        "continuation_point_chiral"
+      ],
+      "evaluate_worker": [
+        "six_point_refinement",
+        "continuation_evaluate_worker"
+      ],
+      "advance": [
+        "six_point_refinement",
+        "continuation_advance"
+      ],
+      "atomic_json": [
+        "six_point_refinement",
+        "continuation_atomic_json"
+      ],
+      "submit_stage": [
+        "six_point_refinement",
+        "continuation_submit_stage"
+      ],
+      "submit_stage_locked": [
+        "six_point_refinement",
+        "continuation_submit_stage_locked"
+      ],
+      "main": [
+        "six_point_refinement",
+        "continuation_main"
+      ]
+    },
+    "six_point_middle_pillow_block_expansion": {
+      "outer_ward_from_jet": [
+        "six_point_collar_block_evaluator",
+        "outer_ward_from_jet"
+      ]
+    },
+    "six_point_radial_forest_subtraction": {
+      "CheckedIntegrand": [
+        "six_point_route_collar_contributions",
+        "CheckedIntegrand"
+      ]
+    },
+    "six_point_integrate_equal_energy_amplitude": {
+      "SixPointMomentumArrays": [
+        "six_point_momentum_banks_and_reweighting",
+        "SixPointMomentumArrays"
+      ],
+      "_power_disk_sample": [
+        "six_point_radial_sampling_distribution",
+        "_power_disk_sample"
+      ]
+    },
+    "apply_pointwise_amplitude_corrections": {
+      "pair": [
+        "six_point_refinement_assembly",
+        "pair"
+      ],
+      "patch_pointwise": [
+        "six_point_refinement_assembly",
+        "patch_pointwise"
+      ],
+      "covariance_rows": [
+        "six_point_refinement_assembly",
+        "covariance_rows"
+      ]
+    },
+    "stopping_policy": {
+      "_six_point_package": [
+        "six_point_refinement_assembly",
+        "_six_point_package"
+      ],
+      "VERSION": [
+        "six_point_refinement_assembly",
+        "C14_VERSION"
+      ],
+      "CAP": [
+        "six_point_refinement_assembly",
+        "C14_CAP"
+      ],
+      "STATUSES": [
+        "six_point_refinement_assembly",
+        "C14_STATUSES"
+      ],
+      "validate_final_state": [
+        "six_point_refinement_assembly",
+        "validate_final_state"
+      ],
+      "report_policy": [
+        "six_point_refinement_assembly",
+        "report_policy"
+      ]
+    },
+    "assemble_final_amplitudes": {
+      "assemble": [
+        "six_point_refinement_assembly",
+        "assemble_c14"
+      ]
+    },
+    "finalize_refinement_and_assemble": {
+      "build_final_state": [
+        "six_point_refinement_assembly",
+        "build_final_state"
+      ],
+      "finalize": [
+        "six_point_refinement_assembly",
+        "finalize"
+      ]
+    },
+    "assemble_amplitudes_from_c14_corrections": {
+      "pair": [
+        "six_point_refinement_assembly",
+        "c18_pair"
+      ],
+      "covariance_rows": [
+        "six_point_refinement_assembly",
+        "c18_covariance_rows"
+      ],
+      "patch_c14_pointwise": [
+        "six_point_refinement_assembly",
+        "patch_c14_pointwise"
+      ],
+      "assemble": [
+        "six_point_refinement_assembly",
+        "assemble_c18"
+      ]
+    },
+    "genus2_separating_tail_cluster": {
+      "SCHEME": [
+        "genus2_separating_production",
+        "SCHEME"
+      ],
+      "POLICY": [
+        "genus2_separating_production",
+        "NUMERICAL_POLICY"
+      ],
+      "policy_kernel_convention": [
+        "genus2_separating_production",
+        "policy_kernel_convention"
+      ],
+      "saved_array_scale_to_current": [
+        "genus2_separating_production",
+        "saved_array_scale_to_current"
+      ],
+      "saved_rows_scale_to_current": [
+        "genus2_separating_production",
+        "saved_rows_scale_to_current"
+      ],
+      "sha": [
+        "genus2_separating_production",
+        "sha"
+      ],
+      "object_sha": [
+        "genus2_separating_production",
+        "object_sha"
+      ],
+      "atomic_json": [
+        "genus2_separating_production",
+        "atomic_json"
+      ],
+      "read_json": [
+        "genus2_separating_production",
+        "read_json"
+      ],
+      "runtime_environment": [
+        "genus2_separating_production",
+        "runtime_environment"
+      ],
+      "read_csv": [
+        "genus2_separating_production",
+        "read_csv"
+      ],
+      "write_csv": [
+        "genus2_separating_production",
+        "write_csv"
+      ],
+      "node_omega": [
+        "genus2_separating_production",
+        "node_omega"
+      ],
+      "support_reasons": [
+        "genus2_separating_production",
+        "support_reasons"
+      ],
+      "load_record": [
+        "genus2_separating_production",
+        "load_record"
+      ],
+      "period_evaluation": [
+        "genus2_separating_production",
+        "period_evaluation"
+      ],
+      "cft_evaluation": [
+        "genus2_separating_production",
+        "cft_evaluation"
+      ]
+    },
+    "genus2_separating_residual_pilot": {
+      "weighted_residual": [
+        "genus2_separating_tail",
+        "weighted_residual"
+      ],
+      "band_replicates": [
+        "genus2_separating_tail",
+        "band_replicates"
+      ],
+      "POLICY": [
+        "genus2_separating_production",
+        "PILOT_POLICY"
+      ],
+      "band_proposal": [
+        "genus2_separating_production",
+        "band_proposal"
+      ],
+      "make_nodes": [
+        "genus2_separating_production",
+        "make_nodes"
+      ],
+      "stronger_check_indices": [
+        "genus2_separating_production",
+        "stronger_check_indices"
+      ],
+      "load": [
+        "genus2_separating_production",
+        "load"
+      ],
+      "evaluate": [
+        "genus2_separating_production",
+        "evaluate"
+      ],
+      "main": [
+        "genus2_separating_production",
+        "pilot_main"
+      ]
+    },
+    "genus2_tail_completion_production": {
+      "evaluate_node": [
+        "genus2_separating_production",
+        "evaluate_node"
+      ],
+      "evaluate_controls": [
+        "genus2_separating_production",
+        "evaluate_controls"
+      ],
+      "main": [
+        "genus2_separating_production",
+        "tail_main"
+      ]
+    }
+  },
+  "path_map": {
+    "code/tree_level/analysis/sphere_five_point_30point_worldsheet_fit.py": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_worldsheet_fit.py",
+    "code/tree_level/analysis/sphere_five_point_imaginary_ray_fit.py": "code/tree_level/five_point/other_scripts/sphere_five_point_imaginary_ray_fit.py",
+    "code/tree_level/blocks/ccy_sphere_five_point.py": "code/tree_level/five_point/conformal_block/five_point_virasoro_block_recursion.py",
+    "code/tree_level/blocks/ccy_sphere_five_point_checks.py": "code/tree_level/five_point/other_scripts/ccy_sphere_five_point_checks.py",
+    "code/tree_level/blocks/sphere_six_point_c_precision.py": "code/tree_level/six_point/conformal_block/six_point_arbitrary_precision_c_recursion.py",
+    "code/tree_level/blocks/sphere_six_point_coefficient_provider.py": "code/tree_level/six_point/conformal_block/six_point_block_coefficient_provider.py",
+    "code/tree_level/blocks/sphere_six_point_collar_block.py": "code/tree_level/six_point/conformal_block/six_point_collar_block_evaluator.py",
+    "code/tree_level/comparison/export_sphere_five_point_t_axis_plot_data.py": "code/tree_level/five_point/other_scripts/export_sphere_five_point_t_axis_plot_data.py",
+    "code/tree_level/comparison/sphere_five_point_30point_matrix_comparison.py": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_matrix_comparison.py",
+    "code/tree_level/config/sphere_six_point_boundary_treatment_v1.json": "code/tree_level/six_point/moduli_integration/six_point_boundary_treatment_settings_v1.json",
+    "code/tree_level/kernels/sphere_five_point_equal_energy.py": "code/tree_level/five_point/liouville_integration/five_point_integrand_and_quadrature.py",
+    "code/tree_level/kernels/sphere_five_point_liouville.py": "code/tree_level/five_point/conformal_block/five_point_liouville_correlator_and_atlas.py",
+    "code/tree_level/kernels/sphere_six_point_analytic_collar.py": "code/tree_level/six_point/moduli_integration/six_point_analytic_collar_subtraction.py",
+    "code/tree_level/kernels/sphere_six_point_atlas.py": "code/tree_level/six_point/moduli_integration/six_point_channel_coordinates.py",
+    "code/tree_level/kernels/sphere_six_point_batch.py": "code/tree_level/six_point/moduli_integration/six_point_batch_block_contraction.py",
+    "code/tree_level/kernels/sphere_six_point_channel_routing.py": "code/tree_level/six_point/conformal_block/six_point_select_integration_channels.py",
+    "code/tree_level/kernels/sphere_six_point_collar_patch_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_collar_counterterm_geometry.py",
+    "code/tree_level/kernels/sphere_six_point_collar_router.py": "code/tree_level/six_point/moduli_integration/six_point_route_collar_contributions.py",
+    "code/tree_level/kernels/sphere_six_point_degeneration_atlas.py": "code/tree_level/six_point/moduli_integration/six_point_boundary_strata.py",
+    "code/tree_level/kernels/sphere_six_point_endpoint_quadrature.py": "code/tree_level/six_point/liouville_integration/six_point_endpoint_and_tail_quadrature.py",
+    "code/tree_level/kernels/sphere_six_point_equal_energy.py": "code/tree_level/six_point/moduli_integration/six_point_radial_sampling_distribution.py",
+    "code/tree_level/kernels/sphere_six_point_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_sample_integration_geometry.py",
+    "code/tree_level/kernels/sphere_six_point_momentum_banks.py": "code/tree_level/six_point/liouville_integration/six_point_momentum_banks_and_reweighting.py",
+    "code/tree_level/kernels/sphere_six_point_multilevel.py": "code/tree_level/six_point/moduli_integration/six_point_combine_truncation_orders.py",
+    "code/tree_level/kernels/sphere_six_point_native_convergence.py": "code/tree_level/six_point/conformal_block/six_point_measure_block_convergence.py",
+    "code/tree_level/kernels/sphere_six_point_native_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_stable_puncture_coordinates.py",
+    "code/tree_level/kernels/sphere_six_point_radial_forest.py": "code/tree_level/six_point/moduli_integration/six_point_route_collar_contributions.py",
+    "code/tree_level/kernels/sphere_six_point_radial_proposal.py": "code/tree_level/six_point/moduli_integration/six_point_radial_sampling_distribution.py",
+    "code/tree_level/kernels/sphere_six_point_sampling_diagnostics.py": "code/tree_level/six_point/moduli_integration/six_point_check_sampling_variance.py",
+    "code/tree_level/production/sphere_five_point_30point_worldsheet_extension.py": "code/tree_level/five_point/other_scripts/five_point_production.py",
+    "code/tree_level/production/sphere_five_point_extended_scan.py": "code/tree_level/five_point/other_scripts/five_point_production.py",
+    "code/tree_level/production/sphere_six_point_analytic_collar_pilot.py": "code/tree_level/six_point/moduli_integration/six_point_integrate_collar_patch.py",
+    "code/tree_level/production/sphere_six_point_bank_build.py": "code/tree_level/six_point/liouville_integration/six_point_build_momentum_banks.py",
+    "code/tree_level/production/sphere_six_point_catalog_import.py": "code/tree_level/six_point/liouville_integration/six_point_reuse_saved_coefficients.py",
+    "code/tree_level/production/sphere_six_point_multilevel_analyze.py": "code/tree_level/six_point/liouville_integration/six_point_analyze_quadrature_and_order_controls.py",
+    "code/tree_level/production/sphere_six_point_multilevel_catalog.py": "code/tree_level/six_point/liouville_integration/six_point_mixed_order_node_catalog.py",
+    "code/tree_level/production/sphere_six_point_multilevel_scan.py": "code/tree_level/six_point/moduli_integration/six_point_integrate_mixed_order_amplitudes.py",
+    "code/tree_level/production/sphere_six_point_named_variants.py": "code/tree_level/six_point/liouville_integration/six_point_compare_momentum_quadratures.py",
+    "code/tree_level/production/sphere_six_point_node_catalog.py": "code/tree_level/six_point/liouville_integration/six_point_deduplicate_momentum_nodes.py",
+    "code/tree_level/production/sphere_six_point_parallel_routing.py": "code/tree_level/six_point/moduli_integration/six_point_evaluate_routed_geometry_shards.py",
+    "code/tree_level/production/sphere_six_point_prepare_radial_mixture_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_prepare_radial_geometry.py",
+    "code/tree_level/production/sphere_six_point_prepare_yin_radial_curve.py": "code/tree_level/six_point/production/six_point_prepare_amplitude_curve.py",
+    "code/tree_level/production/sphere_six_point_routed_estimator.py": "code/tree_level/six_point/moduli_integration/six_point_estimate_collar_corrected_integrand.py",
+    "code/tree_level/production/sphere_six_point_yin_curve_aggregate.py": "code/tree_level/six_point/moduli_integration/six_point_assemble_curve_amplitudes.py",
+    "code/tree_level/production/sphere_six_point_yin_curve_worker_v2.py": "code/tree_level/six_point/production/six_point_run_frozen_energy_worker.py",
+    "code/tree_level/production/sphere_six_point_yin_radial_curve_aggregate.py": "code/tree_level/six_point/moduli_integration/six_point_assemble_radial_curve_covariance.py",
+    "code/tree_level/production/sphere_six_point_yin_radial_curve_worker.py": "code/tree_level/six_point/production/six_point_run_frozen_radial_worker.py",
+    "code/tree_level/production/sphere_six_point_yin_radial_submit.py": "code/tree_level/six_point/production/six_point_submit_radial_campaign.py",
+    "code/tree_level/validation/sphere_five_point_30point_audit_summary.py": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_audit_summary.py",
+    "code/tree_level/validation/sphere_five_point_30point_checks.py": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_checks.py",
+    "code/tree_level/validation/sphere_five_point_continuation_checks.py": "code/tree_level/five_point/other_scripts/sphere_five_point_continuation_checks.py",
+    "code/tree_level/validation/sphere_five_point_liouville_checks.py": "code/tree_level/five_point/other_scripts/sphere_five_point_liouville_checks.py",
+    "code/tree_level/validation/sphere_six_point_analytic_collar_spectral.py": "code/tree_level/six_point/liouville_integration/six_point_collar_momentum_quadrature.py",
+    "code/tree_level/validation/sphere_six_point_middle_pillow.py": "code/tree_level/six_point/conformal_block/six_point_collar_block_evaluator.py",
+    "code/tree_level/general/ccy_sphere_five_point.py": "code/tree_level/five_point/conformal_block/five_point_virasoro_block_recursion.py",
+    "code/tree_level/general/sphere_five_point_equal_energy.py": "code/tree_level/five_point/liouville_integration/five_point_integrand_and_quadrature.py",
+    "code/tree_level/general/sphere_five_point_liouville.py": "code/tree_level/five_point/conformal_block/five_point_liouville_correlator_and_atlas.py",
+    "code/tree_level/general/tree_level_layout.py": "code/tree_level/general/tree_level_source_compatibility.py",
+    "code/tree_level/five_point/sphere_five_point_30point_worldsheet_extension.py": "code/tree_level/five_point/other_scripts/five_point_production.py",
+    "code/tree_level/five_point/sphere_five_point_extended_scan.py": "code/tree_level/five_point/other_scripts/five_point_production.py",
+    "code/tree_level/six_point/sphere_six_point_c_precision.py": "code/tree_level/six_point/conformal_block/six_point_arbitrary_precision_c_recursion.py",
+    "code/tree_level/six_point/sphere_six_point_coefficient_provider.py": "code/tree_level/six_point/conformal_block/six_point_block_coefficient_provider.py",
+    "code/tree_level/six_point/sphere_six_point_collar_block.py": "code/tree_level/six_point/conformal_block/six_point_collar_block_evaluator.py",
+    "code/tree_level/six_point/sphere_six_point_analytic_collar.py": "code/tree_level/six_point/moduli_integration/six_point_analytic_collar_subtraction.py",
+    "code/tree_level/six_point/sphere_six_point_atlas.py": "code/tree_level/six_point/moduli_integration/six_point_channel_coordinates.py",
+    "code/tree_level/six_point/sphere_six_point_batch.py": "code/tree_level/six_point/moduli_integration/six_point_batch_block_contraction.py",
+    "code/tree_level/six_point/sphere_six_point_channel_routing.py": "code/tree_level/six_point/conformal_block/six_point_select_integration_channels.py",
+    "code/tree_level/six_point/sphere_six_point_collar_patch_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_collar_counterterm_geometry.py",
+    "code/tree_level/six_point/sphere_six_point_collar_router.py": "code/tree_level/six_point/moduli_integration/six_point_route_collar_contributions.py",
+    "code/tree_level/six_point/sphere_six_point_degeneration_atlas.py": "code/tree_level/six_point/moduli_integration/six_point_boundary_strata.py",
+    "code/tree_level/six_point/sphere_six_point_endpoint_quadrature.py": "code/tree_level/six_point/liouville_integration/six_point_endpoint_and_tail_quadrature.py",
+    "code/tree_level/six_point/sphere_six_point_equal_energy.py": "code/tree_level/six_point/moduli_integration/six_point_radial_sampling_distribution.py",
+    "code/tree_level/six_point/sphere_six_point_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_sample_integration_geometry.py",
+    "code/tree_level/six_point/sphere_six_point_momentum_banks.py": "code/tree_level/six_point/liouville_integration/six_point_momentum_banks_and_reweighting.py",
+    "code/tree_level/six_point/sphere_six_point_multilevel.py": "code/tree_level/six_point/moduli_integration/six_point_combine_truncation_orders.py",
+    "code/tree_level/six_point/sphere_six_point_native_convergence.py": "code/tree_level/six_point/conformal_block/six_point_measure_block_convergence.py",
+    "code/tree_level/six_point/sphere_six_point_native_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_stable_puncture_coordinates.py",
+    "code/tree_level/six_point/sphere_six_point_radial_forest.py": "code/tree_level/six_point/moduli_integration/six_point_route_collar_contributions.py",
+    "code/tree_level/six_point/sphere_six_point_radial_proposal.py": "code/tree_level/six_point/moduli_integration/six_point_radial_sampling_distribution.py",
+    "code/tree_level/six_point/sphere_six_point_sampling_diagnostics.py": "code/tree_level/six_point/moduli_integration/six_point_check_sampling_variance.py",
+    "code/tree_level/six_point/sphere_six_point_analytic_collar_pilot.py": "code/tree_level/six_point/moduli_integration/six_point_integrate_collar_patch.py",
+    "code/tree_level/six_point/sphere_six_point_bank_build.py": "code/tree_level/six_point/liouville_integration/six_point_build_momentum_banks.py",
+    "code/tree_level/six_point/sphere_six_point_catalog_import.py": "code/tree_level/six_point/liouville_integration/six_point_reuse_saved_coefficients.py",
+    "code/tree_level/six_point/sphere_six_point_multilevel_analyze.py": "code/tree_level/six_point/liouville_integration/six_point_analyze_quadrature_and_order_controls.py",
+    "code/tree_level/six_point/sphere_six_point_multilevel_catalog.py": "code/tree_level/six_point/liouville_integration/six_point_mixed_order_node_catalog.py",
+    "code/tree_level/six_point/sphere_six_point_multilevel_scan.py": "code/tree_level/six_point/moduli_integration/six_point_integrate_mixed_order_amplitudes.py",
+    "code/tree_level/six_point/sphere_six_point_named_variants.py": "code/tree_level/six_point/liouville_integration/six_point_compare_momentum_quadratures.py",
+    "code/tree_level/six_point/sphere_six_point_node_catalog.py": "code/tree_level/six_point/liouville_integration/six_point_deduplicate_momentum_nodes.py",
+    "code/tree_level/six_point/sphere_six_point_parallel_routing.py": "code/tree_level/six_point/moduli_integration/six_point_evaluate_routed_geometry_shards.py",
+    "code/tree_level/six_point/sphere_six_point_prepare_radial_mixture_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_prepare_radial_geometry.py",
+    "code/tree_level/six_point/sphere_six_point_prepare_yin_radial_curve.py": "code/tree_level/six_point/production/six_point_prepare_amplitude_curve.py",
+    "code/tree_level/six_point/sphere_six_point_routed_estimator.py": "code/tree_level/six_point/moduli_integration/six_point_estimate_collar_corrected_integrand.py",
+    "code/tree_level/six_point/sphere_six_point_yin_curve_aggregate.py": "code/tree_level/six_point/moduli_integration/six_point_assemble_curve_amplitudes.py",
+    "code/tree_level/six_point/sphere_six_point_yin_curve_worker_v2.py": "code/tree_level/six_point/production/six_point_run_frozen_energy_worker.py",
+    "code/tree_level/six_point/sphere_six_point_yin_radial_curve_aggregate.py": "code/tree_level/six_point/moduli_integration/six_point_assemble_radial_curve_covariance.py",
+    "code/tree_level/six_point/sphere_six_point_yin_radial_curve_worker.py": "code/tree_level/six_point/production/six_point_run_frozen_radial_worker.py",
+    "code/tree_level/six_point/sphere_six_point_yin_radial_submit.py": "code/tree_level/six_point/production/six_point_submit_radial_campaign.py",
+    "code/tree_level/six_point/sphere_six_point_analytic_collar_spectral.py": "code/tree_level/six_point/liouville_integration/six_point_collar_momentum_quadrature.py",
+    "code/tree_level/six_point/sphere_six_point_middle_pillow.py": "code/tree_level/six_point/conformal_block/six_point_collar_block_evaluator.py",
+    "code/tree_level/six_point/sphere_six_point_boundary_treatment_v1.json": "code/tree_level/six_point/moduli_integration/six_point_boundary_treatment_settings_v1.json",
+    "code/tree_level/six_point/selective_refinement/selective_core.py": "code/tree_level/six_point/conformal_block/six_point_refinement_statistics.py",
+    "code/tree_level/six_point/selective_refinement/selective_campaign.py": "code/tree_level/six_point/production/six_point_refinement.py",
+    "code/tree_level/six_point/selective_refinement/selective_reassemble.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/selective_refinement/cap14/policy.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/selective_refinement/cap14/finalize.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/selective_refinement/cap14/reassemble.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/general/five_point_channel_geometry.py": "code/tree_level/five_point/conformal_block/five_point_liouville_correlator_and_atlas.py",
+    "code/tree_level/general/five_point_integrand_and_quadrature.py": "code/tree_level/five_point/liouville_integration/five_point_integrand_and_quadrature.py",
+    "code/tree_level/general/five_point_liouville_correlator_and_atlas.py": "code/tree_level/five_point/conformal_block/five_point_liouville_correlator_and_atlas.py",
+    "code/tree_level/general/five_point_virasoro_block_recursion.py": "code/tree_level/five_point/conformal_block/five_point_virasoro_block_recursion.py",
+    "code/tree_level/six_point/six_point_arbitrary_precision_c_recursion.py": "code/tree_level/six_point/conformal_block/six_point_arbitrary_precision_c_recursion.py",
+    "code/tree_level/six_point/six_point_block_coefficient_provider.py": "code/tree_level/six_point/conformal_block/six_point_block_coefficient_provider.py",
+    "code/tree_level/six_point/six_point_select_integration_channels.py": "code/tree_level/six_point/conformal_block/six_point_select_integration_channels.py",
+    "code/tree_level/six_point/six_point_measure_block_convergence.py": "code/tree_level/six_point/conformal_block/six_point_measure_block_convergence.py",
+    "code/tree_level/six_point/six_point_collar_block_evaluator.py": "code/tree_level/six_point/conformal_block/six_point_collar_block_evaluator.py",
+    "code/tree_level/six_point/six_point_middle_pillow_block_expansion.py": "code/tree_level/six_point/conformal_block/six_point_collar_block_evaluator.py",
+    "code/tree_level/six_point/selective_refinement/refine_flagged_samples.py": "code/tree_level/six_point/production/six_point_refinement.py",
+    "code/tree_level/six_point/selective_refinement/refinement_state_and_statistics.py": "code/tree_level/six_point/conformal_block/six_point_refinement_statistics.py",
+    "code/tree_level/six_point/selective_refinement/cap14/stopping_policy.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/selective_refinement/cap18_2pct/continue_flagged_samples_to_c18.py": "code/tree_level/six_point/production/six_point_refinement.py",
+    "code/tree_level/six_point/selective_refinement/cap18_2pct/refinement_2pct_state_and_statistics.py": "code/tree_level/six_point/conformal_block/six_point_refinement_statistics.py",
+    "code/tree_level/six_point/six_point_endpoint_and_tail_quadrature.py": "code/tree_level/six_point/liouville_integration/six_point_endpoint_and_tail_quadrature.py",
+    "code/tree_level/six_point/six_point_momentum_control_proposals.py": "code/tree_level/six_point/liouville_integration/six_point_momentum_control_proposals.py",
+    "code/tree_level/six_point/six_point_momentum_banks_and_reweighting.py": "code/tree_level/six_point/liouville_integration/six_point_momentum_banks_and_reweighting.py",
+    "code/tree_level/six_point/six_point_build_momentum_banks.py": "code/tree_level/six_point/liouville_integration/six_point_build_momentum_banks.py",
+    "code/tree_level/six_point/six_point_deduplicate_momentum_nodes.py": "code/tree_level/six_point/liouville_integration/six_point_deduplicate_momentum_nodes.py",
+    "code/tree_level/six_point/six_point_mixed_order_node_catalog.py": "code/tree_level/six_point/liouville_integration/six_point_mixed_order_node_catalog.py",
+    "code/tree_level/six_point/six_point_reuse_saved_coefficients.py": "code/tree_level/six_point/liouville_integration/six_point_reuse_saved_coefficients.py",
+    "code/tree_level/six_point/six_point_collar_momentum_quadrature.py": "code/tree_level/six_point/liouville_integration/six_point_collar_momentum_quadrature.py",
+    "code/tree_level/six_point/six_point_compare_momentum_quadratures.py": "code/tree_level/six_point/liouville_integration/six_point_compare_momentum_quadratures.py",
+    "code/tree_level/six_point/six_point_analyze_quadrature_and_order_controls.py": "code/tree_level/six_point/liouville_integration/six_point_analyze_quadrature_and_order_controls.py",
+    "code/tree_level/six_point/six_point_analytic_collar_subtraction.py": "code/tree_level/six_point/moduli_integration/six_point_analytic_collar_subtraction.py",
+    "code/tree_level/six_point/six_point_batch_block_contraction.py": "code/tree_level/six_point/moduli_integration/six_point_batch_block_contraction.py",
+    "code/tree_level/six_point/six_point_boundary_strata.py": "code/tree_level/six_point/moduli_integration/six_point_boundary_strata.py",
+    "code/tree_level/six_point/six_point_channel_coordinates.py": "code/tree_level/six_point/moduli_integration/six_point_channel_coordinates.py",
+    "code/tree_level/six_point/six_point_check_sampling_variance.py": "code/tree_level/six_point/moduli_integration/six_point_check_sampling_variance.py",
+    "code/tree_level/six_point/six_point_collar_counterterm_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_collar_counterterm_geometry.py",
+    "code/tree_level/six_point/six_point_combine_truncation_orders.py": "code/tree_level/six_point/moduli_integration/six_point_combine_truncation_orders.py",
+    "code/tree_level/six_point/six_point_estimate_collar_corrected_integrand.py": "code/tree_level/six_point/moduli_integration/six_point_estimate_collar_corrected_integrand.py",
+    "code/tree_level/six_point/six_point_evaluate_routed_geometry_shards.py": "code/tree_level/six_point/moduli_integration/six_point_evaluate_routed_geometry_shards.py",
+    "code/tree_level/six_point/six_point_integrate_collar_patch.py": "code/tree_level/six_point/moduli_integration/six_point_integrate_collar_patch.py",
+    "code/tree_level/six_point/six_point_integrate_equal_energy_amplitude.py": "code/tree_level/six_point/moduli_integration/six_point_radial_sampling_distribution.py",
+    "code/tree_level/six_point/six_point_integrate_mixed_order_amplitudes.py": "code/tree_level/six_point/moduli_integration/six_point_integrate_mixed_order_amplitudes.py",
+    "code/tree_level/six_point/six_point_radial_forest_subtraction.py": "code/tree_level/six_point/moduli_integration/six_point_route_collar_contributions.py",
+    "code/tree_level/six_point/six_point_radial_sampling_distribution.py": "code/tree_level/six_point/moduli_integration/six_point_radial_sampling_distribution.py",
+    "code/tree_level/six_point/six_point_route_collar_contributions.py": "code/tree_level/six_point/moduli_integration/six_point_route_collar_contributions.py",
+    "code/tree_level/six_point/six_point_sample_integration_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_sample_integration_geometry.py",
+    "code/tree_level/six_point/six_point_stable_puncture_coordinates.py": "code/tree_level/six_point/moduli_integration/six_point_stable_puncture_coordinates.py",
+    "code/tree_level/six_point/six_point_prepare_radial_geometry.py": "code/tree_level/six_point/moduli_integration/six_point_prepare_radial_geometry.py",
+    "code/tree_level/six_point/selective_refinement/apply_pointwise_amplitude_corrections.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/selective_refinement/cap14/assemble_final_amplitudes.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/selective_refinement/cap14/finalize_refinement_and_assemble.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/selective_refinement/cap18_2pct/assemble_amplitudes_from_c14_corrections.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/six_point_assemble_curve_amplitudes.py": "code/tree_level/six_point/moduli_integration/six_point_assemble_curve_amplitudes.py",
+    "code/tree_level/six_point/six_point_assemble_radial_curve_covariance.py": "code/tree_level/six_point/moduli_integration/six_point_assemble_radial_curve_covariance.py",
+    "code/tree_level/six_point/six_point_prepare_amplitude_curve.py": "code/tree_level/six_point/production/six_point_prepare_amplitude_curve.py",
+    "code/tree_level/six_point/six_point_run_frozen_energy_worker.py": "code/tree_level/six_point/production/six_point_run_frozen_energy_worker.py",
+    "code/tree_level/six_point/six_point_run_frozen_radial_worker.py": "code/tree_level/six_point/production/six_point_run_frozen_radial_worker.py",
+    "code/tree_level/six_point/six_point_submit_radial_campaign.py": "code/tree_level/six_point/production/six_point_submit_radial_campaign.py",
+    "code/tree_level/six_point/selective_refinement/cap18_2pct/verify_saved_c14_continuation_inputs.py": "code/tree_level/six_point/production/verify_saved_c14_continuation_inputs.py",
+    "code/tree_level/six_point/selective_refinement/cap18_2pct/dispatch_shared_refinement_queue.py": "code/tree_level/six_point/production/dispatch_shared_refinement_queue.py",
+    "code/tree_level/six_point/package_six_point_source.py": "code/general/io/package_amplitude_source.py",
+    "code/tree_level/six_point/six_point_boundary_treatment_settings_v1.json": "code/tree_level/six_point/moduli_integration/six_point_boundary_treatment_settings_v1.json",
+    "code/tree_level/five_point/five_point_virasoro_block_recursion.py": "code/tree_level/five_point/conformal_block/five_point_virasoro_block_recursion.py",
+    "code/tree_level/five_point/five_point_liouville_correlator_and_atlas.py": "code/tree_level/five_point/conformal_block/five_point_liouville_correlator_and_atlas.py",
+    "code/tree_level/five_point/five_point_integrand_and_quadrature.py": "code/tree_level/five_point/liouville_integration/five_point_integrand_and_quadrature.py",
+    "code/tree_level/five_point/five_point_moduli_integration.py": "code/tree_level/five_point/moduli_integration/five_point_moduli_integration.py",
+    "code/tree_level/five_point/five_point_production.py": "code/tree_level/five_point/other_scripts/five_point_production.py",
+    "code/tree_level/archive/ccy_sphere_five_point_checks.py": "code/tree_level/five_point/other_scripts/ccy_sphere_five_point_checks.py",
+    "code/tree_level/archive/export_sphere_five_point_t_axis_plot_data.py": "code/tree_level/five_point/other_scripts/export_sphere_five_point_t_axis_plot_data.py",
+    "code/tree_level/archive/sphere_five_point_30point_audit_summary.py": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_audit_summary.py",
+    "code/tree_level/archive/sphere_five_point_30point_checks.py": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_checks.py",
+    "code/tree_level/archive/sphere_five_point_30point_matrix_comparison.py": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_matrix_comparison.py",
+    "code/tree_level/archive/sphere_five_point_30point_worldsheet_fit.py": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_worldsheet_fit.py",
+    "code/tree_level/archive/sphere_five_point_continuation_checks.py": "code/tree_level/five_point/other_scripts/sphere_five_point_continuation_checks.py",
+    "code/tree_level/archive/sphere_five_point_imaginary_ray_fit.py": "code/tree_level/five_point/other_scripts/sphere_five_point_imaginary_ray_fit.py",
+    "code/tree_level/archive/sphere_five_point_liouville_checks.py": "code/tree_level/five_point/other_scripts/sphere_five_point_liouville_checks.py",
+    "code/two_loop/analysis/assemble_genus2_resolved_production.py": "code/two_loop/other_scripts/assemble_genus2_resolved_production.py",
+    "code/two_loop/analysis/assemble_genus2_tail_completion.py": "code/two_loop/other_scripts/assemble_genus2_tail_completion.py",
+    "code/two_loop/analysis/audit_genus2_g_convention.py": "code/two_loop/other_scripts/audit_genus2_g_convention.py",
+    "code/two_loop/analysis/plot_genus2_absolute_bry.py": "code/two_loop/other_scripts/plot_genus2_absolute_bry.py",
+    "code/two_loop/analysis/rebuild_genus2_bulk_control_groups.py": "code/two_loop/other_scripts/rebuild_genus2_bulk_control_groups.py",
+    "code/two_loop/cft/ccy_genus2_glasses_block.py": "code/two_loop/conformal_block/ccy_genus2_glasses_block.py",
+    "code/two_loop/cft/liouville_genus2.py": "code/two_loop/liouville_integration/liouville_genus2.py",
+    "code/two_loop/cft/liouville_genus2_ccy.py": "code/two_loop/liouville_integration/liouville_genus2_ccy.py",
+    "code/two_loop/cft/liouville_genus2_glasses.py": "code/two_loop/liouville_integration/liouville_genus2_glasses.py",
+    "code/two_loop/cft/liouville_genus2_modular_check.py": "code/two_loop/geometry/liouville_genus2_modular_check.py",
+    "code/two_loop/integrand/genus2_bc_ghost.py": "code/two_loop/moduli_integration/genus2_bc_ghost.py",
+    "code/two_loop/integrand/genus2_c1_string_integrand.py": "code/two_loop/moduli_integration/genus2_c1_string_integrand.py",
+    "code/two_loop/integrand/genus2_separating_tail.py": "code/two_loop/moduli_integration/genus2_separating_tail.py",
+    "code/two_loop/production/genus2_glasses_production_gate.py": "code/two_loop/other_scripts/genus2_glasses_production_gate.py",
+    "code/two_loop/production/genus2_separating_residual_pilot.py": "code/two_loop/other_scripts/genus2_separating_production.py",
+    "code/two_loop/production/genus2_separating_residual_retry.py": "code/two_loop/other_scripts/genus2_separating_residual_retry.py",
+    "code/two_loop/production/genus2_separating_tail_cluster.py": "code/two_loop/other_scripts/genus2_separating_production.py",
+    "code/two_loop/production/genus2_siegel_fundamental_domain.py": "code/two_loop/moduli_integration/genus2_siegel_fundamental_domain.py",
+    "code/two_loop/production/genus2_tail_completion_production.py": "code/two_loop/other_scripts/genus2_separating_production.py",
+    "code/two_loop/production/monte_carlo_integrate_genus2_c1.py": "code/two_loop/other_scripts/genus2_moduli_production.py",
+    "code/two_loop/production/study_genus2_separating_tail_correction.py": "code/two_loop/other_scripts/study_genus2_separating_tail_correction.py",
+    "code/two_loop/validation/ccy_genus2_glasses_block_checks.py": "code/two_loop/other_scripts/checks/ccy_genus2_glasses_block_checks.py",
+    "code/two_loop/validation/genus2_c1_string_integrand_checks.py": "code/two_loop/other_scripts/checks/genus2_c1_string_integrand_checks.py",
+    "code/two_loop/validation/genus2_separating_tail_checks.py": "code/two_loop/other_scripts/checks/genus2_separating_tail_checks.py",
+    "code/two_loop/validation/genus2_tail_completion_checks.py": "code/two_loop/other_scripts/checks/genus2_tail_completion_checks.py",
+    "code/two_loop/validation/genus2_tail_precision_checks.py": "code/two_loop/other_scripts/checks/genus2_tail_precision_checks.py",
+    "code/two_loop/validation/plot_genus2_absolute_bry_checks.py": "code/two_loop/other_scripts/checks/plot_genus2_absolute_bry_checks.py",
+    "code/tree_level/five_point/five_point_channel_geometry.py": "code/tree_level/five_point/conformal_block/five_point_liouville_correlator_and_atlas.py",
+    "code/tree_level/five_point/five_point_scan_imaginary_amplitudes.py": "code/tree_level/five_point/other_scripts/five_point_production.py",
+    "code/tree_level/five_point/five_point_extend_amplitude_scan_to_30_points.py": "code/tree_level/five_point/other_scripts/five_point_production.py",
+    "code/two_loop/production/genus2_moduli_rqmc.py": "code/two_loop/moduli_integration/genus2_moduli_sampling.py",
+    "code/two_loop/production/genus2_moduli_physical_mixture_rqmc.py": "code/two_loop/moduli_integration/genus2_moduli_sampling.py",
+    "code/tree_level/six_point/conformal_block/refinement_state_and_statistics.py": "code/tree_level/six_point/conformal_block/six_point_refinement_statistics.py",
+    "code/tree_level/six_point/conformal_block/refinement_2pct_state_and_statistics.py": "code/tree_level/six_point/conformal_block/six_point_refinement_statistics.py",
+    "code/tree_level/six_point/conformal_block/refine_flagged_samples.py": "code/tree_level/six_point/production/six_point_refinement.py",
+    "code/tree_level/six_point/conformal_block/continue_flagged_samples_to_c18.py": "code/tree_level/six_point/production/six_point_refinement.py",
+    "code/tree_level/six_point/conformal_block/six_point_middle_pillow_block_expansion.py": "code/tree_level/six_point/conformal_block/six_point_collar_block_evaluator.py",
+    "code/tree_level/six_point/moduli_integration/six_point_radial_forest_subtraction.py": "code/tree_level/six_point/moduli_integration/six_point_route_collar_contributions.py",
+    "code/tree_level/six_point/moduli_integration/six_point_integrate_equal_energy_amplitude.py": "code/tree_level/six_point/moduli_integration/six_point_radial_sampling_distribution.py",
+    "code/tree_level/six_point/moduli_integration/apply_pointwise_amplitude_corrections.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/conformal_block/stopping_policy.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/moduli_integration/assemble_final_amplitudes.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/moduli_integration/finalize_refinement_and_assemble.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/moduli_integration/assemble_amplitudes_from_c14_corrections.py": "code/tree_level/six_point/moduli_integration/six_point_refinement_assembly.py",
+    "code/tree_level/six_point/production/package_six_point_source.py": "code/general/io/package_amplitude_source.py"
+  },
+  "entrypoint_arguments": {
+    "five_point_scan_imaginary_amplitudes": [
+      "scan"
+    ],
+    "five_point_extend_amplitude_scan_to_30_points": [
+      "extend"
+    ],
+    "refine_flagged_samples": [
+      "initial"
+    ],
+    "continue_flagged_samples_to_c18": [
+      "continue"
+    ],
+    "genus2_separating_residual_pilot": [
+      "pilot"
+    ],
+    "package_six_point_source": [
+      "--calculation",
+      "six_point"
+    ],
+    "genus2_moduli_rqmc": [
+      "--measure",
+      "invariant"
+    ],
+    "genus2_moduli_physical_mixture_rqmc": [
+      "--measure",
+      "physical"
+    ]
+  },
+  "roots": {},
+  "closures": {},
+  "files": [],
+  "support_files": [],
+  "campaign_copies": [],
+  "new_helpers": [],
+  "prior_layout_sha256": []
+}

@@ -1,0 +1,513 @@
+{
+  "status": "sphere_1to4_worldsheet_extension_frozen_before_external_comparison",
+  "calculation": "genus-zero equal-energy sphere 1->4 amplitude",
+  "matrix_model_information_used": false,
+  "kinematics": "omega=i*t; signed energies (4*omega,-omega,-omega,-omega,-omega)",
+  "normalization": "Q_4=I_5/(16*pi^2*omega^5); mu^3*A=4*i*omega^5*Q_4",
+  "moduli_prescription": "120-chart plumbing-coordinate mixture",
+  "liouville_contour": "real below t=0.35; continued implementation from t=0.35, with the first crossed residue active only for t>0.4",
+  "settings": {
+    "momentum_order": 20,
+    "momentum_maximum": 6.0,
+    "momentum_panels": 1,
+    "momentum_power": 1.25,
+    "block_scheme": "c",
+    "replicates": 4,
+    "radial_power": 0.15,
+    "base_seed": 20277001,
+    "per_point_seed_stride": 8,
+    "first_contour_wall": 0.4,
+    "second_contour_wall": 0.5
+  },
+  "design": {
+    "target_merged_point_count": 30,
+    "historical_point_count": 18,
+    "extension_point_count": 12,
+    "extension_t_values": [
+      0.19,
+      0.21,
+      0.23,
+      0.27,
+      0.29,
+      0.31,
+      0.33,
+      0.35,
+      0.37,
+      0.39,
+      0.44,
+      0.47
+    ],
+    "selection": "interlace broad historical gaps across the validated ray; retain the existing t=0.249 and 0.251 zero probes; avoid t=0.25 and both contour walls"
+  },
+  "points": [
+    {
+      "t": 0.19,
+      "Q": 0.2978684129330799,
+      "Q_imaginary_part": -9.084878110295228e-17,
+      "Q_standard_error": 0.0007685844009980778,
+      "raw_integral": {
+        "real": 3.552277112502928e-18,
+        "imag": 0.011646949281583326
+      },
+      "raw_standard_error": {
+        "real": 8.080941424681388e-21,
+        "imag": 3.0052409548547273e-05
+      },
+      "replicate_estimates": [
+        {
+          "real": 3.530818965560365e-18,
+          "imag": 0.011574804144175591
+        },
+        {
+          "real": 3.5630501955995626e-18,
+          "imag": 0.011678976629271885
+        },
+        {
+          "real": 3.5489587354840394e-18,
+          "imag": 0.0116234055534796
+        },
+        {
+          "real": 3.566280553367746e-18,
+          "imag": 0.011710610799406234
+        }
+      ],
+      "block_order": 6,
+      "momentum_order": 20,
+      "sobol_power": 10,
+      "replicates": 4,
+      "contour": "real",
+      "residue_status": "not applicable",
+      "seed": 20277001
+    },
+    {
+      "t": 0.21,
+      "Q": 0.18536134494932371,
+      "Q_imaginary_part": -5.649288775445816e-17,
+      "Q_standard_error": 0.0002672966629120594,
+      "raw_integral": {
+        "real": 3.643426198972451e-18,
+        "imag": 0.011954608930605432
+      },
+      "raw_standard_error": {
+        "real": 4.6571764454500654e-21,
+        "imag": 1.7238907467159017e-05
+      },
+      "replicate_estimates": [
+        {
+          "real": 3.637460929949822e-18,
+          "imag": 0.011930922382522698
+        },
+        {
+          "real": 3.654653550960759e-18,
+          "imag": 0.011998037068924331
+        },
+        {
+          "real": 3.6342840560628894e-18,
+          "imag": 0.011923241179685564
+        },
+        {
+          "real": 3.6473062589163325e-18,
+          "imag": 0.011966235091289135
+        }
+      ],
+      "block_order": 6,
+      "momentum_order": 20,
+      "sobol_power": 10,
+      "replicates": 4,
+      "contour": "real",
+      "residue_status": "not applicable",
+      "seed": 20277009
+    },
+    {
+      "t": 0.23,
+      "Q": 0.08635570337054993,
+      "Q_imaginary_part": -2.6336363278296944e-17,
+      "Q_standard_error": 0.00012359254829817073,
+      "raw_integral": {
+        "real": 2.6767925338115407e-18,
+        "imag": 0.008777077517943472
+      },
+      "raw_standard_error": {
+        "real": 4.626222928650395e-21,
+        "imag": 1.2561780342387466e-05
+      },
+      "replicate_estimates": [
+        {
+          "real": 2.6900425969744943e-18,
+          "imag": 0.008813310081855048
+        },
+        {
+          "real": 2.6708443425873784e-18,
+          "imag": 0.008757234783368296
+        },
+        {
+          "real": 2.6762415529595727e-18,
+          "imag": 0.008763747729928283
+        },
+        {
+          "real": 2.6700416427247173e-18,
+          "imag": 0.008774017476622263
+        }
+      ],
+      "block_order": 6,
+      "momentum_order": 20,
+      "sobol_power": 10,
+      "replicates": 4,
+      "contour": "real",
+      "residue_status": "not applicable",
+      "seed": 20277017
+    },
+    {
+      "t": 0.27,
+      "Q": -0.07360483322664414,
+      "Q_imaginary_part": 3.152353766338201e-17,
+      "Q_standard_error": 0.00019410949490891987,
+      "raw_integral": {
+        "real": -7.142882370416482e-18,
+        "imag": -0.01667803503674519
+      },
+      "raw_standard_error": {
+        "real": 1.605729739705974e-20,
+        "imag": 4.398304860072677e-05
+      },
+      "replicate_estimates": [
+        {
+          "real": -7.138927299871155e-18,
+          "imag": -0.016655812042409943
+        },
+        {
+          "real": -7.126518337310523e-18,
+          "imag": -0.01662858985691486
+        },
+        {
+          "real": -7.18912643725386e-18,
+          "imag": -0.016807962832147867
+        },
+        {
+          "real": -7.116957407230392e-18,
+          "imag": -0.016619775415508103
+        }
+      ],
+      "block_order": 6,
+      "momentum_order": 20,
+      "sobol_power": 10,
+      "replicates": 4,
+      "contour": "real",
+      "residue_status": "not applicable",
+      "seed": 20277025
+    },
+    {
+      "t": 0.29,
+      "Q": -0.13425202473427506,
+      "Q_imaginary_part": 5.743812354862721e-17,
+      "Q_standard_error": 0.00019969821122336575,
+      "raw_integral": {
+        "real": -1.8604155506829506e-17,
+        "imag": -0.04348410760927215
+      },
+      "raw_standard_error": {
+        "real": 3.588097046289307e-20,
+        "imag": 6.46820673535735e-05
+      },
+      "replicate_estimates": [
+        {
+          "real": -1.8654081942808058e-17,
+          "imag": -0.04355373335949476
+        },
+        {
+          "real": -1.8583117572542984e-17,
+          "imag": -0.043421941346528874
+        },
+        {
+          "real": -1.8667482754756303e-17,
+          "imag": -0.04362436575868904
+        },
+        {
+          "real": -1.8511939757210683e-17,
+          "imag": -0.04333638997237591
+        }
+      ],
+      "block_order": 6,
+      "momentum_order": 20,
+      "sobol_power": 10,
+      "replicates": 4,
+      "contour": "real",
+      "residue_status": "not applicable",
+      "seed": 20277033
+    },
+    {
+      "t": 0.31,
+      "Q": -0.18233967126851575,
+      "Q_imaginary_part": 7.804444681588431e-17,
+      "Q_standard_error": 0.00030618682851502065,
+      "raw_integral": {
+        "real": -3.528338177320359e-17,
+        "imag": -0.08243456768865284
+      },
+      "raw_standard_error": {
+        "real": 6.721903308918102e-20,
+        "imag": 0.00013842505399401595
+      },
+      "replicate_estimates": [
+        {
+          "real": -3.5350166328631034e-17,
+          "imag": -0.0825947795382595
+        },
+        {
+          "real": -3.5440436867844025e-17,
+          "imag": -0.08274209192465387
+        },
+        {
+          "real": -3.516686810196422e-17,
+          "imag": -0.08218824108440007
+        },
+        {
+          "real": -3.5176055794375075e-17,
+          "imag": -0.08221315820729794
+        }
+      ],
+      "block_order": 6,
+      "momentum_order": 20,
+      "sobol_power": 10,
+      "replicates": 4,
+      "contour": "real",
+      "residue_status": "not applicable",
+      "seed": 20277041
+    },
+    {
+      "t": 0.33,
+      "Q": -0.21686802090482618,
+      "Q_imaginary_part": 9.278207447787082e-17,
+      "Q_standard_error": 0.000516717005845332,
+      "raw_integral": {
+        "real": -5.733944776427946e-17,
+        "imag": -0.13402473081565774
+      },
+      "raw_standard_error": {
+        "real": 1.3927921800099035e-19,
+        "imag": 0.00031933180985999456
+      },
+      "replicate_estimates": [
+        {
+          "real": -5.733036455546854e-17,
+          "imag": -0.13407975412743703
+        },
+        {
+          "real": -5.772695691292871e-17,
+          "imag": -0.13488434664895038
+        },
+        {
+          "real": -5.722417891469166e-17,
+          "imag": -0.1337454903392083
+        },
+        {
+          "real": -5.70762906740289e-17,
+          "imag": -0.13338933214703524
+        }
+      ],
+      "block_order": 6,
+      "momentum_order": 20,
+      "sobol_power": 10,
+      "replicates": 4,
+      "contour": "real",
+      "residue_status": "not applicable",
+      "seed": 20277049
+    },
+    {
+      "t": 0.35,
+      "Q": -0.24254949709210757,
+      "Q_imaginary_part": 1.0377863052174344e-16,
+      "Q_standard_error": 0.001402612982654003,
+      "raw_integral": {
+        "real": -8.607318728805848e-17,
+        "imag": -0.20116866241995046
+      },
+      "raw_standard_error": {
+        "real": 5.073563228898575e-19,
+        "imag": 0.0011633162756310013
+      },
+      "replicate_estimates": [
+        {
+          "real": -8.594745253880531e-17,
+          "imag": -0.20064489422858228
+        },
+        {
+          "real": -8.475606547849036e-17,
+          "imag": -0.1982588782259176
+        },
+        {
+          "real": -8.718022459708284e-17,
+          "imag": -0.20378093817155557
+        },
+        {
+          "real": -8.640900653785541e-17,
+          "imag": -0.20198993905374638
+        }
+      ],
+      "block_order": 8,
+      "momentum_order": 20,
+      "sobol_power": 9,
+      "replicates": 4,
+      "contour": "continued",
+      "residue_status": "inactive below t=2/5",
+      "seed": 20277057
+    },
+    {
+      "t": 0.37,
+      "Q": -0.2500331360683425,
+      "Q_imaginary_part": 1.0702628125374823e-16,
+      "Q_standard_error": 0.0014396437634098854,
+      "raw_integral": {
+        "real": -1.171976177669309e-16,
+        "imag": -0.27379525446212194
+      },
+      "raw_standard_error": {
+        "real": 6.135670511940898e-19,
+        "imag": 0.001576461571197016
+      },
+      "replicate_estimates": [
+        {
+          "real": -1.1820100171309754e-16,
+          "imag": -0.27636033997929466
+        },
+        {
+          "real": -1.1643138942956467e-16,
+          "imag": -0.27216348938749724
+        },
+        {
+          "real": -1.1828227886564415e-16,
+          "imag": -0.2765023072502517
+        },
+        {
+          "real": -1.158758010594172e-16,
+          "imag": -0.27015488123144404
+        }
+      ],
+      "block_order": 8,
+      "momentum_order": 20,
+      "sobol_power": 9,
+      "replicates": 4,
+      "contour": "continued",
+      "residue_status": "inactive below t=2/5",
+      "seed": 20277065
+    },
+    {
+      "t": 0.39,
+      "Q": -0.2474852940782044,
+      "Q_imaginary_part": 1.0581029902817091e-16,
+      "Q_standard_error": 0.0011777745568650078,
+      "raw_integral": {
+        "real": -1.50754645890703e-16,
+        "imag": -0.3526079995481623
+      },
+      "raw_standard_error": {
+        "real": 7.222578083433379e-19,
+        "imag": 0.0016780501320763843
+      },
+      "replicate_estimates": [
+        {
+          "real": -1.4947228456915822e-16,
+          "imag": -0.34997783220005646
+        },
+        {
+          "real": -1.5270940447389683e-16,
+          "imag": -0.3571170789458512
+        },
+        {
+          "real": -1.4988539689440893e-16,
+          "imag": -0.3501233098176809
+        },
+        {
+          "real": -1.5095149762534807e-16,
+          "imag": -0.3532137772290606
+        }
+      ],
+      "block_order": 8,
+      "momentum_order": 20,
+      "sobol_power": 9,
+      "replicates": 4,
+      "contour": "continued",
+      "residue_status": "inactive below t=2/5",
+      "seed": 20277073
+    },
+    {
+      "t": 0.44,
+      "Q": -0.18261291582991118,
+      "Q_imaginary_part": 5.632590812829331e-17,
+      "Q_standard_error": 0.0006709068751658643,
+      "raw_integral": {
+        "real": -1.466868940604447e-16,
+        "imag": -0.4755701652851937
+      },
+      "raw_standard_error": {
+        "real": 1.4189650545176907e-18,
+        "imag": 0.0017472109903265767
+      },
+      "replicate_estimates": [
+        {
+          "real": -1.4980105255265045e-16,
+          "imag": -0.4789428799200418
+        },
+        {
+          "real": -1.4821058327602776e-16,
+          "imag": -0.4744972077406017
+        },
+        {
+          "real": -1.4520077099026965e-16,
+          "imag": -0.4776961127197927
+        },
+        {
+          "real": -1.4353516942283105e-16,
+          "imag": -0.47114446076033867
+        }
+      ],
+      "block_order": 8,
+      "momentum_order": 20,
+      "sobol_power": 9,
+      "replicates": 4,
+      "contour": "continued",
+      "residue_status": "included",
+      "seed": 20277081
+    },
+    {
+      "t": 0.47,
+      "Q": -0.10573905562240082,
+      "Q_imaginary_part": -3.2029544087717204e-17,
+      "Q_standard_error": 0.0008754415709183447,
+      "raw_integral": {
+        "real": 1.1600047688246403e-16,
+        "imag": -0.38295209084801196
+      },
+      "raw_standard_error": {
+        "real": 3.3915252922607832e-18,
+        "imag": 0.0031705615113080798
+      },
+      "replicate_estimates": [
+        {
+          "real": 1.2526336203887927e-16,
+          "imag": -0.38950155078933646
+        },
+        {
+          "real": 1.1152177877509565e-16,
+          "imag": -0.38534984282868223
+        },
+        {
+          "real": 1.1038927442234069e-16,
+          "imag": -0.3744810742944251
+        },
+        {
+          "real": 1.1682749229354046e-16,
+          "imag": -0.38247589547960387
+        }
+      ],
+      "block_order": 8,
+      "momentum_order": 20,
+      "sobol_power": 9,
+      "replicates": 4,
+      "contour": "continued",
+      "residue_status": "included",
+      "seed": 20277089
+    }
+  ],
+  "point_count": 12
+}

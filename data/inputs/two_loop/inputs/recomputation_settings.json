@@ -1,0 +1,95 @@
+{
+  "bulk": {
+    "quadrature_scheme": "primary-gaussian",
+    "resum_global_block": false,
+    "vacuum_word_length": 10,
+    "vacuum_oscillator_level": 40,
+    "dps_by_order": {
+      "8": 36,
+      "10": 36,
+      "12": 36,
+      "14": 44,
+      "16": 44,
+      "18": 48,
+      "20": 48,
+      "22": 52
+    },
+    "coordinate_order": "theta: (q_zero,q_one,q_infinity); glasses: (q_left,q_right,q_bridge)",
+    "selected_glasses_override": {
+      "resum_global_block": true,
+      "block_order": 8,
+      "dps": 44,
+      "vacuum_word_length": 8,
+      "vacuum_oscillator_level": 40,
+      "quadrature_orders": "glasses_ql_{left,right,bridge}_momentum_order",
+      "coordinates": "glasses_ql_q{1,2,3} and glasses_ql_log_q{1,2,3}"
+    },
+    "source_submission_settings": [
+      {
+        "source": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/genus2_c1_moduli_mc/physical_mixture_R8_C4_M256/cluster_submission_cftfix_20260728_v1.json",
+        "sha256": "0f33149a2d9b17d3a4c2715c6bd7adc58e7c18aa25ba4e159f8df6562d673bde",
+        "settings": {
+          "block_order": 8,
+          "quadrature_order": 8,
+          "decimal_precision": 36,
+          "vacuum_word_length": 10,
+          "vacuum_oscillator_level": 40,
+          "scalar_word_length": 14
+        }
+      },
+      {
+        "source": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/genus2_c1_moduli_mc/physical_mixture_R8_C4_M256/cft_tailored_0p5pct_v1/cluster_submission.json",
+        "sha256": "7951727d22ded3cd1d7616f1fa547ba38613edd21295f8f73396568c93252cdf",
+        "settings": {
+          "decimal_precision": 36,
+          "vacuum_word_length": 10,
+          "vacuum_oscillator_level": 40
+        }
+      },
+      {
+        "source": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/genus2_c1_moduli_mc/physical_mixture_R8_C4_M256/cft_tailored_0p5pct_v1/cft_high_order_14_16_0p5pct_v1/cluster_submission.json",
+        "sha256": "152a14c5a53820d270311cb888c6a2167c963ac8bcf49774542adab23059a71b",
+        "settings": {
+          "decimal_precision": 44,
+          "vacuum_word_length": 10,
+          "vacuum_oscillator_level": 40
+        }
+      },
+      {
+        "source": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/genus2_c1_moduli_mc/physical_mixture_R8_C4_M256/cft_tailored_0p5pct_v1/cft_high_order_14_16_0p5pct_v1/cft_ultra_order_18_20_0p5pct_v1/cluster_submission.json",
+        "sha256": "080dfa6e940aef7fcba102621a4e684a13b80e05af7dd3f9e5f07b3701a993f5",
+        "settings": {
+          "decimal_precision": 48,
+          "vacuum_word_length": 10,
+          "vacuum_oscillator_level": 40
+        }
+      },
+      {
+        "source": "/Users/yutaizhang/Desktop/Project/StringMC/plumbing/results/genus2_c1_moduli_mc/physical_mixture_R8_C4_M256/cft_tailored_0p5pct_v1/cft_high_order_14_16_0p5pct_v1/cft_ultra_order_18_20_0p5pct_v1/cft_final_order22_gt1pct_v1/cluster_submission.json",
+        "sha256": "7d23cdfb18d8a6456b6d7e60058e211d89bd3fb50424fdada0a88e6ae717a8cc",
+        "settings": {
+          "decimal_precision": 52,
+          "vacuum_word_length": 10,
+          "vacuum_oscillator_level": 40
+        }
+      }
+    ]
+  },
+  "finite_and_deep": {
+    "resum_global_block": true,
+    "quadrature_scheme": "primary-gaussian",
+    "default_dps": 44,
+    "vacuum_word_length": 8,
+    "vacuum_oscillator_level": 40,
+    "special_node16_dps": 60,
+    "control_momentum_order": 24,
+    "control_bridge_order": 32,
+    "control_block_order": 2
+  },
+  "notes": [
+    "Use stored complex log_q values: some q magnitudes were floored for floating-point storage.",
+    "Bulk original c-recursion values were produced before global-descendant resummation became the default. Explicit False is required with current code; the first retained bulk row was checked to reproduce its saved logarithm exactly.",
+    "Selected glasses replacements and later finite/deep residual computations use resummation.",
+    "Individual node CFT block and momentum orders in accepted source_records take precedence over generic policy defaults."
+  ]
+}

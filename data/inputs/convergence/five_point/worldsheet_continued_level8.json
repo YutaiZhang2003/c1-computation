@@ -1,0 +1,184 @@
+{
+  "description": "Worldsheet-only extension on omega=i*t; no matrix-model values were imported or evaluated.",
+  "settings": {
+    "block_order": 8,
+    "momentum_order": 20,
+    "momentum_maximum": 6.0,
+    "momentum_panels": 1,
+    "momentum_power": 1.25,
+    "block_scheme": "c",
+    "liouville_contour": "continued",
+    "continuation": "real P>=0 double integral plus -2i times the residue at P=(5/2)omega-i on an incoming-outgoing cherry edge",
+    "validity_range": "0<t<1/2; a second DOZZ pole family pinches at t=1/2",
+    "sobol_power": 9,
+    "replicates": 4,
+    "radial_power": 0.15,
+    "seed": 3201
+  },
+  "points": [
+    {
+      "t": 0.42,
+      "omega": {
+        "real": 0.0,
+        "imag": 0.42
+      },
+      "raw_integral": {
+        "real": -1.6377918351540068e-16,
+        "imag": -0.4516997101854957
+      },
+      "raw_standard_error": {
+        "real": 1.8613014816415646e-18,
+        "imag": 0.0035981116822723013
+      },
+      "Q": {
+        "real": -0.21886868664846323,
+        "imag": 7.935833029791575e-17
+      },
+      "Q_standard_error": {
+        "real": 0.0017434458348224964,
+        "imag": 9.018837106989341e-19
+      },
+      "replicate_estimates": [
+        {
+          "real": -1.6750769554014769e-16,
+          "imag": -0.4572787209358957
+        },
+        {
+          "real": -1.6643563294616062e-16,
+          "imag": -0.4576216957715723
+        },
+        {
+          "real": -1.609265016808992e-16,
+          "imag": -0.44255619274700186
+        },
+        {
+          "real": -1.6024690389439523e-16,
+          "imag": -0.44934223128751294
+        }
+      ]
+    },
+    {
+      "t": 0.46,
+      "omega": {
+        "real": 0.0,
+        "imag": 0.46
+      },
+      "raw_integral": {
+        "real": -1.2578675804671437e-16,
+        "imag": -0.44104222764223244
+      },
+      "raw_standard_error": {
+        "real": 2.245294017574853e-18,
+        "imag": 0.0037994648094738645
+      },
+      "Q": {
+        "real": -0.13560362100275114,
+        "imag": 3.8674618429435144e-17
+      },
+      "Q_standard_error": {
+        "real": 0.001168190149935313,
+        "imag": 6.903420577812492e-19
+      },
+      "replicate_estimates": [
+        {
+          "real": -1.2993370599045583e-16,
+          "imag": -0.44719860920573556
+        },
+        {
+          "real": -1.2797336784259812e-16,
+          "imag": -0.4470430846705813
+        },
+        {
+          "real": -1.2565813044339174e-16,
+          "imag": -0.43139845407605176
+        },
+        {
+          "real": -1.1958182791041177e-16,
+          "imag": -0.4385287626165611
+        }
+      ]
+    },
+    {
+      "t": 0.48,
+      "omega": {
+        "real": 0.0,
+        "imag": 0.48
+      },
+      "raw_integral": {
+        "real": -7.748394594353832e-17,
+        "imag": -0.29561197928932004
+      },
+      "raw_standard_error": {
+        "real": 1.5657415611211974e-18,
+        "imag": 0.0026549015467299086
+      },
+      "Q": {
+        "real": -0.07346764425301294,
+        "imag": 1.925687514283093e-17
+      },
+      "Q_standard_error": {
+        "real": 0.0006598154879610914,
+        "imag": 3.891295078134377e-19
+      },
+      "replicate_estimates": [
+        {
+          "real": -8.06249796135831e-17,
+          "imag": -0.2993223095036652
+        },
+        {
+          "real": -7.87947311345373e-17,
+          "imag": -0.29927733177546056
+        },
+        {
+          "real": -7.724863487978929e-17,
+          "imag": -0.2880395324328716
+        },
+        {
+          "real": -7.326743814624362e-17,
+          "imag": -0.29580874344528285
+        }
+      ]
+    },
+    {
+      "t": 0.49,
+      "omega": {
+        "real": 0.0,
+        "imag": 0.49
+      },
+      "raw_integral": {
+        "real": -3.9510297523339154e-17,
+        "imag": -0.1621572410129936
+      },
+      "raw_standard_error": {
+        "real": 6.154794659698988e-19,
+        "imag": 0.0018694945482489332
+      },
+      "Q": {
+        "real": -0.0363526619893615,
+        "imag": 8.857479826324648e-18
+      },
+      "Q_standard_error": {
+        "real": 0.00041910618963973266,
+        "imag": 1.3797914202304173e-19
+      },
+      "replicate_estimates": [
+        {
+          "real": -4.0596279816909643e-17,
+          "imag": -0.16290994063385444
+        },
+        {
+          "real": -4.0399057416679696e-17,
+          "imag": -0.16379171153057198
+        },
+        {
+          "real": -3.9082714172704395e-17,
+          "imag": -0.15672969933297926
+        },
+        {
+          "real": -3.7963138687062884e-17,
+          "imag": -0.16519761255456872
+        }
+      ]
+    }
+  ]
+}

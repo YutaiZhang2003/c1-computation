@@ -1,0 +1,2012 @@
+{
+  "t0p1805": {
+    "energies": [
+      0.1805
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.0651605,
+    "radial_power_prescription": "face-stratified mixture with endpoint p_E=2*t^2 and configured bulk p_B",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.0651605,
+            0.0651605,
+            0.0651605
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.0651605,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.0651605,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.0651605
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.0651605,
+            0.0651605,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.0651605,
+            0.75,
+            0.0651605
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.0651605,
+            0.0651605
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.0651605,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p1905": {
+    "energies": [
+      0.1905
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.0725805,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.0725805,
+            0.0725805,
+            0.0725805
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.0725805,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.0725805,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.0725805
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.0725805,
+            0.0725805,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.0725805,
+            0.75,
+            0.0725805
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.0725805,
+            0.0725805
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.0725805,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2005": {
+    "energies": [
+      0.2005
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.08040050000000001,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.08040050000000001,
+            0.08040050000000001,
+            0.08040050000000001
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.08040050000000001,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.08040050000000001,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.08040050000000001
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.08040050000000001,
+            0.08040050000000001,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.08040050000000001,
+            0.75,
+            0.08040050000000001
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.08040050000000001,
+            0.08040050000000001
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.08040050000000001,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2105": {
+    "energies": [
+      0.2105
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.08862049999999999,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.08862049999999999,
+            0.08862049999999999,
+            0.08862049999999999
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.08862049999999999,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.08862049999999999,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.08862049999999999
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.08862049999999999,
+            0.08862049999999999,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.08862049999999999,
+            0.75,
+            0.08862049999999999
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.08862049999999999,
+            0.08862049999999999
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.08862049999999999,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2205": {
+    "energies": [
+      0.2205
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.09724050000000001,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.09724050000000001,
+            0.09724050000000001,
+            0.09724050000000001
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.09724050000000001,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.09724050000000001,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.09724050000000001
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.09724050000000001,
+            0.09724050000000001,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.09724050000000001,
+            0.75,
+            0.09724050000000001
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.09724050000000001,
+            0.09724050000000001
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.09724050000000001,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2305": {
+    "energies": [
+      0.2305
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.10626050000000001,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.10626050000000001,
+            0.10626050000000001,
+            0.10626050000000001
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.10626050000000001,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.10626050000000001,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.10626050000000001
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.10626050000000001,
+            0.10626050000000001,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.10626050000000001,
+            0.75,
+            0.10626050000000001
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.10626050000000001,
+            0.10626050000000001
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.10626050000000001,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2405": {
+    "energies": [
+      0.2405
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.11568049999999999,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.11568049999999999,
+            0.11568049999999999,
+            0.11568049999999999
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.11568049999999999,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.11568049999999999,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.11568049999999999
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.11568049999999999,
+            0.11568049999999999,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.11568049999999999,
+            0.75,
+            0.11568049999999999
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.11568049999999999,
+            0.11568049999999999
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.11568049999999999,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2505": {
+    "energies": [
+      0.2505
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.1255005,
+    "radial_power_prescription": "face-stratified mixture with endpoint p_E=2*t^2 and configured bulk p_B",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.1255005,
+            0.1255005,
+            0.1255005
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.1255005,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.1255005,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.1255005
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.1255005,
+            0.1255005,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.1255005,
+            0.75,
+            0.1255005
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.1255005,
+            0.1255005
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.1255005,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2655": {
+    "energies": [
+      0.2655
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.1409805,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.1409805,
+            0.1409805,
+            0.1409805
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.1409805,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.1409805,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.1409805
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.1409805,
+            0.1409805,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.1409805,
+            0.75,
+            0.1409805
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.1409805,
+            0.1409805
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.1409805,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2755": {
+    "energies": [
+      0.2755
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.15180050000000003,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.15180050000000003,
+            0.15180050000000003,
+            0.15180050000000003
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.15180050000000003,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.15180050000000003,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.15180050000000003
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.15180050000000003,
+            0.15180050000000003,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.15180050000000003,
+            0.75,
+            0.15180050000000003
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.15180050000000003,
+            0.15180050000000003
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.15180050000000003,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2855": {
+    "energies": [
+      0.2855
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.16302049999999998,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.16302049999999998,
+            0.16302049999999998,
+            0.16302049999999998
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.16302049999999998,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.16302049999999998,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.16302049999999998
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.16302049999999998,
+            0.16302049999999998,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.16302049999999998,
+            0.75,
+            0.16302049999999998
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.16302049999999998,
+            0.16302049999999998
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.16302049999999998,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p2955": {
+    "energies": [
+      0.2955
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.17464049999999998,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.17464049999999998,
+            0.17464049999999998,
+            0.17464049999999998
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.17464049999999998,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.17464049999999998,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.17464049999999998
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.17464049999999998,
+            0.17464049999999998,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.17464049999999998,
+            0.75,
+            0.17464049999999998
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.17464049999999998,
+            0.17464049999999998
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.17464049999999998,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p3055": {
+    "energies": [
+      0.3055
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.18666049999999998,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.18666049999999998,
+            0.18666049999999998,
+            0.18666049999999998
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.18666049999999998,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.18666049999999998,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.18666049999999998
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.18666049999999998,
+            0.18666049999999998,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.18666049999999998,
+            0.75,
+            0.18666049999999998
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.18666049999999998,
+            0.18666049999999998
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.18666049999999998,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p3155": {
+    "energies": [
+      0.3155
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.1990805,
+    "radial_power_prescription": "face-stratified mixture with endpoint p_E=2*t^2 and configured bulk p_B",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.1990805,
+            0.1990805,
+            0.1990805
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.1990805,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.1990805,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.1990805
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.1990805,
+            0.1990805,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.1990805,
+            0.75,
+            0.1990805
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.1990805,
+            0.1990805
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.1990805,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  },
+  "t0p3255": {
+    "energies": [
+      0.3255
+    ],
+    "orders": [
+      8,
+      10,
+      12
+    ],
+    "low_order": 10,
+    "high_order": 12,
+    "baseline": "baseline",
+    "variants": [
+      "baseline",
+      "core0",
+      "core1",
+      "core2",
+      "tail0",
+      "tail1",
+      "tail2",
+      "width_half"
+    ],
+    "sample_design": "stratified-sobol-radial-mixture",
+    "base_seed": 2026091000,
+    "replicates": 8,
+    "sobol_power": 8,
+    "radial_power": 0.21190050000000002,
+    "radial_power_prescription": "accepted face mixture: p_E=2*t^2, p_B=0.75",
+    "maximum_per_axis_decay_ratio": 64.0,
+    "out_of_scope_policy": "require-fallback",
+    "batch_size": 4,
+    "target_blind": true,
+    "collar_routing": {
+      "momentum_profiles": [
+        "refined",
+        "high"
+      ],
+      "elliptic_orders": [
+        8,
+        12
+      ],
+      "x_order": 2,
+      "dps": 60,
+      "onset": 0.1,
+      "deep": 0.02,
+      "relative_tolerance": 0.003,
+      "policy": "explicit-two-pair-collar-v1"
+    },
+    "radial_proposal": {
+      "version": "sphere-six-point-radial-product-mixture-v1",
+      "kind": "face-stratified",
+      "components": [
+        {
+          "name": "EEE",
+          "weight": 0.125,
+          "powers": [
+            0.21190050000000002,
+            0.21190050000000002,
+            0.21190050000000002
+          ]
+        },
+        {
+          "name": "BBB",
+          "weight": 0.5,
+          "powers": [
+            0.75,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "EBB",
+          "weight": 0.0625,
+          "powers": [
+            0.21190050000000002,
+            0.75,
+            0.75
+          ]
+        },
+        {
+          "name": "BEB",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.21190050000000002,
+            0.75
+          ]
+        },
+        {
+          "name": "BBE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.75,
+            0.21190050000000002
+          ]
+        },
+        {
+          "name": "EEB",
+          "weight": 0.0625,
+          "powers": [
+            0.21190050000000002,
+            0.21190050000000002,
+            0.75
+          ]
+        },
+        {
+          "name": "EBE",
+          "weight": 0.0625,
+          "powers": [
+            0.21190050000000002,
+            0.75,
+            0.21190050000000002
+          ]
+        },
+        {
+          "name": "BEE",
+          "weight": 0.0625,
+          "powers": [
+            0.75,
+            0.21190050000000002,
+            0.21190050000000002
+          ]
+        }
+      ],
+      "reference_endpoint_power": 0.21190050000000002,
+      "reference_endpoint_weight": 0.125,
+      "bulk_power": 0.75,
+      "weight_policy": "dyadic-face-count-v1"
+    },
+    "general_six_point_nome_reexpansion": false,
+    "accepted_total_level": "12 through 18, from each samples/*.npz total_level array",
+    "four_point_separating_collar_retained": true
+  }
+}

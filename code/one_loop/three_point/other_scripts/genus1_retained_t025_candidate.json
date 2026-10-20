@@ -1,0 +1,88 @@
+{
+  "format": "genus1-boundary-spectrum-v1",
+  "profiles": {
+    "8": {
+      "momentum_orders": [
+        8,
+        8,
+        8
+      ],
+      "tail_orders": [
+        3,
+        3,
+        3
+      ],
+      "momentum_sampling": {
+        "total_nodes": 8,
+        "head_orders": 5,
+        "split_scales": 1.5,
+        "tail_width_scales": 0.25,
+        "placement_policy": "moduli-head-tail-v1"
+      },
+      "kernels": {}
+    },
+    "9": {
+      "momentum_orders": [
+        8,
+        8,
+        8
+      ],
+      "tail_orders": [
+        3,
+        3,
+        3
+      ],
+      "momentum_sampling": {
+        "total_nodes": 8,
+        "head_orders": 5,
+        "split_scales": 1.5,
+        "tail_width_scales": 0.25,
+        "placement_policy": "moduli-head-tail-v1"
+      },
+      "kernels": {
+        "primary": {
+          "short_refinement": {
+            "maximum_short_length": 0.5,
+            "total_nodes": 9,
+            "head_order": 6,
+            "split_scale": 1.5,
+            "tail_width_scale": 0.275
+          }
+        }
+      }
+    }
+  },
+  "coefficient_orders": {
+    "primary": [
+      0,
+      0,
+      0
+    ],
+    "pair": [
+      0,
+      2,
+      2
+    ],
+    "comb_pair_face": [
+      0,
+      4,
+      2
+    ],
+    "triple_scale_face": [
+      2,
+      0,
+      2
+    ],
+    "triple_corner": [
+      0,
+      0,
+      2
+    ]
+  },
+  "collision_elliptic": {
+    "h_order": 8,
+    "long_order": 3
+  },
+  "special_dps": 40,
+  "chunk_size": 32
+}

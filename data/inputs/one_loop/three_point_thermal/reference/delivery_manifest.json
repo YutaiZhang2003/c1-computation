@@ -1,0 +1,20 @@
+{
+  "files": {
+    "thermal_draft_results.json": "9bdf3c6e9bf627358b2476c3a5b493973b22fae6f99b29ccae33f9d9bfb925c6",
+    "thermal_draft_results.csv": "a9e4ee17d15dbba53c355f604d23147a127f39b704fd8b39cf739c83eb5d61b7",
+    "baseline.json": "c820da7c470013d310b22603e4e3a928f110afe95a73fc4554aae3957ca27b49",
+    "reference_plan.json": "560639cac7c689bfb04f5764e79da7d55286958ce5d2e024cbf6d9a6dce2cbad",
+    "compact_source.json": "86ee00f758d5bf554de0d0f6a25fa392954fa00acf0827cc4a8306fd0091824f",
+    "final_numerical_checks.json": "edc0944c061ee14a97ab87ce3d40139eb4a5b6d0e45acecd7b67999048f5b14c",
+    "momentum_validation/comparison.json": "e6cbce84a654eafb2b27b0bbcbc359b9f6c91d6b0089f73aae400fa8f58cf273",
+    "leading_prefix_validation.json": "a86c448356f7f23a5505b78fe80e4aca4faa7e3e602aeec5fe2860370356c917",
+    "sampling_runtime_manifest.json": "7c380bd457b5aa8e7a2036a9720645d5be5c453f80e30fcbc54cb4057d7cbcaa",
+    "local_sample_receipt.json": "001030bd781d68d2eef3f7d3df765e84b03f3df5c3472546a4cfbb755e0abf3e",
+    "kernel_moment_validation.json": "ac290b2e09df77f5b56cbe4271949ae33d1eba4bd91c50d5699c07d7400308a3"
+  },
+  "assembly_complete": true,
+  "full_amplitude_certified": false,
+  "computed_radius_count": 15,
+  "maximum_computed_R": 8.0,
+  "numerical_assembly_checks_passed": true
+}

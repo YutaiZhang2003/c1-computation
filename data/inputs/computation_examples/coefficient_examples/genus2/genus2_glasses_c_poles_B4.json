@@ -1,0 +1,83 @@
+{
+  "case": "genus-two",
+  "channel": "glasses",
+  "central_charge": 25,
+  "b": 1,
+  "internal_momenta": [
+    0.37,
+    0.61,
+    0.83
+  ],
+  "internal_weights": [
+    [
+      1.1369,
+      0.0
+    ],
+    [
+      1.3721,
+      0.0
+    ],
+    [
+      1.6888999999999998,
+      0.0
+    ]
+  ],
+  "variables": [
+    "q_left",
+    "q_right",
+    "q_bridge"
+  ],
+  "arithmetic": "complex128",
+  "reference_scope": "Small independent fixed-momentum reference examples; not a quadrature bank or a replacement for resummed production blocks.",
+  "generator": "ccy_genus2_glasses_block_partial_fraction",
+  "expansion": "F(c;q)=constant+sum_(pole,k>=1) A[pole,k]/(c-pole)^k",
+  "constant_row": "inverse_power=0; pole columns are placeholders",
+  "q_example": [
+    [
+      0.02,
+      0.004
+    ],
+    [
+      0.025,
+      -0.005
+    ],
+    [
+      0.018,
+      0.003
+    ]
+  ],
+  "block_value_at_c25": [
+    1.086686571819169,
+    0.0014487396517657732
+  ],
+  "public_evaluator_value_at_c25": [
+    1.086686571819169,
+    0.0014487396517657732
+  ],
+  "public_evaluator_absolute_difference": 0.0,
+  "call_settings": {
+    "order": 4,
+    "include_vacuum_seed": true,
+    "vacuum_word_len": 8,
+    "vacuum_oscillator_level_max": 40,
+    "resum_global_block": true,
+    "global_block_tolerance": 1e-13,
+    "pole_tolerance": 1e-12
+  },
+  "truncation": {
+    "kind": "finite_c_recursion_order",
+    "maximum": 4
+  },
+  "vacuum_seed_included": true,
+  "global_resummation": true,
+  "excluded_factors": [
+    "Liouville structure constants",
+    "primary propagation",
+    "momentum integration measure",
+    "worldsheet matter/ghost factors",
+    "moduli weights"
+  ],
+  "table_file": "genus2_glasses_c_poles_B4.csv",
+  "table_sha256": "66c582df538b7a3c56474b1c4fd3fd0e2494b69ae80056cb66f4de9c23542746",
+  "rows": 12
+}

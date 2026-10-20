@@ -1,0 +1,92 @@
+{
+  "format": "c1-retained-source-index-v1",
+  "scope": "Sphere 1\u21924",
+  "sources": [
+    {
+      "path": "code/tree_level/five_point/conformal_block/five_point_liouville_correlator_and_atlas.py",
+      "group": "conformal_block",
+      "purpose": "Decomposition channels, coordinate frames, and channel selection",
+      "sha256": "c3fa48e17ae71664d26fce56d171e0256c2f762310ef5041951e54ac3ad473e6"
+    },
+    {
+      "path": "code/tree_level/five_point/conformal_block/five_point_virasoro_block_recursion.py",
+      "group": "conformal_block",
+      "purpose": "Five-point block from the $c$-recursion",
+      "sha256": "a7b72f7904dc947926b32455e2bedb3259f436506206ccd4a1dae26df3a9fbf6"
+    },
+    {
+      "path": "code/tree_level/five_point/liouville_integration/five_point_integrand_and_quadrature.py",
+      "group": "liouville_integration",
+      "purpose": "Momentum quadrature, precomputed DOZZ factors and block coefficients, and crossed-pole residues",
+      "sha256": "62db49a1b8c7edc57ad002d85076915700a3ae89b92ea6ba6215495d2ac42470"
+    },
+    {
+      "path": "code/tree_level/five_point/moduli_integration/five_point_moduli_integration.py",
+      "group": "moduli_integration",
+      "purpose": "Sampling weight, Monte Carlo points, moduli integral, and sampling standard error",
+      "sha256": "32c510d4b12b29ada273a5eba3feed07b6d8d1b0bacc039c757dad1d08273846"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/ccy_sphere_five_point_checks.py",
+      "group": "other_scripts",
+      "purpose": "Independent checks of the conformal block",
+      "sha256": "485ce6bf954cbacaf699a1c302913813e5842a495e5d9a02445fe7fef5d5f457"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/export_sphere_five_point_t_axis_plot_data.py",
+      "group": "other_scripts",
+      "purpose": "Amplitude values and uncertainty estimates used in the figure",
+      "sha256": "213faf0b1c185d485b5fc387aca1adc5567cfeb268ace9451b4ffa0db671991d"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/five_point_production.py",
+      "group": "other_scripts",
+      "purpose": "Amplitude scan and its frozen twelve-point extension",
+      "sha256": "e86777bc4baf4b37dd79992e98060a1d4d8d054f61b14726351afe37afb22ec9"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_audit_summary.py",
+      "group": "other_scripts",
+      "purpose": "Comparisons with saved higher-order evaluations and checks of the amplitude table",
+      "sha256": "f9a019b688032113fbcdebab9c5980d88c84c0ea96810d5d1e2befd2d575e18d"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_checks.py",
+      "group": "other_scripts",
+      "purpose": "Comparisons with saved higher-order evaluations and checks of the amplitude table",
+      "sha256": "0bc4c11fec02eab3170294b00a9442188e3a30fd886a366f577bd835bd9f9d7d"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_matrix_comparison.py",
+      "group": "other_scripts",
+      "purpose": "Comparison with the matrix-model amplitude",
+      "sha256": "55ea58e40067305338f294b893d9903689c156e1fbf5cc44726714c020934024"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_worldsheet_fit.py",
+      "group": "other_scripts",
+      "purpose": "Combining saved amplitudes and fitting their energy dependence",
+      "sha256": "5e1b97d61ba4bcfc1e98c8fb49cfb174ea0c42423628dc81c4f8d81aaacc4b25"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/sphere_five_point_continuation_checks.py",
+      "group": "other_scripts",
+      "purpose": "Checks of momentum quadrature and contour residues",
+      "sha256": "62d481123fa8288c2aa0e1159ae0adadeb626e4e03c23ba871123676de249f44"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/sphere_five_point_imaginary_ray_fit.py",
+      "group": "other_scripts",
+      "purpose": "Combining saved amplitudes and fitting their energy dependence",
+      "sha256": "1184806aedb5ed5dcc9a0be6c788445e8562294bcedfe0358713ae290e558cbb"
+    },
+    {
+      "path": "code/tree_level/five_point/other_scripts/sphere_five_point_liouville_checks.py",
+      "group": "other_scripts",
+      "purpose": "Checks of coordinate frames and Jacobians",
+      "sha256": "299e2dc03a459a7469a642f87a04e9985e01907797fd12f3411c9adf30f91b6a"
+    }
+  ],
+  "shared_dependencies": "Shared imports are resolved by PACKAGE_MAP.json and LAYOUT.json.",
+  "upstream_source_index_sha256": "febfc7ee323dc43e88962cb2dda781c22e943e03118b20cca3ba6396ea1ac260"
+}

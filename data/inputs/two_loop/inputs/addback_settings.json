@@ -1,0 +1,32 @@
+{
+  "rho_cutoff": 0.08,
+  "replicates": 8,
+  "primary_power": 12,
+  "primary_seed": 20260901,
+  "domain_power": 17,
+  "domain_seed": 20261901,
+  "momentum_order": 24,
+  "bridge_order": 32,
+  "block_order": 2,
+  "kernel_convention": "LEGACY_V5_XI_INTEGRATION_KERNEL_CONVENTION",
+  "normalization": "Compare in Xi units; reproduce.py converts to BRY by 1/8 exactly once.",
+  "source_summary": {
+    "path": "/Users/yutaizhang/Desktop/Project/StringMC/output/review/genus2_separating_tail_fix_20260830/pilot_v2/summary.json",
+    "sha256": "a40a78a52a811f49728e91e1b3c92ab2e82644348a22dea2682d43d56501da29",
+    "settings": {
+      "study": "output/data/genus2_c1_free_energy_mixed_glass_radius_R15_20260830_v1",
+      "output": "output/review/genus2_separating_tail_fix_20260830/pilot_v2",
+      "cutoffs": ".005,.01,.02,.04,.08",
+      "power": 12,
+      "replicates": 8,
+      "momentum_order": 24,
+      "bridge_order": 32,
+      "block_order": 2,
+      "domain_power": 17
+    }
+  },
+  "source_cache_sha256": "f1bb43c7c2f24535b5ae4a5697e261cccfe22bdb269c71a3246ab5b638ab6e5e",
+  "notes": [
+    "These accepted inherited controls use N=24/32 and domain Sobol power 17. Generic later policy defaults N=32/48 and tail_power=8 do not describe these saved addbacks."
+  ]
+}

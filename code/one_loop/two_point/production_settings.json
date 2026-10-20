@@ -1,0 +1,21 @@
+{
+  "radii": [2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5],
+  "momentum_order": 32,
+  "p_max": 6.0,
+  "momentum_power": 2.0,
+  "necklace_orders": [6, 3],
+  "ope_orders": [3, 8],
+  "necklace_backend": "c-recursion",
+  "ope_backend": "c-recursion",
+  "coefficient_variables": {"necklace": ["q1", "q2"], "ope": ["q", "delta"]},
+  "status": "native_q_convergence_not_yet_established",
+  "special_dps": 28,
+  "power": 16,
+  "replicates": 8,
+  "collision_radius": 0.5,
+  "collision_remainder_included": true,
+  "seed": 20260927,
+  "height_scale": 1.0,
+  "short_scale": "4 R^2",
+  "historical_transformed_scan": "output/thermal_one_loop_20260927/scan_complete_collision"
+}

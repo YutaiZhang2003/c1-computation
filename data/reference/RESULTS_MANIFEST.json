@@ -1,0 +1,121 @@
+{
+  "format": "c1-reference-results-v1",
+  "note": "Two-point source paths normalized to relative paths; all numerical fields unchanged.",
+  "files": [
+    {
+      "path": "one_loop/three_point/compact_covariance.npz",
+      "bytes": 7405,
+      "sha256": "c12aff9dc232d93e94a3dff25515cfd449695701cfcf964234ed3d0b76abfba2"
+    },
+    {
+      "path": "one_loop/three_point/torus_1to2_gs3.csv",
+      "bytes": 1367,
+      "sha256": "f2cee2209dae64b63fcd8cd05b3c96c938fc9946f2994441421e5d7f7783564e"
+    },
+    {
+      "path": "one_loop/three_point/torus_1to2_numeric_rms.dat",
+      "bytes": 1400,
+      "sha256": "8e1e43dbc38e6ef27e1e90861f7d0c3f889ed2c50d73be9c0a611f0c08ed177e"
+    },
+    {
+      "path": "one_loop/three_point_thermal/thermal_draft_results.csv",
+      "bytes": 2138,
+      "sha256": "24988d71a5d72ff7632810340eb36913b8b04147aa825e3b5e07128a3bccf765"
+    },
+    {
+      "path": "one_loop/three_point_thermal/thermal_three_point_covariance.npz",
+      "bytes": 1653,
+      "sha256": "fcc2bf42e0a4dfc20ba80eea42d0d98a5dd89b2c856c8a0c6635f2a44c739332"
+    },
+    {
+      "path": "one_loop/two_point/delivery_manifest.json",
+      "bytes": 271,
+      "sha256": "f0babd94f56ab3ad9b5a5c3702e02380feecf5ed5906e3b731d702d5fb8bf62f"
+    },
+    {
+      "path": "one_loop/two_point/native_q/convergence_checks.csv",
+      "bytes": 1106,
+      "sha256": "c5ed995447b5dc8ee3c43ba79e3f2646d499c1f69a3b15031b447976c03c7ec2"
+    },
+    {
+      "path": "one_loop/two_point/native_q/noncompact_1to1.csv",
+      "bytes": 997,
+      "sha256": "f5a081f0ad79021bf2be91599239efa60e0277c46d5215a82772a8ae724a5bc9"
+    },
+    {
+      "path": "one_loop/two_point/native_q/thermal_1to1.csv",
+      "bytes": 1850,
+      "sha256": "9261b84c689e81638d99d98905561b4ce12146e8eaffc68c82849a8605c4e5c5"
+    },
+    {
+      "path": "one_loop/two_point/one_loop_1to1_R.csv",
+      "bytes": 3229,
+      "sha256": "a7ef0d78bcf25cea9dc70a4ef45ef1e043299ba4a29a51ab78af6e8fedef582c"
+    },
+    {
+      "path": "one_loop/two_point/one_loop_amplitudes_R.json",
+      "bytes": 8578,
+      "sha256": "64c4d5dfdd31c4e6a9ece57eb48d3a868fcff41e85fe3acaa29b02265e51eb40"
+    },
+    {
+      "path": "one_loop/two_point/thermal_two_point_covariance.npz",
+      "bytes": 1830,
+      "sha256": "ac7ab38fcc1ff6fffdb7f3ebb4637bb8ae292a8cd35ef7484a14dd74a0421c9c"
+    },
+    {
+      "path": "tree_level/5_point/sphere_1to4_gs3.csv",
+      "bytes": 1725,
+      "sha256": "20aaf5dd92192d988f9af1694e5bd47472bde8654ad5ac15fd0fc885a3a37fd9"
+    },
+    {
+      "path": "tree_level/5_point/sphere_1to4_t_no_residue.dat",
+      "bytes": 1507,
+      "sha256": "babfb115d1c3b3ee99e90ed2242bd12f6a476ad5c512b1663b73fb6bded146f0"
+    },
+    {
+      "path": "tree_level/5_point/sphere_1to4_t_residue.dat",
+      "bytes": 343,
+      "sha256": "ee89cda6b278de3018cde380a789428ba4c5655db6967616100ea291babb723e"
+    },
+    {
+      "path": "tree_level/5_point/sphere_1to4_thermal_R.csv",
+      "bytes": 1595,
+      "sha256": "3a557930fd7fcdc304ce9aae58c76699271007d1def1e77cb6e6769f51d19f88"
+    },
+    {
+      "path": "tree_level/6_point/sphere_1to5_covariance.npz",
+      "bytes": 12127,
+      "sha256": "905ca6a62445835d84ef189d13a7e184534a2711cdf996da56875be2f93c6843"
+    },
+    {
+      "path": "tree_level/6_point/sphere_1to5_gs4.csv",
+      "bytes": 909,
+      "sha256": "3f4313d5746202c39fb615b4396c40259e0e8fa4b7b6622d7c42b23c2395a82e"
+    },
+    {
+      "path": "tree_level/6_point/sphere_1to5_native.dat",
+      "bytes": 941,
+      "sha256": "c8357e4eb80f9e047f530bbc9c5e50c2e323ee2a36400e175986d68fb5efc058"
+    },
+    {
+      "path": "tree_level/6_point/sphere_1to5_thermal_R.csv",
+      "bytes": 858,
+      "sha256": "2dced51a56ac99354930d42869eed27b45cb9b830c0d82f724de02f57f52f15c"
+    },
+    {
+      "path": "two_loop/genus2_covariance_and_groups.npz",
+      "bytes": 78150,
+      "sha256": "693bc5e847e1cf6b91df8f99095f8e2ca10536c3450556e74128411d2ea50811"
+    },
+    {
+      "path": "two_loop/genus2_free_energy_F2.csv",
+      "bytes": 6089,
+      "sha256": "309a2177284d5b2da8e77a6334822e3650f8736c74dc53ca93247a838a56cb3a"
+    },
+    {
+      "path": "two_loop/radius_values.csv",
+      "bytes": 6007,
+      "sha256": "c923330b8b0a49e7eecc9099881c0b073156af0205c87c3a115710c8ad2c3118"
+    }
+  ]
+}

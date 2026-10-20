@@ -1,0 +1,532 @@
+{
+  "version": "six-point-purpose-folders-20261001",
+  "groups": {
+    "conformal_block": [
+      "six_point_arbitrary_precision_c_recursion",
+      "six_point_block_coefficient_provider",
+      "six_point_select_integration_channels",
+      "six_point_measure_block_convergence",
+      "six_point_collar_block_evaluator",
+      "six_point_middle_pillow_block_expansion",
+      "refine_flagged_samples",
+      "refinement_state_and_statistics",
+      "stopping_policy",
+      "continue_flagged_samples_to_c18",
+      "refinement_2pct_state_and_statistics"
+    ],
+    "liouville_integration": [
+      "six_point_endpoint_and_tail_quadrature",
+      "six_point_momentum_control_proposals",
+      "six_point_momentum_banks_and_reweighting",
+      "six_point_build_momentum_banks",
+      "six_point_deduplicate_momentum_nodes",
+      "six_point_mixed_order_node_catalog",
+      "six_point_reuse_saved_coefficients",
+      "six_point_collar_momentum_quadrature",
+      "six_point_compare_momentum_quadratures",
+      "six_point_analyze_quadrature_and_order_controls"
+    ],
+    "moduli_integration": [
+      "six_point_analytic_collar_subtraction",
+      "six_point_batch_block_contraction",
+      "six_point_boundary_strata",
+      "six_point_channel_coordinates",
+      "six_point_check_sampling_variance",
+      "six_point_collar_counterterm_geometry",
+      "six_point_combine_truncation_orders",
+      "six_point_estimate_collar_corrected_integrand",
+      "six_point_evaluate_routed_geometry_shards",
+      "six_point_integrate_collar_patch",
+      "six_point_integrate_equal_energy_amplitude",
+      "six_point_integrate_mixed_order_amplitudes",
+      "six_point_radial_forest_subtraction",
+      "six_point_radial_sampling_distribution",
+      "six_point_route_collar_contributions",
+      "six_point_sample_integration_geometry",
+      "six_point_stable_puncture_coordinates",
+      "six_point_prepare_radial_geometry",
+      "apply_pointwise_amplitude_corrections",
+      "assemble_final_amplitudes",
+      "finalize_refinement_and_assemble",
+      "assemble_amplitudes_from_c14_corrections",
+      "six_point_assemble_curve_amplitudes",
+      "six_point_assemble_radial_curve_covariance"
+    ],
+    "production": [
+      "six_point_prepare_amplitude_curve",
+      "six_point_run_frozen_energy_worker",
+      "six_point_run_frozen_radial_worker",
+      "six_point_submit_radial_campaign",
+      "verify_saved_c14_continuation_inputs",
+      "dispatch_shared_refinement_queue",
+      "package_six_point_source",
+      "six_point_run_worldsheet_campaign"
+    ],
+    "experiments": [
+      "four_point_pillow_block_h_recursion",
+      "liouville_dozz_vectorized",
+      "six_point_elliptic_block_recursion",
+      "six_point_apply_boundary_completion",
+      "six_point_complete_boundary_blocks",
+      "six_point_primary_boundary_blocks"
+    ]
+  },
+  "files": [
+    {
+      "previous_path": "code/tree_level/six_point/four_point_pillow_block_h_recursion.py",
+      "path": "code/tree_level/six_point/experiments/four_point_pillow_block_h_recursion.py",
+      "previous_sha256": "6f6a338dbd2a87f98e4734bf51ceadd63d27cafc017ceb7f49d29986341ad673",
+      "sha256": "15ec3a6a972d0c4d4f546cfb654dc5eb7f74e162698844ce3c277146e20d869c",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/liouville_dozz_vectorized.py",
+      "path": "code/tree_level/six_point/experiments/liouville_dozz_vectorized.py",
+      "previous_sha256": "9c54930a2472d01af5ad7a0f3de58a96f2c982300cd5d7bb276f7066c1824540",
+      "sha256": "ecfdf85ca552f572c79c429c28a6266c5360c2b8da0cd2ade70d12482c46279a",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/package_six_point_source.py",
+      "path": "code/tree_level/six_point/production/package_six_point_source.py",
+      "previous_sha256": "0fde93b2bd096fee0e10c6d5b0e6bfb04d525bf3d97703f2ffb3df6e8b4c9753",
+      "sha256": "3bf0d0103e5590c7dcf004d93d278b795f818b55411a4dd90c374fb6987c6321",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/README.md",
+      "path": "code/tree_level/six_point/provenance/refinement_README.md",
+      "previous_sha256": "04682d080e0512044726c91d2dea45e629b96750e53d4f6622cf5d79bbed065c",
+      "sha256": "04682d080e0512044726c91d2dea45e629b96750e53d4f6622cf5d79bbed065c",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/apply_pointwise_amplitude_corrections.py",
+      "path": "code/tree_level/six_point/moduli_integration/apply_pointwise_amplitude_corrections.py",
+      "previous_sha256": "35cbf47b7fc692c2ae499876b19dc5772cabf2880fb069756c04e9aa51b04fcf",
+      "sha256": "59986f7610542065667b71b54c013b6049aadcbebca9471a1c89574ab663a518",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap14/assemble_final_amplitudes.py",
+      "path": "code/tree_level/six_point/moduli_integration/assemble_final_amplitudes.py",
+      "previous_sha256": "1c7be8dedd4cf431fdb97838ea8a40a18b7de1d83328c15b71c6a9606400c01a",
+      "sha256": "beb3706078a3d5377eb099e6288d6f0c92ad7e36740e40bcdce5615e683ec60e",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap14/finalize_refinement_and_assemble.py",
+      "path": "code/tree_level/six_point/moduli_integration/finalize_refinement_and_assemble.py",
+      "previous_sha256": "88b01c895952e7a5f88e82dce381bfae288c3085f7d7d660d27092f10098e58c",
+      "sha256": "8f1e9223193fc9e4d24eee0cbe4fcc5af62bcb2aa4246c959ca171f6c12a45e5",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap14/stopping_policy.py",
+      "path": "code/tree_level/six_point/conformal_block/stopping_policy.py",
+      "previous_sha256": "ca7a407b35619948c88a8887ebb633f6ccc917369a88421656e943ac969e6dde",
+      "sha256": "42468fab5e0778290076d4d527f484764fd3745327253865cb94c397b1ae7a0b",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap18_2pct/OPERATIONS.md",
+      "path": "code/tree_level/six_point/provenance/c18_2pct/OPERATIONS.md",
+      "previous_sha256": "17c86a879efc8d6612ecb0f7de9f6eb9106d2206a31b7832369e1b35e1ce1c5b",
+      "sha256": "17c86a879efc8d6612ecb0f7de9f6eb9106d2206a31b7832369e1b35e1ce1c5b",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap18_2pct/README.md",
+      "path": "code/tree_level/six_point/provenance/c18_2pct/README.md",
+      "previous_sha256": "8b7c2740942d3f6eac63c013a0b0a25d87b72940cfc8ce863b1f202f31e921a9",
+      "sha256": "8b7c2740942d3f6eac63c013a0b0a25d87b72940cfc8ce863b1f202f31e921a9",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap18_2pct/SOURCE_MANIFEST.json",
+      "path": "code/tree_level/six_point/provenance/c18_2pct/SOURCE_MANIFEST.json",
+      "previous_sha256": "6381e908cfb1675c51647aa561922579b817728c1adc7ba9451e0cd4f509e73b",
+      "sha256": "c804ede3e7f2ec55ab3abce7c49e3c5d6c070922fd61006c4ba4cb9b46aee3de",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap18_2pct/assemble_amplitudes_from_c14_corrections.py",
+      "path": "code/tree_level/six_point/moduli_integration/assemble_amplitudes_from_c14_corrections.py",
+      "previous_sha256": "2b3e11a86b998056d47ac19b9ec2489b08baeefe4fda25b999a33dc020a7c8f8",
+      "sha256": "b70832d6ee39be3b5cc5959fd55d9dbe638d5225185c3414392223e40f9fa127",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap18_2pct/continue_flagged_samples_to_c18.py",
+      "path": "code/tree_level/six_point/conformal_block/continue_flagged_samples_to_c18.py",
+      "previous_sha256": "05e33f5b6f6cf6d77484442d7089de91469013764c9c0299617775966b5dee78",
+      "sha256": "f9f9d539c7dcd8a63260a04bc81d20ed8970ed36e788e0bc81df492343214369",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap18_2pct/dispatch_shared_refinement_queue.py",
+      "path": "code/tree_level/six_point/production/dispatch_shared_refinement_queue.py",
+      "previous_sha256": "eb7bd599a4a33409bfbd06c909501b3f2988ed6eec6a16b7b84747d9e84a36f1",
+      "sha256": "ebaf4815b03f90474795aa08ab1e68106ea9e09b4f36ae498d2e0fdcd9f39c84",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap18_2pct/refinement_2pct_state_and_statistics.py",
+      "path": "code/tree_level/six_point/conformal_block/refinement_2pct_state_and_statistics.py",
+      "previous_sha256": "e7357a1de5c705895d0fb4879278f31e381cd76b602d6105351c04c3e9f3b9a9",
+      "sha256": "a389ff05770372b88e71ae374c6992e39e15ba82e0a71e5aeb3ed9d9caa34d54",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/cap18_2pct/verify_saved_c14_continuation_inputs.py",
+      "path": "code/tree_level/six_point/production/verify_saved_c14_continuation_inputs.py",
+      "previous_sha256": "418547d81cb396b2d447f326d060356542ea961dc1fd234d39f881d2f5648333",
+      "sha256": "272fa761998e7983b92fc8105485975950b78cdb8ff61a9d0322c719e499e9a6",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/refine_flagged_samples.py",
+      "path": "code/tree_level/six_point/conformal_block/refine_flagged_samples.py",
+      "previous_sha256": "604ff81adbf671c6277d9406dbb4b79c0752cfe380f811b45cb8a548ec7c4c0c",
+      "sha256": "b7e75b58577e668c45b0a9c94a2326b634e36601472db2f15cdf6b43561ed736",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/selective_refinement/refinement_state_and_statistics.py",
+      "path": "code/tree_level/six_point/conformal_block/refinement_state_and_statistics.py",
+      "previous_sha256": "5ef3129bdebfe3f8c587e4a0228d2695f3e9559eeb785960bf7f0789417f74b4",
+      "sha256": "eca67723fc64def7a27bbddbcc509a66942e0997104f43fd03127b35a48fd6fc",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_analytic_collar_subtraction.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_analytic_collar_subtraction.py",
+      "previous_sha256": "a6e2696fe460bdad07c76fd61a809d5008bb974ad5e2c09d22cb8b87eddc9dee",
+      "sha256": "a6e2696fe460bdad07c76fd61a809d5008bb974ad5e2c09d22cb8b87eddc9dee",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_analyze_quadrature_and_order_controls.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_analyze_quadrature_and_order_controls.py",
+      "previous_sha256": "daa9ba833ca2f7847fbf5c3dce2f6161be8c952248f32cb1c574a24ee77ba765",
+      "sha256": "7af31c52dc84d798802870cbd9ba71594870277eadde698cc0e881f23950e0d7",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_apply_boundary_completion.py",
+      "path": "code/tree_level/six_point/experiments/six_point_apply_boundary_completion.py",
+      "previous_sha256": "61beb9427435fd444afe0905285c657bbd53d114425010381aca4164d63900d0",
+      "sha256": "61beb9427435fd444afe0905285c657bbd53d114425010381aca4164d63900d0",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_arbitrary_precision_c_recursion.py",
+      "path": "code/tree_level/six_point/conformal_block/six_point_arbitrary_precision_c_recursion.py",
+      "previous_sha256": "fc588b1ef8d63c3a3b17e3423402bfd695d12b06b70d2c5e6473abd4843d9b78",
+      "sha256": "fc588b1ef8d63c3a3b17e3423402bfd695d12b06b70d2c5e6473abd4843d9b78",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_assemble_curve_amplitudes.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_assemble_curve_amplitudes.py",
+      "previous_sha256": "0bae915b381ef1908d4f66be72d915127986d0cbdb57c8c3d452e718546464f9",
+      "sha256": "1961220e2d48347b04276ff48f11dcd96af6bf96dff0a273f1af66d928bc7742",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_assemble_radial_curve_covariance.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_assemble_radial_curve_covariance.py",
+      "previous_sha256": "b2ec5effcce507eacf517db7b134baeded0910402be5ddf8d84cd4ad30fd7102",
+      "sha256": "e4e9301955c9a1b3650b982e13424389235bca1bf48b369529ae88bed645ce17",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_batch_block_contraction.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_batch_block_contraction.py",
+      "previous_sha256": "08c7138f051e9d47d71a3777daf2ad11b2e3b644ea6a8f57577d2e909de935cc",
+      "sha256": "08c7138f051e9d47d71a3777daf2ad11b2e3b644ea6a8f57577d2e909de935cc",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_block_coefficient_provider.py",
+      "path": "code/tree_level/six_point/conformal_block/six_point_block_coefficient_provider.py",
+      "previous_sha256": "9ca75078a111a30e0d5a9b9ce9f1371370310f048995287d0d9837e148bba6ce",
+      "sha256": "9ca75078a111a30e0d5a9b9ce9f1371370310f048995287d0d9837e148bba6ce",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_boundary_strata.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_boundary_strata.py",
+      "previous_sha256": "4c79dd62dc678c8975dc29d3cf52474936a1e2bc70feeaa6c42dfd18248536c9",
+      "sha256": "4c79dd62dc678c8975dc29d3cf52474936a1e2bc70feeaa6c42dfd18248536c9",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_boundary_treatment_settings_v1.json",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_boundary_treatment_settings_v1.json",
+      "previous_sha256": "40d4a757d3b64af3e873f5788d9fee7bd7affc85f312200689f0f9129b46fd33",
+      "sha256": "40d4a757d3b64af3e873f5788d9fee7bd7affc85f312200689f0f9129b46fd33",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_build_momentum_banks.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_build_momentum_banks.py",
+      "previous_sha256": "f0046251a6adcee9e48907da0b2c1aa59a52981e44255ff86da14d5688c2848e",
+      "sha256": "1003763605d1dc71250261dcafc380e3a9dc40afbef187933354cfd41e8905cb",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_channel_coordinates.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_channel_coordinates.py",
+      "previous_sha256": "f3603a1b7cc2934639889bd2c58db088c40e7545efc9d93a887cf38f8b3e821b",
+      "sha256": "f3603a1b7cc2934639889bd2c58db088c40e7545efc9d93a887cf38f8b3e821b",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_check_sampling_variance.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_check_sampling_variance.py",
+      "previous_sha256": "c6dbfc0b6c5554a111b1575657c8da4a9aa227b735bcfd31febd6b4a1cc912a2",
+      "sha256": "c6dbfc0b6c5554a111b1575657c8da4a9aa227b735bcfd31febd6b4a1cc912a2",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_collar_block_evaluator.py",
+      "path": "code/tree_level/six_point/conformal_block/six_point_collar_block_evaluator.py",
+      "previous_sha256": "afc69a7634c578aa911f6ead6d0c29a0c7370f7530c6fa499c48a7454de5fd44",
+      "sha256": "afc69a7634c578aa911f6ead6d0c29a0c7370f7530c6fa499c48a7454de5fd44",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_collar_counterterm_geometry.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_collar_counterterm_geometry.py",
+      "previous_sha256": "609b7e764bb4a2bd8bae235f7f81b721c43cb5804deb31124839dbb0a1ace51d",
+      "sha256": "609b7e764bb4a2bd8bae235f7f81b721c43cb5804deb31124839dbb0a1ace51d",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_collar_momentum_quadrature.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_collar_momentum_quadrature.py",
+      "previous_sha256": "5d8281a0036472a5a7c234e2c2dd2b3decc7ea3447ed059a0e88d40eb5eef8a7",
+      "sha256": "5d8281a0036472a5a7c234e2c2dd2b3decc7ea3447ed059a0e88d40eb5eef8a7",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_combine_truncation_orders.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_combine_truncation_orders.py",
+      "previous_sha256": "fc2ce8a9eefef39b093443f78f0d1be7be12891192481bc6e90c793b40b20afc",
+      "sha256": "fc2ce8a9eefef39b093443f78f0d1be7be12891192481bc6e90c793b40b20afc",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_compare_momentum_quadratures.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_compare_momentum_quadratures.py",
+      "previous_sha256": "9f9e50087e76b139389938cbe84d9c0159ac1fc9aaadfa49fab3d7c5ca763f17",
+      "sha256": "a5ce79070f4dfa13a8395565c75ad58352d848cff8fdec90441237b236c09c7e",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_complete_boundary_blocks.py",
+      "path": "code/tree_level/six_point/experiments/six_point_complete_boundary_blocks.py",
+      "previous_sha256": "63e7f2f688360ba9e5a6fea73ca97d7f1ab28310a2b2955151d79b957d583c44",
+      "sha256": "63e7f2f688360ba9e5a6fea73ca97d7f1ab28310a2b2955151d79b957d583c44",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_deduplicate_momentum_nodes.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_deduplicate_momentum_nodes.py",
+      "previous_sha256": "02ed3ec59a0e7e940c4bda7675415105fc08ce993c1b058b7cbdba9d0cbaaef3",
+      "sha256": "493f225e74a32b72ad0ce66839b476b8001dbf9017c29c3569120d9e37fbd323",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_elliptic_block_recursion.py",
+      "path": "code/tree_level/six_point/experiments/six_point_elliptic_block_recursion.py",
+      "previous_sha256": "f4981057b06e548658d317a38495cd55f98ddad9d5e0654cba8553de54e54431",
+      "sha256": "45486729921441d985cab12244c51587a1f4a45336e596dc09e93a086d365442",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_endpoint_and_tail_quadrature.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_endpoint_and_tail_quadrature.py",
+      "previous_sha256": "cc3ebab7e8943cbcf4f5cb0c064dab41eadf6909b2d58186acf893d5e07370b3",
+      "sha256": "cc3ebab7e8943cbcf4f5cb0c064dab41eadf6909b2d58186acf893d5e07370b3",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_estimate_collar_corrected_integrand.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_estimate_collar_corrected_integrand.py",
+      "previous_sha256": "f63bfbec33a1b7856b6d69f529f62a92a12a230e901994ab529e3fbfb0c563d1",
+      "sha256": "f63bfbec33a1b7856b6d69f529f62a92a12a230e901994ab529e3fbfb0c563d1",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_evaluate_routed_geometry_shards.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_evaluate_routed_geometry_shards.py",
+      "previous_sha256": "7c1261d4fbee3379076029439940c4ebc3638ed85f94c86da2bd8d67278d6367",
+      "sha256": "03f66479de754ba13c12b63483f51374d2c99d35b7ad4a8a58763bc5ccbf68c1",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_integrate_collar_patch.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_integrate_collar_patch.py",
+      "previous_sha256": "ef551f74d736d8cc6bfb169472dec0b41a36d0036fdac51ca2c0964b39984238",
+      "sha256": "27bb83dbf1b756d27a84c6e7ae267bd105d38cdfef5359a8c32f6762df2a7886",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_integrate_equal_energy_amplitude.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_integrate_equal_energy_amplitude.py",
+      "previous_sha256": "ee3dab8525c5d060075682700795841938635a5c3f572e27f1b5abe45ca3145f",
+      "sha256": "ee3dab8525c5d060075682700795841938635a5c3f572e27f1b5abe45ca3145f",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_integrate_mixed_order_amplitudes.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_integrate_mixed_order_amplitudes.py",
+      "previous_sha256": "ec718957f9d1a00d96cdd77db910d0dd1a12162477a06f6aed5ce179f62999b3",
+      "sha256": "3adeaf975162eef6b9276680f93d8818237d94d36de2645ca06f22c07f99eff0",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_measure_block_convergence.py",
+      "path": "code/tree_level/six_point/conformal_block/six_point_measure_block_convergence.py",
+      "previous_sha256": "9b654ea575e7802c4302ca9ff56fae8cc20611e73cf5be82231495d05c9bf8d4",
+      "sha256": "9b654ea575e7802c4302ca9ff56fae8cc20611e73cf5be82231495d05c9bf8d4",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_middle_pillow_block_expansion.py",
+      "path": "code/tree_level/six_point/conformal_block/six_point_middle_pillow_block_expansion.py",
+      "previous_sha256": "6b270aba355581f67ea9033b3209dd9b79d5ad58fb148c78ab5ec8fdd0609d80",
+      "sha256": "6172236fea9acd5e867b09d1b23ea59a510ea33fb6adf4b0c8d15639dca7b2d7",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_mixed_order_node_catalog.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_mixed_order_node_catalog.py",
+      "previous_sha256": "2af34885d098e89119a327e7114c8848144d93fc3ab497e26344a4cd6b1d0141",
+      "sha256": "0bd470a2d0c621c2d1bc3fc687f1f7ce1f39e624330a6c187dc6b1d7e6802d28",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_momentum_banks_and_reweighting.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_momentum_banks_and_reweighting.py",
+      "previous_sha256": "446020f9083b087c08e58c8a50ea0f06a8d25c9ddf20d226947f9fb66447f54a",
+      "sha256": "446020f9083b087c08e58c8a50ea0f06a8d25c9ddf20d226947f9fb66447f54a",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_momentum_control_proposals.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_momentum_control_proposals.py",
+      "previous_sha256": "cdfd9dc57e219d79d4e586c45d56ef161b03c6177a6ba7a5a3e29bfd7b23f032",
+      "sha256": "cdfd9dc57e219d79d4e586c45d56ef161b03c6177a6ba7a5a3e29bfd7b23f032",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_prepare_amplitude_curve.py",
+      "path": "code/tree_level/six_point/production/six_point_prepare_amplitude_curve.py",
+      "previous_sha256": "a2bf852ec6cc4d392477f58e4eac0366468c89cd51cb410992eb8c14cea67b62",
+      "sha256": "b5ef9947ed429c3ad78078a210a8a507f0d8fcf45489d2ed37d58092de48d8b1",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_prepare_radial_geometry.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_prepare_radial_geometry.py",
+      "previous_sha256": "758af0aca3cf7bd91792f67bb91321b8d984028e00f08c5f0d591e8b1c4d2c07",
+      "sha256": "b6c7adc39d8e3583b0335c60253c5bc70d46bef9f67d70b1dcc013a24ba94c30",
+      "bytes_unchanged": false
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_primary_boundary_blocks.py",
+      "path": "code/tree_level/six_point/experiments/six_point_primary_boundary_blocks.py",
+      "previous_sha256": "9f5e8fa3df558ec54839ea04459e669be4d586ab868b4ba87053f9074dbe4094",
+      "sha256": "9f5e8fa3df558ec54839ea04459e669be4d586ab868b4ba87053f9074dbe4094",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_radial_forest_subtraction.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_radial_forest_subtraction.py",
+      "previous_sha256": "f86bfc80b80cdd029406511224c1db42dfa75502d6637ee585f676c60b7236d7",
+      "sha256": "f86bfc80b80cdd029406511224c1db42dfa75502d6637ee585f676c60b7236d7",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_radial_sampling_distribution.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_radial_sampling_distribution.py",
+      "previous_sha256": "dfab33875a7524fd06d918ac0a4c4e499a07820cb7da2daa7c0742f469cb16b6",
+      "sha256": "dfab33875a7524fd06d918ac0a4c4e499a07820cb7da2daa7c0742f469cb16b6",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_reuse_saved_coefficients.py",
+      "path": "code/tree_level/six_point/liouville_integration/six_point_reuse_saved_coefficients.py",
+      "previous_sha256": "db09f47ff4738dc23236d82351afc971ee12e308d358f43906968a7c717e9aaa",
+      "sha256": "db09f47ff4738dc23236d82351afc971ee12e308d358f43906968a7c717e9aaa",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_route_collar_contributions.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_route_collar_contributions.py",
+      "previous_sha256": "aa61cc0c7163954c7aebebca8d3a231ee6aa9f0c6977d7c592d46aff3d052433",
+      "sha256": "aa61cc0c7163954c7aebebca8d3a231ee6aa9f0c6977d7c592d46aff3d052433",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_run_frozen_energy_worker.py",
+      "path": "code/tree_level/six_point/production/six_point_run_frozen_energy_worker.py",
+      "previous_sha256": "d895f9981875e6a28b1e4c52a476f2cd31a5060149d64afadcabf0bd8c4af3dd",
+      "sha256": "d895f9981875e6a28b1e4c52a476f2cd31a5060149d64afadcabf0bd8c4af3dd",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_run_frozen_radial_worker.py",
+      "path": "code/tree_level/six_point/production/six_point_run_frozen_radial_worker.py",
+      "previous_sha256": "40a5edab3890c5b781e2779912bd89f9dcda4917a30c65481b41ba6f5573dab7",
+      "sha256": "40a5edab3890c5b781e2779912bd89f9dcda4917a30c65481b41ba6f5573dab7",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_run_worldsheet_campaign.py",
+      "path": "code/tree_level/six_point/production/six_point_run_worldsheet_campaign.py",
+      "previous_sha256": "aef47a235406883fbe91a0c76250de6a45d661582ab931718e7938ff0989f3e0",
+      "sha256": "aef47a235406883fbe91a0c76250de6a45d661582ab931718e7938ff0989f3e0",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_sample_integration_geometry.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_sample_integration_geometry.py",
+      "previous_sha256": "5498f5e839a2842758f4a749e8cfe65ed1943ffaad73183c1a0eb5284d3444b5",
+      "sha256": "5498f5e839a2842758f4a749e8cfe65ed1943ffaad73183c1a0eb5284d3444b5",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_select_integration_channels.py",
+      "path": "code/tree_level/six_point/conformal_block/six_point_select_integration_channels.py",
+      "previous_sha256": "c601bd50228849be2e4d4e6692339936e36bbb847467103d24c5babc6b2a7563",
+      "sha256": "c601bd50228849be2e4d4e6692339936e36bbb847467103d24c5babc6b2a7563",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_stable_puncture_coordinates.py",
+      "path": "code/tree_level/six_point/moduli_integration/six_point_stable_puncture_coordinates.py",
+      "previous_sha256": "9cbfb3eed95b89eddeb0cc0ca8b4f85127a4828c480864692cb6d6d04996142b",
+      "sha256": "9cbfb3eed95b89eddeb0cc0ca8b4f85127a4828c480864692cb6d6d04996142b",
+      "bytes_unchanged": true
+    },
+    {
+      "previous_path": "code/tree_level/six_point/six_point_submit_radial_campaign.py",
+      "path": "code/tree_level/six_point/production/six_point_submit_radial_campaign.py",
+      "previous_sha256": "d550ca9ac0790e642c00bfefd9fea0bef9f60b87ac29b6acd51621071744b590",
+      "sha256": "d550ca9ac0790e642c00bfefd9fea0bef9f60b87ac29b6acd51621071744b590",
+      "bytes_unchanged": true
+    }
+  ],
+  "related_source_updates": [
+    {
+      "path": "code/historical/six_point_pilots/six_point_prepare_endpoint_campaign.py",
+      "previous_sha256": "3fb34b1cce643674d228d4148708b9fa6f3f40e14c3719f009684d75750e4218",
+      "sha256": "55519b7894706e0d7563e105f0f354ba9b4f8b597971dd116abb2e9f13252c24",
+      "reason": "Resolve the relocated boundary configuration in the retained pilot."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "format": "ordered-moduli-weights-v1",
+  "sample_count": 5904,
+  "terms": {
+    "e966df0f9792868fef6ac3107d79732324778459aaeae46a315566957119aaf5": "bulk:pair_face_analytic"
+  },
+  "rules": [
+    {
+      "cell_id": "e966df0f9792868fef6ac3107d79732324778459aaeae46a315566957119aaf5",
+      "rule": "low",
+      "array": "0"
+    },
+    {
+      "cell_id": "e966df0f9792868fef6ac3107d79732324778459aaeae46a315566957119aaf5",
+      "rule": "high",
+      "array": "1"
+    }
+  ],
+  "original_sample_ids_sha256": "89f4aea2a510f49cf05f73f4c2408368d1a96da895df5ad7a4aaca3f1a157d23"
+}

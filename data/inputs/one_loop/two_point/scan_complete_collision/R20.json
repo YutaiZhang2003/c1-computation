@@ -1,0 +1,223 @@
+{
+  "status": "worldsheet_pilot_requires_momentum_block_and_collision_convergence",
+  "R": 20.0,
+  "T": 0.007957747154594767,
+  "omega_imag": 0.05,
+  "external_KK": [
+    1,
+    -1
+  ],
+  "external_winding": [
+    0,
+    0
+  ],
+  "normalization": "A_(1->1)^(1),T = 2*pi^2*i*I_T; full genus-one term is g_s^2*A",
+  "power": 16,
+  "replicates": 8,
+  "seed": 20260927,
+  "collision_radius": 0.5,
+  "collision_remainder_included": true,
+  "tau_support": "entire fundamental domain; no fitted or truncated cusp tail",
+  "height_scale": 1.0,
+  "short_scale": 1599.9999999999998,
+  "zero_temperature_imag": -0.004100453337157496,
+  "thermal_imag": -0.004110400322871795,
+  "thermal_correction_imag": -9.946985714298282e-06,
+  "sampling_SE_zero": 8.453925266931997e-07,
+  "sampling_SE_thermal": 8.463003658642555e-07,
+  "sampling_SE_correction": 2.8865894205412807e-07,
+  "replicate_integrals": [
+    [
+      [
+        -0.00020753194099600098,
+        -5.2036518237851706e-33
+      ],
+      [
+        -0.0002080821760863398,
+        -5.217448407663338e-33
+      ]
+    ],
+    [
+      [
+        -0.00020790184538444043,
+        -5.212926799175869e-33
+      ],
+      [
+        -0.00020846188691284404,
+        -5.226969269490016e-33
+      ]
+    ],
+    [
+      [
+        -0.00020772197787649054,
+        -5.2084168048044196e-33
+      ],
+      [
+        -0.0002081832006565591,
+        -5.2199814957582404e-33
+      ]
+    ],
+    [
+      [
+        -0.00020765964154504393,
+        -5.2068537848506857e-33
+      ],
+      [
+        -0.00020815222438305892,
+        -5.219204797283298e-33
+      ]
+    ],
+    [
+      [
+        -0.0002078509020786315,
+        -5.21164944772384e-33
+      ],
+      [
+        -0.00020832575524318064,
+        -5.223555906671212e-33
+      ]
+    ],
+    [
+      [
+        -0.0002076317937121123,
+        -5.206155528833209e-33
+      ],
+      [
+        -0.0002081495040272312,
+        -5.21913658713453e-33
+      ]
+    ],
+    [
+      [
+        -0.00020776291371597333,
+        -5.2094432292418014e-33
+      ],
+      [
+        -0.0002082899306155892,
+        -5.2226576406605526e-33
+      ]
+    ],
+    [
+      [
+        -0.00020779012705519272,
+        -5.210125575976396e-33
+      ],
+      [
+        -0.0002082378259040675,
+        -5.2213511681444006e-33
+      ]
+    ]
+  ],
+  "tau_bin_upper_edges": [
+    1.0,
+    2.0,
+    4.0,
+    8.0,
+    16.0,
+    32.0,
+    64.0,
+    128.0,
+    256.0,
+    512.0,
+    2048.0,
+    null
+  ],
+  "tau_bin_integrals_mean": [
+    [
+      -9.382419437901342e-06,
+      -9.382419437901342e-06
+    ],
+    [
+      -9.929208642743083e-05,
+      -9.929208642743083e-05
+    ],
+    [
+      -4.9590260035090145e-05,
+      -4.9590260035090145e-05
+    ],
+    [
+      -2.476988696211136e-05,
+      -2.476988696211136e-05
+    ],
+    [
+      -1.2372806879886744e-05,
+      -1.2372806879886744e-05
+    ],
+    [
+      -6.1859472453610195e-06,
+      -6.1859472453610195e-06
+    ],
+    [
+      -3.073090867307185e-06,
+      -3.0730908681745724e-06
+    ],
+    [
+      -1.5297977116964614e-06,
+      -1.5298128978402815e-06
+    ],
+    [
+      -7.56075572989193e-07,
+      -7.58249769984236e-07
+    ],
+    [
+      -4.011078384951343e-07,
+      -4.2634909080137473e-07
+    ],
+    [
+      -2.7808851581194734e-07,
+      -4.1998890425563474e-07
+    ],
+    [
+      -9.98253014048439e-08,
+      -4.3441445977139244e-07
+    ]
+  ],
+  "kernel": {
+    "format": "torus-two-point-native-q-c-recursion-v1",
+    "central_charge": 25.0,
+    "necklace_backend": "c-recursion",
+    "ope_backend": "c-recursion",
+    "coefficient_variables": {
+      "necklace": [
+        "q1",
+        "q2"
+      ],
+      "ope": [
+        "q",
+        "delta"
+      ]
+    },
+    "x": 0.05,
+    "momentum_order": 32,
+    "p_max": 6.0,
+    "power": 2.0,
+    "necklace_orders": [
+      6,
+      3
+    ],
+    "ope_orders": [
+      3,
+      8
+    ],
+    "worldsheet_only": true,
+    "seconds": 84.722323083,
+    "source": "code/one_loop/two_point/liouville_integration/genus1_two_point_worldsheet.py"
+  },
+  "elapsed": 105.88756041600001,
+  "limitations": [
+    "Finite internal momentum rule and Virasoro orders.",
+    "The finite-block collision parent minus leading projection is integrated inside the full disc.",
+    "Sampling errors exclude momentum, block and collision truncation errors."
+  ],
+  "validation": {
+    "direct_poisson_cases": 45,
+    "maximum_absolute_direct_poisson_difference": 4.595743071067725e-15,
+    "modular_S": true,
+    "modular_T": true,
+    "integer_periodicity": true,
+    "neutral_translation": true,
+    "vacuum_T_duality": true,
+    "fixed_modulus_decompactification": true,
+    "stable_original_max_relative_difference": 1.802070484173084e-14
+  }
+}

@@ -1,0 +1,1703 @@
+{
+  "payload": {
+    "actual_combined_two_panel_amplitude": 3.204790869400528e-07,
+    "actual_combined_two_panel_shift": 1.3206261126802493e-09,
+    "cells": [
+      {
+        "actual_h2_shift": -2.928430165812681e-11,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 3.4629317241155933e-09,
+            "extrapolated_value": null,
+            "fine_shift": -2.9119259524155265e-11,
+            "first_change": -2.928430165812681e-11,
+            "h2": 3.4336474224574664e-09,
+            "h4": 3.433812464591438e-09,
+            "layout_discrepancy": 1.9817597096765725e-14,
+            "nonuniform4": 3.4338322821885348e-09,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 2.928430165812681e-11,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.650421339715471e-13,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "d3d8645e59f4919c706374092ac8038585a1150d82f557b559c44098dc5ac5df",
+          "key": "primary:012:order0:band0",
+          "term": "primary:012"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.1210841636184205e-10,
+        "rules": {
+          "base": 3.4629317241155933e-09,
+          "head_check": 3.4338322821885348e-09,
+          "head_h2": 3.4336474224574664e-09,
+          "head_h4": 3.433812464591438e-09,
+          "inner_h2": 3.4336474224574664e-09,
+          "outer_h2": 3.4629317241155933e-09
+        }
+      },
+      {
+        "actual_h2_shift": -3.432878675350088e-12,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 4.079639001499873e-10,
+            "extrapolated_value": null,
+            "fine_shift": -3.420917215750526e-12,
+            "first_change": -3.432878675350088e-12,
+            "h2": 4.045310214746372e-10,
+            "h4": 4.0454298293423677e-10,
+            "layout_discrepancy": 2.577010813714033e-15,
+            "nonuniform4": 4.045455599450505e-10,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 3.432878675350088e-12,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.1961459599561781e-14,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "5c757a62bc8f886be37004e4ab570543da6f838ee2078cf835c2bacd039af1e9",
+          "key": "primary:012:order0:band0",
+          "term": "primary:012"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.2896801300092177e-10,
+        "rules": {
+          "base": 4.079639001499873e-10,
+          "head_check": 4.045455599450505e-10,
+          "head_h2": 4.045310214746372e-10,
+          "head_h4": 4.0454298293423677e-10,
+          "inner_h2": 4.045310214746372e-10,
+          "outer_h2": 4.079639001499873e-10
+        }
+      },
+      {
+        "actual_h2_shift": 2.298619171717104e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1159095157166676e-09,
+            "extrapolated_value": 2.1161922844566553e-09,
+            "fine_shift": 2.7286972533488947e-13,
+            "first_change": 2.298619171717104e-13,
+            "h2": 2.1161393776338393e-09,
+            "h4": 2.1161823854420025e-09,
+            "layout_discrepancy": 6.003454787915404e-18,
+            "nonuniform4": 2.1161823794385477e-09,
+            "observed_order": 2.41809695129787,
+            "observed_ratio": 0.18710279933431329,
+            "observed_reference_envelope": 2.7286972533488947e-13,
+            "reference_allowance": 2.8276873998763315e-13,
+            "remaining_estimate": 9.89901465274366e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.300780816317907e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "0a22bf2c533c493b6656bbde4cb78f229576a5c8c9f93349fb828ff89b84f6c6",
+          "key": "primary:012:order1:band0",
+          "term": "primary:012"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.344846219725454e-10,
+        "rules": {
+          "base": 2.1159095157166676e-09,
+          "head_check": 2.1161823794385477e-09,
+          "head_h2": 2.1161393776338393e-09,
+          "head_h4": 2.1161823854420025e-09,
+          "inner_h2": 2.1159095157166676e-09,
+          "outer_h2": 2.1161393776338393e-09
+        }
+      },
+      {
+        "actual_h2_shift": 2.298619171717104e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1159095157166676e-09,
+            "extrapolated_value": 2.1161922844566553e-09,
+            "fine_shift": 2.7286972533488947e-13,
+            "first_change": 2.298619171717104e-13,
+            "h2": 2.1161393776338393e-09,
+            "h4": 2.1161823854420025e-09,
+            "layout_discrepancy": 5.378992167669069e-16,
+            "nonuniform4": 2.1161818475427857e-09,
+            "observed_order": 2.41809695129787,
+            "observed_ratio": 0.18710279933431329,
+            "observed_reference_envelope": 2.7286972533488947e-13,
+            "reference_allowance": 2.8276873998763315e-13,
+            "remaining_estimate": 9.89901465274366e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.300780816317907e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "fcc95100e6c3151e46cf30f32552f27600eeb315ad9cb5025fe8216ca49a2352",
+          "key": "primary:012:order1:band0",
+          "term": "primary:012"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.3448462197254456e-10,
+        "rules": {
+          "base": 2.1159095157166676e-09,
+          "head_check": 2.1161818475427857e-09,
+          "head_h2": 2.1161393776338393e-09,
+          "head_h4": 2.1161823854420025e-09,
+          "inner_h2": 2.1159095157166676e-09,
+          "outer_h2": 2.1161393776338393e-09
+        }
+      },
+      {
+        "actual_h2_shift": -2.928334043141162e-11,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 3.4630058261468164e-09,
+            "extrapolated_value": null,
+            "fine_shift": -2.911827616534266e-11,
+            "first_change": -2.928334043141162e-11,
+            "h2": 3.4337224857154047e-09,
+            "h4": 3.4338875499814737e-09,
+            "layout_discrepancy": 1.981621012456876e-14,
+            "nonuniform4": 3.4339073661915983e-09,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 2.928334043141162e-11,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.6506426606895612e-13,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4d32853808652f85178267b9e0db68e366223aa4d20122131fd288fcde81658e",
+          "key": "primary:021:order0:band0",
+          "term": "primary:021"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.1211589262723348e-10,
+        "rules": {
+          "base": 3.4630058261468164e-09,
+          "head_check": 3.4339073661915983e-09,
+          "head_h2": 3.4337224857154047e-09,
+          "head_h4": 3.4338875499814737e-09,
+          "inner_h2": 3.4337224857154047e-09,
+          "outer_h2": 3.4630058261468164e-09
+        }
+      },
+      {
+        "actual_h2_shift": -3.4330234628493786e-12,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 4.0799177920994566e-10,
+            "extrapolated_value": null,
+            "fine_shift": -3.421057356067555e-12,
+            "first_change": -3.4330234628493786e-12,
+            "h2": 4.045587557470963e-10,
+            "h4": 4.045707218538781e-10,
+            "layout_discrepancy": 2.5770206427910594e-15,
+            "nonuniform4": 4.045732988745209e-10,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 3.4330234628493786e-12,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.1966106781823792e-14,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "ac3e87b2c6c56912cb3adf12d4a819abf3f10067845f2af7f017f887e0046c9f",
+          "key": "primary:021:order0:band0",
+          "term": "primary:021"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.2898212779146528e-10,
+        "rules": {
+          "base": 4.0799177920994566e-10,
+          "head_check": 4.045732988745209e-10,
+          "head_h2": 4.045587557470963e-10,
+          "head_h4": 4.045707218538781e-10,
+          "inner_h2": 4.045587557470963e-10,
+          "outer_h2": 4.0799177920994566e-10
+        }
+      },
+      {
+        "actual_h2_shift": 2.2996496124395936e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1165463208288017e-09,
+            "extrapolated_value": 2.1168292531919628e-09,
+            "fine_shift": 2.730164043272006e-13,
+            "first_change": 2.2996496124395936e-13,
+            "h2": 2.1167762857900457e-09,
+            "h4": 2.116819337233129e-09,
+            "layout_discrepancy": 6.01877706799203e-18,
+            "nonuniform4": 2.116819331214352e-09,
+            "observed_order": 2.4172805581312753,
+            "observed_ratio": 0.18720870714547658,
+            "observed_reference_envelope": 2.730164043272006e-13,
+            "reference_allowance": 2.829323631609319e-13,
+            "remaining_estimate": 9.915958833731264e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.305144308324126e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "980b115a4e52ef51b9ad08dbbaa1016aa74521a6faea5cf812c31af9443780d2",
+          "key": "primary:021:order1:band0",
+          "term": "primary:021"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.344839121161902e-10,
+        "rules": {
+          "base": 2.1165463208288017e-09,
+          "head_check": 2.116819331214352e-09,
+          "head_h2": 2.1167762857900457e-09,
+          "head_h4": 2.116819337233129e-09,
+          "inner_h2": 2.1165463208288017e-09,
+          "outer_h2": 2.1167762857900457e-09
+        }
+      },
+      {
+        "actual_h2_shift": 2.2996496124354577e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1165463208288017e-09,
+            "extrapolated_value": 2.1168292531919628e-09,
+            "fine_shift": 2.730164043272006e-13,
+            "first_change": 2.2996496124354577e-13,
+            "h2": 2.1167762857900453e-09,
+            "h4": 2.116819337233129e-09,
+            "layout_discrepancy": 5.385718266878855e-16,
+            "nonuniform4": 2.1168187986613022e-09,
+            "observed_order": 2.4172805581148205,
+            "observed_ratio": 0.18720870714761179,
+            "observed_reference_envelope": 2.730164043272006e-13,
+            "reference_allowance": 2.829323631611663e-13,
+            "remaining_estimate": 9.915958833965672e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.305144308365485e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4364955b6d99f0e7a197b8d94f2957afe2e3fbcde9313546f40255046066bff3",
+          "key": "primary:021:order1:band0",
+          "term": "primary:021"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.344839121161902e-10,
+        "rules": {
+          "base": 2.1165463208288017e-09,
+          "head_check": 2.1168187986613022e-09,
+          "head_h2": 2.1167762857900453e-09,
+          "head_h4": 2.116819337233129e-09,
+          "inner_h2": 2.1165463208288017e-09,
+          "outer_h2": 2.1167762857900453e-09
+        }
+      },
+      {
+        "actual_h2_shift": -2.928430165812681e-11,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 3.4629317241155933e-09,
+            "extrapolated_value": null,
+            "fine_shift": -2.9119259524155265e-11,
+            "first_change": -2.928430165812681e-11,
+            "h2": 3.4336474224574664e-09,
+            "h4": 3.433812464591438e-09,
+            "layout_discrepancy": 1.9817597096765725e-14,
+            "nonuniform4": 3.4338322821885348e-09,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 2.928430165812681e-11,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.650421339715471e-13,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "883f9f68f0d71f6d5816d83068d61da632539ec35b7a846d5944a9fc6876aabf",
+          "key": "primary:102:order0:band0",
+          "term": "primary:102"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.1210841636184205e-10,
+        "rules": {
+          "base": 3.4629317241155933e-09,
+          "head_check": 3.4338322821885348e-09,
+          "head_h2": 3.4336474224574664e-09,
+          "head_h4": 3.433812464591438e-09,
+          "inner_h2": 3.4336474224574664e-09,
+          "outer_h2": 3.4629317241155933e-09
+        }
+      },
+      {
+        "actual_h2_shift": -3.432878675350088e-12,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 4.079639001499873e-10,
+            "extrapolated_value": null,
+            "fine_shift": -3.420917215750526e-12,
+            "first_change": -3.432878675350088e-12,
+            "h2": 4.045310214746372e-10,
+            "h4": 4.0454298293423677e-10,
+            "layout_discrepancy": 2.577010813714033e-15,
+            "nonuniform4": 4.045455599450505e-10,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 3.432878675350088e-12,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.1961459599561781e-14,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "83774820889a7099920b4c63d48a823643db9be9460e419988729577df60df51",
+          "key": "primary:102:order0:band0",
+          "term": "primary:102"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.2896801300092177e-10,
+        "rules": {
+          "base": 4.079639001499873e-10,
+          "head_check": 4.045455599450505e-10,
+          "head_h2": 4.045310214746372e-10,
+          "head_h4": 4.0454298293423677e-10,
+          "inner_h2": 4.045310214746372e-10,
+          "outer_h2": 4.079639001499873e-10
+        }
+      },
+      {
+        "actual_h2_shift": 2.298619171717104e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1159095157166676e-09,
+            "extrapolated_value": 2.1161922844566553e-09,
+            "fine_shift": 2.7286972533488947e-13,
+            "first_change": 2.298619171717104e-13,
+            "h2": 2.1161393776338393e-09,
+            "h4": 2.1161823854420025e-09,
+            "layout_discrepancy": 6.003454787915404e-18,
+            "nonuniform4": 2.1161823794385477e-09,
+            "observed_order": 2.41809695129787,
+            "observed_ratio": 0.18710279933431329,
+            "observed_reference_envelope": 2.7286972533488947e-13,
+            "reference_allowance": 2.8276873998763315e-13,
+            "remaining_estimate": 9.89901465274366e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.300780816317907e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "004344dde83b48399f24638616045690601fc1d81e1ea4e1371bdd9b4ee67a4d",
+          "key": "primary:102:order1:band0",
+          "term": "primary:102"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.344846219725454e-10,
+        "rules": {
+          "base": 2.1159095157166676e-09,
+          "head_check": 2.1161823794385477e-09,
+          "head_h2": 2.1161393776338393e-09,
+          "head_h4": 2.1161823854420025e-09,
+          "inner_h2": 2.1159095157166676e-09,
+          "outer_h2": 2.1161393776338393e-09
+        }
+      },
+      {
+        "actual_h2_shift": 2.298619171717104e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1159095157166676e-09,
+            "extrapolated_value": 2.1161922844566553e-09,
+            "fine_shift": 2.7286972533488947e-13,
+            "first_change": 2.298619171717104e-13,
+            "h2": 2.1161393776338393e-09,
+            "h4": 2.1161823854420025e-09,
+            "layout_discrepancy": 5.378992167669069e-16,
+            "nonuniform4": 2.1161818475427857e-09,
+            "observed_order": 2.41809695129787,
+            "observed_ratio": 0.18710279933431329,
+            "observed_reference_envelope": 2.7286972533488947e-13,
+            "reference_allowance": 2.8276873998763315e-13,
+            "remaining_estimate": 9.89901465274366e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.300780816317907e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "256c913725954bfc98fa3561d8ba8fcf9e51ed0907c0b45a96083188bc96faf0",
+          "key": "primary:102:order1:band0",
+          "term": "primary:102"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.3448462197254456e-10,
+        "rules": {
+          "base": 2.1159095157166676e-09,
+          "head_check": 2.1161818475427857e-09,
+          "head_h2": 2.1161393776338393e-09,
+          "head_h4": 2.1161823854420025e-09,
+          "inner_h2": 2.1159095157166676e-09,
+          "outer_h2": 2.1161393776338393e-09
+        }
+      },
+      {
+        "actual_h2_shift": -2.928334043141162e-11,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 3.4630058261468164e-09,
+            "extrapolated_value": null,
+            "fine_shift": -2.911827616534266e-11,
+            "first_change": -2.928334043141162e-11,
+            "h2": 3.4337224857154047e-09,
+            "h4": 3.4338875499814737e-09,
+            "layout_discrepancy": 1.981621012456876e-14,
+            "nonuniform4": 3.4339073661915983e-09,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 2.928334043141162e-11,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.6506426606895612e-13,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "3e73fa2325385fc601f5b3ffa811ad05e64aa9dd14fe0a4ba692227bcc2f886e",
+          "key": "primary:120:order0:band0",
+          "term": "primary:120"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.1211589262723348e-10,
+        "rules": {
+          "base": 3.4630058261468164e-09,
+          "head_check": 3.4339073661915983e-09,
+          "head_h2": 3.4337224857154047e-09,
+          "head_h4": 3.4338875499814737e-09,
+          "inner_h2": 3.4337224857154047e-09,
+          "outer_h2": 3.4630058261468164e-09
+        }
+      },
+      {
+        "actual_h2_shift": -3.4330234628493786e-12,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 4.0799177920994566e-10,
+            "extrapolated_value": null,
+            "fine_shift": -3.421057356067555e-12,
+            "first_change": -3.4330234628493786e-12,
+            "h2": 4.045587557470963e-10,
+            "h4": 4.045707218538781e-10,
+            "layout_discrepancy": 2.5770206427910594e-15,
+            "nonuniform4": 4.045732988745209e-10,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 3.4330234628493786e-12,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.1966106781823792e-14,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "da229d4d70b2034a5fa8966ac98eecda2b66908ccbf7955a8fc9d5874cc0215e",
+          "key": "primary:120:order0:band0",
+          "term": "primary:120"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.2898212779146528e-10,
+        "rules": {
+          "base": 4.0799177920994566e-10,
+          "head_check": 4.045732988745209e-10,
+          "head_h2": 4.045587557470963e-10,
+          "head_h4": 4.045707218538781e-10,
+          "inner_h2": 4.045587557470963e-10,
+          "outer_h2": 4.0799177920994566e-10
+        }
+      },
+      {
+        "actual_h2_shift": 2.2996496124395936e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1165463208288017e-09,
+            "extrapolated_value": 2.1168292531919628e-09,
+            "fine_shift": 2.730164043272006e-13,
+            "first_change": 2.2996496124395936e-13,
+            "h2": 2.1167762857900457e-09,
+            "h4": 2.116819337233129e-09,
+            "layout_discrepancy": 6.01877706799203e-18,
+            "nonuniform4": 2.116819331214352e-09,
+            "observed_order": 2.4172805581312753,
+            "observed_ratio": 0.18720870714547658,
+            "observed_reference_envelope": 2.730164043272006e-13,
+            "reference_allowance": 2.829323631609319e-13,
+            "remaining_estimate": 9.915958833731264e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.305144308324126e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "9244568e986543ebd45230ef601771e1468cba6f9c213e9dc39ac2dc79043553",
+          "key": "primary:120:order1:band0",
+          "term": "primary:120"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.344839121161902e-10,
+        "rules": {
+          "base": 2.1165463208288017e-09,
+          "head_check": 2.116819331214352e-09,
+          "head_h2": 2.1167762857900457e-09,
+          "head_h4": 2.116819337233129e-09,
+          "inner_h2": 2.1165463208288017e-09,
+          "outer_h2": 2.1167762857900457e-09
+        }
+      },
+      {
+        "actual_h2_shift": 2.2996496124354577e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1165463208288017e-09,
+            "extrapolated_value": 2.1168292531919628e-09,
+            "fine_shift": 2.730164043272006e-13,
+            "first_change": 2.2996496124354577e-13,
+            "h2": 2.1167762857900453e-09,
+            "h4": 2.116819337233129e-09,
+            "layout_discrepancy": 5.385718266878855e-16,
+            "nonuniform4": 2.1168187986613022e-09,
+            "observed_order": 2.4172805581148205,
+            "observed_ratio": 0.18720870714761179,
+            "observed_reference_envelope": 2.730164043272006e-13,
+            "reference_allowance": 2.829323631611663e-13,
+            "remaining_estimate": 9.915958833965672e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.305144308365485e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4b4be10413a0eb41defec759181181392612cc03e4a740733afcdc4c71bdd003",
+          "key": "primary:120:order1:band0",
+          "term": "primary:120"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.344839121161902e-10,
+        "rules": {
+          "base": 2.1165463208288017e-09,
+          "head_check": 2.1168187986613022e-09,
+          "head_h2": 2.1167762857900453e-09,
+          "head_h4": 2.116819337233129e-09,
+          "inner_h2": 2.1165463208288017e-09,
+          "outer_h2": 2.1167762857900453e-09
+        }
+      },
+      {
+        "actual_h2_shift": -2.9251501267003856e-11,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 3.4617127867002535e-09,
+            "extrapolated_value": null,
+            "fine_shift": -2.9086544433726385e-11,
+            "first_change": -2.9251501267003856e-11,
+            "h2": 3.4324612854332497e-09,
+            "h4": 3.432626242266527e-09,
+            "layout_discrepancy": 1.9792707437688387e-14,
+            "nonuniform4": 3.432646034973965e-09,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 2.9251501267003856e-11,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.649568332774707e-13,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "90d1c77b2858af85bbb14a59c0f90698052f818bfa96cada7508a69d29f6c146",
+          "key": "primary:201:order0:band0",
+          "term": "primary:201"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.1183711552330296e-10,
+        "rules": {
+          "base": 3.4617127867002535e-09,
+          "head_check": 3.432646034973965e-09,
+          "head_h2": 3.4324612854332497e-09,
+          "head_h4": 3.432626242266527e-09,
+          "inner_h2": 3.4324612854332497e-09,
+          "outer_h2": 3.4617127867002535e-09
+        }
+      },
+      {
+        "actual_h2_shift": -3.430412150329491e-12,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 4.079177782352224e-10,
+            "extrapolated_value": null,
+            "fine_shift": -3.4184427459324432e-12,
+            "first_change": -3.430412150329491e-12,
+            "h2": 4.0448736608489293e-10,
+            "h4": 4.0449933548929e-10,
+            "layout_discrepancy": 2.5747900767536332e-15,
+            "nonuniform4": 4.0450191027936674e-10,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 3.430412150329491e-12,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.1969404397047835e-14,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "8f6dddf96e3251ff18ae1d1d862d33522b6c35c200c49fddc24c99ad66a1bf57",
+          "key": "primary:201:order0:band0",
+          "term": "primary:201"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.2895914090763823e-10,
+        "rules": {
+          "base": 4.079177782352224e-10,
+          "head_check": 4.0450191027936674e-10,
+          "head_h2": 4.0448736608489293e-10,
+          "head_h4": 4.0449933548929e-10,
+          "inner_h2": 4.0448736608489293e-10,
+          "outer_h2": 4.079177782352224e-10
+        }
+      },
+      {
+        "actual_h2_shift": 2.299269861517286e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1164721783465127e-09,
+            "extrapolated_value": 2.1167550772706812e-09,
+            "fine_shift": 2.7298009458818455e-13,
+            "first_change": 2.299269861517286e-13,
+            "h2": 2.1167021053326644e-09,
+            "h4": 2.116745158441101e-09,
+            "layout_discrepancy": 6.015479512480088e-18,
+            "nonuniform4": 2.1167451524256214e-09,
+            "observed_order": 2.4169864935897563,
+            "observed_ratio": 0.1872468697869385,
+            "observed_reference_envelope": 2.7298009458818455e-13,
+            "reference_allowance": 2.8289892416834337e-13,
+            "remaining_estimate": 9.918829580158846e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.305310843645594e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "a23d1c2ff5a855591b77c27c5d0bdc8542ce7fe6ce6410418f201340deffbb6b",
+          "key": "primary:201:order1:band0",
+          "term": "primary:201"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.3449991748283724e-10,
+        "rules": {
+          "base": 2.1164721783465127e-09,
+          "head_check": 2.1167451524256214e-09,
+          "head_h2": 2.1167021053326644e-09,
+          "head_h4": 2.116745158441101e-09,
+          "inner_h2": 2.1164721783465127e-09,
+          "outer_h2": 2.1167021053326644e-09
+        }
+      },
+      {
+        "actual_h2_shift": 2.2992698615090143e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.116472178346513e-09,
+            "extrapolated_value": 2.1167550772706812e-09,
+            "fine_shift": 2.7298009458777096e-13,
+            "first_change": 2.2992698615090143e-13,
+            "h2": 2.116702105332664e-09,
+            "h4": 2.116745158441101e-09,
+            "layout_discrepancy": 5.3862521333821e-16,
+            "nonuniform4": 2.1167446198158876e-09,
+            "observed_order": 2.4169864935707066,
+            "observed_ratio": 0.1872468697894109,
+            "observed_reference_envelope": 2.7298009458777096e-13,
+            "reference_allowance": 2.828989241681862e-13,
+            "remaining_estimate": 9.918829580415273e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.305310843686953e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4ef517c649db94a6d9c40db803115ccb2f362e2c08dd6960dbbeadb625006643",
+          "key": "primary:201:order1:band0",
+          "term": "primary:201"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.3449991748283558e-10,
+        "rules": {
+          "base": 2.116472178346513e-09,
+          "head_check": 2.1167446198158876e-09,
+          "head_h2": 2.116702105332664e-09,
+          "head_h4": 2.116745158441101e-09,
+          "inner_h2": 2.116472178346513e-09,
+          "outer_h2": 2.116702105332664e-09
+        }
+      },
+      {
+        "actual_h2_shift": -2.9251501267003856e-11,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 3.4617127867002535e-09,
+            "extrapolated_value": null,
+            "fine_shift": -2.9086544433726385e-11,
+            "first_change": -2.9251501267003856e-11,
+            "h2": 3.4324612854332497e-09,
+            "h4": 3.432626242266527e-09,
+            "layout_discrepancy": 1.9792707437688387e-14,
+            "nonuniform4": 3.432646034973965e-09,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 2.9251501267003856e-11,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.649568332774707e-13,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "43be9efb612af4bd963fcf6ee4a761c9d13d27c82e2bc6b538d290a223bc7cfb",
+          "key": "primary:210:order0:band0",
+          "term": "primary:210"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.1183711552330296e-10,
+        "rules": {
+          "base": 3.4617127867002535e-09,
+          "head_check": 3.432646034973965e-09,
+          "head_h2": 3.4324612854332497e-09,
+          "head_h4": 3.432626242266527e-09,
+          "inner_h2": 3.4324612854332497e-09,
+          "outer_h2": 3.4617127867002535e-09
+        }
+      },
+      {
+        "actual_h2_shift": -3.430412150329491e-12,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 4.079177782352224e-10,
+            "extrapolated_value": null,
+            "fine_shift": -3.4184427459324432e-12,
+            "first_change": -3.430412150329491e-12,
+            "h2": 4.0448736608489293e-10,
+            "h4": 4.0449933548929e-10,
+            "layout_discrepancy": 2.5747900767536332e-15,
+            "nonuniform4": 4.0450191027936674e-10,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 3.430412150329491e-12,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 1.1969404397047835e-14,
+            "status": "non_asymptotic"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "4030fe722cba43a006bea9519749b8be7bbb5e8eff4fe33562458c9641d4fd4f",
+          "key": "primary:210:order0:band0",
+          "term": "primary:210"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.2895914090763823e-10,
+        "rules": {
+          "base": 4.079177782352224e-10,
+          "head_check": 4.0450191027936674e-10,
+          "head_h2": 4.0448736608489293e-10,
+          "head_h4": 4.0449933548929e-10,
+          "inner_h2": 4.0448736608489293e-10,
+          "outer_h2": 4.079177782352224e-10
+        }
+      },
+      {
+        "actual_h2_shift": 2.299269861517286e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.1164721783465127e-09,
+            "extrapolated_value": 2.1167550772706812e-09,
+            "fine_shift": 2.7298009458818455e-13,
+            "first_change": 2.299269861517286e-13,
+            "h2": 2.1167021053326644e-09,
+            "h4": 2.116745158441101e-09,
+            "layout_discrepancy": 6.015479512480088e-18,
+            "nonuniform4": 2.1167451524256214e-09,
+            "observed_order": 2.4169864935897563,
+            "observed_ratio": 0.1872468697869385,
+            "observed_reference_envelope": 2.7298009458818455e-13,
+            "reference_allowance": 2.8289892416834337e-13,
+            "remaining_estimate": 9.918829580158846e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.305310843645594e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "6aa33674ab3b1e58ab9d251bb1c367bd0952f009a57f1d7634116f582e05d6d6",
+          "key": "primary:210:order1:band0",
+          "term": "primary:210"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.3449991748283724e-10,
+        "rules": {
+          "base": 2.1164721783465127e-09,
+          "head_check": 2.1167451524256214e-09,
+          "head_h2": 2.1167021053326644e-09,
+          "head_h4": 2.116745158441101e-09,
+          "inner_h2": 2.1164721783465127e-09,
+          "outer_h2": 2.1167021053326644e-09
+        }
+      },
+      {
+        "actual_h2_shift": 2.2992698615090143e-13,
+        "assessments": {
+          "angular_heads": {
+            "arithmetic_bound": null,
+            "base": 2.116472178346513e-09,
+            "extrapolated_value": 2.1167550772706812e-09,
+            "fine_shift": 2.7298009458777096e-13,
+            "first_change": 2.2992698615090143e-13,
+            "h2": 2.116702105332664e-09,
+            "h4": 2.116745158441101e-09,
+            "layout_discrepancy": 5.3862521333821e-16,
+            "nonuniform4": 2.1167446198158876e-09,
+            "observed_order": 2.4169864935707066,
+            "observed_ratio": 0.1872468697894109,
+            "observed_reference_envelope": 2.7298009458777096e-13,
+            "reference_allowance": 2.828989241681862e-13,
+            "remaining_estimate": 9.918829580415273e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 4.305310843686953e-14,
+            "status": "conditionally_consistent"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "01b668aa0755d49a496be4651ee46d668d8b113b0d262a03421bf7370283d5b5",
+          "key": "primary:210:order1:band0",
+          "term": "primary:210"
+        },
+        "mixed_discrepancy": 0.0,
+        "previous_cell_indicator": 1.3449991748283558e-10,
+        "rules": {
+          "base": 2.116472178346513e-09,
+          "head_check": 2.1167446198158876e-09,
+          "head_h2": 2.116702105332664e-09,
+          "head_h4": 2.116745158441101e-09,
+          "inner_h2": 2.116472178346513e-09,
+          "outer_h2": 2.116702105332664e-09
+        }
+      },
+      {
+        "actual_h2_shift": 7.57049006256063e-10,
+        "assessments": {
+          "axis0": {
+            "arithmetic_bound": null,
+            "base": 3.40715251050956e-09,
+            "extrapolated_value": 3.3930198426846615e-09,
+            "fine_shift": -1.2170071167101874e-11,
+            "first_change": -8.866100950843069e-12,
+            "h2": 3.398286409558717e-09,
+            "h4": 3.3949824393424583e-09,
+            "layout_discrepancy": 5.988464771732462e-13,
+            "nonuniform4": 3.3955812858196316e-09,
+            "observed_order": 1.4240991077559813,
+            "observed_ratio": 0.3726519960213891,
+            "observed_reference_envelope": 1.2170071167101874e-11,
+            "reference_allowance": 1.4132667824898911e-11,
+            "remaining_estimate": 1.962596657797038e-12,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": -3.3039702162588055e-12,
+            "status": "conditionally_consistent"
+          },
+          "axis1": {
+            "arithmetic_bound": null,
+            "base": 3.40715251050956e-09,
+            "extrapolated_value": null,
+            "fine_shift": -1.7944442618419106e-20,
+            "first_change": -1.7663614800457353e-20,
+            "h2": 3.4071525104918966e-09,
+            "h4": 3.4071525104916158e-09,
+            "layout_discrepancy": 1.6543612251060553e-24,
+            "nonuniform4": 3.4071525104916174e-09,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 1.7944442618419106e-20,
+            "reference_allowance": 1.0179444426184192e-18,
+            "remaining_estimate": 1e-18,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": -2.808278179617529e-22,
+            "status": "below_resolution"
+          },
+          "axis2": {
+            "arithmetic_bound": null,
+            "base": 3.40715251050956e-09,
+            "extrapolated_value": 3.4074719150317203e-09,
+            "fine_shift": 3.150516062370243e-13,
+            "first_change": 2.8211724510170505e-13,
+            "h2": 3.407434627754662e-09,
+            "h4": 3.4074675621157972e-09,
+            "layout_discrepancy": 2.319019082489017e-16,
+            "nonuniform4": 3.407467330213889e-09,
+            "observed_order": 3.0986293869198187,
+            "observed_ratio": 0.1167399785271765,
+            "observed_reference_envelope": 3.150516062370243e-13,
+            "reference_allowance": 3.194045221601659e-13,
+            "remaining_estimate": 4.3529159231415996e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 3.293436113531924e-14,
+            "status": "conditionally_consistent"
+          },
+          "axis3": {
+            "arithmetic_bound": null,
+            "base": 3.40715251050956e-09,
+            "extrapolated_value": 7.773923455923657e-09,
+            "fine_shift": 1.4206717513371258e-09,
+            "first_change": 7.799979719735972e-10,
+            "h2": 4.187150482483157e-09,
+            "h4": 4.827824261846686e-09,
+            "layout_discrepancy": 1.631203725497151e-10,
+            "nonuniform4": 4.990944634396401e-09,
+            "observed_order": 0.2838804258897953,
+            "observed_ratio": 0.8213787758222728,
+            "observed_reference_envelope": 1.583792123886841e-09,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 6.406737793635287e-10,
+            "status": "layout_disagrees"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              0.5
+            ]
+          ],
+          "depth": 1,
+          "id": "bcd331b378585f3fb2418b04b3f4784aa9eea07ea6028258cd32425d0689882c",
+          "key": "tail:pair_face_analytic",
+          "term": "tail:pair_face_analytic"
+        },
+        "mixed_discrepancy": -1.4364981994129172e-11,
+        "previous_cell_indicator": 7.9339728227717e-10,
+        "rules": {
+          "axis0_check": 3.3955812858196316e-09,
+          "axis0_h2": 3.398286409558717e-09,
+          "axis0_h4": 3.3949824393424583e-09,
+          "axis1_check": 3.4071525104916174e-09,
+          "axis1_h2": 3.4071525104918966e-09,
+          "axis1_h4": 3.4071525104916158e-09,
+          "axis2_check": 3.407467330213889e-09,
+          "axis2_h2": 3.407434627754662e-09,
+          "axis2_h4": 3.4074675621157972e-09,
+          "axis3_check": 4.990944634396401e-09,
+          "axis3_h2": 4.187150482483157e-09,
+          "axis3_h4": 4.827824261846686e-09,
+          "base": 3.40715251050956e-09,
+          "mixed_h2": 4.164201516765623e-09
+        }
+      },
+      {
+        "actual_h2_shift": 7.570490062560618e-10,
+        "assessments": {
+          "axis0": {
+            "arithmetic_bound": null,
+            "base": 3.4071525105095606e-09,
+            "extrapolated_value": 3.3930198426846602e-09,
+            "fine_shift": -1.2170071167103115e-11,
+            "first_change": -8.866100950843896e-12,
+            "h2": 3.3982864095587167e-09,
+            "h4": 3.3949824393424575e-09,
+            "layout_discrepancy": 5.988464771732462e-13,
+            "nonuniform4": 3.3955812858196307e-09,
+            "observed_order": 1.4240991077559353,
+            "observed_ratio": 0.372651996021401,
+            "observed_reference_envelope": 1.2170071167103115e-11,
+            "reference_allowance": 1.4132667824900498e-11,
+            "remaining_estimate": 1.962596657797383e-12,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": -3.303970216259219e-12,
+            "status": "conditionally_consistent"
+          },
+          "axis1": {
+            "arithmetic_bound": null,
+            "base": 3.4071525105095606e-09,
+            "extrapolated_value": null,
+            "fine_shift": -1.7946096979644212e-20,
+            "first_change": -1.766526916168246e-20,
+            "h2": 3.4071525104918953e-09,
+            "h4": 3.4071525104916145e-09,
+            "layout_discrepancy": 2.0679515313825692e-24,
+            "nonuniform4": 3.4071525104916166e-09,
+            "observed_order": null,
+            "observed_ratio": null,
+            "observed_reference_envelope": 1.7946096979644212e-20,
+            "reference_allowance": 1.0179460969796443e-18,
+            "remaining_estimate": 1e-18,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": -2.808278179617529e-22,
+            "status": "below_resolution"
+          },
+          "axis2": {
+            "arithmetic_bound": null,
+            "base": 3.4071525105095606e-09,
+            "extrapolated_value": 3.4074719150317195e-09,
+            "fine_shift": 3.150516062357835e-13,
+            "first_change": 2.8211724510046427e-13,
+            "h2": 3.407434627754661e-09,
+            "h4": 3.4074675621157964e-09,
+            "layout_discrepancy": 2.31901908662492e-16,
+            "nonuniform4": 3.4074673302138877e-09,
+            "observed_order": 3.0986293869134736,
+            "observed_ratio": 0.11673997852768994,
+            "observed_reference_envelope": 3.150516062357835e-13,
+            "reference_allowance": 3.194045221589468e-13,
+            "remaining_estimate": 4.3529159231632735e-15,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 3.293436113531924e-14,
+            "status": "conditionally_consistent"
+          },
+          "axis3": {
+            "arithmetic_bound": null,
+            "base": 3.4071525105095606e-09,
+            "extrapolated_value": 7.773923455923123e-09,
+            "fine_shift": 1.4206717513371122e-09,
+            "first_change": 7.799979719735992e-10,
+            "h2": 4.18715048248316e-09,
+            "h4": 4.827824261846673e-09,
+            "layout_discrepancy": 1.5221298450716392e-10,
+            "nonuniform4": 4.675611277339509e-09,
+            "observed_order": 0.28388042588983453,
+            "observed_ratio": 0.8213787758222505,
+            "observed_reference_envelope": 1.4206717513371122e-09,
+            "reference_allowance": null,
+            "remaining_estimate": null,
+            "resolution_screen": "floating-point heuristic; no propagated primary arithmetic bound",
+            "second_change": 6.40673779363513e-10,
+            "status": "layout_disagrees"
+          }
+        },
+        "cell": {
+          "bounds": [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.5,
+              1.0
+            ]
+          ],
+          "depth": 1,
+          "id": "1256d2325b8a73e7cf64e2a493c517f232982f5bfdffd28efd574e8902dacdb8",
+          "key": "tail:pair_face_analytic",
+          "term": "tail:pair_face_analytic"
+        },
+        "mixed_discrepancy": -1.4364981994128759e-11,
+        "previous_cell_indicator": 7.93397282277172e-10,
+        "rules": {
+          "axis0_check": 3.3955812858196307e-09,
+          "axis0_h2": 3.3982864095587167e-09,
+          "axis0_h4": 3.3949824393424575e-09,
+          "axis1_check": 3.4071525104916166e-09,
+          "axis1_h2": 3.4071525104918953e-09,
+          "axis1_h4": 3.4071525104916145e-09,
+          "axis2_check": 3.4074673302138877e-09,
+          "axis2_h2": 3.407434627754661e-09,
+          "axis2_h4": 3.4074675621157964e-09,
+          "axis3_check": 4.675611277339509e-09,
+          "axis3_h2": 4.18715048248316e-09,
+          "axis3_h4": 4.827824261846673e-09,
+          "base": 3.4071525105095606e-09,
+          "mixed_h2": 4.164201516765622e-09
+        }
+      }
+    ],
+    "central_value_unchanged": true,
+    "complete_domain": true,
+    "complete_planned_study": true,
+    "design_sha256": "48ca5badd960aa853f7d203ffe7997f938b397855553a64f6dba6304be3cfb35",
+    "experiment_sha256": "ffb308d7cde5d580af6cd610eb67d491a707e28740b894006050375117be8074",
+    "matrix_model_used_for_estimation": false,
+    "other_moduli_directions_retain_existing_diagnostics": true,
+    "previous_moduli_indicator": 1.061549970000066e-08,
+    "reference_amplitude": 3.1915846082737255e-07,
+    "source_amplitude_sha256": "7082b5835383ed172502df809e80861092808819084fa7d2fb2dccaf4abcedfe",
+    "statistics": {
+      "full_error_bar": null,
+      "grid_standard_deviation": 1.2677255298231242e-09,
+      "is_confidence_interval": false,
+      "mean_shift": 1.6691156054852244e-09,
+      "observed_shift_max": 2.660488405136288e-09,
+      "observed_shift_min": 0.0,
+      "probabilities_assigned": false,
+      "relative_rms": 0.006259655591213865,
+      "relative_standard_deviation": 0.003972088117409539,
+      "rms_shift": 1.9978220438012738e-09,
+      "variants": [
+        {
+          "amplitude": 3.1915846082737255e-07,
+          "label": "original",
+          "shift": 0.0
+        },
+        {
+          "amplitude": 3.205249848714879e-07,
+          "label": "two_panels",
+          "shift": 1.366524044115321e-09
+        },
+        {
+          "amplitude": 3.2180791080006183e-07,
+          "label": "four_panels",
+          "shift": 2.6494499726892885e-09
+        },
+        {
+          "amplitude": 3.2181894923250885e-07,
+          "label": "four_nonuniform_panels",
+          "shift": 2.660488405136288e-09
+        }
+      ]
+    },
+    "t": 0.025,
+    "timings": {
+      "contract_worker_cpu_seconds": 2392.636238364,
+      "contraction_cpu_seconds": 2322.943455606004,
+      "prepare_worker_cpu_seconds": 17989.614299298995
+    },
+    "total_physical_error_bar": null,
+    "unknown_errors": [
+      "integrated omitted analytic remainders, including full triple OPE",
+      "global cutoff stability",
+      "integrated momentum quadrature error"
+    ]
+  },
+  "sha256": "4ad066d0b052ae155a0ad1a5b31f07fb01f763bdcd598b77a0658f0b443d2720"
+}

@@ -1,0 +1,267 @@
+{
+  "format": "c1-retained-source-index-v1",
+  "scope": "Genus-two free energy and channel comparisons",
+  "sources": [
+    {
+      "path": "code/two_loop/conformal_block/ccy_genus2_glasses_block.py",
+      "group": "conformal_block",
+      "purpose": "Genus-two conformal block in the glasses channel",
+      "sha256": "0a37beb5028021295d36f676051836d3023934a850d98fe87bb91544f68afb92"
+    },
+    {
+      "path": "code/two_loop/geometry/audit_q_to_omega_accuracy.py",
+      "group": "geometry",
+      "purpose": "Checks of the period map and modular transformations",
+      "sha256": "7ec2876c5899a091d32e15f7efefbf4fb510139b3cb7671afa5b0568669657ae"
+    },
+    {
+      "path": "code/two_loop/geometry/bolza_ccy_recursion.py",
+      "group": "geometry",
+      "purpose": "Checks of the period map and modular transformations",
+      "sha256": "444757884c1d8a5559995541cb8baac37a146208f6cdc909a27f2c07c48733c9"
+    },
+    {
+      "path": "code/two_loop/geometry/bolza_torus_plumbing_reach.py",
+      "group": "geometry",
+      "purpose": "Plumbing atlas and choice of the homology marking",
+      "sha256": "8462b7620243af177be4db742fb047d5a55c89424e2035248c2b6052f13c213b"
+    },
+    {
+      "path": "code/two_loop/geometry/genus2_calibrated_schottky.py",
+      "group": "geometry",
+      "purpose": "Period map and choice of its numerical implementation",
+      "sha256": "8ee6c3f146a96bd6734ba1cd15562c46d286cd1006ca41e63f1bed2bb2a63171"
+    },
+    {
+      "path": "code/two_loop/geometry/genus2_holomorphic_period_table.py",
+      "group": "geometry",
+      "purpose": "Period-map tables and their construction",
+      "sha256": "4e479f10701c38dbe27a298f09ef49fabbf64e6ed51da6b13e4b64829076fb99"
+    },
+    {
+      "path": "code/two_loop/geometry/genus2_hybrid_period_map.py",
+      "group": "geometry",
+      "purpose": "Period map and choice of its numerical implementation",
+      "sha256": "e638ff8dc49df3cf566b37da79050d3baba9a88e85412aec01364d41528de8b1"
+    },
+    {
+      "path": "code/two_loop/geometry/genus2_integration_geometry.py",
+      "group": "geometry",
+      "purpose": "Channel selection and reconstruction of saved plumbing coordinates",
+      "sha256": "3d87081f51bbc4f5a730beb4b39c7610c80c2c245bc768dee7af62f61b80cca6"
+    },
+    {
+      "path": "code/two_loop/geometry/genus2_multiprecision_collocation.py",
+      "group": "geometry",
+      "purpose": "Period map and choice of its numerical implementation",
+      "sha256": "34f47cbd51f033f57f40d9574378fc5b925ee3b5cdbfbaf93719e73617130b77"
+    },
+    {
+      "path": "code/two_loop/geometry/genus2_period_table.py",
+      "group": "geometry",
+      "purpose": "Period-map tables and their construction",
+      "sha256": "1289f4e2c7d92a3f27433246c6fa0cad67c2e2d6f481183d172c363c0724737c"
+    },
+    {
+      "path": "code/two_loop/geometry/genus2_period_table_grid.py",
+      "group": "geometry",
+      "purpose": "Period-map tables and their construction",
+      "sha256": "c55017498d65ebb980eac126e8089c6cd71aeab119f14242e20c9d168d779372"
+    },
+    {
+      "path": "code/two_loop/geometry/genus2_period_table_selector.py",
+      "group": "geometry",
+      "purpose": "Channel selection and reconstruction of saved plumbing coordinates",
+      "sha256": "95e8070e2f62afa758d6c2948122739f9637ea7bb7d254926bbeb61394239009"
+    },
+    {
+      "path": "code/two_loop/geometry/genus2_plumbing_atlas.py",
+      "group": "geometry",
+      "purpose": "Plumbing atlas and choice of the homology marking",
+      "sha256": "877de7fed169bf06107ddebfa13b3db47d28f9e492f345ef5492db57079ed348"
+    },
+    {
+      "path": "code/two_loop/geometry/liouville_genus2_modular_check.py",
+      "group": "geometry",
+      "purpose": "Checks of the period map and modular transformations",
+      "sha256": "a11aad6f683fd7f21e0662f24fc8f3a0a8f2a75f9233ed606a8747522a5e7c5a"
+    },
+    {
+      "path": "code/two_loop/liouville_integration/genus2_liouville_evaluation.py",
+      "group": "liouville_integration",
+      "purpose": "Channel evaluation and logarithmic scaling of the Liouville partition function",
+      "sha256": "abfc41e800ba200edb071273f3bd905b0b77500da64f205385f65af8758199af"
+    },
+    {
+      "path": "code/two_loop/liouville_integration/liouville_genus2.py",
+      "group": "liouville_integration",
+      "purpose": "Separating approximation in the pair-of-tori channel",
+      "sha256": "c1e91c9a179bb7c1f0e9085021f3e923ac79f155a574e09f59d1ef0febabc763"
+    },
+    {
+      "path": "code/two_loop/liouville_integration/liouville_genus2_ccy.py",
+      "group": "liouville_integration",
+      "purpose": "Liouville momentum integrals in the theta and glasses channels",
+      "sha256": "3b09286e0bf80be09e7cba362fe31ab72be120b809e4ded35ca6182337a88d53"
+    },
+    {
+      "path": "code/two_loop/liouville_integration/liouville_genus2_glasses.py",
+      "group": "liouville_integration",
+      "purpose": "Liouville momentum integrals in the theta and glasses channels",
+      "sha256": "d932c332e54d5cbd9efdc2b423f93328bdd30c5f277fdb8ed88c9038ba578575"
+    },
+    {
+      "path": "code/two_loop/moduli_integration/genus2_bc_ghost.py",
+      "group": "moduli_integration",
+      "purpose": "Ghost and matter factors and the complete moduli integrand",
+      "sha256": "48467a88fbb3df44e53afae69959e15bb876909fb9a59bbfe827f9d7ecb115a1"
+    },
+    {
+      "path": "code/two_loop/moduli_integration/genus2_c1_string_integrand.py",
+      "group": "moduli_integration",
+      "purpose": "Ghost and matter factors and the complete moduli integrand",
+      "sha256": "989aa4bf00632567b7a1dd8e51ed6bd568acd3c8ebe7f249b45945f6f0ae315e"
+    },
+    {
+      "path": "code/two_loop/moduli_integration/genus2_moduli_estimation.py",
+      "group": "moduli_integration",
+      "purpose": "Sampling weights, moduli estimates, and their statistical errors",
+      "sha256": "5ee4b818061045c32609f6c41573d1634460c4530182def2b533a0fc85e43ff0"
+    },
+    {
+      "path": "code/two_loop/moduli_integration/genus2_moduli_sampling.py",
+      "group": "moduli_integration",
+      "purpose": "Siegel--Gottschling fundamental domain and Monte Carlo sampling",
+      "sha256": "9f1c28309cee288ff17c5dfc117fc75c3a8cc691dd58732d300b6323d488e571"
+    },
+    {
+      "path": "code/two_loop/moduli_integration/genus2_node_evaluation.py",
+      "group": "moduli_integration",
+      "purpose": "Ghost and matter factors and the complete moduli integrand",
+      "sha256": "6b1f851d6631217e38753a784725a607108af2a25b1b79bad09bc88fb4028e5c"
+    },
+    {
+      "path": "code/two_loop/moduli_integration/genus2_scalar_evaluation.py",
+      "group": "moduli_integration",
+      "purpose": "Scalar partition function and its truncation checks",
+      "sha256": "55f811a9d42595f64001db496003ea7c1019309f044d7116020361c68ce50e0b"
+    },
+    {
+      "path": "code/two_loop/moduli_integration/genus2_separating_tail.py",
+      "group": "moduli_integration",
+      "purpose": "Separating approximation, radial integral, and sampled remainder",
+      "sha256": "df43d15d183a908078f64630c8f79583345004efcc86e3e940b958487ca56e89"
+    },
+    {
+      "path": "code/two_loop/moduli_integration/genus2_siegel_fundamental_domain.py",
+      "group": "moduli_integration",
+      "purpose": "Siegel--Gottschling fundamental domain and Monte Carlo sampling",
+      "sha256": "cbbdb78877a365d0c7d021923ecc2794a5f3ecd003b5f7e83fbf36256f7c041e"
+    },
+    {
+      "path": "code/two_loop/other_scripts/assemble_genus2_resolved_production.py",
+      "group": "other_scripts",
+      "purpose": "Combining bulk and separating contributions",
+      "sha256": "9b56b4fabee7585bed6d20bd3b19c45e45c8c9c6a28816dba79a514a31ddd7e8"
+    },
+    {
+      "path": "code/two_loop/other_scripts/assemble_genus2_tail_completion.py",
+      "group": "other_scripts",
+      "purpose": "Combining bulk and separating contributions",
+      "sha256": "d5844cc21b864ab6639754e08d56749ef7a4d9e26b5eec9a4d8504aa4f47485a"
+    },
+    {
+      "path": "code/two_loop/other_scripts/audit_genus2_g_convention.py",
+      "group": "other_scripts",
+      "purpose": "Radius dependence, figures, and checks of normalization conventions",
+      "sha256": "ff998a91ab51c1a05bf8b62f8c81dbc9146819c4cb213840633c59d6bcd45b4f"
+    },
+    {
+      "path": "code/two_loop/other_scripts/checks/ccy_genus2_glasses_block_checks.py",
+      "group": "other_scripts",
+      "purpose": "Independent checks of the glasses conformal block",
+      "sha256": "b132c24b05ab9cf9c8c8b7202ef2c05cbbbdda4e3562a695a37c28261bd972b7"
+    },
+    {
+      "path": "code/two_loop/other_scripts/checks/genus2_c1_string_integrand_checks.py",
+      "group": "other_scripts",
+      "purpose": "Checks of the moduli integrand",
+      "sha256": "c423539d71f1a6da33e40ee9228e3a3677723e52172c2cabc71d76aa9abdf471"
+    },
+    {
+      "path": "code/two_loop/other_scripts/checks/genus2_separating_tail_checks.py",
+      "group": "other_scripts",
+      "purpose": "Checks of the separating approximation, precision, and tail assembly",
+      "sha256": "f711b5bafcfdecb618445e11b9d937a374dc336ddd4adee52cec6e8ad5afa894"
+    },
+    {
+      "path": "code/two_loop/other_scripts/checks/genus2_tail_completion_checks.py",
+      "group": "other_scripts",
+      "purpose": "Checks of the separating approximation, precision, and tail assembly",
+      "sha256": "19ea52403949a258443273d35e03aa649b948ba8377611c6f84ba793c2ff92eb"
+    },
+    {
+      "path": "code/two_loop/other_scripts/checks/genus2_tail_precision_checks.py",
+      "group": "other_scripts",
+      "purpose": "Checks of the separating approximation, precision, and tail assembly",
+      "sha256": "4d8c9a7737e25ea1b7228f5b6161d0f0e3be1fdaaedb3159b30405172d2d185f"
+    },
+    {
+      "path": "code/two_loop/other_scripts/checks/plot_genus2_absolute_bry_checks.py",
+      "group": "other_scripts",
+      "purpose": "Checks of the plotted free energy",
+      "sha256": "59a63b67b112da967ab9aa5952b6f7f70541c28906b605411bdfb5953b27ba3a"
+    },
+    {
+      "path": "code/two_loop/other_scripts/genus2_glasses_production_gate.py",
+      "group": "other_scripts",
+      "purpose": "Bulk production and checks of numerical convergence",
+      "sha256": "98be1da7805a2f819e522d1c47ea0c0670be3c2a436c060e6b4dd0e2adebb018"
+    },
+    {
+      "path": "code/two_loop/other_scripts/genus2_moduli_production.py",
+      "group": "other_scripts",
+      "purpose": "Bulk production and checks of numerical convergence",
+      "sha256": "f2a52805e927429ce6deedadb6ab49d811d8e5d920228cc701e21895638e391b"
+    },
+    {
+      "path": "code/two_loop/other_scripts/genus2_separating_production.py",
+      "group": "other_scripts",
+      "purpose": "Separating-region production and refinement of saved nodes",
+      "sha256": "a39bc3022f36e86ce817949780d69bbaa3a3012cfba782a8ccbeb6f04183937a"
+    },
+    {
+      "path": "code/two_loop/other_scripts/genus2_separating_residual_retry.py",
+      "group": "other_scripts",
+      "purpose": "Separating-region production and refinement of saved nodes",
+      "sha256": "0ab5f72d5a3e06197c8d42503fa14e5c2b54434b5bc62703f5f0bf9b237bcfb4"
+    },
+    {
+      "path": "code/two_loop/other_scripts/plot_genus2_absolute_bry.py",
+      "group": "other_scripts",
+      "purpose": "Radius dependence, figures, and checks of normalization conventions",
+      "sha256": "6654ead43e619249c5aff78c04a2863483beda60d641ea701798cfd72c3aa5f3"
+    },
+    {
+      "path": "code/two_loop/other_scripts/rebuild_genus2_bulk_control_groups.py",
+      "group": "other_scripts",
+      "purpose": "Reconstructing bulk control groups and the separating correction",
+      "sha256": "1e53b76d58f981e2cdce7065ba8be9c153304a98df5da4e2843ff9b349c7198a"
+    },
+    {
+      "path": "code/two_loop/other_scripts/recompute_channel_comparison.py",
+      "group": "other_scripts",
+      "purpose": "Recompute theta/glasses Q_L at the five printed manuscript period matrices.",
+      "sha256": "73c5d604344929dcfb62c05aac46290a79233f355ca4e8392cf258ee27e0dd83",
+      "original_sha256": "fd26b1bb755f9025e5ab096b1ad7900b52112a6700319b735803a1c09a071bcb"
+    },
+    {
+      "path": "code/two_loop/other_scripts/study_genus2_separating_tail_correction.py",
+      "group": "other_scripts",
+      "purpose": "Reconstructing bulk control groups and the separating correction",
+      "sha256": "cbd9ca8dd8b724b5a31fcd774e71fc0b4a273a89e43a6a4a9ac09f1481dfc398"
+    }
+  ],
+  "shared_dependencies": "Shared imports are resolved by PACKAGE_MAP.json and LAYOUT.json.",
+  "upstream_source_index_sha256": "16fed52b6f030993c03889316bf03bef0d19b8e0b8d57362b607b9905d77e66e"
+}

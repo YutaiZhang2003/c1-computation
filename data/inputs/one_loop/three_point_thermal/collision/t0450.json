@@ -1,0 +1,36 @@
+{
+  "payload": {
+    "arithmetic_flagged_requests": 0,
+    "full_amplitude_certified": false,
+    "high": [
+      0.04956805737510764,
+      0.051772867081829474,
+      0.0022048097067218298
+    ],
+    "integrated_arithmetic_bound": 5.615535569109998e-13,
+    "kinematics": {
+      "N": 1,
+      "R": 4.444444444444445,
+      "charges": [
+        1,
+        1,
+        -2
+      ],
+      "normalization": "A_1to2 = g_s A_tree + g_s^3 A_genus1 + ...",
+      "observable": "finite thermal-LSZ Matsubara coefficient",
+      "t": 0.45
+    },
+    "low": [
+      0.04934425988706254,
+      0.051540154298728456,
+      0.0021958944116659148
+    ],
+    "moduli_indicator": [
+      0.0002237974880450911,
+      0.00023271278310099834,
+      8.915295055930665e-06
+    ],
+    "seconds": 43.72268579155207
+  },
+  "sha256": "061d0ce58349b47d167ebfbf64037d1e8c5c512be4aeae6c86fc34111293f2d8"
+}

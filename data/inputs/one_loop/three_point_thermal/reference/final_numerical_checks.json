@@ -1,0 +1,182 @@
+{
+  "point_count": 15,
+  "sample_files": 720,
+  "radius_max": 8,
+  "seed_and_shape_checks": true,
+  "covariance_checks": true,
+  "inside_plot_limits": true,
+  "maximum_weighted_small_density_bound": 1.0286205485403979e-278,
+  "bounded_small_density_requests": 74,
+  "maximum_arithmetic_bound": 1.0428115272652349e-12,
+  "maximum_relative_sampling_SE": 0.0023359832601000836,
+  "maximum_doubling_shift": 0.000332618885016862,
+  "rows": [
+    {
+      "R": 2.1052631578947367,
+      "baseline": 0.17579560406324696,
+      "correction": 0.02728949357606221,
+      "amplitude": 0.20308509763930915,
+      "sampling_SE": 0.0004744033884612172,
+      "half_full_shift": 0.0002151958301176432,
+      "shift_sampling_SE": 0.0006773918817515924,
+      "arithmetic_bound": 4.423038896760377e-13,
+      "model": 0.20055348317632618
+    },
+    {
+      "R": 2.2222222222222223,
+      "baseline": 0.31115545188532573,
+      "correction": 0.043699670323547976,
+      "amplitude": 0.3548551222088737,
+      "sampling_SE": 0.0008176826752769843,
+      "half_full_shift": 0.00022023403746175368,
+      "shift_sampling_SE": 0.0009761477102406147,
+      "arithmetic_bound": 7.462133770212949e-13,
+      "model": 0.35172105604758563
+    },
+    {
+      "R": 2.3529411764705883,
+      "baseline": 0.40809192084603657,
+      "correction": 0.051633319405867045,
+      "amplitude": 0.45972524025190364,
+      "sampling_SE": 0.001005411665476465,
+      "half_full_shift": 0.000332618885016862,
+      "shift_sampling_SE": 0.001051729553105786,
+      "arithmetic_bound": 9.338433583680082e-13,
+      "model": 0.45694944476138266
+    },
+    {
+      "R": 2.5,
+      "baseline": 0.4699274860456571,
+      "correction": 0.05301551718423601,
+      "amplitude": 0.5229430032298931,
+      "sampling_SE": 0.0010147690761876168,
+      "half_full_shift": 0.00027732392601089443,
+      "shift_sampling_SE": 0.0010587652338127167,
+      "arithmetic_bound": 1.0260736647703373e-12,
+      "model": 0.520707008058283
+    },
+    {
+      "R": 2.6666666666666665,
+      "baseline": 0.5003226199990041,
+      "correction": 0.049901557983656517,
+      "amplitude": 0.5502241779826605,
+      "sampling_SE": 0.0009239191446172061,
+      "half_full_shift": 0.0002833646971423495,
+      "shift_sampling_SE": 0.0009613578597512549,
+      "arithmetic_bound": 1.0428115272652349e-12,
+      "model": 0.5482257553603731
+    },
+    {
+      "R": 2.857142857142857,
+      "baseline": 0.5030019059879657,
+      "correction": 0.04403548068362153,
+      "amplitude": 0.5470373866715872,
+      "sampling_SE": 0.0007764703858192063,
+      "half_full_shift": 0.0001556210914845413,
+      "shift_sampling_SE": 0.0008203167045776947,
+      "arithmetic_bound": 1.0086227731411692e-12,
+      "model": 0.5452509953107206
+    },
+    {
+      "R": 3.0769230769230766,
+      "baseline": 0.4825867061237277,
+      "correction": 0.036745447823185506,
+      "amplitude": 0.5193321539469132,
+      "sampling_SE": 0.0006320004293124522,
+      "half_full_shift": 8.566841302890247e-05,
+      "shift_sampling_SE": 0.0006618274224784576,
+      "arithmetic_bound": 9.692431599603734e-13,
+      "model": 0.5178011582473697
+    },
+    {
+      "R": 3.3333333333333335,
+      "baseline": 0.443948745385885,
+      "correction": 0.029211951645095158,
+      "amplitude": 0.4731606970309802,
+      "sampling_SE": 0.0004996974635839518,
+      "half_full_shift": 6.734571334911261e-05,
+      "shift_sampling_SE": 0.0005095369749994456,
+      "arithmetic_bound": 8.962936667965135e-13,
+      "model": 0.4719403360955074
+    },
+    {
+      "R": 3.6363636363636362,
+      "baseline": 0.3923398769160468,
+      "correction": 0.021974844692206518,
+      "amplitude": 0.41431472160825333,
+      "sampling_SE": 0.000362174713433711,
+      "half_full_shift": 4.635557716364484e-05,
+      "shift_sampling_SE": 0.0003696200709689354,
+      "arithmetic_bound": 7.977974054243841e-13,
+      "model": 0.4135660831614323
+    },
+    {
+      "R": 4.0,
+      "baseline": 0.33288141094646034,
+      "correction": 0.015502173238900702,
+      "amplitude": 0.34838358418536103,
+      "sampling_SE": 0.0002258721953110549,
+      "half_full_shift": 8.776889078379798e-06,
+      "shift_sampling_SE": 0.00022021941630054207,
+      "arithmetic_bound": 6.824095977566923e-13,
+      "model": 0.34821502131196086
+    },
+    {
+      "R": 4.444444444444445,
+      "baseline": 0.2704728846793341,
+      "correction": 0.01045866320135306,
+      "amplitude": 0.2809315478806872,
+      "sampling_SE": 0.0001637294663064463,
+      "half_full_shift": -7.199604654239166e-05,
+      "shift_sampling_SE": 0.00015141290439609834,
+      "arithmetic_bound": 5.615535569109998e-13,
+      "model": 0.28088879302290687
+    },
+    {
+      "R": 5.0,
+      "baseline": 0.2092852037396222,
+      "correction": 0.0064422082642855635,
+      "amplitude": 0.21572741200390777,
+      "sampling_SE": 9.155416634473396e-05,
+      "half_full_shift": -5.44173896033792e-05,
+      "shift_sampling_SE": 7.294754229484461e-05,
+      "arithmetic_bound": 4.4169354615148574e-13,
+      "model": 0.21590290578026372
+    },
+    {
+      "R": 5.714285714285714,
+      "baseline": 0.15287822056095035,
+      "correction": 0.0036332267199174987,
+      "amplitude": 0.15651144728086785,
+      "sampling_SE": 4.712622178817152e-05,
+      "half_full_shift": -3.232887507619295e-05,
+      "shift_sampling_SE": 3.6293306763676045e-05,
+      "arithmetic_bound": 3.2953582332125764e-13,
+      "model": 0.1567610113177278
+    },
+    {
+      "R": 6.666666666666667,
+      "baseline": 0.1039865560329519,
+      "correction": 0.0017911146439846112,
+      "amplitude": 0.10577767067693651,
+      "sampling_SE": 1.8824676715293917e-05,
+      "half_full_shift": -1.1330753191004146e-05,
+      "shift_sampling_SE": 1.3855571008373628e-05,
+      "arithmetic_bound": 2.299339171364721e-13,
+      "model": 0.10605716317419477
+    },
+    {
+      "R": 8.0,
+      "baseline": 0.0650964156519287,
+      "correction": 0.0007450939450412813,
+      "amplitude": 0.06584150959696998,
+      "sampling_SE": 6.152713096117727e-06,
+      "half_full_shift": -3.848120643089003e-06,
+      "shift_sampling_SE": 4.41529316453762e-06,
+      "arithmetic_bound": 1.4682806979910446e-13,
+      "model": 0.06540859605486221
+    }
+  ],
+  "full_amplitude_certified": false,
+  "matrix_model_used_as_acceptance_target": false
+}

@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "tag": "t0950",
+      "kind": "primary",
+      "degree": 0,
+      "reference": 0.002372523321261524,
+      "quadrature": 0.0023725491421945476,
+      "relative_error": 1.0883321058331468e-05
+    },
+    {
+      "tag": "t0950",
+      "kind": "primary",
+      "degree": 2,
+      "reference": 1.3871253924915008e-05,
+      "quadrature": 1.3870543386128568e-05,
+      "relative_error": 5.1223832415319156e-05
+    },
+    {
+      "tag": "t0950",
+      "kind": "triple_corner",
+      "degree": 0,
+      "reference": 0.0020992700780832017,
+      "quadrature": 0.002099270078082729,
+      "relative_error": 2.251792907158012e-13
+    },
+    {
+      "tag": "t0950",
+      "kind": "triple_corner",
+      "degree": 2,
+      "reference": 7.362415794778391e-06,
+      "quadrature": 7.362415794764832e-06,
+      "relative_error": 1.841577107926393e-12
+    },
+    {
+      "tag": "t0250",
+      "kind": "primary",
+      "degree": 0,
+      "reference": 0.00016539082173530162,
+      "quadrature": 0.0001653283667761235,
+      "relative_error": 0.0003776204660138976
+    },
+    {
+      "tag": "t0250",
+      "kind": "primary",
+      "degree": 2,
+      "reference": 6.864098034577985e-08,
+      "quadrature": 6.874142765743358e-08,
+      "relative_error": 0.0014633723345401776
+    },
+    {
+      "tag": "t0250",
+      "kind": "triple_corner",
+      "degree": 0,
+      "reference": 0.0001627604624857424,
+      "quadrature": 0.00016276463404192232,
+      "relative_error": 2.5630033954227525e-05
+    },
+    {
+      "tag": "t0250",
+      "kind": "triple_corner",
+      "degree": 2,
+      "reference": 6.35783729729914e-08,
+      "quadrature": 6.357164353260222e-08,
+      "relative_error": 0.00010584480342156028
+    }
+  ],
+  "matrix_model_used": false,
+  "extra_physical_CFT_nodes": false,
+  "R_max": 8.0,
+  "maximum_relative_error": 0.0014633723345401776
+}

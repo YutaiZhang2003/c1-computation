@@ -1,0 +1,190 @@
+{
+  "format": "c1-channel-comparison-receipt-v1",
+  "completed": true,
+  "completed_utc": "2026-10-20T18:17:47.119432+00:00",
+  "row": 3,
+  "channel": "glasses",
+  "target": {
+    "row": 3,
+    "omega": [
+      [
+        "0.167+2.150j",
+        "-0.012+0.284j"
+      ],
+      [
+        "-0.012+0.284j",
+        "-0.180+3.719j"
+      ]
+    ]
+  },
+  "coordinates_are_rounded_manuscript_values": true,
+  "target_sha256": "bd990cf00f3a1b20dd761ab3086bbe5db6322a44636220993dd47bca614beca2",
+  "source_manifest_sha256": "4efa3ea9be4c87ab43d26843421c2806cfbfb92381272699cf924861352aeb06",
+  "driver_sha256": "c22b37e6a55216cb6ba1e12a70b6fe9c6f6413bfeaf0ebddf8f30c34c49212ee",
+  "settings": {
+    "block_order": 12,
+    "momentum_nodes_per_edge": 12,
+    "quadrature_scheme": "primary-gaussian",
+    "dps": 50,
+    "b": 1,
+    "c": 25,
+    "vacuum_word_length": 12,
+    "vacuum_oscillator_level": 40,
+    "scalar_word_length": 16,
+    "scalar_max_mode": 120,
+    "scalar_powered_relative_tolerance": 1e-08,
+    "scalar_convergence_method": "successive-fixed-caps",
+    "period_tolerance": 2e-10
+  },
+  "chart": {
+    "topology": "glasses",
+    "word": "full-s T11^-1 T11^-1 I",
+    "matrix": [
+      [
+        0,
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        -1
+      ],
+      [
+        1,
+        0,
+        -2,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ]
+    ],
+    "omega_chart": [
+      [
+        "(0.23231624184385216+0.2698598307362319j)",
+        "(-0.017861845945873558-0.02049283532158076j)"
+      ],
+      [
+        "(-0.017861845945873558-0.02049283532158076j)",
+        "(0.014357069062458856+0.2698171645473076j)"
+      ]
+    ],
+    "integer_branch": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "q": [
+      "(0.017050835568331816+0.181842437199937j)",
+      "(0.18116031194669643+0.015294560752617113j)",
+      "(-0.12890548181634137+0.12717885941143692j)"
+    ],
+    "log_q": [
+      "(-1.7002377767155539+1.4773026078654004j)",
+      "(-1.7048217416871474+0.08422582731193172j)",
+      "(-1.7087992916759458+2.362936785458426j)"
+    ],
+    "q_abs": [
+      0.18264009132824952,
+      0.18180479150242398,
+      0.1810830901092014
+    ],
+    "q_max": 0.18264009132824952,
+    "inverse_success": true,
+    "inverse_message": "analytic leading-period log-q refinement converged",
+    "inverse_nfev": 10,
+    "period_max_residual": 1.1057236933705736e-10,
+    "period_map_stability": 1.5850387378738178e-11,
+    "period_algorithm": "rescaled-holomorphic-forms",
+    "low_order": 40,
+    "high_order": 48,
+    "seam_residual": 1.5850387378738178e-11,
+    "symmetry_error": 1.0637871327341896e-13,
+    "status": "certified-rescaled-inverse"
+  },
+  "scalar": {
+    "partition": 5.659392985170425,
+    "oscillator_mode_chiral_log_tail_estimate": 8.662304731003252e-90,
+    "primitive_word_chiral_log_tail_estimate": 2.6731618097274297e-12,
+    "primitive_count": 2090209,
+    "effective_word_length": 16
+  },
+  "scalar_fixed_cap_comparisons": [
+    {
+      "word_length": 8,
+      "partition": 5.659393219514368,
+      "oscillator_chiral_log_tail": 8.662304731003252e-90,
+      "primitive_word_chiral_log_tail_empirical": 3.1928196726670725e-07,
+      "primitive_count": 660,
+      "quotient_powered_relative_change": null,
+      "oscillator_powered_relative_bound": 4.331152365501626e-88,
+      "direct_pass": false,
+      "consecutive_passes": 0
+    },
+    {
+      "word_length": 10,
+      "partition": 5.659392989002941,
+      "oscillator_chiral_log_tail": 8.662304731003252e-90,
+      "primitive_word_chiral_log_tail_empirical": 1.6729862121164914e-08,
+      "primitive_count": 4692,
+      "quotient_powered_relative_change": 1.0182697151760062e-06,
+      "oscillator_powered_relative_bound": 4.331152365501626e-88,
+      "direct_pass": false,
+      "consecutive_passes": 0
+    },
+    {
+      "word_length": 12,
+      "partition": 5.659392985536755,
+      "oscillator_chiral_log_tail": 8.662304731003252e-90,
+      "primitive_word_chiral_log_tail_empirical": 8.95622200447225e-10,
+      "primitive_count": 34854,
+      "quotient_powered_relative_change": 1.5311653451350238e-08,
+      "oscillator_powered_relative_bound": 4.331152365501626e-88,
+      "direct_pass": false,
+      "consecutive_passes": 0
+    },
+    {
+      "word_length": 14,
+      "partition": 5.659392985177058,
+      "oscillator_chiral_log_tail": 8.662304731003252e-90,
+      "primitive_word_chiral_log_tail_empirical": 4.5359694299877493e-11,
+      "primitive_count": 266916,
+      "quotient_powered_relative_change": 1.58893870409686e-09,
+      "oscillator_powered_relative_bound": 4.331152365501626e-88,
+      "direct_pass": true,
+      "consecutive_passes": 1
+    },
+    {
+      "word_length": 16,
+      "partition": 5.659392985170425,
+      "oscillator_chiral_log_tail": 8.662304731003252e-90,
+      "primitive_word_chiral_log_tail_empirical": 2.6731618097274297e-12,
+      "primitive_count": 2090209,
+      "quotient_powered_relative_change": 2.929878562028709e-11,
+      "oscillator_powered_relative_bound": 4.331152365501626e-88,
+      "direct_pass": true,
+      "consecutive_passes": 2
+    }
+  ],
+  "liouville": {
+    "scaled_partition": 0.003243200499106622,
+    "log_threshold_factor": -10.227717620157295,
+    "log_partition": -15.958912248530584
+  },
+  "log_Z_X": 1.7333166400274607,
+  "log_Q_L": -59.291828249217104,
+  "Q_L": 1.7778133758666624e-26,
+  "elapsed_seconds": 997.5391009170562,
+  "python": "3.12.11"
+}

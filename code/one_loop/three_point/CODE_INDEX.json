@@ -1,0 +1,375 @@
+{
+  "format": "c1-retained-source-index-v1",
+  "scope": "Genus-one 1\u21922",
+  "sources": [
+    {
+      "path": "code/one_loop/three_point/conformal_block/genus1_collision_elliptic.py",
+      "group": "conformal_block",
+      "purpose": "Elliptic blocks for collision limits and precomputed coefficients",
+      "sha256": "48f23bdb0861db9452a0d7569d79b5397248988dd5599d712093001c62bf00ac"
+    },
+    {
+      "path": "code/one_loop/three_point/conformal_block/genus1_native_log_evaluation.py",
+      "group": "conformal_block",
+      "purpose": "Evaluation of the retained native series without overflow",
+      "sha256": "97bc65096042130af99791ecfc16436a02906598d6550c834c42f3c121025b6c"
+    },
+    {
+      "path": "code/one_loop/three_point/conformal_block/torus_c_recursion_numerics.py",
+      "group": "conformal_block",
+      "purpose": "c-recursion and precision checks",
+      "sha256": "f9b48fa7fe2157ed48e5e11789329c1b5ab403d99b7181cd1301def71edd41a6",
+      "upstream_sha256": "427f3201876364c66f583e8ebb83a7f72d5cb287fa4d36c17776e09ca1c9dc21"
+    },
+    {
+      "path": "code/one_loop/three_point/conformal_block/torus_three_point_blocks.py",
+      "group": "conformal_block",
+      "purpose": "Torus three-point blocks in the necklace, pair OPE, and comb channels",
+      "sha256": "99993eaa7f9666ef2aa065d6214fa438a892e73be141eb994d4c01fbe5d79b87"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/genus1_boundary_banks.py",
+      "group": "liouville_integration",
+      "purpose": "Saved native and elliptic coefficients and their truncations",
+      "sha256": "12ed7de4596bf31e87a14c8e2bb3bf2e5337a1e5079b0eb39a50c9fa260b7747"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/genus1_boundary_spectrum.py",
+      "group": "liouville_integration",
+      "purpose": "Preparation of momentum nodes, DOZZ factors, and block coefficients",
+      "sha256": "12befeeae90029355ae8d5eb0d4804af9c5a68aa96ef157a3b28394915ed38ac"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/genus1_channel_evaluation.py",
+      "group": "liouville_integration",
+      "purpose": "Channel evaluation and arithmetic checks",
+      "sha256": "f32ce3b0b876cafb0c8c2719697b5cf78f7153151136a46d873270f5b689fee7"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/genus1_collar_mp_arithmetic.py",
+      "group": "liouville_integration",
+      "purpose": "Channel evaluation and arithmetic checks",
+      "sha256": "03ab78138bcfaec688061c5c7cd467f337813c3e3aed24c07435b72bec2e8bf2"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/genus1_native_bank.py",
+      "group": "liouville_integration",
+      "purpose": "Saved native and elliptic coefficients and their truncations",
+      "sha256": "e4fe6ff2888cd5f055268c70fe3d3579342861ae829a05075f62dc73bed96e87"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/genus1_projection_momentum.py",
+      "group": "liouville_integration",
+      "purpose": "Momentum rules for the degeneration terms",
+      "sha256": "d7cdecd1440d5880d43d028d73362f8a134787e7d1ca8864b1941a2374bf9ae8"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/genus1_projection_preparation.py",
+      "group": "liouville_integration",
+      "purpose": "Preparation of momentum nodes, DOZZ factors, and block coefficients",
+      "sha256": "c0edc1c2ec34f01a9261e47b408c6d02895e529c14162c0700a1c0f708e0cd7b"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/genus1_three_point_momentum.py",
+      "group": "liouville_integration",
+      "purpose": "Momentum rules and convergence checks",
+      "sha256": "8655cfb710f76266e40f9a7920b2dcb4876bf339adc28bec9b93cea2b1444e29"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/genus1_three_point_worldsheet.py",
+      "group": "liouville_integration",
+      "purpose": "Liouville correlator and momentum integrand",
+      "sha256": "ba441ccb66ab9ee0ebcac24fc23409ab5842d322f7b9e0090cf7e9e109013752"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/thermal/banks.py",
+      "group": "liouville_integration",
+      "purpose": "Thermal coefficient banks and saved momentum integrals",
+      "sha256": "fd66e35df6ed56d387aeef2d77c78f0fda605a3c78e647003fde7c67ee1f6f2c"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/thermal/evaluation.py",
+      "group": "liouville_integration",
+      "purpose": "Evaluation of the thermal momentum integrand",
+      "sha256": "b86318204d2cc40bd1a46697d91d3d48f8e5d95b710445ff9b881e60c96a61ab"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/thermal/paired_quadrature.py",
+      "group": "liouville_integration",
+      "purpose": "Thermal momentum rules and node placement",
+      "sha256": "e382a4428105f4d70528389533f37490d1574763da708adc12993e3da0475e26"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/thermal/quadrature.py",
+      "group": "liouville_integration",
+      "purpose": "Thermal momentum rules and node placement",
+      "sha256": "ff2266cd653bfa09c38966466200d07a7ee6ccd63e08d0fda243943fa51b9611"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/thermal/thermal_cut_rule.py",
+      "group": "liouville_integration",
+      "purpose": "Thermal momentum rules and node placement",
+      "sha256": "a72d4ec4bec129ecabd5a548f71a7ef1bc62bcbedb922741669ef329e252dc61"
+    },
+    {
+      "path": "code/one_loop/three_point/liouville_integration/thermal/thermal_saved_inputs.py",
+      "group": "liouville_integration",
+      "purpose": "Thermal coefficient banks and saved momentum integrals",
+      "sha256": "55d6c319e70cc5fd43e409ff0256aca30a91a8f025d42b61541f13636a091a5f"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_analytic_boundary_layer.py",
+      "group": "moduli_integration",
+      "purpose": "Partition of moduli space, sampling weights, and collision-region maps",
+      "sha256": "187fd02699e76b801fbf63843cbec5c12bfdffac5d485c1ad3778faba90d8b55"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_boundary_batch.py",
+      "group": "moduli_integration",
+      "purpose": "Reuse of moduli-dependent factors",
+      "sha256": "5b5fb14e4e7157bcb8bebf68931df48c898b55d7488d83dce4f2730fa2a7c431"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_boundary_cubature.py",
+      "group": "moduli_integration",
+      "purpose": "Deterministic quadrature and assembly of the moduli integral",
+      "sha256": "7032d78557f3a0d77f70836e070577466ff6577f9fb62bb793aac2ac2eabddf7"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_boundary_integration.py",
+      "group": "moduli_integration",
+      "purpose": "Deterministic quadrature and assembly of the moduli integral",
+      "sha256": "064ee093f2a64311a66af1b34e067e00aea7e7f9d9e4c122408031ad4ba84e1b"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_collision_sampling.py",
+      "group": "moduli_integration",
+      "purpose": "Partition of moduli space, sampling weights, and collision-region maps",
+      "sha256": "c81727ab8c170a2a64a3c100a3fb6056403f0cab667b59f769ec023a5ed5fcc7"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_comb_collar.py",
+      "group": "moduli_integration",
+      "purpose": "Collision subtractions and integrated degeneration terms",
+      "sha256": "2c0b42fecf6157e8137c8c4736ddf25065ad5709ef5b3659f73da21fc4b9933f"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_cusp_control.py",
+      "group": "moduli_integration",
+      "purpose": "Nonseparating approximation and tube integrals",
+      "sha256": "9bb1e1c77ba7933e77a95716f3fe3cf928cf6c252b5aba3ed4f0fb035ac8fac9"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_integrated_scale_collar.py",
+      "group": "moduli_integration",
+      "purpose": "Collision subtractions and integrated degeneration terms",
+      "sha256": "a56e4eaf7fe87a42dd2fd65dc1e775cec884d744e240c9a674e55594cae2f34f"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_modular_geometry.py",
+      "group": "moduli_integration",
+      "purpose": "Plumbing parameters, channel choice, and sewing domains",
+      "sha256": "e3ea2897663de0947d86db76d48856bf755edb72f9c058423749f2e2c498636c"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_moduli_panels.py",
+      "group": "moduli_integration",
+      "purpose": "Deterministic quadrature and assembly of the moduli integral",
+      "sha256": "6bd7e83ef4f3c002b232ccdb47c374938cf3c0644a75e9670a3f974832e97233"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_moduli_sampling.py",
+      "group": "moduli_integration",
+      "purpose": "Partition of moduli space, sampling weights, and collision-region maps",
+      "sha256": "770c5389e2d0f256494a196fdd0e5b74d0c01612db7c93feb6786ffe9a2c56df"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_nonseparating.py",
+      "group": "moduli_integration",
+      "purpose": "Nonseparating approximation and tube integrals",
+      "sha256": "2b38ee66520842b95e91525a23e1003e3e99a2fe02161c02e34420b4758a5b59"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_pair_collar.py",
+      "group": "moduli_integration",
+      "purpose": "Collision subtractions and integrated degeneration terms",
+      "sha256": "b70362c60f9ce081ebb22f278976d06851b4b2b4b67f5083c707826a94f6b118"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_sewing_domains.py",
+      "group": "moduli_integration",
+      "purpose": "Plumbing parameters, channel choice, and sewing domains",
+      "sha256": "af95ed70ff3acdc51c970f0e7fd082029e11ad6fb481ff6b911484ba320eb740"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_three_point_channel_atlas.py",
+      "group": "moduli_integration",
+      "purpose": "Plumbing parameters, channel choice, and sewing domains",
+      "sha256": "fa6e8b53b3295b003a7951cd7ac8d6933fc05870b251940b0045105b6dff64bd"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/genus1_three_point_collision.py",
+      "group": "moduli_integration",
+      "purpose": "Collision subtractions and integrated degeneration terms",
+      "sha256": "2f0c4d56131b3c9c4aff2a7b9dbcd3adad526aa8eef3cd0d42553391d1272717"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/thermal/kernels.py",
+      "group": "moduli_integration",
+      "purpose": "Thermal kinematics and integrated boundary kernels",
+      "sha256": "e5778632581d982b61e771ebca8a20b334432bb0d9ad0b44dcf7b10f4d6def7c"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/thermal/radius_scan.py",
+      "group": "moduli_integration",
+      "purpose": "Moduli sampling for the thermal correction",
+      "sha256": "6ec5db0396aa5dd624dd5a7ad997bef7cb41b1e9144bec524b32093a7a82108b"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/thermal/remainders.py",
+      "group": "moduli_integration",
+      "purpose": "Thermal remainder terms",
+      "sha256": "1ebf184ce7d7f5641eedf2570e687f2f8b2263b1f39ceac7e5b966ae21a94917"
+    },
+    {
+      "path": "code/one_loop/three_point/moduli_integration/thermal/study_pair_sampling.py",
+      "group": "moduli_integration",
+      "purpose": "Moduli sampling for the thermal correction",
+      "sha256": "6a77e9f28231a4b5734784a326f6f1aae0b65f9b74095e06490f58ba3902471a"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/checks/genus1_three_point_c_recursion_checks.py",
+      "group": "other_scripts",
+      "purpose": "Independent checks of the block recursion",
+      "sha256": "449c2a7cc9960be6433c5ba258a4874d8913ee03e1c61aa5cae0de7267ba063a"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_amplitude_curve.py",
+      "group": "other_scripts",
+      "purpose": "Production inputs and preparation of the energy scan",
+      "sha256": "d374ad780575bc78ae969fb17e884cfb05cc018670b3ab4e524f7bfeadbf9c93"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_amplitude_report.py",
+      "group": "other_scripts",
+      "purpose": "Amplitude reports and numerical assessment",
+      "sha256": "c789dd675a1acf975cd725c5f2917ce495026f27e09c916f4d46b7940e56a778"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_compact_replay.py",
+      "group": "other_scripts",
+      "purpose": "Production of the compact and degeneration contributions",
+      "sha256": "98db307275ea4137c3ebcdcac658ba22baefd2a698295925ec524e3c05293524"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_final_curve_plan.py",
+      "group": "other_scripts",
+      "purpose": "Production inputs and preparation of the energy scan",
+      "sha256": "6a4dc32b678a860467bd2b0234cee6536e7197e97827a240db3d5901e7cd0051"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_fresh_analytic.py",
+      "group": "other_scripts",
+      "purpose": "Production of the compact and degeneration contributions",
+      "sha256": "be46b3c1547c0d70038ae04b98ef5864e425d2644415275503b94f1bc89cd7f4"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_moduli_amplitude.py",
+      "group": "other_scripts",
+      "purpose": "Production of the compact and degeneration contributions",
+      "sha256": "56dcdc9ba41be124a72b1ea8a98eae7b80748fecee5c40f3233e32b1ac8061bc"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_moduli_panel_campaign.py",
+      "group": "other_scripts",
+      "purpose": "Production of the compact and degeneration contributions",
+      "sha256": "7d240b5ca2716f5eba7e2746585425db80996e62b440c49e1f7d67abbc158bb5"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_moduli_stability.py",
+      "group": "other_scripts",
+      "purpose": "Moduli-quadrature comparisons",
+      "sha256": "fd5b5f98026941cd9dda8738f85a0de6e1fe317fe193ecc46d80e950ff4303bb"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_moduli_stability_curve.py",
+      "group": "other_scripts",
+      "purpose": "Moduli-quadrature comparisons",
+      "sha256": "4fd34bc9cd2f3a1e5dac20a2053b59beeba3582d356a55a4a2479f6492c89f73"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_pair_cell_refinement.py",
+      "group": "other_scripts",
+      "purpose": "Refinement of selected integration regions",
+      "sha256": "86f1ae3e9579c24d71695d7493e3e276027d1d25a0b9edf7b73233280b3f5e5b"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_primary_first_production.py",
+      "group": "other_scripts",
+      "purpose": "Production inputs and preparation of the energy scan",
+      "sha256": "81277a4da27df63cc9817fb5f9a0dabf27986327f5fbcc2ecf189e3add69b474"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_primary_moduli_refinement.py",
+      "group": "other_scripts",
+      "purpose": "Refinement of selected integration regions",
+      "sha256": "b5d7f97cd8314c46592e4b047ebe1c2c244a5b424dbfc50aa8ab0f723190131a"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_production_support.py",
+      "group": "other_scripts",
+      "purpose": "Production settings, checked records, and source paths",
+      "sha256": "e58aa147509974eaa9d6d404c226ab7de64c6ba79d9b283a744b7006db1a2735"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_rebuild_policy.py",
+      "group": "other_scripts",
+      "purpose": "Amplitude reports and numerical assessment",
+      "sha256": "56afd81b29da14e3da9cf73ccb30d96e58776fb8182b2d61ae47ebd0203cd33f"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_source_paths.py",
+      "group": "other_scripts",
+      "purpose": "Production settings, checked records, and source paths",
+      "sha256": "da95dcad78af38a8468e9861c2621f987421db27c61c0e42dd6977d72804ca59"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/genus1_upper_pair_refinement.py",
+      "group": "other_scripts",
+      "purpose": "Refinement of selected integration regions",
+      "sha256": "f42832d7c729171e815b1e92e7bea9041f70a74683f11d42957775c1cc03e0aa"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/plot_genus1_production.py",
+      "group": "other_scripts",
+      "purpose": "Amplitude figure and numerical diagnostics",
+      "sha256": "93fd37b39137c597b83d64addb2582201d53cc2f9f8c7baedeca6f6d2d9d1650"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/thermal/draft_radius_campaign.py",
+      "group": "other_scripts",
+      "purpose": "Thermal production, assembly, and momentum comparisons",
+      "sha256": "a15d6a7027ebae66f7a877232cacaf4a96f832d1648d782b769b931d7c43b72f"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/thermal/draft_radius_collect.py",
+      "group": "other_scripts",
+      "purpose": "Thermal production, assembly, and momentum comparisons",
+      "sha256": "620fc60932995d302aef5ef7fa8d9825da3370891b7450cd8473ea163101c2c2"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/thermal/draft_radius_validation.py",
+      "group": "other_scripts",
+      "purpose": "Thermal production, assembly, and momentum comparisons",
+      "sha256": "f4b9cf6ee519af244eb81f5a66dfc591e07108876bcc6c2cb99663b5bfea8749"
+    },
+    {
+      "path": "code/one_loop/three_point/other_scripts/thermal/reference_campaign.py",
+      "group": "other_scripts",
+      "purpose": "Thermal production, assembly, and momentum comparisons",
+      "sha256": "54ee84aaaba69e4410206345c31dca901395947b7bb2946236e3222123e8243a"
+    }
+  ],
+  "shared_dependencies": "Shared imports are resolved by PACKAGE_MAP.json and LAYOUT.json.",
+  "upstream_source_index_sha256": "3b8ba5d1d5f60e315f0e1eedffff1d1f9432966e03588badb9f71e6767c090e5"
+}

@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-02",
+  "status": "passed_for_recovery_after_liouville_momentum_integration",
+  "release": "source_packages/amplitude_release_20261002",
+  "source_only_archive": "source_packages/amplitude_release_20261002_source.zip",
+  "calculations": [
+    "five_point",
+    "six_point",
+    "genus1_two_point",
+    "genus1_three_point",
+    "genus2"
+  ],
+  "python_sources": 217,
+  "catalog_checks": {
+    "five_point": {
+      "indexed_files": 14,
+      "all_indexed_files_packaged": true
+    },
+    "six_point": {
+      "indexed_files": 43,
+      "all_indexed_files_packaged": true
+    },
+    "genus1_two_point": {
+      "indexed_files": 15,
+      "all_indexed_files_packaged": true
+    },
+    "genus1_three_point": {
+      "indexed_files": 104,
+      "all_indexed_files_packaged": true
+    },
+    "genus2": {
+      "indexed_files": 42,
+      "all_indexed_files_packaged": true
+    }
+  },
+  "dataset": {
+    "files": 1012,
+    "bytes": 225791561,
+    "data_stage": "after Liouville momentum integration",
+    "coefficient_banks_included": false
+  },
+  "repairs": [
+    "Included the complete genus-one three-point workflow.",
+    "Included the six-file shared elliptic h-recursion runtime and its documentation.",
+    "Updated five stale shared-source paths in the genus-one catalog.",
+    "Replaced obsolete six-point reexpansion inputs with the current direct-series data.",
+    "Packaged the integrated values, moduli weights, subtraction terms and saved integral summaries.",
+    "Excluded all coefficient banks and momentum-integration caches from the dataset."
+  ],
+  "checks": {
+    "all_calculation_reductions_passed": true,
+    "cold_imports": 209,
+    "cold_import_total": 209,
+    "cli_help_passed": 12,
+    "cli_help_total": 12,
+    "original_workspace_reads_blocked": true,
+    "post_integration_dataset_content_check": {
+      "passed": true,
+      "npz_files_checked": 828,
+      "coefficient_or_momentum_bank_arrays_found": []
+    }
+  },
+  "result_summary": {
+    "tree_level/5_point": {
+      "points": 29,
+      "integral_replicate_reductions": 15,
+      "all_current_figure_values_match": true,
+      "data_form": "29 saved integral means and 15 sets of replicate integrals"
+    },
+    "tree_level/6_point": {
+      "points": 15,
+      "saved_sample_energy_values": 30720,
+      "common_scrambles": 8,
+      "native_restored_values": 4950,
+      "direct_series_only": true,
+      "four_point_separating_addback": true,
+      "all_current_figure_values_match": true,
+      "full_sampling_covariance_checked": true
+    },
+    "one_loop/two_point": {
+      "radii": 10,
+      "replicates_per_radius": 8,
+      "all_current_figure_values_match": true,
+      "data_form": "Saved replicate integrals after momentum and moduli integration"
+    },
+    "one_loop/three_point": {
+      "momentum_integrated_sample_replay": {
+        "data_stage": "after Liouville momentum integration, before numerical moduli integration",
+        "base_moduli_samples_per_energy": 68897,
+        "base_energies": 20,
+        "primary_refinement_samples": {
+          "t0250": 353568,
+          "t0950": 353568
+        },
+        "upper_refinement_samples": 5904,
+        "rms_samples_per_energy": 73902,
+        "compact_moduli_samples_per_energy": 64,
+        "weights_reapplied_to_sample_values": true,
+        "all_current_amplitudes_and_rms_match": true
+      },
+      "plotted_evaluations": 22,
+      "distinct_energies": 20,
+      "complete_cell_reductions_checked": 19,
+      "anchor_component_reduction_checked": true,
+      "later_refinements_reconstructed": 2,
+      "compact_scrambles_per_energy": 16,
+      "compact_covariance_checked": true,
+      "grid_RMS_reconstructed_from_cell_rules": true,
+      "maximum_native_amplitude_difference_from_figure": 2.168404344971009e-19,
+      "all_current_figure_values_match": true,
+      "scope": "Moduli integration repeated from the saved momentum-integrated sample values and original moduli weights. Grid RMS is a sensitivity measure, not a total physical error bound."
+    },
+    "one_loop/three_point_thermal": {
+      "radii": 15,
+      "scrambles": 16,
+      "sampled_contributions": 552960,
+      "compact_samples": 960,
+      "collision_addbacks": 15,
+      "all_current_figure_values_match": true,
+      "full_cross_radius_sampling_covariance_checked": true,
+      "limitations": [
+        "Integrated momentum-placement and block-truncation checks are separate from sampling statistics.",
+        "Complete collision-forest and finite-tube remainders and global cutoff stability remain unresolved."
+      ]
+    },
+    "two_loop": {
+      "radii": 71,
+      "momentum_integrated_bulk_samples": 6832,
+      "bulk_moduli_weights_reapplied": true,
+      "accepted_finite_nodes": 40,
+      "accepted_deep_nodes": 16,
+      "independent_groups": 9,
+      "full_cross_radius_covariance_checked": true,
+      "F2_R1": -0.02616489689240621,
+      "F2_R1_empirical_MC_SE": 0.00015726732129047136,
+      "fit_bracket_coefficients": [
+        6.993577593353106,
+        9.99791851458895
+      ],
+      "fit_bracket_empirical_SE": [
+        0.021543644957093537,
+        0.12798345856084992
+      ],
+      "draft_table_reproduced": "(6.99 +/- 0.02)(1+R^-4) + (10.00 +/- 0.13) R^-2, prefactor -pi/2880",
+      "all_current_figure_values_match": true,
+      "remaining_residual_region": "0 < |Omega12| < 0.00001",
+      "full_free_energy_available": false,
+      "scope": "Current resolved vacuum free-energy contribution. The unresolved deep residual and total systematics remain unbounded. Thermal S-matrix data are excluded."
+    }
+  },
+  "scope": "Recovery from saved values after Liouville momentum integration. Individual moduli samples are not required where saved integral summaries suffice. All six results and their saved uncertainty calculations match.",
+  "original_numerical_inputs_modified": false,
+  "draft_modified": false,
+  "dataset_scope": "The data set folder holds integrated values and recovery metadata; heavy data set separately holds the retained coefficient banks and momentum inputs.",
+  "recovery_input_forms": {
+    "sphere_1to4": "29 saved integral means and 15 sets of replicate integrals.",
+    "thermal_genus1_1to1": "Eight saved replicate integrals at each of 10 radii.",
+    "other_calculations": "Momentum-integrated sample values, moduli weights, integrated addbacks and references."
+  },
+  "heavy_dataset": {
+    "passed": true,
+    "files": 7705,
+    "bytes": 9127296045,
+    "native_six_point_banks": 277,
+    "thermal_two_point_banks": 14,
+    "thermal_three_point_ready_records": 631,
+    "symlinks_used": false,
+    "original_production_receipts_checked": true,
+    "manifest_sha256": "ddb31fb701feabd5ef17111e256fb09aeeba45b1d6ff8c5bbbba6d55fa3ca2b8",
+    "sha256sums_sha256": "9786e1ebfc31caaf93bbfdee1bde45b465e446695a5e3289771e0b2b98804d05",
+    "integrated_dataset_unchanged": true,
+    "integrated_dataset_manifest_sha256": "a2feb4ff73ce8dd008dd0174f251626f91d9682cf8f131274f36d1e6d1148a6e",
+    "folder": "heavy data set",
+    "google_drive_upload_performed": false
+  },
+  "dataset_layout": {
+    "code": "code/",
+    "integrated_values": "data set/",
+    "coefficient_banks_and_momentum_inputs": "heavy data set/"
+  }
+}
