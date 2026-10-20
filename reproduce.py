@@ -89,8 +89,11 @@ def main():
     input_report = verify_data(ROOT/"data/inputs")
     channel_data = ROOT/"data/channel_comparison"
     channel_count = verify_manifest(channel_data, channel_data/"MANIFEST.json")
+    convergence_data = ROOT/"data/channel_convergence"
+    convergence_count = verify_manifest(convergence_data, convergence_data/"MANIFEST.json")
     print(f"Verified {source_count} source files, {input_report['files']} inputs, "
-          f"{reference_count} reference files, and {channel_count} channel-comparison files.",
+          f"{reference_count} reference files, {channel_count} channel-comparison files, "
+          f"and {convergence_count} channel-convergence files.",
           flush=True)
     if args.verify_only:
         return
@@ -109,6 +112,9 @@ def main():
     from recompute_channel_comparison import recover_receipts
     channel_report = recover_receipts(
         channel_data/"receipts", output/"two_loop/channel_comparison")
+    from recover_channel_convergence import recover as recover_convergence
+    convergence_report = recover_convergence(
+        convergence_data/"receipts", output/"two_loop/channel_convergence")
     report_path = output/"verification.json"
     report = json.loads(report_path.read_text())
     report["standalone_reference_comparison"] = {
@@ -116,6 +122,7 @@ def main():
         "scope": "All retained CSV/DAT tables and all fields of every retained covariance NPZ",
     }
     report["channel_comparison"] = channel_report
+    report["channel_convergence"] = convergence_report
     import importlib.metadata
     report["environment"] = {
         "python": sys.version.split()[0],
@@ -125,6 +132,7 @@ def main():
     report_path.write_text(json.dumps(report, indent=2, allow_nan=False)+"\n")
     print(f"PASS: six result groups; {len(comparisons)} reference tables/arrays; "
           f"five channel-comparison rows; "
+          f"{convergence_report['receipt_count']} channel-convergence evaluations; "
           f"{8 if not args.no_figures else 0} numerical panels.\nOutput: {output}")
 
 

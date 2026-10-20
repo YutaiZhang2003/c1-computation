@@ -34,6 +34,7 @@ python -B reproduce.py
 The command verifies the source, data and reference checksums, recovers all six
 result groups, compares all **21 reference tables and covariance files**,
 reconstructs the five channel-comparison rows from saved partition integrals,
+recovers their fixed-geometry convergence comparisons,
 and renders eight panels as both PDF and PNG. It writes:
 
 ```text
@@ -43,7 +44,7 @@ output/recovered/
 ├── one_loop/two_point/          # includes native_q/ convergence tables
 ├── one_loop/three_point/
 ├── one_loop/three_point_thermal/
-├── two_loop/                   # includes channel_comparison/
+├── two_loop/                   # includes channel_comparison/ and channel_convergence/
 ├── figures/                    # eight PDFs, eight PNGs, panels.json
 └── verification.json
 ```
@@ -149,8 +150,10 @@ The 2026-10-20 rerun gives
 `max |Q_L_theta / Q_L_glasses - 1| = 1.2416270324555612e-5`,
 within the draft's `2e-5` agreement criterion. The maximum inverse-period
 residual is `1.9964218564878783e-10`. The new absolute Q_L values are
-54.5–77.0% higher than the printed entries; the origin of that discrepancy
-remains unresolved.
+54.5–77.0% higher than the entries in the original draft snapshot; the origin
+of that discrepancy remains unresolved. The manuscript table was subsequently
+updated to the fresh order-12, 12-node values. `draft_printed_values.json`
+preserves the superseded entries solely as a historical comparison.
 
 [`data/channel_comparison/`](data/channel_comparison/) contains the exact
 targets, ten partition-integral receipts, and source manifests and drivers
@@ -184,6 +187,43 @@ The Slurm template
 launches the ten evaluations with an explicitly supplied run directory and
 Python executable.
 
+The fixed-geometry convergence check changes momentum resolution and finite-c
+recursion order separately, while reusing the saved plumbing coordinates,
+homology marking and scalar normalization. It verifies that the numerical
+kernels match those used for the baseline receipts. For example:
+
+```sh
+python -B run.py check_channel_convergence \
+  --row 1 --channel theta --block-order 12 --nodes 16 \
+  --output output/channel-convergence-rerun
+python -B run.py check_channel_convergence \
+  --row 1 --channel theta --block-order 18 --nodes 12 \
+  --output output/channel-convergence-rerun
+```
+
+Repeat for all five rows and both channels. The
+[`channel_convergence.sbatch`](code/two_loop/other_scripts/channel_convergence.sbatch)
+template launches these twenty checks plus a baseline control. These
+comparisons measure changes in the fully integrated Liouville partition.
+They preserve the `primary-gaussian` node-placement rule, which covers the
+infinite momentum domain. Observed changes provide empirical convergence
+evidence; they do not by themselves give a rigorous truncation-error bound.
+The saved receipts and source provenance are in
+[`data/channel_convergence/`](data/channel_convergence/). The main reproduction
+command verifies them and regenerates `convergence.csv` and `convergence.json`.
+These comparisons hold the scalar partition fixed; its independent checks
+remain in the baseline channel-comparison receipts.
+The 2026-10-20 check was stopped at the author's request after all ten 16-node
+evaluations, all five order-18 glasses evaluations, two order-18 theta
+evaluations (rows 1 and 3), and the baseline control finished. The remaining
+three theta order-18 jobs were cancelled; missing checks are explicit in the
+recovered report. At block order 12 with 16 nodes per edge, the maximum channel
+relative difference is `6.958719225201529e-8`. Relative to 12 nodes, the largest
+change is `1.2625239402283483e-5` in theta and `2.868510137674608e-7` in glasses.
+The completed block-order comparisons change glasses by at most
+`3.828885224405717e-8`; the two completed theta comparisons show no change at
+the stored floating-point precision. The manuscript retains its 12-node table.
+
 Other numerical-appendix receipts are retained under
 [`data/inputs/convergence/`](data/inputs/convergence/). The one-loop 1→1 order
 comparisons are recomputed by the main command; the other supplementary
@@ -204,6 +244,7 @@ receipts are checksum-verified evidence, rather than fresh convergence runs.
 | [`data/inputs/`](data/inputs/) | Inputs to the numerical reductions |
 | [`data/reference/`](data/reference/) | Independent expected results used only for verification |
 | [`data/channel_comparison/`](data/channel_comparison/) | Fresh order-12 channel-comparison inputs and receipts |
+| [`data/channel_convergence/`](data/channel_convergence/) | Fixed-geometry Liouville quadrature and block-order checks |
 
 Each calculation separates conformal blocks, momentum integration, moduli
 integration and production/support scripts. `CODE_INDEX.json` and

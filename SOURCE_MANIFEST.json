@@ -8,13 +8,13 @@
     },
     {
       "path": "PACKAGE_MAP.json",
-      "bytes": 38740,
-      "sha256": "9c54f5d6a0c6104d22b4a5d88cae5fba02c1dd242e0661841a3e6acdd51f97a9"
+      "bytes": 38930,
+      "sha256": "641440d3be6b08abd82427d210e4b859f9af27b194909ab1cac1cfd75abe0d68"
     },
     {
       "path": "README.md",
-      "bytes": 13386,
-      "sha256": "17c4d48e3831e4914556ec08ab8d790da999b9843d188d0dff70cf31e0f6c3c3"
+      "bytes": 15989,
+      "sha256": "86e05a5c63212b890cc53ab0f4125023d3cc5b11709aeb82be386e2570fdb9ce"
     },
     {
       "path": "code/AMPLITUDE_CONSOLIDATION.json",
@@ -1098,13 +1098,13 @@
     },
     {
       "path": "code/two_loop/CODE_INDEX.json",
-      "bytes": 12532,
-      "sha256": "ab3651547ac74f52e3681c31e54f1801a0c99fc7215d62fb33c7a145f2609c41"
+      "bytes": 13162,
+      "sha256": "fa31b49996de964f3ec10e62423c5266ead5dd16ebac3e1944d31cac32119658"
     },
     {
       "path": "code/two_loop/CODE_INDEX.tsv",
-      "bytes": 8491,
-      "sha256": "8d27e631682f0a1aa109595b666dfcbb2fd726b57ad71564a3d9f4bf589ffdbf"
+      "bytes": 8951,
+      "sha256": "3cb6bba7926eefafcad33a00693dff5de4719d62881567952947b5539b47924f"
     },
     {
       "path": "code/two_loop/README.md",
@@ -1287,6 +1287,16 @@
       "sha256": "8229183c00957a955b179799e709d3c7c859dd5a17f95a78dc6d5c2d55d10c77"
     },
     {
+      "path": "code/two_loop/other_scripts/channel_convergence.sbatch",
+      "bytes": 1215,
+      "sha256": "abce62d5c0fbd9cae0ec1bef8e3d65769b092ec6e2fb0b7550f9926cba9fcb8e"
+    },
+    {
+      "path": "code/two_loop/other_scripts/check_channel_convergence.py",
+      "bytes": 7327,
+      "sha256": "b01b0d72f7e1cfb1702bb0899804ac4d46a438e72816785bbd79d8fc95e5c2c2"
+    },
+    {
       "path": "code/two_loop/other_scripts/checks/ccy_genus2_glasses_block_checks.py",
       "bytes": 8742,
       "sha256": "b132c24b05ab9cf9c8c8b7202ef2c05cbbbdda4e3562a695a37c28261bd972b7"
@@ -1352,14 +1362,19 @@
       "sha256": "73c5d604344929dcfb62c05aac46290a79233f355ca4e8392cf258ee27e0dd83"
     },
     {
+      "path": "code/two_loop/other_scripts/recover_channel_convergence.py",
+      "bytes": 7492,
+      "sha256": "93a70390caf3ef1a4153b926658c2d46a44be41e43ec48defee96a40e6b2db07"
+    },
+    {
       "path": "code/two_loop/other_scripts/study_genus2_separating_tail_correction.py",
       "bytes": 10150,
       "sha256": "cbd9ca8dd8b724b5a31fcd774e71fc0b4a273a89e43a6a4a9ac09f1481dfc398"
     },
     {
       "path": "reproduce.py",
-      "bytes": 6152,
-      "sha256": "4fca41917eb7c7c35999e7b4f9f129bc5c7ddf12b48942e5b75dff9debf2cf94"
+      "bytes": 6697,
+      "sha256": "04a9c53c7232643c2fbd06c8d8c48bee3d621131a4ce99a0f63fc6b90a1a6dce"
     },
     {
       "path": "requirements.txt",

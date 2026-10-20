@@ -177,6 +177,12 @@
       "sha256": "ff998a91ab51c1a05bf8b62f8c81dbc9146819c4cb213840633c59d6bcd45b4f"
     },
     {
+      "path": "code/two_loop/other_scripts/check_channel_convergence.py",
+      "group": "other_scripts",
+      "purpose": "Compare integrated Liouville values at fixed table geometry while changing momentum and block orders.",
+      "sha256": "b01b0d72f7e1cfb1702bb0899804ac4d46a438e72816785bbd79d8fc95e5c2c2"
+    },
+    {
       "path": "code/two_loop/other_scripts/checks/ccy_genus2_glasses_block_checks.py",
       "group": "other_scripts",
       "purpose": "Independent checks of the glasses conformal block",
@@ -254,6 +260,12 @@
       "purpose": "Recompute theta/glasses Q_L at the five printed manuscript period matrices.",
       "sha256": "73c5d604344929dcfb62c05aac46290a79233f355ca4e8392cf258ee27e0dd83",
       "original_sha256": "fd26b1bb755f9025e5ab096b1ad7900b52112a6700319b735803a1c09a071bcb"
+    },
+    {
+      "path": "code/two_loop/other_scripts/recover_channel_convergence.py",
+      "group": "other_scripts",
+      "purpose": "Verify fixed-geometry convergence receipts and recover observed relative changes.",
+      "sha256": "93a70390caf3ef1a4153b926658c2d46a44be41e43ec48defee96a40e6b2db07"
     },
     {
       "path": "code/two_loop/other_scripts/study_genus2_separating_tail_correction.py",

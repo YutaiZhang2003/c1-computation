@@ -2,6 +2,8 @@
   "package": "c1-computation-20261020",
   "source_only": false,
   "module_map": {
+    "check_channel_convergence": "code/two_loop/other_scripts/check_channel_convergence.py",
+    "recover_channel_convergence": "code/two_loop/other_scripts/recover_channel_convergence.py",
     "sphere_five_point_30point_worldsheet_fit": "code/tree_level/five_point/other_scripts/sphere_five_point_30point_worldsheet_fit.py",
     "evaluation": "code/one_loop/three_point/liouville_integration/thermal/evaluation.py",
     "replot_sphere_six_direct_series": "code/figures/replot_sphere_six_direct_series.py",
